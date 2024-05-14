@@ -1,0 +1,1788 @@
+[
+    {
+        "id": "identity_0",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find highest rated guitar tab"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of guitar tuning is required for the tab?"
+            },
+            {
+                "from": "human",
+                "value": "Drop D tuning"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Guitar Tuning: Drop D </mem>  From which decade should the guitar tab be?"
+            },
+            {
+                "from": "human",
+                "value": "1990s"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Decade: 1990s </mem>  What is the main criterion for selecting the guitar tab?"
+            },
+            {
+                "from": "human",
+                "value": "Highest rating"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Selection Criterion: Highest rating </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_1",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find antique Oak chair"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of chair is to be found?"
+            },
+            {
+                "from": "human",
+                "value": "A used antique Oak chair"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Chair Type: Used antique Oak chair </mem>  What style should the chair be in?"
+            },
+            {
+                "from": "human",
+                "value": "French style"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Chair Style: French style </mem>  What is the time period the chair should be made before?"
+            },
+            {
+                "from": "human",
+                "value": "Year 1800"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Time Period: Before year 1800 </mem>  Should the chair be newly listed?"
+            },
+            {
+                "from": "human",
+                "value": "Yes, it should be newly listed."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Listing Requirement: Newly listed </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_2",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Book hourly parking"
+            },
+            {
+                "from": "gpt",
+                "value": "Where should the hourly parking be booked?"
+            },
+            {
+                "from": "human",
+                "value": "Atlanta International Airport"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Parking Location: Atlanta International Airport </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_3",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Check flight status"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the flight number to check the status for?"
+            },
+            {
+                "from": "human",
+                "value": "6944"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Flight Number: 6944 </mem>  What is the date to check the flight's status?"
+            },
+            {
+                "from": "human",
+                "value": "April 6"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Date of Flight: April 6 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_4",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add movie to watchlist"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the name of the movie to add to the watchlist?"
+            },
+            {
+                "from": "human",
+                "value": "Prometheus"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Movie Name: Prometheus </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_5",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find cheapest red Model Y"
+            },
+            {
+                "from": "gpt",
+                "value": "What color should the Model Y be?"
+            },
+            {
+                "from": "human",
+                "value": "Red"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Color: Red </mem>  What is the specific model of the vehicle to find?"
+            },
+            {
+                "from": "human",
+                "value": "Model Y"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Model: Model Y </mem>  What is the purpose of finding the vehicle?"
+            },
+            {
+                "from": "human",
+                "value": "To find the cheapest option available for registration."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Purpose: Finding cheapest option for registration. </mem>  In what area or zip code should the vehicle be registered?"
+            },
+            {
+                "from": "human",
+                "value": "94043"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Registration Zip Code: 94043 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_6",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find baby products on sale under $10"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of products are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Baby products"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Type: Baby products </mem>  What is the price limit for the products?"
+            },
+            {
+                "from": "human",
+                "value": "Under 10 dollars"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Price Limit: Under $10 </mem>  Are you looking for regular-priced or sale items?"
+            },
+            {
+                "from": "human",
+                "value": "Sale items"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item Condition: Sale items </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_7",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Browse trending searches"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the location for checking trending searches?"
+            },
+            {
+                "from": "human",
+                "value": "Columbus"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: Columbus </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_8",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find video highlights"
+            },
+            {
+                "from": "gpt",
+                "value": "What event are the video highlights for?"
+            },
+            {
+                "from": "human",
+                "value": "The most recent Super Bowl"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event: Most recent Super Bowl </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_9",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find team schedule"
+            },
+            {
+                "from": "gpt",
+                "value": "What team's schedule is being requested?"
+            },
+            {
+                "from": "human",
+                "value": "Chicago Bulls"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Team: Chicago Bulls </mem>  What specific month's schedule needs to be found?"
+            },
+            {
+                "from": "human",
+                "value": "April"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Schedule Month: April </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_10",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search and sort camping tents"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the specific requirement for the camping tents?"
+            },
+            {
+                "from": "human",
+                "value": "The tents must be able to fit 6 people."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Tent Capacity: 6 people </mem>  How should the search results be sorted?"
+            },
+            {
+                "from": "human",
+                "value": "The results should be sorted by price from low to high."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sorting Preference: Price low to high </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_11",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Display RPG video games"
+            },
+            {
+                "from": "gpt",
+                "value": "What genre of video games is being requested?"
+            },
+            {
+                "from": "human",
+                "value": "RPG (Role-Playing Games)"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Video Game Genre: RPG </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_12",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Book round-trip flight"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the departure city for the flight?"
+            },
+            {
+                "from": "human",
+                "value": "Santa Fe, New Mexico"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Departure City: Santa Fe, New Mexico </mem>  What is the destination city for the flight?"
+            },
+            {
+                "from": "human",
+                "value": "Phoenix, Arizona"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Destination City: Phoenix, Arizona </mem>  How many adults will be traveling?"
+            },
+            {
+                "from": "human",
+                "value": "1 adult"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Travelers: 1 adult </mem>  What is the departure date for the flight?"
+            },
+            {
+                "from": "human",
+                "value": "August 13th"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Departure Date: August 13th </mem>  What is the return date for the flight?"
+            },
+            {
+                "from": "human",
+                "value": "August 28th"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Return Date: August 28th </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_13",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Job application for engineering position"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of job is being searched for?"
+            },
+            {
+                "from": "human",
+                "value": "Engineering open job"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Job Type: Engineering open job </mem>  Where is the job location?"
+            },
+            {
+                "from": "human",
+                "value": "Madrid, Spain"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Job Location: Madrid, Spain </mem>  What details are to be used to apply for the job?"
+            },
+            {
+                "from": "human",
+                "value": "Name: James Smith, Email: buckeye.foobar@gmail.com"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Applicant's Name: James Smith </mem>  What reasons should be picked for applying to the job?"
+            },
+            {
+                "from": "human",
+                "value": "Office location, company success, and career opportunity"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Applying Reasons: Office location, company success, career opportunity </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_14",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a gaming PC"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the purpose of the gaming PC?"
+            },
+            {
+                "from": "human",
+                "value": "To run Call of Duty Warzone at 4k resolution."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Purpose: Run Call of Duty Warzone at 4k resolution </mem>  What game needs to be considered when selecting the PC?"
+            },
+            {
+                "from": "human",
+                "value": "Call of Duty Warzone"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Game to Consider: Call of Duty Warzone </mem>  What resolution should the gaming PC be capable of supporting for the game?"
+            },
+            {
+                "from": "human",
+                "value": "4k resolution."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Required Resolution: 4k </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_15",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add item to cart"
+            },
+            {
+                "from": "gpt",
+                "value": "What item should be added to the cart?"
+            },
+            {
+                "from": "human",
+                "value": "A pair of diamond stud earrings"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item: A pair of diamond stud earrings </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_16",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find Kinect camera for Xbox One"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of camera is being searched for?"
+            },
+            {
+                "from": "human",
+                "value": "Kinect camera"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Camera Type: Kinect camera </mem>  Which gaming console should the Kinect camera be compatible with?"
+            },
+            {
+                "from": "human",
+                "value": "Xbox One"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Compatible Console: Xbox One </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_17",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Open recently played games list"
+            },
+            {
+                "from": "gpt",
+                "value": "What action needs to be performed?"
+            },
+            {
+                "from": "human",
+                "value": "Open the list of recently played games"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Action: Open list of recently played games </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_18",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find guided vacations"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the destination for the guided vacations?"
+            },
+            {
+                "from": "human",
+                "value": "Europe"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Destination: Europe </mem>  What is the minimum duration of the vacation nights?"
+            },
+            {
+                "from": "human",
+                "value": "More than 10 nights"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Minimum Duration: More than 10 nights </mem>  In which month should the vacation take place?"
+            },
+            {
+                "from": "human",
+                "value": "July"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vacation Month: July </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_19",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Play movie trailer"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the title of the movie whose trailer should be played?"
+            },
+            {
+                "from": "human",
+                "value": "The Flash"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Movie Title: The Flash </mem>  What is the release year of the movie for which the trailer is to be played?"
+            },
+            {
+                "from": "human",
+                "value": "2023"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Release Year: 2023 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_20",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search for recipe and add ingredients to cart"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of recipe should be searched for?"
+            },
+            {
+                "from": "human",
+                "value": "Gingerbread cakes recipe"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Recipe Type: Gingerbread cakes </mem>  What action should be taken after finding the recipe?"
+            },
+            {
+                "from": "human",
+                "value": "Add ingredients to the cart"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Post-Search Action: Add ingredients to cart </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_21",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Play chart-topper track and like it"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the task related to?"
+            },
+            {
+                "from": "human",
+                "value": "Finding and playing the weekly chart-topper artist's number 1 track and liking the track."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Task: Play and like chart-topper's number 1 track </mem>  What should be identified first in this task?"
+            },
+            {
+                "from": "human",
+                "value": "The weekly chart-topper artist."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> First Step: Identify weekly chart-topper artist </mem>  After identifying the artist, what is the next step?"
+            },
+            {
+                "from": "human",
+                "value": "Play the number 1 track of that artist."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Second Step: Play artist's number 1 track </mem>  What action should be taken while playing the track?"
+            },
+            {
+                "from": "human",
+                "value": "Like the track."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Additional Action: Like the track </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_22",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find car value"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the make and model of the car to find the value for?"
+            },
+            {
+                "from": "human",
+                "value": "2016 Toyota Camry XLE Sedan 4D"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Make and Model: 2016 Toyota Camry XLE Sedan 4D </mem>  What is the color of the car?"
+            },
+            {
+                "from": "human",
+                "value": "Black"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Color: Black </mem>  What is the number plate of the car?"
+            },
+            {
+                "from": "human",
+                "value": "AZXA46"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number Plate: AZXA46 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_23",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a vehicle"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of vehicle is being searched for?"
+            },
+            {
+                "from": "human",
+                "value": "Lexus SUV"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Type: Lexus SUV </mem>  What color should the exterior of the vehicle be?"
+            },
+            {
+                "from": "human",
+                "value": "Silver-colored"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Exterior Color: Silver-colored </mem>  What color should the interior of the vehicle be?"
+            },
+            {
+                "from": "human",
+                "value": "Black interior"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Interior Color: Black interior </mem>  What specific feature must the vehicle have?"
+            },
+            {
+                "from": "human",
+                "value": "Backup camera"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Specific Feature: Backup camera </mem>  What is the manufacturing year range for the vehicle?"
+            },
+            {
+                "from": "human",
+                "value": "Between 2022-2023"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Manufacturing Year Range: Between 2022-2023 </mem>  How far from zip code 10017 should the search radius be?"
+            },
+            {
+                "from": "human",
+                "value": "Within 50 miles"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Search Radius: Within 50 miles of zip code 10017 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_24",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search for a receipt"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the identifier of the eTicket to search for?"
+            },
+            {
+                "from": "human",
+                "value": "12345678"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> eTicket Number: 12345678 </mem>  Who reserved the trip associated with the eTicket?"
+            },
+            {
+                "from": "human",
+                "value": "Jason Two"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Reserving Individual's Name: Jason Two </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_25",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find team schedule"
+            },
+            {
+                "from": "gpt",
+                "value": "Which team's UEFA Champions League schedule is to be found?"
+            },
+            {
+                "from": "human",
+                "value": "Real Madrid"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Team Name: Real Madrid </mem>  What specific schedule is being requested?"
+            },
+            {
+                "from": "human",
+                "value": "The UEFA Champions League championship schedule"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Schedule Type: UEFA Champions League championship schedule </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_26",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find health screening for women"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of health screening is being searched for?"
+            },
+            {
+                "from": "human",
+                "value": "A comprehensive health screening for women"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Health Screening Type: Comprehensive health screening for women </mem>  What is the zip code where the health screening should be located?"
+            },
+            {
+                "from": "human",
+                "value": "10003"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location Zip Code: 10003 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_27",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find cheapest SUV rental"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of vehicle is being searched for?"
+            },
+            {
+                "from": "human",
+                "value": "SUV"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Type: SUV </mem>  What is the location for the vehicle rental search?"
+            },
+            {
+                "from": "human",
+                "value": "Brooklyn"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Rental Location: Brooklyn </mem>  How long is the rental period for the SUV?"
+            },
+            {
+                "from": "human",
+                "value": "1 day"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Rental Duration: 1 day </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_28",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Purchase digital gift card"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the value of the digital gift card to be purchased?"
+            },
+            {
+                "from": "human",
+                "value": "$25"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Gift Card Value: $25 </mem>  Who is the recipient of the digital gift card?"
+            },
+            {
+                "from": "human",
+                "value": "Tim Stebee"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Recipient Name: Tim Stebee </mem>  What is the email address of the gift card recipient?"
+            },
+            {
+                "from": "human",
+                "value": "scisoorbros@gmail.com"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Recipient Email: scisoorbros@gmail.com </mem>  What name should be filled in as the sender of the gift card?"
+            },
+            {
+                "from": "human",
+                "value": "Jeerimiah Waton"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sender's Name: Jeerimiah Waton </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_29",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Job search for full-time accountant positions in the USA"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of job should be searched for?"
+            },
+            {
+                "from": "human",
+                "value": "Full-time job in finance"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Job Type: Full-time in finance </mem>  In which country should the job search be conducted?"
+            },
+            {
+                "from": "human",
+                "value": "USA"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Job Location: USA </mem>  What specific job title should be saved during the search?"
+            },
+            {
+                "from": "human",
+                "value": "Accountant jobs"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Specific Job Title: Accountant </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_30",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Book hotel or resort"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of accommodation should be booked?"
+            },
+            {
+                "from": "human",
+                "value": "The cheapest 3-star hotel or resort"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Accommodation Type: 3-star hotel or resort </mem>  How many people will be staying at the hotel or resort?"
+            },
+            {
+                "from": "human",
+                "value": "Two people"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Guests: Two </mem> What is the budget range for the booking?"
+            },
+            {
+                "from": "human",
+                "value": "50 to 100 dollars per night"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Budget Range: 50 to 100 dollars per night </mem>  For how many days is the booking required?"
+            },
+            {
+                "from": "human",
+                "value": "Four days"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Duration of Stay: Four days </mem>  When is the check-in date for the booking?"
+            },
+            {
+                "from": "human",
+                "value": "April 25th"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Check-in Date: April 25th </mem>  Where should the hotel or resort be located?"
+            },
+            {
+                "from": "human",
+                "value": "Near the beach in Goa"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: Near the beach in Goa </mem>  What amenities should the hotel or resort offer? (List all)"
+            },
+            {
+                "from": "human",
+                "value": "Breakfast, wifi, a swimming pool, and free cancellation."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Amenities Required: Breakfast, wifi, swimming pool, free cancellation </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_31",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Choose lowest priced hybrid SUV car rental"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of car is to be chosen?"
+            },
+            {
+                "from": "human",
+                "value": "Hybrid SUV"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Type: Hybrid SUV </mem>  When and where should the car be picked up?"
+            },
+            {
+                "from": "human",
+                "value": "May 24 at 9:30 am from Bangkok downtown"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Pickup Date and Time: May 24 at 9:30 am </mem>  When and where should the car be dropped off?"
+            },
+            {
+                "from": "human",
+                "value": "May 28 at 9 am, presumably at the same location unless otherwise specified."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Dropoff Date and Time: May 28 at 9 am </mem>  What is the main criteria for choosing the car?"
+            },
+            {
+                "from": "human",
+                "value": "It should be the lowest priced option available."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Selection Criteria: Lowest priced option available </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_32",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Check refund status"
+            },
+            {
+                "from": "gpt",
+                "value": "Whose refund status needs to be checked?"
+            },
+            {
+                "from": "human",
+                "value": "John Davis"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Customer Name: John Davis </mem>  What is the ticket number associated with the refund?"
+            },
+            {
+                "from": "human",
+                "value": "1234567890123"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Ticket Number: 1234567890123 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_33",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Research Audi A6 2020"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the purpose of the task?"
+            },
+            {
+                "from": "human",
+                "value": "To check reviews and research information about the Audi A6 2020."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Task Purpose: Check reviews and research information about Audi A6 2020 </mem>  What specific model and year is the research focused on?"
+            },
+            {
+                "from": "human",
+                "value": "Audi A6 2020."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Model and Year: Audi A6 2020 </mem>  What types of information should be gathered about the Audi A6 2020?"
+            },
+            {
+                "from": "human",
+                "value": "Reviews from customers and experts, specifications, safety features, performance data, pricing, and any common issues or recalls."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Information Types: Customer and expert reviews, specifications, safety features, performance data, pricing, issues/recalls. </mem>  Where should this information be sourced from?"
+            },
+            {
+                "from": "human",
+                "value": "Automotive review websites, car magazines, official Audi website, consumer reports, automotive forums."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Information Sources: Automotive review websites, car magazines, official Audi site, consumer reports, automotive forums. </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_34",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Share an article on Twitter"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the topic of the article to be found?"
+            },
+            {
+                "from": "human",
+                "value": "A new restaurant"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Article Topic: New restaurant </mem>  Where should the article be shared after finding it?"
+            },
+            {
+                "from": "human",
+                "value": "On Twitter"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sharing Platform: Twitter </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_35",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Purchase metro card at booth"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the purpose of the inquiry?"
+            },
+            {
+                "from": "human",
+                "value": "To find information about how to buy a metro card at a booth."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Inquiry Purpose: Buying a metro card at a booth </mem>  Where should the purchase of the metro card take place?"
+            },
+            {
+                "from": "human",
+                "value": "The purchase should take place at a booth."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Purchase Location: Booth </mem>  What specific item is being sought for purchase?"
+            },
+            {
+                "from": "human",
+                "value": "A metro card."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item for Purchase: Metro card </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_36",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Book outdoor activity events"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of events are to be searched for?"
+            },
+            {
+                "from": "human",
+                "value": "Top-rated outdoor activity events"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Type: Top-rated outdoor activity events </mem>  In which country should the events be located?"
+            },
+            {
+                "from": "human",
+                "value": "Spain"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Location: Spain </mem>  On what date should the event occur?"
+            },
+            {
+                "from": "human",
+                "value": "May 1"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Date: May 1 </mem>  For how many adults should the tickets be booked?"
+            },
+            {
+                "from": "human",
+                "value": "Two adults"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Adults: Two adults </mem>  What part of the day should the event be scheduled for?"
+            },
+            {
+                "from": "human",
+                "value": "Morning group"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Time of Day: Morning group </mem>  What language guide is required for the event?"
+            },
+            {
+                "from": "human",
+                "value": "English guide"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Guide Language: English guide </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_37",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Check movie availability and purchase tickets"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the title of the movie to check for availability?"
+            },
+            {
+                "from": "human",
+                "value": "65"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Movie Title: 65 </mem>  What format should the movie be in?"
+            },
+            {
+                "from": "human",
+                "value": "Digital"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Movie Format: Digital </mem>  At which theater is the movie showing?"
+            },
+            {
+                "from": "human",
+                "value": "AMC Grove City 14"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Theater Location: AMC Grove City 14 </mem>  What date and time is the movie showing?"
+            },
+            {
+                "from": "human",
+                "value": "Tuesday, March 28, 2023 at 7:30 pm"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Showing Date and Time: Tuesday, March 28, 2023 at 7:30 pm </mem>  How many tickets need to be purchased?"
+            },
+            {
+                "from": "human",
+                "value": "Four tickets"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Tickets: Four tickets </mem>  What are the specific seats for the tickets?"
+            },
+            {
+                "from": "human",
+                "value": "Seats J10 through J7"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Seat Numbers: J10 through J7 </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_38",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add books to basket"
+            },
+            {
+                "from": "gpt",
+                "value": "Whose books are to be shown within the specified price range?"
+            },
+            {
+                "from": "human",
+                "value": "Dr. Seuss's books"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Author: Dr. Seuss </mem>  What is the price range for the books to be added to the basket?"
+            },
+            {
+                "from": "human",
+                "value": "$20 to $40"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Price Range: $20 to $40 </mem>  How many books should be added to the basket?"
+            },
+            {
+                "from": "human",
+                "value": "2 books"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Quantity to Add: 2 books </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_39",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find deals"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the location to search for deals?"
+            },
+            {
+                "from": "human",
+                "value": "New York"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: New York </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_40",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find latest news"
+            },
+            {
+                "from": "gpt",
+                "value": "Who is the person of interest for the latest news?"
+            },
+            {
+                "from": "human",
+                "value": "Mikal Bridges"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Person of Interest: Mikal Bridges </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_41",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and follow fashion class event"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of online events are we looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Free online fashion class events"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Type: Free online fashion class events </mem>  When should the events be occurring?"
+            },
+            {
+                "from": "human",
+                "value": "This weekend"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Timing: This weekend </mem>  In what language should the events be conducted?"
+            },
+            {
+                "from": "human",
+                "value": "English"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Language: English </mem>  What details are needed for the top result event?"
+            },
+            {
+                "from": "human",
+                "value": "Details such as the event name, date and time, description, organizer's name, and how to attend."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Required Details: Event name, date and time, description, organizer's name, attendance method. </mem>  What action should be taken after finding the top result event?"
+            },
+            {
+                "from": "human",
+                "value": "Save the event and follow the organizer."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Post-Search Actions: Save event, follow organizer. </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_42",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Locate and add items from Sprouts Farmers Market"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the task's objective?"
+            },
+            {
+                "from": "human",
+                "value": "To find the nearest Sprouts Farmers Market and add two fruits and one sauce from the deals."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Objective: Find nearest Sprouts Farmers Market and add products to cart </mem>  How many fruits need to be added from the deals?"
+            },
+            {
+                "from": "human",
+                "value": "Two fruits"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Fruits to Add: Two </mem>  What type of additional item needs to be added from the deals?"
+            },
+            {
+                "from": "human",
+                "value": "One sauce"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Type of Additional Item: One sauce </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_43",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find NBA team with highest average points"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the task objective?"
+            },
+            {
+                "from": "human",
+                "value": "To find the NBA team with the highest average points scored in the current season."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Task Objective: Find NBA team with highest average points this season </mem>  What data is needed to complete the task?"
+            },
+            {
+                "from": "human",
+                "value": "The average points scored by each NBA team in the current season."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Required Data: Average points per team for current season </mem>  Where can you find the data on NBA teams' average points scored?"
+            },
+            {
+                "from": "human",
+                "value": "The data can be found on official NBA statistics websites, sports analytics sites, or in sports news sections."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Data Source: Official NBA statistics websites, sports analytics sites, sports news sections. </mem>  How will you determine which team has the highest average points scored?"
+            },
+            {
+                "from": "human",
+                "value": "By comparing the average scores of all teams and selecting the one with the highest value."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Comparison Method: Select team with highest average score from list. </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_44",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Inquire about cancellation fees"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the purpose of the inquiry?"
+            },
+            {
+                "from": "human",
+                "value": "To find out details about cancellation fees."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Inquiry Purpose: Details about cancellation fees </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_45",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Read product reviews"
+            },
+            {
+                "from": "gpt",
+                "value": "What product are the reviews for?"
+            },
+            {
+                "from": "human",
+                "value": "DayQuil Severe Cough Liquicaps"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Name: DayQuil Severe Cough Liquicaps </mem>  What star rating should the reviews have?"
+            },
+            {
+                "from": "human",
+                "value": "1 star"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Review Star Rating: 1 star </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_46",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find cast and crew of Titanic and add to watchlist"
+            },
+            {
+                "from": "gpt",
+                "value": "What information is being sought about the film Titanic?"
+            },
+            {
+                "from": "human",
+                "value": "Cast and crew details"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Information Required: Cast and crew of Titanic </mem>  What action needs to be taken after finding the cast and crew information?"
+            },
+            {
+                "from": "human",
+                "value": "Add to watchlist"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Action to be taken: Add to watchlist </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_47",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search and share news about LeBron James' injury"
+            },
+            {
+                "from": "gpt",
+                "value": "What is the topic of the news to search for?"
+            },
+            {
+                "from": "human",
+                "value": "The latest news about LeBron James' injury"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> News Topic: LeBron James' injury </mem>  What platform should the article be shared on?"
+            },
+            {
+                "from": "human",
+                "value": "Twitter"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sharing Platform: Twitter </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_48",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add item to shopping cart"
+            },
+            {
+                "from": "gpt",
+                "value": "What type of item is to be added to the shopping cart?"
+            },
+            {
+                "from": "human",
+                "value": "NBA basketball game for the PS5"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item Type: NBA basketball game for the PS5 </mem>  Which gaming console is the NBA basketball game intended for?"
+            },
+            {
+                "from": "human",
+                "value": "PS5"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Gaming Console: PS5 </mem>  What is the current action to be performed with the item?"
+            },
+            {
+                "from": "human",
+                "value": "Add it to the shopping cart"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Action: Add to shopping cart </mem> <Finish>"
+            }
+        ]
+    },
+    {
+        "id": "identity_49",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add medication to cart for pickup"
+            },
+            {
+                "from": "gpt",
+                "value": "What item needs to be added to the cart?"
+            },
+            {
+                "from": "human",
+                "value": "Zyrtec"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item to Add: Zyrtec </mem>  What type of service is requested for obtaining the item?"
+            },
+            {
+                "from": "human",
+                "value": "Pickup"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Service Type: Pickup </mem>  At which store's location should the item be picked up?"
+            },
+            {
+                "from": "human",
+                "value": "The nearest CVS"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Store Location: The nearest CVS </mem>  What is the reference zip code for finding the nearest store?"
+            },
+            {
+                "from": "human",
+                "value": "90028"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Reference Zip Code: 90028 </mem> <Finish>"
+            }
+        ]
+    }
+]

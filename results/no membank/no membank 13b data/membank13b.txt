@@ -1,0 +1,101 @@
+Add gift card to cart,   ,  Gift Card Type: $100 Google Play Gift Card ,  Cart Purpose: Add $100 Google Play Gift Card to cart 
+Check player bio,   ,  Player Name: Vinicius Junior ,  Current Club: Real Madrid ,  Nationality: Real Madrid ,  Date of Birth: Real Madrid ,  Height: Real Madrid ,  Field Position: Real Madrid ,  Jersey Number: Real Madrid 
+Sort and display external solid state drives by price,   ,  Sorting Criterion: Lowest price first 
+Search for car rentals,   ,  Search Location: San Francisco ,  Pickup Date: A weekend trip ,  Drop-off Date: A weekend trip 
+Show flight route and cost,   ,  Starting Location: Los Angeles ,  Destination: Miami ,  Flight Date: 12 April ,  Number of Adults with Baggage: Miami ,  Service Class: 12 April 
+Find cheapest standard train ticket,  Ticket Class: Standard ,  Departure City: London ,  Destination City: Sheffield 
+Search forum threads,   ,  Search Topic: Within the last month 
+Purchase a season dining pass,   ,  Dining Pass Type: One meal season dining pass ,  Dining Pass Cost: A one meal season dining pass 
+Find quickest flight,   ,  Departure Location: New York ,  Destination: Paris ,  Departure Date: June 4 ,  Flight Type: Paris ,  Selection Criteria: Paris 
+List PlayStation 5 games for pre-order,  Gaming Console: PlayStation 5 ,  Game Status: Available for pre-orders 
+Get service estimate for AC recharge,   ,  Service Type: 6157075521 ,  Phone Number: 6157075521 
+Find Under Armour Return Policy,   ,  Product: Men's UA Football All Over Print Metal Logo Short Sleeve ,  Specific Question: Return policy for Men's UA Football All Over Print Metal Logo Short Sleeve 
+Find trailer for HBO show,   ,  HBO Show Name: Winter 
+Find BMW vehicles,  Vehicle Manufacturer: BMW ,  Vehicle Types: Series 1 and series 2 
+Find most popular Ariana Grande solo track,  Singer: Ariana Grande ,  Task: Find all-time most popular solo track by Ariana Grande 
+Add item to cart,   ,  Product: Baby one piece ,  Product Size: Baby one piece ,  Age Range: Baby one piece ,  Color: Baby one piece 
+Book a one-way ticket,   ,  Departure City: Faro ,  Destination City: Bournemouth ,  Departure Date: 30th April ,  Ticket Type: Value fare 
+Find guide on Renfe fare types,   ,  Requested Guide: The Trains in Spain guide ,  Information to Highlight: The Trains in Spain guide 
+Purchase game bundle,   ,  Minimum Discount Percentage: Not specified ,  Game Bundle Type: The classic bundle ,  Maximum Price Limit: The classic bundle 
+Calculate fare options,   ,  Destination: South station 
+Search for events and follow organizer,   ,  Event Location: Free virtual business start-up events ,  Event Dates: Las Vegas ,  Action After Finding Events: Follow organizer with the most followers. 
+Show popular Women's Athletic Shoes,   ,  Shoe Type: Popular Women's Athletic Shoes 
+Purchase pop rock album CD,  Music Genre: Pop rock ,  CD Condition: Perfect condition ,  Price Range: ï¿½15 to ï¿½20 ,  Shipping Preference: United Kingdom 
+List comedy movies sorted by ratings,  Movie Genre: Comedy ,  Sorting Criteria: User ratings 
+Find sports fixture,   ,  Team Name: Spanish Copa del Rey 
+Book restaurant table,   ,  Booking Date: April 7th, Time: 5:00 PM ,  Restaurant Name: Los Angeles ,  Number of People: 3 ,  Table Type: Outdoor table 
+Plan a trip,   ,  Departure Location: Boston Airport ,  Trip Destination: Boston Airport ,  Trip Date: April 14, 12 pm ,  Number of People: Boston Airport ,  Car Type: Boston Airport ,  Car Amenities: Braintree ,  Pickup ZIP Code: Braintree ,  Drop-off ZIP Code: Braintree 
+Find critic reviews for a movie,   ,  Movie Title: Creed III 
+Add organic dog food to cart,   ,  Dog Food Type: Organic ,  Action After Adding: Add to cart 
+Find longest private sightseeing trip in India for June,   ,  Trip Duration: The longest available ,  Starting Month: June ,  Purpose of Trip: Sightseeing ,  Trip Type: Private 
+Find a National Heritage Area park in Alaska,  Park Location: Alaska ,  Park Type: National Heritage Area ,  Additional Information Required: National Heritage Area park 
+Book first class vacation travel,  Travel Class: First class ,  Vacation Location: San Francisco ,  Departure Date: April 9 ,  Return Date: April 19 ,  Number of Adults: 2 adults ,  Child's Age: Not applicable (2 adults) 
+Search for activities,   ,  Location: Phuket, Thailand ,  Time Frame: Phuket, Thailand 
+Search for restaurants,   ,  Search Location: Near current location ,  Number of Restaurants: Near current location ,  Restaurant Type: Pizza 
+Find lowest rent truck for 4 people,  Number of People: 4 ,  Maximum Price Range: Unspecified ,  Pickup Location: JFK airport ,  Pickup Date and Time: March 27 at 11 am ,  Drop-off Location: JFK airport ,  Drop-off Date and Time: March 27 at 11 am 
+Search for concerts,   ,  Time Frame: Alternative Concerts ,  Location: New York City 
+Find a park with Junior Ranger Program,  Activity Type: Junior Ranger Program ,  Park Location: National Park System ,  Park Zip Code: Not specified ,  Park Distance: Any distance within National Park System 
+Rent a car,   ,  Pickup Location: Brooklyn - Central, NY ,  Drop-off Location: Brooklyn - Central, NY ,  Pickup Date and Time: April 9 ,  Drop-off Date and Time: April 9 ,  Pickup Person's Name: Brooklyn - Central, NY ,  Pickup Person's Phone Number: Brooklyn - Central, NY 
+Find a used car,  Car Type: Used car ,  Search Area Zip Code: Red ,  Car Age Range: Red 
+Find mansions in Europe for stay,  Location: Europe ,  Accommodation Type: 3 adults ,  Number of Rooms: 3 adults ,  Duration of Stay: Any month is acceptable ,  Price Range: 3 adults 
+Search for person,   ,  Person's Name: John Smith ,  Task: Search for person 
+Find carry-on luggage,   ,  Luggage Type: Hard side Carry-on ,  Price Range: Hard side Carry-on Luggage ,  Maximum Price: Hard side Carry-on Luggage 
+Hotel room search,   ,  Destination: Marriott Bonvoy resort in the Caribbean ,  Check-in Date: May 5th ,  Number of Adults: Marriott Bonvoy resort in the Caribbean ,  Marriott Bonvoy Membership Number: May 5th ,  Room Type: Marriott Bonvoy resort in the Caribbean 
+Find and follow fashion class event,  Event Type: Fashion class event ,  Event Location: Free online fashion class events 
+Research Jerry Trainor's upcoming projects,   ,  Search Purpose: None specified ,  Person's Name: Jerry Trainor 
+Find and purchase cheapest LED smart home indoor strip lighting,  Product Type: LED smart home indoor strip lighting ,  Price Criteria: Cheapest product ,  Action After Finding Product: Add to cart 
+View complexity rating,   ,  Item: Frosthaven 
+Find and download East Boston ferry schedule,  Schedule Type: East Boston ferry schedule ,  Download Format: PDF 
+Research Tom Brady's touchdown records,  Subject of Record: Tom Brady ,  Record to Find: Most touchdowns in a single season 
+Book hotel,   ,  Hotel Star Rating: Jakarta ,  Hotel Location: Jakarta ,  Number of Rooms: The cheapest available hotel ,  Names of Guests: Joe Bloggs ,  Check-in Date: 1st June ,  Check-out Date: 1st June 
+Find used Xbox Series X,  Console Generation: Xbox Series X ,  Price Range: Any ,  Main Filter: Price ,  Shipping Condition: Minimum Condition 
+Set current obsession to track,   ,  Obsession Topic: 3rd 
+Find best seller accessories for Model X,  Vehicle Model: Model X ,  Maximum Price Range: To find the best seller accessories for the Model X 
+Browse cafes with specific features,   ,  Cafe Type: Outdoor seating ,  Required Info: Outdoor seating 
+Job search and application,   ,  Person's Full Name: Sales job ,  Industry: Sales ,  Job Type: Sales job ,  Minimum Salary: Sales job 
+Find hiking shoes,  Product Type: Hiking shoes ,  Price Range: Women's hiking shoes ,  Minimum Rating: Above 4 stars ,  Maximum Size: Number 9 
+List board game publishers,   ,  Listing Purpose: Board game publishers 
+Add items to cart and view cart,   ,  Item Type: Women's Pink sweet pants ,  Pants Size: XXL ,  Quantity: Two pairs ,  Pants Color: Pink 
+Find transportation ticket,   ,  Starting City and State: Sheboygan ,  Destination City and State: Sheboygan ,  Ticket Date and Time: March 26, 2023 
+Filter women's sports bras,   ,  Sports Bra Color: Purple ,  Price Range: Small size 
+Find NBA team with best title odds,   ,  Team Name: Report back team name ,  Selection Criteria: Team with best title odds ,  Information to Report: Team name with best title odds 
+Like #1 track on Real Time Top Chart,   ,  Task: Give a like ,  Chart to Like: Real Time Top Chart (#1 track) 
+Find cheapest SUV rental,  Rental Vehicle Type: SUV ,  Rental Duration: 1 day ,  Pickup Time and Date: 1 day ,  Return Time and Date: 1 day ,  Minimum Price Requirement: 1 day 
+Book train ticket,   ,  Ticket Type: Cheapest available option ,  Departure City: Paris ,  Destination City: Milan ,  Departure Date and Time: After noon ,  Number of Adults: Two people, including a 16 year old and a 45 year old ,  Age of Second Traveler: 45 years old 
+Find cast and crew of Titanic and add to watchlist,  Movie Title: Titanic ,  Task: Add cast and crew details to watchlist 
+Find parking passes for event,   ,  Event Name: New York Yankees game ,  Game Date: New York Yankees game 
+Add movie to watchlist,   ,  Movie Title: Prometheus ,  Release Year: Prometheus 
+Find and follow event attendees,   ,  Event Name: April 1, 2023 ,  Event Location: April 1, 2023 ,  Event Date: April 1, 2023 
+Show car guide info and reserve economy car,  Car Type: Economy car ,  Reservation Location: Reserve the economy car ,  Reservation Dates and Time: Reserve the economy car 
+Book a reservation,   ,  Accommodation Type: Three guests ,  Check-in Date: April 5th at 5pm ,  Check-out Date: April 5th at 5pm ,  Required Amenities: Alinea restaurant 
+Book outdoor activity events,   ,  Activity Location: Spain ,  Activity Date: May 1 ,  Number of People: Two adults ,  Activity Type: Morning group ,  Booking Method: Morning group 
+Browse certified fresh sci-fi films streaming at home,  Genre: Sci-fi films ,  Minimum Rating: not specified ,  Streaming Availability: not specified 
+Find Alagnak Wild River alerts and conditions,   ,  Search Date: To be determined 
+Book hotel or resort,   ,  Accommodation Type: Cheapest 3-star hotel or resort ,  Location: Near the beach in Goa ,  Duration of Stay: Four days ,  Maximum Nightly Rate: Two people 
+Find most popular song,   ,  Time Frame: This week's top song from weekly charts ,  Specific Information: Top song from weekly charts this week ranked by the artist. 
+Book a tour,  Tour Type: Birdwatching Tour ,  Maximum Number of People: 3 adults ,  Children's Age: 3 adults ,  Number of Children: 3 adults ,  Preferred Date: March 27th 
+Browse season pass prices,   ,  Pass Type: Season pass prices for Hurricane Harbor Los Angeles 
+Search for highest rated Last-Minute Flights & Car Rentals,   ,  Number of Travelers: None ,  Departure City: None ,  Destination City: None ,  Departure Date and Time: None ,  Return Date and Time: None ,  Rental Car Type: None ,  Rental Car Pick-up City: None ,  Rental Car Pick-up Date and Time: None ,  Rental Car Return Date and Time: None 
+Add items to cart,   ,  Item to Add: Western Digital internal SSD ,  Brand: Western Digital internal SSD ,  Part Number: 8GB Ram DDR ,  Quantity: 8GB Ram DDR ,  Technical Specification: Western Digital internal SSD 
+Find cheapest car,   ,  Car Type: Honda Civic ,  Start Year: 2017 ,  Zip Code: 100 miles ,  Max Price Range: Honda Civic 
+Book business class flight,   ,  Departure City: Colombo ,  Destination City: New York ,  Flight Date: June 24th ,  Ticket Class: New York (Business Class) 
+Open trade offers,   ,  Party: None 
+Find baby products on sale under $10,  Product Type: Baby products, Price Range: Under $10 ,  Time Frame for Availability: Under 10 dollars ,  Minimum Discount Percentage: Under 10 dollars 
+Track bus departure,   ,  Bus Stop Number: Abbotsford ,  Bus Ticket Number: Abbotsford 
+Find and add blazer to wishlist,  Clothing Type: Blazer ,  Blazer Size: L (Large) 
+Job search and save,   ,  Job Type: Customer services job ,  Location of Search: Qatar Airways ,  Requirement: Nationality, India ,  Action: View details and save job 
+Find cheapest in-stock stainless steel spoons,  Product Type: Stainless steel spoons ,  Price Range: Cheapest price available ,  Quantity: Cheapest set available ,  Stock Status: In stock in San Diego, California 
+Open most popular photos,   ,  Task Purpose: Open most popular photos 
+Show most played games,   ,  Time Period: Number of daily players 
+Find product price,   ,  Product Name: HomePod mini ,  Location for Price: HomePod mini 
+Check toll rates for bridges and tunnels,   ,  Starting Location: none ,  Destination: Car toll rates for bridges and tunnels ,  Point of Interest: Car toll rates for bridges and tunnels 
+Open community discussions and latest topic for Dota 2 game,  Gaming Community: Dota 2 ,  Purpose: Open latest topic 
+Research Audi A6 2020,  Vehicle Model: Audi A6 2020 ,  Information Required: Reviews, specifications, safety features, performance data, pricing, common issues/recalls 
+Reserve a taxi,   ,  Departure Location: 123 Main St, West Chicago, IL ,  Destination: 123 Main St, West Chicago, IL ,  Reservation Date and Time: Mar 29, 2023 at 12 noon 
+Open page to answer question,   ,  Question Topic: Home improvement section 
+Add product to cart,   ,  Product Type: Decorative LED Candles ,  Quantity: Decorative LED Candles (1) ,  Packs: Decorative LED Candles (1) ,  Maximum Price: Decorative LED Candles 
+Book flights,   ,  Departure City: New York ,  Destination City: Tokyo ,  Flight Type: Tokyo ,  Selection Criteria: Fastest available direct flight and flexible. 
+Find hotel rooms,   ,  Destination City: Niagara Falls ,  Check-in Date: May 17 ,  Number of Adults: Three, Number of Children: One three-year-old kid ,  Specific Room Preferences: Free breakfast and a pool 
+Review dinner menu,   ,  Dining Establishment: La Bergamote ,  Number of Guests: Hell's Kitchen ,  Menu Item to Review: La Bergamote ,  Information Required: Hell's Kitchen 
+Schedule a demo drive,   ,  Car Make: Model Y ,  Number of People: Roy Adams ,  Preferred Date and Time: Roy Adams ,  Demo Drive Location: Roy Adams 
+Reserve dinner table,   ,  Dinner Date: Tomorrow after 8 pm ,  Restaurant Type: Indian cuisine-serving restaurant ,  Party Size: Two ,  Number of Tables: Two ,  Contact Number: Two 

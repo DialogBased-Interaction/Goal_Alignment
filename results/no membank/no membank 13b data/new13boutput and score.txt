@@ -1,0 +1,3882 @@
+EVAL DATA -> 1
+With comparing mem
+generated -> <mem>  </mem> What type of gift card needs to be added to the cart?
+best_match -> <mem>  </mem> What type of gift card needs to be added to the cart?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What type of gift card needs to be added to the cart?
+best_match ->  What type of gift card needs to be added to the cart?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Gift Card Type: $100 Google Play Gift Card </mem>  From which store should the gift card be added to the cart?
+best_match -> <mem>  </mem> What type of gift card needs to be added to the cart?
+BLEU_SCORE with mem28.950110908559694
+
+Without comparing mem
+generated ->   From which store should the gift card be added to the cart?
+best_match ->  What type of gift card needs to be added to the cart?
+BLEU_SCORE without mem42.803206067505954
+
+With comparing mem
+generated -> <mem> Store: $100 Google Play Gift Card </mem>  What email address should be used to register the gift card?
+best_match -> <mem> Gift Card Type: $100 Google Play Gift Card </mem>  What is the recipient's email address for the gift card?
+BLEU_SCORE with mem55.5195350775122
+
+Without comparing mem
+generated ->   What email address should be used to register the gift card?
+best_match ->   What is the recipient's email address for the gift card?
+BLEU_SCORE without mem26.20251007173262
+
+With comparing mem
+generated -> <mem> Email Address for Registration: abc@abc.com </mem>  What password should be used for the gift card registration?
+best_match -> <mem>  </mem> What type of gift card needs to be added to the cart?
+BLEU_SCORE with mem19.61887304255142
+
+Without comparing mem
+generated ->   What password should be used for the gift card registration?
+best_match ->  What type of gift card needs to be added to the cart?
+BLEU_SCORE without mem8.224725028069482
+
+With comparing mem
+generated -> <mem> Password for Registration: $100 Google Play Gift Card </mem>  What phone number should be used for the gift card purchase?
+best_match -> <mem> Gift Card Type: $100 Google Play Gift Card </mem>  What is the recipient's email address for the gift card?
+BLEU_SCORE with mem51.97566412829208
+
+Without comparing mem
+generated ->   What phone number should be used for the gift card purchase?
+best_match ->   What is the recipient's email address for the gift card?
+BLEU_SCORE without mem23.462350320527996
+
+With comparing mem
+generated -> <mem> Phone Number for Purchase: abc@abc.com </mem>  What payment method should be used for the purchase?
+best_match -> <mem>  </mem> What type of gift card needs to be added to the cart?
+BLEU_SCORE with mem18.816393642137236
+
+Without comparing mem
+generated ->   What payment method should be used for the purchase?
+best_match ->  What type of gift card needs to be added to the cart?
+BLEU_SCORE without mem4.396165418527572
+
+With comparing mem
+generated -> <mem> Payment Method: $100 Google Play Gift Card </mem>  <Finish>
+best_match -> <mem> Recipient Email Address: abc@abc.com </mem>  <Finish>
+BLEU_SCORE with mem38.817246541254406
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 2
+With comparing mem
+generated -> <mem>  </mem> What is the player's name whose bio needs to be checked?
+best_match -> <mem>  </mem> Which player's bio needs to be checked?
+BLEU_SCORE with mem56.82854869630478
+
+Without comparing mem
+generated ->  What is the player's name whose bio needs to be checked?
+best_match ->  Which player's bio needs to be checked?
+BLEU_SCORE without mem43.36189090348677
+
+With comparing mem
+generated -> <mem> Player's Name: Vinicius Junior </mem>  <Finish>
+best_match -> <mem> Information Type: Biography </mem>  <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 3
+With comparing mem
+generated -> <mem>  </mem> What is the sorting criteria for the external solid state drives?
+best_match -> <mem> Drive Type: External solid state drives </mem> How should the available drives be sorted?
+BLEU_SCORE with mem20.934531874056876
+
+Without comparing mem
+generated ->  What is the sorting criteria for the external solid state drives?
+best_match ->  How should the available drives be sorted?
+BLEU_SCORE without mem4.456882760699063
+
+With comparing mem
+generated -> <mem> Sorting Criteria: Lowest price first </mem>  <Finish>
+best_match -> <mem> Sorting Method: Lowest price first </mem>  <Finish>
+BLEU_SCORE with mem81.53551038173119
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 4
+With comparing mem
+generated -> <mem>  </mem> What is the pickup location for the car rental?
+best_match -> <mem>  </mem> What is the location to search for car rentals?
+BLEU_SCORE with mem59.2846954683419
+
+Without comparing mem
+generated ->  What is the pickup location for the car rental?
+best_match ->  What is the location to search for car rentals?
+BLEU_SCORE without mem19.304869754804493
+
+With comparing mem
+generated -> <mem> Pickup Location: San Francisco </mem>  What is the drop-off location for the car rental?
+best_match -> <mem>  </mem> What is the location to search for car rentals?
+BLEU_SCORE with mem35.17636208847486
+
+Without comparing mem
+generated ->   What is the drop-off location for the car rental?
+best_match ->  What is the location to search for car rentals?
+BLEU_SCORE without mem19.304869754804493
+
+With comparing mem
+generated -> <mem> Drop-off Location: San Francisco </mem>  What is the date and time for picking up the car?
+best_match -> <mem> Rental Location: San Francisco </mem>  What is the duration for which the car rental is needed?
+BLEU_SCORE with mem52.05125411276868
+
+Without comparing mem
+generated ->   What is the date and time for picking up the car?
+best_match ->   What is the duration for which the car rental is needed?
+BLEU_SCORE without mem17.242221289766636
+
+With comparing mem
+generated -> <mem> Pickup Date and Time: A weekend trip </mem>  What is the date and time for dropping off the car?
+best_match -> <mem> Rental Location: San Francisco </mem>  What is the duration for which the car rental is needed?
+BLEU_SCORE with mem29.615165360116254
+
+Without comparing mem
+generated ->   What is the date and time for dropping off the car?
+best_match ->   What is the duration for which the car rental is needed?
+BLEU_SCORE without mem17.242221289766636
+
+With comparing mem
+generated -> <mem> Drop-off Date and Time: A weekend trip </mem>  How many people will be traveling in the rental car?
+best_match -> <mem> Rental Location: San Francisco </mem>  What is the duration for which the car rental is needed?
+BLEU_SCORE with mem14.965975078050626
+
+Without comparing mem
+generated ->   How many people will be traveling in the rental car?
+best_match ->   What is the duration for which the car rental is needed?
+BLEU_SCORE without mem4.839576869824698
+
+With comparing mem
+generated -> <mem> Number of Travelers: A weekend trip </mem>  What type of car is being requested for the rental?
+best_match -> <mem>  </mem> What is the location to search for car rentals?
+BLEU_SCORE with mem21.2922082717834
+
+Without comparing mem
+generated ->   What type of car is being requested for the rental?
+best_match ->  What is the location to search for car rentals?
+BLEU_SCORE without mem5.865587580131999
+
+With comparing mem
+generated -> <mem> Car Type: San Francisco </mem>  <Finish>
+best_match -> <mem> Car Type Preference: Economy </mem>  <Finish>
+BLEU_SCORE with mem66.06328636027618
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 5
+With comparing mem
+generated -> <mem>  </mem> What is the departure city for the flight?
+best_match -> <mem>  </mem> What is the departure city for the flight?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What is the departure city for the flight?
+best_match ->  What is the departure city for the flight?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Departure City: Los Angeles </mem>  What is the destination city for the flight?
+best_match -> <mem> Departure City: Los Angeles </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   What is the destination city for the flight?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Destination City: Miami </mem>  What is the date of travel for the flight?
+best_match -> <mem> Destination City: Miami </mem>  What is the date of the flight?
+BLEU_SCORE with mem81.37489370974959
+
+Without comparing mem
+generated ->   What is the date of travel for the flight?
+best_match ->   What is the date of the flight?
+BLEU_SCORE without mem52.53819788848316
+
+With comparing mem
+generated -> <mem> Travel Date: 12 April </mem>  How many adults are traveling?
+best_match -> <mem> Departure City: Los Angeles </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem17.527414667722137
+
+Without comparing mem
+generated ->   How many adults are traveling?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem4.923026124015933
+
+With comparing mem
+generated -> <mem> Number of Adults: Miami </mem>  What is the infant's age for the flight?
+best_match -> <mem> Destination City: Miami </mem>  What is the date of the flight?
+BLEU_SCORE with mem51.83282721440025
+
+Without comparing mem
+generated ->   What is the infant's age for the flight?
+best_match ->   What is the date of the flight?
+BLEU_SCORE without mem29.84745896009822
+
+With comparing mem
+generated -> <mem> Infant's Age: 12 months </mem>  <Finish>
+best_match -> <mem> Required Information: Route map, Flight cost </mem>  <Finish>
+BLEU_SCORE with mem41.2551916359669
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 6
+With comparing mem
+generated -> <mem> Ticket Class: Standard </mem> What is the departure location for the train ticket?
+best_match -> <mem>  </mem> What is the departure location for the train ticket?
+BLEU_SCORE with mem70.98232254187813
+
+Without comparing mem
+generated ->  What is the departure location for the train ticket?
+best_match ->  What is the departure location for the train ticket?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Departure Location: London </mem>  What is the destination for the train ticket?
+best_match -> <mem> Departure Location: London </mem>  What is the destination for the train ticket?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   What is the destination for the train ticket?
+best_match ->   What is the destination for the train ticket?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Destination: Sheffield </mem>  What is the date and time of departure for the train?
+best_match -> <mem> Destination: Sheffield </mem>  What is the date of travel for the train journey?
+BLEU_SCORE with mem69.41268297866861
+
+Without comparing mem
+generated ->   What is the date and time of departure for the train?
+best_match ->   What is the date of travel for the train journey?
+BLEU_SCORE without mem32.649710286280516
+
+With comparing mem
+generated -> <mem> Departure Date and Time: March, 29 </mem>  <Finish>
+best_match -> <mem> Number of Adults: 2 </mem>  <Finish>
+BLEU_SCORE with mem41.180376356915765
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 7
+With comparing mem
+generated -> <mem>  </mem> What is the topic of the forum search?
+best_match -> <mem> Name in Title: Taylor Swift </mem>  What is the time frame for the forum threads to be searched?
+BLEU_SCORE with mem26.952221507689433
+
+Without comparing mem
+generated ->  What is the topic of the forum search?
+best_match ->   What is the time frame for the forum threads to be searched?
+BLEU_SCORE without mem14.975985500507548
+
+With comparing mem
+generated -> <mem> Search Topic: Within the last month </mem>  <Finish>
+best_match -> <mem> Time Frame: Last month </mem>  <Finish>
+BLEU_SCORE with mem50.7196093945688
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 8
+With comparing mem
+generated -> <mem>  </mem> How many people will the season dining pass be for?
+best_match -> <mem>  </mem> What type of dining pass is being purchased?
+BLEU_SCORE with mem37.15770152515525
+
+Without comparing mem
+generated ->  How many people will the season dining pass be for?
+best_match ->  What type of dining pass is being purchased?
+BLEU_SCORE without mem8.29519350710986
+
+With comparing mem
+generated -> <mem> Dining Pass Quantity: One meal season dining pass </mem>  Which theme park is the season dining pass being purchased for?
+best_match -> <mem> Dining Pass Type: One meal season </mem>  For which location is the dining pass being purchased?
+BLEU_SCORE with mem40.016016019224985
+
+Without comparing mem
+generated ->   Which theme park is the season dining pass being purchased for?
+best_match ->   For which location is the dining pass being purchased?
+BLEU_SCORE without mem26.20251007173262
+
+With comparing mem
+generated -> <mem> Theme Park: Six Flags Great America </mem>  What type of season dining pass is being selected?
+best_match -> <mem>  </mem> What type of dining pass is being purchased?
+BLEU_SCORE with mem40.10889714538992
+
+Without comparing mem
+generated ->   What type of season dining pass is being selected?
+best_match ->  What type of dining pass is being purchased?
+BLEU_SCORE without mem39.281465090051285
+
+With comparing mem
+generated -> <mem> Dining Pass Type: One meal season dining pass </mem>  <Finish>
+best_match -> <mem> Location: Six Flags Great America </mem>  <Finish>
+BLEU_SCORE with mem38.817246541254406
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 9
+With comparing mem
+generated -> <mem>  </mem> What is the departure city for the flight?
+best_match -> <mem>  </mem> What is the departure city for the flight?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What is the departure city for the flight?
+best_match ->  What is the departure city for the flight?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Departure City: New York </mem>  What is the destination city for the flight?
+best_match -> <mem> Departure City: New York </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   What is the destination city for the flight?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Destination City: Paris </mem>  What is the date of travel for the flight?
+best_match -> <mem> Destination City: Paris </mem>  What is the date of the flight?
+BLEU_SCORE with mem81.37489370974959
+
+Without comparing mem
+generated ->   What is the date of travel for the flight?
+best_match ->   What is the date of the flight?
+BLEU_SCORE without mem52.53819788848316
+
+With comparing mem
+generated -> <mem> Travel Date: June 4 </mem>  <Finish>
+best_match -> <mem> Check-in Bags: One check-in bag </mem>  <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 10
+With comparing mem
+generated -> <mem>  </mem> What console's games are to be listed for pre-order?
+best_match -> <mem> Platform: PlayStation 5 </mem> What is the purpose of listing the games?
+BLEU_SCORE with mem25.37891533752675
+
+Without comparing mem
+generated ->  What console's games are to be listed for pre-order?
+best_match ->  What is the purpose of listing the games?
+BLEU_SCORE without mem5.522397783539471
+
+With comparing mem
+generated -> <mem> Console for Pre-order List: PlayStation 5 </mem>  <Finish>
+best_match -> <mem> Purpose: Show available games for pre-orders </mem>  <Finish>
+BLEU_SCORE with mem44.81501736040872
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 11
+With comparing mem
+generated -> <mem> Service Requested: AC recharge </mem> What is the location for the service?
+best_match -> <mem> Email Address: buckeye.foobar@gmail.com </mem>  What phone number should be used for contact regarding the service estimate?
+BLEU_SCORE with mem17.06119112481236
+
+Without comparing mem
+generated ->  What is the location for the service?
+best_match ->   What phone number should be used for contact regarding the service estimate?
+BLEU_SCORE without mem7.433761660133445
+
+With comparing mem
+generated -> <mem> Location ZIP Code: 6157075521 </mem>  What email should the service estimate be sent to?
+best_match -> <mem> Customer Name: James Smith </mem>  What email should be used to send the service estimate?
+BLEU_SCORE with mem38.77525716932321
+
+Without comparing mem
+generated ->   What email should the service estimate be sent to?
+best_match ->   What email should be used to send the service estimate?
+BLEU_SCORE without mem26.305014340253436
+
+With comparing mem
+generated -> <mem> Email for Service Estimate: buckeye.foobar@gmail.com </mem>  <Finish>
+best_match -> <mem> Phone Number: 6157075521 </mem>  <Finish>
+BLEU_SCORE with mem33.11822752222957
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 12
+With comparing mem
+generated -> <mem> Product Brand: Under Armour </mem> What type of product is being considered for return?
+best_match -> <mem>  </mem> What product is the return policy being inquired for?
+BLEU_SCORE with mem25.85071874780497
+
+Without comparing mem
+generated ->  What type of product is being considered for return?
+best_match ->  What product is the return policy being inquired for?
+BLEU_SCORE without mem11.478744233307168
+
+With comparing mem
+generated -> <mem> Product Type: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  What size is the short sleeve shirt?
+best_match -> <mem> Product: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  <Finish>
+BLEU_SCORE with mem59.834338685808156
+
+Without comparing mem
+generated ->   What size is the short sleeve shirt?
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Shirt Size: none </mem>  Is the shirt a clearance item?
+best_match -> <mem>  </mem> What product is the return policy being inquired for?
+BLEU_SCORE with mem20.706193828327603
+
+Without comparing mem
+generated ->   Is the shirt a clearance item?
+best_match ->  What product is the return policy being inquired for?
+BLEU_SCORE without mem5.08764122072739
+
+With comparing mem
+generated -> <mem> Item Status: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  What is the color of the shirt?
+best_match -> <mem> Product: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  <Finish>
+BLEU_SCORE with mem56.016588277142944
+
+Without comparing mem
+generated ->   What is the color of the shirt?
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Shirt Color: none </mem>  What is the condition of the shirt?
+best_match -> <mem>  </mem> What product is the return policy being inquired for?
+BLEU_SCORE with mem28.52636439147137
+
+Without comparing mem
+generated ->   What is the condition of the shirt?
+best_match ->  What product is the return policy being inquired for?
+BLEU_SCORE without mem10.229197414177778
+
+With comparing mem
+generated -> <mem> Shirt Condition: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  What is the last line of the product description?
+best_match -> <mem>  </mem> What product is the return policy being inquired for?
+BLEU_SCORE with mem17.878540236558916
+
+Without comparing mem
+generated ->   What is the last line of the product description?
+best_match ->  What product is the return policy being inquired for?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Product Description: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  <Finish>
+best_match -> <mem> Product: Men's UA Football All Over Print Metal Logo Short Sleeve </mem>  <Finish>
+BLEU_SCORE with mem87.87419089273847
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 13
+With comparing mem
+generated -> <mem>  </mem> What is the name of the HBO show for which a trailer is to be found?
+best_match -> <mem> Content Type: Trailer, Network: HBO </mem> What is the theme or setting of the show?
+BLEU_SCORE with mem32.202929838303014
+
+Without comparing mem
+generated ->  What is the name of the HBO show for which a trailer is to be found?
+best_match ->  What is the theme or setting of the show?
+BLEU_SCORE without mem11.64394847706997
+
+With comparing mem
+generated -> <mem> Show Name: Winter </mem>  What type of content is the HBO show related to?
+best_match -> <mem> Content Type: Trailer, Network: HBO </mem> What is the theme or setting of the show?
+BLEU_SCORE with mem22.94782100385706
+
+Without comparing mem
+generated ->   What type of content is the HBO show related to?
+best_match ->  What is the theme or setting of the show?
+BLEU_SCORE without mem9.864703138979419
+
+With comparing mem
+generated -> <mem> Show Content Type: Winter </mem>  <Finish>
+best_match -> <mem> Show Theme: Winter </mem>  <Finish>
+BLEU_SCORE with mem72.41577342575832
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 14
+With comparing mem
+generated -> <mem> Vehicle Make: BMW </mem> What is the minimum year of manufacture for the vehicle?
+best_match -> <mem>  </mem> Which series of BMW vehicles are to be found?
+BLEU_SCORE with mem17.096862609754865
+
+Without comparing mem
+generated ->  What is the minimum year of manufacture for the vehicle?
+best_match ->  Which series of BMW vehicles are to be found?
+BLEU_SCORE without mem4.456882760699063
+
+With comparing mem
+generated -> <mem> Minimum Year of Manufacture: Series 1 and series 2 </mem>  What is the maximum year of manufacture for the vehicle?
+best_match -> <mem>  </mem> Which series of BMW vehicles are to be found?
+BLEU_SCORE with mem13.217947626377288
+
+Without comparing mem
+generated ->   What is the maximum year of manufacture for the vehicle?
+best_match ->  Which series of BMW vehicles are to be found?
+BLEU_SCORE without mem4.456882760699063
+
+With comparing mem
+generated -> <mem> Maximum Year of Manufacture: Series 1 and series 2 </mem>  What is the maximum number plate of the vehicle to find?
+best_match -> <mem>  </mem> Which series of BMW vehicles are to be found?
+BLEU_SCORE with mem13.04360686614678
+
+Without comparing mem
+generated ->   What is the maximum number plate of the vehicle to find?
+best_match ->  Which series of BMW vehicles are to be found?
+BLEU_SCORE without mem4.456882760699063
+
+With comparing mem
+generated -> <mem> Maximum Number Plate: Series 1 and series 2 </mem>  <Finish>
+best_match -> <mem> Store Location: Nearest to zip code 07055 </mem>  <Finish>
+BLEU_SCORE with mem38.817246541254406
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 15
+With comparing mem
+generated -> <mem> Singer: Ariana Grande </mem> What is to be found in the search results?
+best_match -> <mem>  </mem> What is the purpose of the search?
+BLEU_SCORE with mem31.642571776698524
+
+Without comparing mem
+generated ->  What is to be found in the search results?
+best_match ->  What is the purpose of the search?
+BLEU_SCORE without mem12.549310621989482
+
+With comparing mem
+generated -> <mem> Search Objective: All-time most popular solo track by Ariana Grande </mem>  <Finish>
+best_match -> <mem> Track Type: Solo </mem>  <Finish>
+BLEU_SCORE with mem34.82207361953904
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 16
+With comparing mem
+generated -> <mem>  </mem> What is the item to be added to the cart?
+best_match -> <mem>  </mem> What item needs to be added to the cart?
+BLEU_SCORE with mem72.76817202342096
+
+Without comparing mem
+generated ->  What is the item to be added to the cart?
+best_match ->  What item needs to be added to the cart?
+BLEU_SCORE without mem60.767958081376904
+
+With comparing mem
+generated -> <mem> Item: Baby one piece </mem>  What size should the baby one piece be?
+best_match -> <mem>  </mem> What item needs to be added to the cart?
+BLEU_SCORE with mem24.62292439135324
+
+Without comparing mem
+generated ->   What size should the baby one piece be?
+best_match ->  What item needs to be added to the cart?
+BLEU_SCORE without mem6.033504141761816
+
+With comparing mem
+generated -> <mem> Item Size: Baby one piece </mem>  What color should the baby one piece be?
+best_match -> <mem>  </mem> What item needs to be added to the cart?
+BLEU_SCORE with mem23.41812326184748
+
+Without comparing mem
+generated ->   What color should the baby one piece be?
+best_match ->  What item needs to be added to the cart?
+BLEU_SCORE without mem6.033504141761816
+
+With comparing mem
+generated -> <mem> Item Color: Baby one piece </mem>  What is the price range for the baby one piece?
+best_match -> <mem>  </mem> What item needs to be added to the cart?
+BLEU_SCORE with mem20.828838183973037
+
+Without comparing mem
+generated ->   What is the price range for the baby one piece?
+best_match ->  What item needs to be added to the cart?
+BLEU_SCORE without mem4.9323515694897075
+
+With comparing mem
+generated -> <mem> Price Range: Baby one piece </mem>  How many pieces of the baby one piece need to be added to the cart?
+best_match -> <mem>  </mem> What item needs to be added to the cart?
+BLEU_SCORE with mem32.24199399071416
+
+Without comparing mem
+generated ->   How many pieces of the baby one piece need to be added to the cart?
+best_match ->  What item needs to be added to the cart?
+BLEU_SCORE without mem37.23909894939822
+
+With comparing mem
+generated -> <mem> Quantity: Baby one piece </mem>  <Finish>
+best_match -> <mem> Item to Add: Baby one piece </mem>  <Finish>
+BLEU_SCORE with mem70.0418991088418
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 17
+With comparing mem
+generated -> <mem>  </mem> What is the departure city for the flight?
+best_match -> <mem>  </mem> What is the departure city for the flight?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What is the departure city for the flight?
+best_match ->  What is the departure city for the flight?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Departure City: Faro </mem>  What is the destination city for the flight?
+best_match -> <mem> Departure City: Faro </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   What is the destination city for the flight?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Destination City: Bournemouth </mem>  How many adults will be traveling?
+best_match -> <mem> Fare Type: Value fare </mem>  What is the name of the passenger traveling?
+BLEU_SCORE with mem18.83443278453712
+
+Without comparing mem
+generated ->   How many adults will be traveling?
+best_match ->   What is the name of the passenger traveling?
+BLEU_SCORE without mem9.870315683072755
+
+With comparing mem
+generated -> <mem> Number of Adults: Mr. Joe Bloggs </mem>  What is the full name of the passenger?
+best_match -> <mem> Fare Type: Value fare </mem>  What is the name of the passenger traveling?
+BLEU_SCORE with mem40.76128826387552
+
+Without comparing mem
+generated ->   What is the full name of the passenger?
+best_match ->   What is the name of the passenger traveling?
+BLEU_SCORE without mem44.632361378533304
+
+With comparing mem
+generated -> <mem> Passenger Name: Mr. Joe Bloggs </mem>  What is the email address associated with the booking?
+best_match -> <mem> Departure Date: 30th April </mem>  What type of fare should be selected for the booking?
+BLEU_SCORE with mem24.76980256562108
+
+Without comparing mem
+generated ->   What is the email address associated with the booking?
+best_match ->   What type of fare should be selected for the booking?
+BLEU_SCORE without mem15.187207110382285
+
+With comparing mem
+generated -> <mem> Email Address: Value fare </mem>  What type of fare should be selected?
+best_match -> <mem> Departure Date: 30th April </mem>  What type of fare should be selected for the booking?
+BLEU_SCORE with mem51.8892478918471
+
+Without comparing mem
+generated ->   What type of fare should be selected?
+best_match ->   What type of fare should be selected for the booking?
+BLEU_SCORE without mem59.755798910891144
+
+With comparing mem
+generated -> <mem> Fare Type: Value fare </mem>  What is the travel class for the flight?
+best_match -> <mem> Departure City: Faro </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem46.2985228134777
+
+Without comparing mem
+generated ->   What is the travel class for the flight?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem43.167001068522545
+
+With comparing mem
+generated -> <mem> Travel Class: Bournemouth </mem>  <Finish>
+best_match -> <mem> Baggage Information: 1 small bag onboard only. </mem>  <Finish>
+BLEU_SCORE with mem38.098420997397426
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 18
+With comparing mem
+generated -> <mem>  </mem> What type of guide is being requested?
+best_match -> <mem> Guide Purpose: Learn about Renfe fare types </mem>  What specific guide is being searched for?
+BLEU_SCORE with mem24.27214239628778
+
+Without comparing mem
+generated ->  What type of guide is being requested?
+best_match ->   What specific guide is being searched for?
+BLEU_SCORE without mem23.356898886410015
+
+With comparing mem
+generated -> <mem> Guide Type: The Trains in Spain guide </mem>  What information is specifically needed from the guide?
+best_match -> <mem> Guide Purpose: Learn about Renfe fare types </mem>  What specific guide is being searched for?
+BLEU_SCORE with mem27.0481707585543
+
+Without comparing mem
+generated ->   What information is specifically needed from the guide?
+best_match ->   What specific guide is being searched for?
+BLEU_SCORE without mem6.742555929751843
+
+With comparing mem
+generated -> <mem> Specific Information Needed: The Trains in Spain guide </mem>  <Finish>
+best_match -> <mem> Company Fare Types: Renfe </mem>  <Finish>
+BLEU_SCORE with mem38.817246541254406
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 19
+With comparing mem
+generated -> <mem>  </mem> What is the name of the game bundle to be purchased?
+best_match -> <mem>  </mem> What is the name of the game for which a bundle is being purchased?
+BLEU_SCORE with mem65.09777675293759
+
+Without comparing mem
+generated ->  What is the name of the game bundle to be purchased?
+best_match ->  What is the name of the game for which a bundle is being purchased?
+BLEU_SCORE without mem45.63040025536
+
+With comparing mem
+generated -> <mem> Game Bundle Name: Cities Skylines </mem>  How should the game bundle be rated?
+best_match -> <mem> Game Name: Cities Skylines </mem>  What type of bundle should be purchased for the game?
+BLEU_SCORE with mem46.11013338936737
+
+Without comparing mem
+generated ->   How should the game bundle be rated?
+best_match ->   What type of bundle should be purchased for the game?
+BLEU_SCORE without mem9.990277796944772
+
+With comparing mem
+generated -> <mem> Game Rating: The classic bundle </mem>  Is there a specific region for the game bundle to be purchased from?
+best_match -> <mem>  </mem> What is the name of the game for which a bundle is being purchased?
+BLEU_SCORE with mem15.639686545296055
+
+Without comparing mem
+generated ->   Is there a specific region for the game bundle to be purchased from?
+best_match ->  What is the name of the game for which a bundle is being purchased?
+BLEU_SCORE without mem7.233019718056119
+
+With comparing mem
+generated -> <mem> Purchase Region: Cities Skylines </mem>  <Finish>
+best_match -> <mem> Bundle Type: Classic bundle </mem>  <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 20
+With comparing mem
+generated -> <mem>  </mem> What is the starting location for the fare calculation?
+best_match -> <mem>  </mem> What is the starting point for the fare calculation?
+BLEU_SCORE with mem82.82477531331043
+
+Without comparing mem
+generated ->  What is the starting location for the fare calculation?
+best_match ->  What is the starting point for the fare calculation?
+BLEU_SCORE without mem65.80370064762461
+
+With comparing mem
+generated -> <mem> Starting Location: South station </mem>  What is the destination for the fare calculation?
+best_match -> <mem> Starting Point: South station </mem>  What is the destination for the fare calculation?
+BLEU_SCORE with mem86.56030552541704
+
+Without comparing mem
+generated ->   What is the destination for the fare calculation?
+best_match ->   What is the destination for the fare calculation?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Destination: North station </mem>  What date and time should the fare calculation be for?
+best_match -> <mem>  </mem> What is the starting point for the fare calculation?
+BLEU_SCORE with mem27.74290545068997
+
+Without comparing mem
+generated ->   What date and time should the fare calculation be for?
+best_match ->  What is the starting point for the fare calculation?
+BLEU_SCORE without mem16.59038701421971
+
+With comparing mem
+generated -> <mem> Date and Time: South station </mem>  <Finish>
+best_match -> <mem> Transportation Types to Consider: Not specified </mem>  <Finish>
+BLEU_SCORE with mem44.05136963304349
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 21
+With comparing mem
+generated -> <mem>  </mem> What type of events is being searched for?
+best_match -> <mem>  </mem> What type of events are being searched for?
+BLEU_SCORE with mem81.53551038173119
+
+Without comparing mem
+generated ->  What type of events is being searched for?
+best_match ->  What type of events are being searched for?
+BLEU_SCORE without mem59.694917920196445
+
+With comparing mem
+generated -> <mem> Event Type: Free virtual business start-up events </mem>  What is the time frame for the events search?
+best_match -> <mem>  </mem> What type of events are being searched for?
+BLEU_SCORE with mem20.42128370387497
+
+Without comparing mem
+generated ->   What is the time frame for the events search?
+best_match ->  What type of events are being searched for?
+BLEU_SCORE without mem5.934202609760488
+
+With comparing mem
+generated -> <mem> Time Frame: Free virtual business start-up events </mem>  What should be done after finding a free virtual business start-up event?
+best_match -> <mem> Event Location: Las Vegas </mem>  What action should be taken after finding the events?
+BLEU_SCORE with mem21.023693683267553
+
+Without comparing mem
+generated ->   What should be done after finding a free virtual business start-up event?
+best_match ->   What action should be taken after finding the events?
+BLEU_SCORE without mem9.669265690880861
+
+With comparing mem
+generated -> <mem> Action After Finding Event: Follow the organizer with the most followers. </mem>  <Finish>
+best_match -> <mem> Action to Take: Follow the organizer with the most followers. </mem>  <Finish>
+BLEU_SCORE with mem78.4851834939063
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 22
+With comparing mem
+generated -> <mem> Shoe Type: Women's Athletic Shoes </mem> What is the minimum star rating for the popular Women's Athletic Shoes?
+best_match -> <mem> Shoe Type: Women's Athletic Shoes </mem> What is the criteria for the selection of shoes?
+BLEU_SCORE with mem62.66472444716424
+
+Without comparing mem
+generated ->  What is the minimum star rating for the popular Women's Athletic Shoes?
+best_match ->  What is the criteria for the selection of shoes?
+BLEU_SCORE without mem15.133218633429316
+
+With comparing mem
+generated -> <mem> Minimum Star Rating: Popularity </mem>  <Finish>
+best_match -> <mem> Selection Criteria: Popularity </mem>  <Finish>
+BLEU_SCORE with mem64.75445426291287
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 23
+With comparing mem
+generated -> <mem> Genre: Pop rock, Item Type: Album CD </mem> How should the CD be packaged?
+best_match -> <mem> Price Range: ï¿½15 to ï¿½20 </mem>  What condition should the album CD be in?
+BLEU_SCORE with mem18.088201962129947
+
+Without comparing mem
+generated ->  How should the CD be packaged?
+best_match ->   What condition should the album CD be in?
+BLEU_SCORE without mem14.759564526951554
+
+With comparing mem
+generated -> <mem> Packaging Requirement: Perfect condition </mem>  What is the shipping destination for the purchase?
+best_match -> <mem> Album Genre: Pop rock </mem> From which country should the album CD be purchased?
+BLEU_SCORE with mem17.14049169603588
+
+Without comparing mem
+generated ->   What is the shipping destination for the purchase?
+best_match ->  From which country should the album CD be purchased?
+BLEU_SCORE without mem5.0735520042259505
+
+With comparing mem
+generated -> <mem> Shipping Destination: United Kingdom </mem>  What type of payment method should be used for the purchase?
+best_match -> <mem> Album Genre: Pop rock </mem> From which country should the album CD be purchased?
+BLEU_SCORE with mem16.299446731288942
+
+Without comparing mem
+generated ->   What type of payment method should be used for the purchase?
+best_match ->  From which country should the album CD be purchased?
+BLEU_SCORE without mem4.789232204309912
+
+With comparing mem
+generated -> <mem> Payment Method: United Kingdom </mem>  <Finish>
+best_match -> <mem> Album Condition: Perfect condition </mem>  <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 24
+With comparing mem
+generated -> <mem> Movie Genre: Comedy </mem> What is the sorting criteria for the comedy movies?
+best_match -> <mem> Movie Genre: Comedy </mem> How should the list of movies be sorted?
+BLEU_SCORE with mem51.46906560381766
+
+Without comparing mem
+generated ->  What is the sorting criteria for the comedy movies?
+best_match ->  How should the list of movies be sorted?
+BLEU_SCORE without mem5.522397783539471
+
+With comparing mem
+generated -> <mem> Sorting Criteria: User ratings </mem>  <Finish>
+best_match -> <mem> Sorting Preference: User ratings </mem>  <Finish>
+BLEU_SCORE with mem80.03203203845001
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 25
+With comparing mem
+generated -> <mem>  </mem> What is the date for the sports fixture to be found?
+best_match -> <mem> Team: FC Barcelona </mem>  Which competition's fixture needs to be found for the team?
+BLEU_SCORE with mem22.495618488663066
+
+Without comparing mem
+generated ->  What is the date for the sports fixture to be found?
+best_match ->   Which competition's fixture needs to be found for the team?
+BLEU_SCORE without mem17.242221289766636
+
+With comparing mem
+generated -> <mem> Fixture Date: Today </mem>  <Finish>
+best_match -> <mem> Competition: Spanish Copa del Rey </mem>  <Finish>
+BLEU_SCORE with mem47.20305201905447
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 26
+With comparing mem
+generated -> <mem>  </mem> What is the location to book a restaurant table for?
+best_match -> <mem> Number of Guests: 3 </mem>  In which city should the restaurant be located?
+BLEU_SCORE with mem17.995223049243613
+
+Without comparing mem
+generated ->  What is the location to book a restaurant table for?
+best_match ->   In which city should the restaurant be located?
+BLEU_SCORE without mem4.9323515694897075
+
+With comparing mem
+generated -> <mem> Restaurant Location: Los Angeles </mem>  What is the date and time for the restaurant booking?
+best_match -> <mem> Restaurant Location: Los Angeles </mem>  What date and time should the table be booked for?
+BLEU_SCORE with mem62.253786060093546
+
+Without comparing mem
+generated ->   What is the date and time for the restaurant booking?
+best_match ->   What date and time should the table be booked for?
+BLEU_SCORE without mem17.242221289766626
+
+With comparing mem
+generated -> <mem> Booking Date and Time: April 7th at 5:00 PM </mem>  How many adults will be attending the dinner?
+best_match -> <mem> Table Type: Outdoor </mem>  For how many people should the table be booked?
+BLEU_SCORE with mem13.834368456410946
+
+Without comparing mem
+generated ->   How many adults will be attending the dinner?
+best_match ->   For how many people should the table be booked?
+BLEU_SCORE without mem6.033504141761816
+
+With comparing mem
+generated -> <mem> Number of Adults: 3 people </mem>  What additional information is needed for the booking?
+best_match -> <mem>  </mem> What type of table needs to be booked?
+BLEU_SCORE with mem22.866722231574908
+
+Without comparing mem
+generated ->   What additional information is needed for the booking?
+best_match ->  What type of table needs to be booked?
+BLEU_SCORE without mem5.669791110976001
+
+With comparing mem
+generated -> <mem> Additional Information: Outdoor table request </mem>  <Finish>
+best_match -> <mem> Booking Date and Time: April 7th at 5:00 PM </mem>  <Finish>
+BLEU_SCORE with mem32.22867050004011
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 27
+With comparing mem
+generated -> <mem>  </mem> What is the destination for the trip?
+best_match -> <mem> Starting Location: Braintree </mem>  What is the destination of the trip?
+BLEU_SCORE with mem50.436778896757176
+
+Without comparing mem
+generated ->  What is the destination for the trip?
+best_match ->   What is the destination of the trip?
+BLEU_SCORE without mem50.000000000000014
+
+With comparing mem
+generated -> <mem> Trip Destination: Boston Airport </mem>  What is the departure date for the trip?
+best_match -> <mem> Destination: Boston Airport </mem>  What is the date and time of the trip?
+BLEU_SCORE with mem62.683314725930124
+
+Without comparing mem
+generated ->   What is the departure date for the trip?
+best_match ->   What is the date and time of the trip?
+BLEU_SCORE without mem27.75806054476853
+
+With comparing mem
+generated -> <mem> Departure Date: April 14, 12 pm </mem>  What type of ticket is needed for the trip?
+best_match -> <mem> Starting Location: Braintree </mem>  What is the destination of the trip?
+BLEU_SCORE with mem24.64501369713124
+
+Without comparing mem
+generated ->   What type of ticket is needed for the trip?
+best_match ->   What is the destination of the trip?
+BLEU_SCORE without mem18.575057999133595
+
+With comparing mem
+generated -> <mem> Ticket Type: Boston Airport </mem>  <Finish>
+best_match -> <mem> Additional Task: Check fare calculator </mem>  <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 28
+With comparing mem
+generated -> <mem> Movie Title: Not Specified </mem> <Finish>
+best_match -> <mem> Movie Name: Creed III </mem>  <Finish>
+BLEU_SCORE with mem58.282339541526554
+
+Without comparing mem
+generated ->  <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 29
+With comparing mem
+generated -> <mem>  </mem> What type of dog food is to be added to the cart?
+best_match -> <mem> Dog Food Type: Organic </mem> What action should be taken after finding the organic dog food?
+BLEU_SCORE with mem23.0301991075655
+
+Without comparing mem
+generated ->  What type of dog food is to be added to the cart?
+best_match ->  What action should be taken after finding the organic dog food?
+BLEU_SCORE without mem8.130850857597444
+
+With comparing mem
+generated -> <mem> Dog Food Type: Organic dog food </mem>  What specific product of organic dog food needs to be added?
+best_match -> <mem> Dog Food Type: Organic </mem> What action should be taken after finding the organic dog food?
+BLEU_SCORE with mem46.22377023605668
+
+Without comparing mem
+generated ->   What specific product of organic dog food needs to be added?
+best_match ->  What action should be taken after finding the organic dog food?
+BLEU_SCORE without mem14.991106946711685
+
+With comparing mem
+generated -> <mem> Product to Add: Organic dog food </mem>  <Finish>
+best_match -> <mem> Action: Add to cart </mem>  <Finish>
+BLEU_SCORE with mem45.72082891936412
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 30
+With comparing mem
+generated -> <mem>  </mem> What is the duration of the private sightseeing trip?
+best_match -> <mem> Trip Location: India, Trip Month: June </mem> What type of sightseeing trip is being searched for?
+BLEU_SCORE with mem19.788605338278796
+
+Without comparing mem
+generated ->  What is the duration of the private sightseeing trip?
+best_match ->  What type of sightseeing trip is being searched for?
+BLEU_SCORE without mem11.044795567078939
+
+With comparing mem
+generated -> <mem> Trip Duration: Longest private sightseeing trip </mem>  What is the preferred month for the trip?
+best_match -> <mem> Trip Location: India, Trip Month: June </mem> What type of sightseeing trip is being searched for?
+BLEU_SCORE with mem26.626928257104723
+
+Without comparing mem
+generated ->   What is the preferred month for the trip?
+best_match ->  What type of sightseeing trip is being searched for?
+BLEU_SCORE without mem6.379653897348568
+
+With comparing mem
+generated -> <mem> Preferred Month: June </mem>  <Finish>
+best_match -> <mem> Trip Type: Longest private sightseeing trip </mem>  <Finish>
+BLEU_SCORE with mem43.94900482337444
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 31
+With comparing mem
+generated -> <mem> Location: Alaska </mem> What type of park is being searched for?
+best_match -> <mem>  </mem> What type of park is being searched for in Alaska?
+BLEU_SCORE with mem69.639896108447
+
+Without comparing mem
+generated ->  What type of park is being searched for?
+best_match ->  What type of park is being searched for in Alaska?
+BLEU_SCORE without mem71.19674182275
+
+With comparing mem
+generated -> <mem> Park Type: National Heritage Area </mem>  <Finish>
+best_match -> <mem> Park Type: National Heritage Area </mem>  <Finish>
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 32
+With comparing mem
+generated -> <mem>  </mem> How many people are traveling?
+best_match -> <mem>  </mem> How many adults are traveling?
+BLEU_SCORE with mem76.11606003349888
+
+Without comparing mem
+generated ->  How many people are traveling?
+best_match ->  How many adults are traveling?
+BLEU_SCORE without mem37.99178428257963
+
+With comparing mem
+generated -> <mem> Number of Travelers: 2 adults </mem>  What is the travel class for the vacation?
+best_match -> <mem> Departure City: San Francisco </mem>  What is the destination city for the vacation travel?
+BLEU_SCORE with mem39.96806384679825
+
+Without comparing mem
+generated ->   What is the travel class for the vacation?
+best_match ->   What is the destination city for the vacation travel?
+BLEU_SCORE without mem28.700344215126165
+
+With comparing mem
+generated -> <mem> Travel Class: New York </mem>  What is the departure city for the vacation?
+best_match -> <mem> Number of Travelers: 2 adults </mem>  What is the departure city for the vacation travel?
+BLEU_SCORE with mem56.797162391218016
+
+Without comparing mem
+generated ->   What is the departure city for the vacation?
+best_match ->   What is the departure city for the vacation travel?
+BLEU_SCORE without mem79.56371661921447
+
+With comparing mem
+generated -> <mem> Departure City: San Francisco </mem>  What is the destination city for the vacation?
+best_match -> <mem> Departure City: San Francisco </mem>  What is the destination city for the vacation travel?
+BLEU_SCORE with mem91.55330820749255
+
+Without comparing mem
+generated ->   What is the destination city for the vacation?
+best_match ->   What is the destination city for the vacation travel?
+BLEU_SCORE without mem79.56371661921447
+
+With comparing mem
+generated -> <mem> Destination City: New York </mem>  What is the date for the first night of the stay?
+best_match -> <mem> Destination City: New York </mem>  What is the departure date for the vacation travel?
+BLEU_SCORE with mem66.89604664235208
+
+Without comparing mem
+generated ->   What is the date for the first night of the stay?
+best_match ->   What is the departure date for the vacation travel?
+BLEU_SCORE without mem22.03359678996931
+
+With comparing mem
+generated -> <mem> First Night Stay Date: April 9 </mem>  What is the duration of the stay?
+best_match -> <mem> Destination City: New York </mem>  What is the departure date for the vacation travel?
+BLEU_SCORE with mem34.53064989552127
+
+Without comparing mem
+generated ->   What is the duration of the stay?
+best_match ->   What is the departure date for the vacation travel?
+BLEU_SCORE without mem18.190371142855746
+
+With comparing mem
+generated -> <mem> Duration of Stay: April 9 </mem>  <Finish>
+best_match -> <mem> Return Date: April 19 </mem>  <Finish>
+BLEU_SCORE with mem49.35578819979934
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 33
+With comparing mem
+generated -> <mem>  </mem> What is the location for the activities search?
+best_match -> <mem>  </mem> What is the location to search for activities?
+BLEU_SCORE with mem70.51561232087876
+
+Without comparing mem
+generated ->  What is the location for the activities search?
+best_match ->  What is the location to search for activities?
+BLEU_SCORE without mem35.49481056010054
+
+With comparing mem
+generated -> <mem> Location for Activities: Phuket, Thailand </mem>  <Finish>
+best_match -> <mem> Location: Phuket, Thailand </mem>  <Finish>
+BLEU_SCORE with mem76.24658586234858
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 34
+With comparing mem
+generated -> <mem>  </mem> What type of cuisine should the restaurants serve?
+best_match -> <mem>  </mem> What type of food should the restaurants serve?
+BLEU_SCORE with mem81.53551038173119
+
+Without comparing mem
+generated ->  What type of cuisine should the restaurants serve?
+best_match ->  What type of food should the restaurants serve?
+BLEU_SCORE without mem59.694917920196445
+
+With comparing mem
+generated -> <mem> Cuisine: Pizza </mem>  What is the location for the restaurant search?
+best_match -> <mem> Number of Customers: 6 </mem>  Should the search for restaurants be based on a specific location?
+BLEU_SCORE with mem16.44643900722331
+
+Without comparing mem
+generated ->   What is the location for the restaurant search?
+best_match ->   Should the search for restaurants be based on a specific location?
+BLEU_SCORE without mem5.1084274932709866
+
+With comparing mem
+generated -> <mem> Search Location: Near current location </mem>  How many stars are required for the restaurants?
+best_match -> <mem>  </mem> What type of food should the restaurants serve?
+BLEU_SCORE with mem17.894177180728462
+
+Without comparing mem
+generated ->   How many stars are required for the restaurants?
+best_match ->  What type of food should the restaurants serve?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Restaurant Star Rating: Pizza </mem>  <Finish>
+best_match -> <mem> Search Location: Near my current location </mem>  <Finish>
+BLEU_SCORE with mem44.09928765478173
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 35
+With comparing mem
+generated -> <mem> Rental Size: Lowest rent truck for 4 people </mem> What is the time frame for this rental search?
+best_match -> <mem> Pickup Location: JFK airport </mem>  What is the pick-up date and time for the truck?
+BLEU_SCORE with mem29.93195015610125
+
+Without comparing mem
+generated ->  What is the time frame for this rental search?
+best_match ->   What is the pick-up date and time for the truck?
+BLEU_SCORE without mem16.807407519804237
+
+With comparing mem
+generated -> <mem> Rental Time Frame: March 27 at 11 am </mem>  What is the pick-up location for the truck?
+best_match -> <mem> Truck Capacity: 4 people </mem> Where should the truck be picked up from?
+BLEU_SCORE with mem15.980518115118317
+
+Without comparing mem
+generated ->   What is the pick-up location for the truck?
+best_match ->  Where should the truck be picked up from?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Pick-up Location: JFK airport </mem>  What is the drop-off location for the truck?
+best_match -> <mem> Truck Capacity: 4 people </mem> Where should the truck be picked up from?
+BLEU_SCORE with mem19.268479640608692
+
+Without comparing mem
+generated ->   What is the drop-off location for the truck?
+best_match ->  Where should the truck be picked up from?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Drop-off Location: JFK airport </mem>  <Finish>
+best_match -> <mem> Return Date and Time: March 30 at noon </mem>  <Finish>
+BLEU_SCORE with mem38.594519944265
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 36
+With comparing mem
+generated -> <mem>  </mem> What is the location of the concerts to be searched for?
+best_match -> <mem> Concert Type: Alternative Concerts </mem>  In which location should the concerts be searched?
+BLEU_SCORE with mem20.9496465698149
+
+Without comparing mem
+generated ->  What is the location of the concerts to be searched for?
+best_match ->   In which location should the concerts be searched?
+BLEU_SCORE without mem10.600313379512592
+
+With comparing mem
+generated -> <mem> Concert Location: New York City </mem>  <Finish>
+best_match -> <mem> Concert Location: New York City </mem>  <Finish>
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 37
+With comparing mem
+generated -> <mem>  </mem> What type of park is being searched for?
+best_match -> <mem>  </mem> What type of park are you looking for?
+BLEU_SCORE with mem69.67812829199794
+
+Without comparing mem
+generated ->  What type of park is being searched for?
+best_match ->  What type of park are you looking for?
+BLEU_SCORE without mem35.49481056010054
+
+With comparing mem
+generated -> <mem> Park Type: National Park System </mem>  What specific feature is required for the park?
+best_match -> <mem> Park Type: National Park System </mem>  What specific program should the park offer?
+BLEU_SCORE with mem69.98672922662385
+
+Without comparing mem
+generated ->   What specific feature is required for the park?
+best_match ->   What specific program should the park offer?
+BLEU_SCORE without mem14.25876976452075
+
+With comparing mem
+generated -> <mem> Park Feature: Junior Ranger Program for kids </mem>  <Finish>
+best_match -> <mem> Required Program: Junior Ranger Program for kids </mem>  <Finish>
+BLEU_SCORE with mem77.7811122305422
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 38
+With comparing mem
+generated -> <mem>  </mem> What is the starting location for the car rental?
+best_match -> <mem>  </mem> Where should the car be rented?
+BLEU_SCORE with mem39.56716729452429
+
+Without comparing mem
+generated ->  What is the starting location for the car rental?
+best_match ->  Where should the car be rented?
+BLEU_SCORE without mem9.287528999566801
+
+With comparing mem
+generated -> <mem> Starting Location: Brooklyn - Central, NY </mem>  What is the destination for the car rental?
+best_match -> <mem>  </mem> Where should the car be rented?
+BLEU_SCORE with mem16.299446731288942
+
+Without comparing mem
+generated ->   What is the destination for the car rental?
+best_match ->  Where should the car be rented?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Destination: Brooklyn - Central, NY </mem>  When should the car rental start and end?
+best_match -> <mem> Rental Start Date: April 9 </mem>  What is the end date of the rental period?
+BLEU_SCORE with mem17.059573701616795
+
+Without comparing mem
+generated ->   When should the car rental start and end?
+best_match ->   What is the end date of the rental period?
+BLEU_SCORE without mem6.033504141761816
+
+With comparing mem
+generated -> <mem> Rental Duration: April 15 </mem>  What type of car is being requested for the rental?
+best_match -> <mem>  </mem> Where should the car be rented?
+BLEU_SCORE with mem16.299446731288935
+
+Without comparing mem
+generated ->   What type of car is being requested for the rental?
+best_match ->  Where should the car be rented?
+BLEU_SCORE without mem4.9323515694897075
+
+With comparing mem
+generated -> <mem> Car Type: Subcompact </mem>  What additional features are to be included in the rental?
+best_match -> <mem>  </mem> Where should the car be rented?
+BLEU_SCORE with mem17.096862609754865
+
+Without comparing mem
+generated ->   What additional features are to be included in the rental?
+best_match ->  Where should the car be rented?
+BLEU_SCORE without mem4.9323515694897075
+
+With comparing mem
+generated -> <mem> Additional Features: Unlimited Mileage </mem>  <Finish>
+best_match -> <mem> Rental End Date: April 15 </mem>  <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 39
+With comparing mem
+generated -> <mem>  </mem> What make and model of car is being sought?
+best_match -> <mem> Car Make: Tesla </mem>  What is the model of the car to find?
+BLEU_SCORE with mem26.55515607116366
+
+Without comparing mem
+generated ->  What make and model of car is being sought?
+best_match ->   What is the model of the car to find?
+BLEU_SCORE without mem11.044795567078939
+
+With comparing mem
+generated -> <mem> Car Make and Model: Model S </mem>  What is the maximum age of the car?
+best_match -> <mem> Car Make: Tesla </mem>  What is the model of the car to find?
+BLEU_SCORE with mem47.71512105691512
+
+Without comparing mem
+generated ->   What is the maximum age of the car?
+best_match ->   What is the model of the car to find?
+BLEU_SCORE without mem27.75806054476853
+
+With comparing mem
+generated -> <mem> Car Age: Model S </mem>  What is the price range for the used car?
+best_match -> <mem> Car Make: Tesla </mem>  What is the model of the car to find?
+BLEU_SCORE with mem40.503640542848444
+
+Without comparing mem
+generated ->   What is the price range for the used car?
+best_match ->   What is the model of the car to find?
+BLEU_SCORE without mem18.575057999133595
+
+With comparing mem
+generated -> <mem> Price Range: Model S </mem>  What is the geographic location for searching?
+best_match -> <mem> Car Condition: Used </mem> What is the make of the car to find?
+BLEU_SCORE with mem35.68861044660041
+
+Without comparing mem
+generated ->   What is the geographic location for searching?
+best_match ->  What is the make of the car to find?
+BLEU_SCORE without mem17.20339087300932
+
+With comparing mem
+generated -> <mem> Geo Location: Tesla </mem>  Which state should the search be focused on?
+best_match -> <mem> Car Model: Model S </mem>  What is the color of the car to find?
+BLEU_SCORE with mem17.14814356551275
+
+Without comparing mem
+generated ->   Which state should the search be focused on?
+best_match ->   What is the color of the car to find?
+BLEU_SCORE without mem5.0735520042259505
+
+With comparing mem
+generated -> <mem> Focus State: Red </mem>  <Finish>
+best_match -> <mem> Car Color: Red </mem>  <Finish>
+BLEU_SCORE with mem69.97522298221911
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 40
+With comparing mem
+generated -> <mem> Continent: Europe </mem> How many guests should the mansions be able to accommodate?
+best_match -> <mem> Location: Europe </mem> How many adults will be staying in the mansion?
+BLEU_SCORE with mem41.859187881827765
+
+Without comparing mem
+generated ->  How many guests should the mansions be able to accommodate?
+best_match ->  How many adults will be staying in the mansion?
+BLEU_SCORE without mem9.425159511373677
+
+With comparing mem
+generated -> <mem> Guest Capacity: 3 adults </mem>  What is the budget per night for the mansions?
+best_match -> <mem> Location: Europe </mem> How many adults will be staying in the mansion?
+BLEU_SCORE with mem17.509131039045975
+
+Without comparing mem
+generated ->   What is the budget per night for the mansions?
+best_match ->  How many adults will be staying in the mansion?
+BLEU_SCORE without mem4.990049701936832
+
+With comparing mem
+generated -> <mem> Budget per Night: $500 </mem>  What are the check-in and check-out dates for the stay?
+best_match -> <mem> Number of Adults: 3 </mem>  Is there a specific month for the stay or is any month acceptable?
+BLEU_SCORE with mem17.52864514766292
+
+Without comparing mem
+generated ->   What are the check-in and check-out dates for the stay?
+best_match ->   Is there a specific month for the stay or is any month acceptable?
+BLEU_SCORE without mem11.412735515545796
+
+With comparing mem
+generated -> <mem> Dates: Any month </mem>  <Finish>
+best_match -> <mem> Month for Stay: Any month </mem>  <Finish>
+BLEU_SCORE with mem67.83686168526629
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 41
+With comparing mem
+generated -> <mem>  </mem> What is the full name of the person to search for?
+best_match -> <mem>  </mem> What is the full name of the person to search for?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What is the full name of the person to search for?
+best_match ->  What is the full name of the person to search for?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Person Name: John Smith </mem>  What is the date of birth for the person?
+best_match -> <mem>  </mem> What is the full name of the person to search for?
+BLEU_SCORE with mem36.857838224116975
+
+Without comparing mem
+generated ->   What is the date of birth for the person?
+best_match ->  What is the full name of the person to search for?
+BLEU_SCORE without mem18.0854275844538
+
+With comparing mem
+generated -> <mem> Date of Birth: John Smith </mem>  Where should the person be located?
+best_match -> <mem> Full Name: John Smith </mem>  In which location should the search be conducted?
+BLEU_SCORE with mem38.19921752044477
+
+Without comparing mem
+generated ->   Where should the person be located?
+best_match ->   In which location should the search be conducted?
+BLEU_SCORE without mem11.737849637633069
+
+With comparing mem
+generated -> <mem> Location: New York </mem>  What is the priority regarding the search results?
+best_match -> <mem> Full Name: John Smith </mem>  In which location should the search be conducted?
+BLEU_SCORE with mem19.323033984562095
+
+Without comparing mem
+generated ->   What is the priority regarding the search results?
+best_match ->   In which location should the search be conducted?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Search Priority: New York </mem>  <Finish>
+best_match -> <mem> Search Location: New York </mem>  <Finish>
+BLEU_SCORE with mem80.03203203845001
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 42
+With comparing mem
+generated -> <mem>  </mem> What is the price range for the carry-on luggage?
+best_match -> <mem>  </mem> What type of carry-on luggage is needed?
+BLEU_SCORE with mem47.386111527486165
+
+Without comparing mem
+generated ->  What is the price range for the carry-on luggage?
+best_match ->  What type of carry-on luggage is needed?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Luggage Type: Hard side Carry-on </mem>  Which brand of carry-on luggage is being looked for?
+best_match -> <mem>  </mem> What type of carry-on luggage is needed?
+BLEU_SCORE with mem25.924945760983757
+
+Without comparing mem
+generated ->   Which brand of carry-on luggage is being looked for?
+best_match ->  What type of carry-on luggage is needed?
+BLEU_SCORE without mem27.77619034011791
+
+With comparing mem
+generated -> <mem> Brand: Hard side Carry-on Luggage </mem>  What color is the carry-on luggage to look for?
+best_match -> <mem> Intended Use: Business </mem>  What color should the carry-on luggage be?
+BLEU_SCORE with mem32.14110553053944
+
+Without comparing mem
+generated ->   What color is the carry-on luggage to look for?
+best_match ->   What color should the carry-on luggage be?
+BLEU_SCORE without mem20.556680845025987
+
+With comparing mem
+generated -> <mem> Luggage Color: Black </mem>  What color should the interior of the carry-on luggage be?
+best_match -> <mem> Intended Use: Business </mem>  What color should the carry-on luggage be?
+BLEU_SCORE with mem53.66411241731205
+
+Without comparing mem
+generated ->   What color should the interior of the carry-on luggage be?
+best_match ->   What color should the carry-on luggage be?
+BLEU_SCORE without mem57.067457770560026
+
+With comparing mem
+generated -> <mem> Interior Color: Black </mem>  What is the main feature of the carry-on luggage that is important?
+best_match -> <mem> Luggage Type: Hard side Carry-on Luggage </mem>  What is the intended use for the carry-on luggage?
+BLEU_SCORE with mem35.8234211912872
+
+Without comparing mem
+generated ->   What is the main feature of the carry-on luggage that is important?
+best_match ->   What is the intended use for the carry-on luggage?
+BLEU_SCORE without mem20.098339913206324
+
+With comparing mem
+generated -> <mem> Main Feature: Business use </mem>  <Finish>
+best_match -> <mem> Luggage Color: Black </mem>  <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 43
+With comparing mem
+generated -> <mem>  </mem> What is the location for the hotel search?
+best_match -> <mem>  </mem> What is the name of the resort to look for a room in?
+BLEU_SCORE with mem45.53085325931462
+
+Without comparing mem
+generated ->  What is the location for the hotel search?
+best_match ->  What is the name of the resort to look for a room in?
+BLEU_SCORE without mem12.10926138336565
+
+With comparing mem
+generated -> <mem> Location: Marriott Bonvoy resort in the Caribbean </mem>  What are the check-in and check-out dates for the hotel stay?
+best_match -> <mem> Duration of Stay: 10 days </mem>  What is the start date for the stay?
+BLEU_SCORE with mem21.47607499133801
+
+Without comparing mem
+generated ->   What are the check-in and check-out dates for the hotel stay?
+best_match ->   What is the start date for the stay?
+BLEU_SCORE without mem10.600313379512592
+
+With comparing mem
+generated -> <mem> Check-in Date: May 5th </mem>  What is the specific amenity needed for the hotel?
+best_match -> <mem>  </mem> What is the name of the resort to look for a room in?
+BLEU_SCORE with mem34.53064989552127
+
+Without comparing mem
+generated ->   What is the specific amenity needed for the hotel?
+best_match ->  What is the name of the resort to look for a room in?
+BLEU_SCORE without mem12.451233733093902
+
+With comparing mem
+generated -> <mem> Required Amenity: Marriott Bonvoy resort in the Caribbean </mem>  <Finish>
+best_match -> <mem> Start Date: May 5th </mem>  <Finish>
+BLEU_SCORE with mem38.817246541254406
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 44
+With comparing mem
+generated -> <mem>  </mem> What is the location for the fashion class event to be searched?
+best_match -> <mem>  </mem> What type of online events are we looking for?
+BLEU_SCORE with mem36.658827296012404
+
+Without comparing mem
+generated ->  What is the location for the fashion class event to be searched?
+best_match ->  What type of online events are we looking for?
+BLEU_SCORE without mem4.065425428798724
+
+With comparing mem
+generated -> <mem> Event Location: Free online fashion class events </mem>  Where should the fashion class event be followed?
+best_match -> <mem> Event Type: Free online fashion class events </mem>  When should the events be occurring?
+BLEU_SCORE with mem52.05125411276868
+
+Without comparing mem
+generated ->   Where should the fashion class event be followed?
+best_match ->   When should the events be occurring?
+BLEU_SCORE without mem11.339582221952005
+
+With comparing mem
+generated -> <mem> Follow Location: This weekend </mem>  <Finish>
+best_match -> <mem> Post-Search Actions: Save event, follow organizer. </mem>  <Finish>
+BLEU_SCORE with mem38.594519944265
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 45
+With comparing mem
+generated -> <mem>  </mem> What is the task related to?
+best_match -> <mem> Subject of Inquiry: Jerry Trainor </mem> <Finish>
+BLEU_SCORE with mem25.06824449449871
+
+Without comparing mem
+generated ->  What is the task related to?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Task Type: Research Jerry Trainor's upcoming projects </mem>  What is the specific criteria for the projects?
+best_match -> <mem> Subject of Inquiry: Jerry Trainor </mem> <Finish>
+BLEU_SCORE with mem15.16834432881333
+
+Without comparing mem
+generated ->   What is the specific criteria for the projects?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Project Criteria: Not specified </mem>  <Finish>
+best_match -> <mem> Subject of Inquiry: Jerry Trainor </mem> <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 46
+With comparing mem
+generated -> <mem> Product Type: LED smart home indoor strip lighting </mem> What is the main criteria for selecting the item to purchase?
+best_match -> <mem> Lighting Type: LED smart home indoor strip lighting </mem> What is the main characteristic to consider when choosing the lighting?
+BLEU_SCORE with mem62.06800198581103
+
+Without comparing mem
+generated ->  What is the main criteria for selecting the item to purchase?
+best_match ->  What is the main characteristic to consider when choosing the lighting?
+BLEU_SCORE without mem24.384183193426086
+
+With comparing mem
+generated -> <mem> Selection Criteria: Cheapest option available </mem>  What action should be taken after finding the cheapest option?
+best_match -> <mem> Main Characteristic: Cheapest option </mem>  What action should be taken once the cheapest option is found?
+BLEU_SCORE with mem50.01646090757956
+
+Without comparing mem
+generated ->   What action should be taken after finding the cheapest option?
+best_match ->   What action should be taken once the cheapest option is found?
+BLEU_SCORE without mem44.12739850976206
+
+With comparing mem
+generated -> <mem> Action After Finding Cheapest: Add to cart </mem>  <Finish>
+best_match -> <mem> Post-Purchase Action: Schedule delivery </mem>  <Finish>
+BLEU_SCORE with mem42.08598069524091
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 47
+With comparing mem
+generated -> <mem>  </mem> What is the item to view the complexity rating for?
+best_match -> <mem>  </mem> What is the item to view the complexity rating for?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What is the item to view the complexity rating for?
+best_match ->  What is the item to view the complexity rating for?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Item: Frosthaven </mem>  <Finish>
+best_match -> <mem> Item for Complexity Rating: Frosthaven </mem>  <Finish>
+BLEU_SCORE with mem67.57997430846015
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 48
+With comparing mem
+generated -> <mem>  </mem> What information is being sought?
+best_match -> <mem> Task: Find East Boston ferry schedule </mem>  What additional information about the East Boston ferry is needed besides the schedule?
+BLEU_SCORE with mem13.21052697423741
+
+Without comparing mem
+generated ->  What information is being sought?
+best_match ->   What additional information about the East Boston ferry is needed besides the schedule?
+BLEU_SCORE without mem3.0257641290621713
+
+With comparing mem
+generated -> <mem> Information Sought: Connections and fares </mem>  What is the starting point for the search?
+best_match -> <mem>  </mem> What is the primary task to be performed regarding the East Boston ferry?
+BLEU_SCORE with mem33.846535837380095
+
+Without comparing mem
+generated ->   What is the starting point for the search?
+best_match ->  What is the primary task to be performed regarding the East Boston ferry?
+BLEU_SCORE without mem11.56970650765539
+
+With comparing mem
+generated -> <mem> Starting Point: East Boston ferry schedule </mem>  What is the specific action required after finding the schedule?
+best_match -> <mem> Task: Find East Boston ferry schedule </mem>  What additional information about the East Boston ferry is needed besides the schedule?
+BLEU_SCORE with mem39.26640106292019
+
+Without comparing mem
+generated ->   What is the specific action required after finding the schedule?
+best_match ->   What additional information about the East Boston ferry is needed besides the schedule?
+BLEU_SCORE without mem12.630268049376259
+
+With comparing mem
+generated -> <mem> Action Required: Download connections and fares information </mem>  <Finish>
+best_match -> <mem> Schedule Format: PDF download </mem>  <Finish>
+BLEU_SCORE with mem41.180376356915765
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 49
+With comparing mem
+generated -> <mem>  </mem> Who's touchdown records are being researched?
+best_match -> <mem>  </mem> What is the objective of the research task?
+BLEU_SCORE with mem38.75827230406697
+
+Without comparing mem
+generated ->  Who's touchdown records are being researched?
+best_match ->  What is the objective of the research task?
+BLEU_SCORE without mem4.935157841536379
+
+With comparing mem
+generated -> <mem> Player: Tom Brady </mem>  What specific record needs to be found?
+best_match -> <mem>  </mem> What is the objective of the research task?
+BLEU_SCORE with mem26.104909033290696
+
+Without comparing mem
+generated ->   What specific record needs to be found?
+best_match ->  What is the objective of the research task?
+BLEU_SCORE without mem5.795599612995366
+
+With comparing mem
+generated -> <mem> Record to Find: Most touchdowns in a single season by Tom Brady </mem>  <Finish>
+best_match -> <mem> Research Objective: Year of Tom Brady's highest single-season touchdown record </mem>  <Finish>
+BLEU_SCORE with mem32.26789736295068
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 50
+With comparing mem
+generated -> <mem>  </mem> What is the destination city for the hotel search?
+best_match -> <mem>  </mem> What is the destination city for the hotel booking?
+BLEU_SCORE with mem88.43946454355333
+
+Without comparing mem
+generated ->  What is the destination city for the hotel search?
+best_match ->  What is the destination city for the hotel booking?
+BLEU_SCORE without mem78.25422900366438
+
+With comparing mem
+generated -> <mem> Destination City: Jakarta </mem>  What is the check-in date for the hotel booking?
+best_match -> <mem> Length of Stay: Three nights </mem>  What is the check-in date for the hotel?
+BLEU_SCORE with mem59.56721948958646
+
+Without comparing mem
+generated ->   What is the check-in date for the hotel booking?
+best_match ->   What is the check-in date for the hotel?
+BLEU_SCORE without mem78.25422900366438
+
+With comparing mem
+generated -> <mem> Check-in Date: 1st June </mem>  What is the check-out date for the hotel booking?
+best_match -> <mem> Length of Stay: Three nights </mem>  What is the check-in date for the hotel?
+BLEU_SCORE with mem44.74935415497116
+
+Without comparing mem
+generated ->   What is the check-out date for the hotel booking?
+best_match ->   What is the check-in date for the hotel?
+BLEU_SCORE without mem39.281465090051285
+
+With comparing mem
+generated -> <mem> Check-out Date: 1st June </mem>  How many adults will be staying at the hotel?
+best_match -> <mem> Booking Priority: The cheapest available hotel </mem>  What is the name of the guest who will stay at the hotel?
+BLEU_SCORE with mem21.12068464770508
+
+Without comparing mem
+generated ->   How many adults will be staying at the hotel?
+best_match ->   What is the name of the guest who will stay at the hotel?
+BLEU_SCORE without mem18.61893718748252
+
+With comparing mem
+generated -> <mem> Number of Adults: Joe Bloggs </mem>  What email address should be used for the hotel booking?
+best_match -> <mem> Guest's Name: Joe Bloggs </mem>  What email address should be used to book the hotel?
+BLEU_SCORE with mem60.51475274955804
+
+Without comparing mem
+generated ->   What email address should be used for the hotel booking?
+best_match ->   What email address should be used to book the hotel?
+BLEU_SCORE without mem53.48259312838876
+
+With comparing mem
+generated -> <mem> Email Address: buckeye.foobar@gmail.com </mem>  What phone number should be used for the hotel booking?
+best_match -> <mem> Email Address: buckeye.foobar@gmail.com </mem>  What phone number should be used in connection with the booking?
+BLEU_SCORE with mem81.58650201574326
+
+Without comparing mem
+generated ->   What phone number should be used for the hotel booking?
+best_match ->   What phone number should be used in connection with the booking?
+BLEU_SCORE without mem48.83499409416458
+
+With comparing mem
+generated -> <mem> Phone Number: 11111111111 </mem>  <Finish>
+best_match -> <mem> Billing Address: New York, zip code 10001 </mem>  <Finish>
+BLEU_SCORE with mem38.098420997397426
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 51
+With comparing mem
+generated -> <mem> Gaming Console Model: Xbox Series X, Condition: Used </mem> What color should the Xbox Series X be?
+best_match -> <mem> Product: Used Xbox Series X </mem> <Finish>
+BLEU_SCORE with mem17.37643641367697
+
+Without comparing mem
+generated ->  What color should the Xbox Series X be?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Console Color: None specified </mem>  <Finish>
+best_match -> <mem> Product: Used Xbox Series X </mem> <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 52
+With comparing mem
+generated -> <mem>  </mem> What is the current obsession to set for tracking?
+best_match -> <mem>  </mem> What is the position of the hip hop track to set as the current obsession?
+BLEU_SCORE with mem46.900320287400326
+
+Without comparing mem
+generated ->  What is the current obsession to set for tracking?
+best_match ->  What is the position of the hip hop track to set as the current obsession?
+BLEU_SCORE without mem16.38063278514081
+
+With comparing mem
+generated -> <mem> Obsession Topic: 3rd </mem>  <Finish>
+best_match -> <mem> Action: Set as current obsession </mem>  <Finish>
+BLEU_SCORE with mem47.20305201905447
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 53
+With comparing mem
+generated -> <mem>  </mem> What type of car model's accessories are being sought?
+best_match -> <mem> Product Type: Accessories, Specific Model: Model X </mem> What is the purpose of the search?
+BLEU_SCORE with mem18.912083897456835
+
+Without comparing mem
+generated ->  What type of car model's accessories are being sought?
+best_match ->  What is the purpose of the search?
+BLEU_SCORE without mem5.522397783539471
+
+With comparing mem
+generated -> <mem> Car Model: Model X </mem>  <Finish>
+best_match -> <mem> Search Purpose: Best seller accessories for Model X </mem>  <Finish>
+BLEU_SCORE with mem50.59974314883429
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 54
+With comparing mem
+generated -> <mem>  </mem> What specific features should the cafes have?
+best_match -> <mem>  </mem> What type of seating should the cafes have?
+BLEU_SCORE with mem67.74546186626391
+
+Without comparing mem
+generated ->  What specific features should the cafes have?
+best_match ->  What type of seating should the cafes have?
+BLEU_SCORE without mem47.750342648354646
+
+With comparing mem
+generated -> <mem> Required Feature: Outdoor seating </mem>  What is the location for browsing cafes with outdoor seating?
+best_match -> <mem>  </mem> What type of seating should the cafes have?
+BLEU_SCORE with mem22.816849039973945
+
+Without comparing mem
+generated ->   What is the location for browsing cafes with outdoor seating?
+best_match ->  What type of seating should the cafes have?
+BLEU_SCORE without mem5.604233375480572
+
+With comparing mem
+generated -> <mem> Location for Browsing: Outdoor seating </mem>  <Finish>
+best_match -> <mem> Pet Friendliness: Dog friendly </mem>  <Finish>
+BLEU_SCORE with mem46.892438882117254
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 55
+With comparing mem
+generated -> <mem>  </mem> What is the location for the job search?
+best_match -> <mem> Job Type: Sales job </mem>  In which location should the job be searched?
+BLEU_SCORE with mem18.983601756374185
+
+Without comparing mem
+generated ->  What is the location for the job search?
+best_match ->   In which location should the job be searched?
+BLEU_SCORE without mem11.339582221952005
+
+With comparing mem
+generated -> <mem> Job Location: San Francisco </mem>  What type of job should be added to the list for job search?
+best_match -> <mem>  </mem> What type of job should be searched for?
+BLEU_SCORE with mem41.25656013737127
+
+Without comparing mem
+generated ->   What type of job should be added to the list for job search?
+best_match ->  What type of job should be searched for?
+BLEU_SCORE without mem37.59663529467017
+
+With comparing mem
+generated -> <mem> Job Type: Sales job </mem>  What is the minimum salary requirement for the job?
+best_match -> <mem>  </mem> What type of job should be searched for?
+BLEU_SCORE with mem23.41812326184748
+
+Without comparing mem
+generated ->   What is the minimum salary requirement for the job?
+best_match ->  What type of job should be searched for?
+BLEU_SCORE without mem5.934202609760488
+
+With comparing mem
+generated -> <mem> Minimum Salary: $100,000 per year </mem>  <Finish>
+best_match -> <mem> Action if Found: Apply for the job </mem>  <Finish>
+BLEU_SCORE with mem41.345637683545284
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 56
+With comparing mem
+generated -> <mem>  </mem> What type of shoes is being searched for?
+best_match -> <mem> Shoe Brand: Keen </mem>  What type of hiking shoes are we searching for?
+BLEU_SCORE with mem36.83931895563033
+
+Without comparing mem
+generated ->  What type of shoes is being searched for?
+best_match ->   What type of hiking shoes are we searching for?
+BLEU_SCORE without mem20.90067144241745
+
+With comparing mem
+generated -> <mem> Shoe Type: Women's hiking shoes </mem>  What is the maximum price range for the shoes?
+best_match -> <mem> Store Location: Columbus, Ohio store </mem>  What is the minimum average rating for the shoes?
+BLEU_SCORE with mem40.19329987592565
+
+Without comparing mem
+generated ->   What is the maximum price range for the shoes?
+best_match ->   What is the minimum average rating for the shoes?
+BLEU_SCORE without mem37.99178428257963
+
+With comparing mem
+generated -> <mem> Price Range: Above 4 </mem>  What size should the women's hiking shoes be?
+best_match -> <mem> Shoe Color: Brown </mem>  What shoe size is required?
+BLEU_SCORE with mem24.62292439135324
+
+Without comparing mem
+generated ->   What size should the women's hiking shoes be?
+best_match ->   What shoe size is required?
+BLEU_SCORE without mem6.27465531099474
+
+With comparing mem
+generated -> <mem> Shoe Size: Number 9 </mem>  <Finish>
+best_match -> <mem> Minimum Average Rating: Above 4 </mem>  <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 57
+With comparing mem
+generated -> <mem>  </mem> What type of publisher is being requested?
+best_match -> <mem>  </mem> What is the task related to?
+BLEU_SCORE with mem50.31747626530137
+
+Without comparing mem
+generated ->  What type of publisher is being requested?
+best_match ->  What is the task related to?
+BLEU_SCORE without mem7.267884212102741
+
+With comparing mem
+generated -> <mem> Publisher Type: Board game publishers </mem>  <Finish>
+best_match -> <mem> Task: List board game publishers </mem>  <Finish>
+BLEU_SCORE with mem61.47881529512643
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 58
+With comparing mem
+generated -> <mem>  </mem> What type of items needs to be added to the cart?
+best_match -> <mem>  </mem> What type of item is to be added to the cart?
+BLEU_SCORE with mem79.12619863720215
+
+Without comparing mem
+generated ->  What type of items needs to be added to the cart?
+best_match ->  What type of item is to be added to the cart?
+BLEU_SCORE without mem63.40466277046863
+
+With comparing mem
+generated -> <mem> Item Type: Women's Pink sweet pants </mem>  How many Women's Pink sweet pants need to be added to the cart?
+best_match -> <mem> Item Type: Women's Pink sweet pants </mem>  How many pairs of the Pink sweet pants need to be added?
+BLEU_SCORE with mem76.64461877303218
+
+Without comparing mem
+generated ->   How many Women's Pink sweet pants need to be added to the cart?
+best_match ->   How many pairs of the Pink sweet pants need to be added?
+BLEU_SCORE without mem50.317476265301394
+
+With comparing mem
+generated -> <mem> Quantity to Add: Two pairs </mem>  What size should the Women's Pink sweet pants be?
+best_match -> <mem> Quantity: Two pairs </mem>  What size of the Pink sweet pants should be added?
+BLEU_SCORE with mem54.09634151710858
+
+Without comparing mem
+generated ->   What size should the Women's Pink sweet pants be?
+best_match ->   What size of the Pink sweet pants should be added?
+BLEU_SCORE without mem20.58478616126868
+
+With comparing mem
+generated -> <mem> Pants Size: XXL </mem>  What is the full name of the customer to add to the order?
+best_match -> <mem>  </mem> What type of item is to be added to the cart?
+BLEU_SCORE with mem22.542577626536843
+
+Without comparing mem
+generated ->   What is the full name of the customer to add to the order?
+best_match ->  What type of item is to be added to the cart?
+BLEU_SCORE without mem7.768562846380172
+
+With comparing mem
+generated -> <mem> Customer Name: Women's Pink sweet pants </mem>  What email address should be used for the order?
+best_match -> <mem>  </mem> What type of item is to be added to the cart?
+BLEU_SCORE with mem21.331098311931566
+
+Without comparing mem
+generated ->   What email address should be used for the order?
+best_match ->  What type of item is to be added to the cart?
+BLEU_SCORE without mem4.85851417160653
+
+With comparing mem
+generated -> <mem> Email Address: Women's Pink sweet pants </mem>  What phone number should be provided for the order?
+best_match -> <mem>  </mem> What type of item is to be added to the cart?
+BLEU_SCORE with mem21.331098311931566
+
+Without comparing mem
+generated ->   What phone number should be provided for the order?
+best_match ->  What type of item is to be added to the cart?
+BLEU_SCORE without mem4.85851417160653
+
+With comparing mem
+generated -> <mem> Phone Number: Women's Pink sweet pants </mem>  What is the delivery address for the order?
+best_match -> <mem>  </mem> What type of item is to be added to the cart?
+BLEU_SCORE with mem22.325877055095226
+
+Without comparing mem
+generated ->   What is the delivery address for the order?
+best_match ->  What type of item is to be added to the cart?
+BLEU_SCORE without mem4.8312524369621626
+
+With comparing mem
+generated -> <mem> Delivery Address: Women's Pink sweet pants </mem>  What zip code should be used for the delivery address?
+best_match -> <mem>  </mem> What type of item is to be added to the cart?
+BLEU_SCORE with mem20.42128370387497
+
+Without comparing mem
+generated ->   What zip code should be used for the delivery address?
+best_match ->  What type of item is to be added to the cart?
+BLEU_SCORE without mem4.839576869824698
+
+With comparing mem
+generated -> <mem> Zip Code: Women's Pink sweet pants </mem>  <Finish>
+best_match -> <mem> Next Step: View cart </mem>  <Finish>
+BLEU_SCORE with mem43.85068972747104
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 59
+With comparing mem
+generated -> <mem>  </mem> What is the destination for the transportation ticket?
+best_match -> <mem> Departure Location: Abbotsford </mem>  What is the destination for the ticket?
+BLEU_SCORE with mem59.17692453862139
+
+Without comparing mem
+generated ->  What is the destination for the transportation ticket?
+best_match ->   What is the destination for the ticket?
+BLEU_SCORE without mem66.06328636027612
+
+With comparing mem
+generated -> <mem> Destination: Sheboygan </mem>  What type of transportation ticket is needed?
+best_match -> <mem> Departure Location: Abbotsford </mem>  What is the destination for the ticket?
+BLEU_SCORE with mem28.15107491974925
+
+Without comparing mem
+generated ->   What type of transportation ticket is needed?
+best_match ->   What is the destination for the ticket?
+BLEU_SCORE without mem7.809849842300637
+
+With comparing mem
+generated -> <mem> Transportation Ticket Type: Sheboygan </mem>  What is the date of travel for which the ticket is required?
+best_match -> <mem> Destination: Sheboygan </mem>  What is the date of travel for which the ticket needs to be found?
+BLEU_SCORE with mem68.36013949954278
+
+Without comparing mem
+generated ->   What is the date of travel for which the ticket is required?
+best_match ->   What is the date of travel for which the ticket needs to be found?
+BLEU_SCORE without mem64.64157787429167
+
+With comparing mem
+generated -> <mem> Travel Date: March 26, 2023 </mem>  <Finish>
+best_match -> <mem> Travel Date: March 26, 2023 </mem>  <Finish>
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 60
+With comparing mem
+generated -> <mem> Clothing Type: Women's sports bras </mem> What size range should the sports bras be available in?
+best_match -> <mem> Support Level: High support </mem>  What size should the sports bras be?
+BLEU_SCORE with mem40.76128826387552
+
+Without comparing mem
+generated ->  What size range should the sports bras be available in?
+best_match ->   What size should the sports bras be?
+BLEU_SCORE without mem41.72261448611506
+
+With comparing mem
+generated -> <mem> Size Range: Small </mem>  What color should the sports bras be?
+best_match -> <mem>  </mem> What color should the sports bras be?
+BLEU_SCORE with mem67.49454888262711
+
+Without comparing mem
+generated ->   What color should the sports bras be?
+best_match ->  What color should the sports bras be?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Color: Purple </mem>  Should the sports bras have adjustable straps?
+best_match -> <mem> Color: Purple </mem>  What level of support should the sports bras provide?
+BLEU_SCORE with mem53.948230957280764
+
+Without comparing mem
+generated ->   Should the sports bras have adjustable straps?
+best_match ->   What level of support should the sports bras provide?
+BLEU_SCORE without mem17.20339087300932
+
+With comparing mem
+generated -> <mem> Strap Type: High support </mem>  What is the price range for the sports bras?
+best_match -> <mem> Support Level: High support </mem>  What size should the sports bras be?
+BLEU_SCORE with mem44.03313338639101
+
+Without comparing mem
+generated ->   What is the price range for the sports bras?
+best_match ->   What size should the sports bras be?
+BLEU_SCORE without mem17.747405280050266
+
+With comparing mem
+generated -> <mem> Price Range: Small </mem>  <Finish>
+best_match -> <mem> Size: Small size </mem>  <Finish>
+BLEU_SCORE with mem57.3122448409426
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 61
+With comparing mem
+generated -> <mem> Sport: NBA </mem> What is the current date for the search?
+best_match -> <mem> Required Information: Latest betting odds for NBA title </mem>  Where can this information typically be found?
+BLEU_SCORE with mem15.773723072682133
+
+Without comparing mem
+generated ->  What is the current date for the search?
+best_match ->   Where can this information typically be found?
+BLEU_SCORE without mem4.767707020457095
+
+With comparing mem
+generated -> <mem> Source Types: Betting websites, sports news websites, official NBA statistics and reports </mem>  <Finish>
+best_match -> <mem> Post-Finding Action: Report team name and odds </mem>  <Finish>
+BLEU_SCORE with mem29.515162380863735
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 62
+With comparing mem
+generated -> <mem>  </mem> What is the task related to?
+best_match -> <mem>  </mem> What action needs to be taken for the track?
+BLEU_SCORE with mem44.94470786474996
+
+Without comparing mem
+generated ->  What is the task related to?
+best_match ->  What action needs to be taken for the track?
+BLEU_SCORE without mem6.050259138270144
+
+With comparing mem
+generated -> <mem> Task: Give a like </mem>  Where should the like be given?
+best_match -> <mem> Action: Give a like </mem>  Which track should be liked?
+BLEU_SCORE with mem46.661736281950525
+
+Without comparing mem
+generated ->   Where should the like be given?
+best_match ->   Which track should be liked?
+BLEU_SCORE without mem8.643019616048525
+
+With comparing mem
+generated -> <mem> Location for Like: #1 track of Real Time Top Chart </mem>  What chart's top track is to be liked?
+best_match -> <mem> Action: Give a like </mem>  Which track should be liked?
+BLEU_SCORE with mem16.170596160446447
+
+Without comparing mem
+generated ->   What chart's top track is to be liked?
+best_match ->   Which track should be liked?
+BLEU_SCORE without mem19.070828081828378
+
+With comparing mem
+generated -> <mem> Chart for Top Track: Real Time Top Chart </mem>  <Finish>
+best_match -> <mem> Track to Like: #1 on Real Time Top Chart </mem>  <Finish>
+BLEU_SCORE with mem57.3764722928549
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 63
+With comparing mem
+generated -> <mem> Vehicle Type: SUV </mem> What is the pickup location for the SUV rental?
+best_match -> <mem> Vehicle Type: SUV </mem> What is the location for the vehicle rental search?
+BLEU_SCORE with mem72.98378378464027
+
+Without comparing mem
+generated ->  What is the pickup location for the SUV rental?
+best_match ->  What is the location for the vehicle rental search?
+BLEU_SCORE without mem28.227983861579556
+
+With comparing mem
+generated -> <mem> Pickup Location: Brooklyn </mem>  What is the drop-off location for the SUV rental?
+best_match -> <mem> Rental Location: Brooklyn </mem>  How long is the rental period for the SUV?
+BLEU_SCORE with mem43.694931249512024
+
+Without comparing mem
+generated ->   What is the drop-off location for the SUV rental?
+best_match ->   How long is the rental period for the SUV?
+BLEU_SCORE without mem21.36435031981171
+
+With comparing mem
+generated -> <mem> Drop-off Location: 1 day </mem>  What is the date and time for picking up the SUV?
+best_match -> <mem> Rental Location: Brooklyn </mem>  How long is the rental period for the SUV?
+BLEU_SCORE with mem21.451278268552834
+
+Without comparing mem
+generated ->   What is the date and time for picking up the SUV?
+best_match ->   How long is the rental period for the SUV?
+BLEU_SCORE without mem16.59038701421971
+
+With comparing mem
+generated -> <mem> Rental Start Date and Time: 1 day </mem>  <Finish>
+best_match -> <mem> Rental Duration: 1 day </mem>  <Finish>
+BLEU_SCORE with mem65.40585844910977
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 64
+With comparing mem
+generated -> <mem>  </mem> From which location should the train depart?
+best_match -> <mem> Destination: Milan </mem>  Where should the train depart from?
+BLEU_SCORE with mem36.209781491447885
+
+Without comparing mem
+generated ->  From which location should the train depart?
+best_match ->   Where should the train depart from?
+BLEU_SCORE without mem36.55552228545123
+
+With comparing mem
+generated -> <mem> Departure Location: Paris </mem>  To which destination should the train be headed?
+best_match -> <mem> Destination: Milan </mem>  Where should the train depart from?
+BLEU_SCORE with mem23.185078121230152
+
+Without comparing mem
+generated ->   To which destination should the train be headed?
+best_match ->   Where should the train depart from?
+BLEU_SCORE without mem19.070828081828378
+
+With comparing mem
+generated -> <mem> Destination: Paris </mem>  What is the departure date for the train?
+best_match -> <mem> Travel Date: March 26 </mem>  What time of day should the train depart?
+BLEU_SCORE with mem26.24087769829642
+
+Without comparing mem
+generated ->   What is the departure date for the train?
+best_match ->   What time of day should the train depart?
+BLEU_SCORE without mem11.339582221952005
+
+With comparing mem
+generated -> <mem> Departure Date: After noon </mem>  How many adults will the ticket be for?
+best_match -> <mem> Seat Preference: Upstairs deck, window seat </mem>  How many people are traveling and what are their ages?
+BLEU_SCORE with mem23.600608404402234
+
+Without comparing mem
+generated ->   How many adults will the ticket be for?
+best_match ->   How many people are traveling and what are their ages?
+BLEU_SCORE without mem8.449917822620138
+
+With comparing mem
+generated -> <mem> Number of Adults: Two (16 year old and 45 year old) </mem>  <Finish>
+best_match -> <mem> Cost Preference: Cheapest available option </mem>  <Finish>
+BLEU_SCORE with mem30.166728533047458
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 65
+With comparing mem
+generated -> <mem> Movie Title: Titanic </mem> What action should be taken after finding the cast and crew?
+best_match -> <mem> Action to be taken: Add to watchlist </mem> What information is being sought about the film Titanic?
+BLEU_SCORE with mem22.592501839060507
+
+Without comparing mem
+generated ->  What action should be taken after finding the cast and crew?
+best_match ->  What information is being sought about the film Titanic?
+BLEU_SCORE without mem4.456882760699063
+
+With comparing mem
+generated -> <mem> Action: Add cast and crew details to watchlist </mem>  <Finish>
+best_match -> <mem> Information Required: Cast and crew of Titanic </mem>  <Finish>
+BLEU_SCORE with mem41.682189465797684
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 66
+With comparing mem
+generated -> <mem> Event: Super Bowl LVII </mem> At which location should the parking passes be searched?
+best_match -> <mem> Pass Type: Parking passes </mem> Which event are the parking passes for?
+BLEU_SCORE with mem20.915990037763148
+
+Without comparing mem
+generated ->  At which location should the parking passes be searched?
+best_match ->  Which event are the parking passes for?
+BLEU_SCORE without mem16.784459625186194
+
+With comparing mem
+generated -> <mem> Location for Parking Passes: New York Yankees game </mem>  What is the date of the event where the parking passes are needed?
+best_match -> <mem> Pass Type: Parking passes </mem> Which event are the parking passes for?
+BLEU_SCORE with mem16.15508477937387
+
+Without comparing mem
+generated ->   What is the date of the event where the parking passes are needed?
+best_match ->  Which event are the parking passes for?
+BLEU_SCORE without mem12.571192676522521
+
+With comparing mem
+generated -> <mem> Event Date: New York Yankees game </mem>  <Finish>
+best_match -> <mem> Game Date: April 14 </mem>  <Finish>
+BLEU_SCORE with mem46.15425015629848
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 67
+With comparing mem
+generated -> <mem>  </mem> What is the title of the movie to add?
+best_match -> <mem>  </mem> What is the name of the movie to add to the watchlist?
+BLEU_SCORE with mem64.9512300244718
+
+Without comparing mem
+generated ->  What is the title of the movie to add?
+best_match ->  What is the name of the movie to add to the watchlist?
+BLEU_SCORE without mem40.084360380296616
+
+With comparing mem
+generated -> <mem> Movie Title: Prometheus </mem>  What action should be taken with the movie?
+best_match -> <mem>  </mem> What is the name of the movie to add to the watchlist?
+BLEU_SCORE with mem26.978569758601026
+
+Without comparing mem
+generated ->   What action should be taken with the movie?
+best_match ->  What is the name of the movie to add to the watchlist?
+BLEU_SCORE without mem7.270717733704594
+
+With comparing mem
+generated -> <mem> Action: Add to watchlist </mem>  <Finish>
+best_match -> <mem> Movie Name: Prometheus </mem>  <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 68
+With comparing mem
+generated -> <mem>  </mem> What is the name of the company hosting the event in Saratoga Springs?
+best_match -> <mem> Event Start Date: April 1, 2023 </mem>  What is the maximum distance from New York within which events should be searched?
+BLEU_SCORE with mem22.684458819989544
+
+Without comparing mem
+generated ->  What is the name of the company hosting the event in Saratoga Springs?
+best_match ->   What is the maximum distance from New York within which events should be searched?
+BLEU_SCORE without mem10.576272539780353
+
+With comparing mem
+generated -> <mem> Event Host Company: Within 100 miles of New York </mem>  What is the name of the event in Saratoga Springs?
+best_match -> <mem> Event Start Date: April 1, 2023 </mem>  What is the maximum distance from New York within which events should be searched?
+BLEU_SCORE with mem29.93367254124305
+
+Without comparing mem
+generated ->   What is the name of the event in Saratoga Springs?
+best_match ->   What is the maximum distance from New York within which events should be searched?
+BLEU_SCORE without mem10.420976973984883
+
+With comparing mem
+generated -> <mem> Event Name: Within 100 miles of New York </mem>  When is the event taking place?
+best_match -> <mem>  </mem> What is the starting date for events to be searched?
+BLEU_SCORE with mem17.059573701616795
+
+Without comparing mem
+generated ->   When is the event taking place?
+best_match ->  What is the starting date for events to be searched?
+BLEU_SCORE without mem8.208611846457007
+
+With comparing mem
+generated -> <mem> Event Date: April 1, 2023 </mem>  How many attendees should be followed?
+best_match -> <mem> Search Radius: Within 100 miles of New York </mem>  What action should be taken for the top listed event?
+BLEU_SCORE with mem14.479824922000878
+
+Without comparing mem
+generated ->   How many attendees should be followed?
+best_match ->   What action should be taken for the top listed event?
+BLEU_SCORE without mem8.208611846457007
+
+With comparing mem
+generated -> <mem> Number of Attendees to Follow: Follow all who are going. </mem>  <Finish>
+best_match -> <mem> Action for Top Event: See attendee list and follow attendees </mem>  <Finish>
+BLEU_SCORE with mem33.11822752222957
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 69
+With comparing mem
+generated -> <mem> Car Type: Economy car </mem> What zip code should the car be reserved for?
+best_match -> <mem> Car Type: Economy car </mem> What action needs to be taken with the information?
+BLEU_SCORE with mem58.89346209976518
+
+Without comparing mem
+generated ->  What zip code should the car be reserved for?
+best_match ->  What action needs to be taken with the information?
+BLEU_SCORE without mem5.934202609760488
+
+With comparing mem
+generated -> <mem> Reservation Zip Code: Not specified </mem>  What date should the car be reserved for?
+best_match -> <mem> Car Type: Economy car </mem> What action needs to be taken with the information?
+BLEU_SCORE with mem24.41685669990165
+
+Without comparing mem
+generated ->   What date should the car be reserved for?
+best_match ->  What action needs to be taken with the information?
+BLEU_SCORE without mem6.033504141761816
+
+With comparing mem
+generated -> <mem> Reservation Date: Not specified </mem>  What is the pick-up time for the car?
+best_match -> <mem> Action Required: Reserve economy car </mem>  <Finish>
+BLEU_SCORE with mem17.509131039045965
+
+Without comparing mem
+generated ->   What is the pick-up time for the car?
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Pick-up Time: Not specified </mem>  <Finish>
+best_match -> <mem> Action Required: Reserve economy car </mem>  <Finish>
+BLEU_SCORE with mem47.13945310979296
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 70
+With comparing mem
+generated -> <mem>  </mem> What type of vehicle is to be booked for reservation?
+best_match -> <mem> Reservation Date and Time: April 5th, 5pm </mem>  What is the name of the restaurant where the reservation should be made?
+BLEU_SCORE with mem15.587746192229062
+
+Without comparing mem
+generated ->  What type of vehicle is to be booked for reservation?
+best_match ->   What is the name of the restaurant where the reservation should be made?
+BLEU_SCORE without mem4.46547409295887
+
+With comparing mem
+generated -> <mem> Vehicle Type: Alinea restaurant </mem>  How many people are going to be booked for the reservation?
+best_match -> <mem>  </mem> How many guests is the reservation for?
+BLEU_SCORE with mem27.96635629164385
+
+Without comparing mem
+generated ->   How many people are going to be booked for the reservation?
+best_match ->  How many guests is the reservation for?
+BLEU_SCORE without mem10.600313379512592
+
+With comparing mem
+generated -> <mem> Number of Guests: Three guests </mem>  What is the date and time of the reservation?
+best_match -> <mem> Number of Guests: Three </mem>  What date and time is the reservation for?
+BLEU_SCORE with mem56.066684111954224
+
+Without comparing mem
+generated ->   What is the date and time of the reservation?
+best_match ->   What date and time is the reservation for?
+BLEU_SCORE without mem23.736810439041953
+
+With comparing mem
+generated -> <mem> Reservation Date and Time: April 5th at 5pm </mem>  <Finish>
+best_match -> <mem> Restaurant Location: Chicago, IL </mem>  <Finish>
+BLEU_SCORE with mem38.817246541254406
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 71
+With comparing mem
+generated -> <mem>  </mem> What type of activity is being sought for booking?
+best_match -> <mem> Event Date: May 1 </mem>  For how many adults should the tickets be booked?
+BLEU_SCORE with mem15.953816432457087
+
+Without comparing mem
+generated ->  What type of activity is being sought for booking?
+best_match ->   For how many adults should the tickets be booked?
+BLEU_SCORE without mem4.196114906296549
+
+With comparing mem
+generated -> <mem> Activity Type: Two adults </mem>  How many people are involved in the booking?
+best_match -> <mem> Event Date: May 1 </mem>  For how many adults should the tickets be booked?
+BLEU_SCORE with mem17.939840915529743
+
+Without comparing mem
+generated ->   How many people are involved in the booking?
+best_match ->   For how many adults should the tickets be booked?
+BLEU_SCORE without mem5.61480827173619
+
+With comparing mem
+generated -> <mem> Number of People: Two adults </mem>  What date is the booking being made for?
+best_match -> <mem> Event Location: Spain </mem>  On what date should the event occur?
+BLEU_SCORE with mem17.509131039045975
+
+Without comparing mem
+generated ->   What date is the booking being made for?
+best_match ->   On what date should the event occur?
+BLEU_SCORE without mem6.27465531099474
+
+With comparing mem
+generated -> <mem> Booking Date: May 1 </mem>  <Finish>
+best_match -> <mem> Guide Language: English guide </mem>  <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 72
+With comparing mem
+generated -> <mem> Genre: Sci-fi films </mem> What type of content is being requested to browse?
+best_match -> <mem> Film Genre: Sci-fi, Certification Status: Certified fresh, Browsing Location: Streaming at home </mem> <Finish>
+BLEU_SCORE with mem15.790159648974226
+
+Without comparing mem
+generated ->  What type of content is being requested to browse?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Content Type: Sci-fi films </mem>  What is the main criteria for the films to be browsed?
+best_match -> <mem> Film Genre: Sci-fi, Certification Status: Certified fresh, Browsing Location: Streaming at home </mem> <Finish>
+BLEU_SCORE with mem14.010275650968676
+
+Without comparing mem
+generated ->   What is the main criteria for the films to be browsed?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Main Criteria: Certified fresh </mem>  Where should the films be available for streaming?
+best_match -> <mem> Film Genre: Sci-fi, Certification Status: Certified fresh, Browsing Location: Streaming at home </mem> <Finish>
+BLEU_SCORE with mem15.790159648974226
+
+Without comparing mem
+generated ->   Where should the films be available for streaming?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Streaming Platform: Home </mem>  <Finish>
+best_match -> <mem> Film Genre: Sci-fi, Certification Status: Certified fresh, Browsing Location: Streaming at home </mem> <Finish>
+BLEU_SCORE with mem21.98800572691614
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 73
+With comparing mem
+generated -> <mem>  </mem> What specific information is being requested about Alagnak Wild River?
+best_match -> <mem>  </mem> What is the purpose of the search regarding the Alagnak Wild River?
+BLEU_SCORE with mem48.31233610237383
+
+Without comparing mem
+generated ->  What specific information is being requested about Alagnak Wild River?
+best_match ->  What is the purpose of the search regarding the Alagnak Wild River?
+BLEU_SCORE without mem21.648693746244412
+
+With comparing mem
+generated -> <mem> Information Requested: Alerts and conditions for Alagnak Wild River </mem>  <Finish>
+best_match -> <mem> Search Purpose: Find alerts and conditions for Alagnak Wild River </mem>  <Finish>
+BLEU_SCORE with mem66.96510758566588
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 74
+With comparing mem
+generated -> <mem>  </mem> What type of accommodation is to be found in or near San Francisco?
+best_match -> <mem>  </mem> What type of accommodation should be booked?
+BLEU_SCORE with mem50.52427764829451
+
+Without comparing mem
+generated ->  What type of accommodation is to be found in or near San Francisco?
+best_match ->  What type of accommodation should be booked?
+BLEU_SCORE without mem19.67497981115564
+
+With comparing mem
+generated -> <mem> Accommodation Type: 3-star hotel or resort, Cheapest option </mem>  What is the location for the hotel or resort search?
+best_match -> <mem> Check-in Date: April 25th </mem>  Where should the hotel or resort be located?
+BLEU_SCORE with mem19.941052312038728
+
+Without comparing mem
+generated ->   What is the location for the hotel or resort search?
+best_match ->   Where should the hotel or resort be located?
+BLEU_SCORE without mem24.808415001701817
+
+With comparing mem
+generated -> <mem> Location: Near the beach in Goa </mem>  What is the criteria for booking a hotel or resort?
+best_match -> <mem> Check-in Date: April 25th </mem>  Where should the hotel or resort be located?
+BLEU_SCORE with mem18.608008857318275
+
+Without comparing mem
+generated ->   What is the criteria for booking a hotel or resort?
+best_match ->   Where should the hotel or resort be located?
+BLEU_SCORE without mem15.851165692617148
+
+With comparing mem
+generated -> <mem> Booking Criteria: Near the beach in Goa </mem>  What specific amenity is required at the hotel or resort?
+best_match -> <mem> Location: Near the beach in Goa </mem>  What amenities should the hotel or resort offer? (List all)
+BLEU_SCORE with mem52.07753402782162
+
+Without comparing mem
+generated ->   What specific amenity is required at the hotel or resort?
+best_match ->   What amenities should the hotel or resort offer? (List all)
+BLEU_SCORE without mem21.648693746244412
+
+With comparing mem
+generated -> <mem> Required Amenities: Breakfast, wifi, a swimming pool, free cancellation </mem>  How many adults and children are included in the booking?
+best_match -> <mem> Number of Guests: Two </mem> What is the budget range for the booking?
+BLEU_SCORE with mem14.211107827004183
+
+Without comparing mem
+generated ->   How many adults and children are included in the booking?
+best_match ->  What is the budget range for the booking?
+BLEU_SCORE without mem13.950796967929138
+
+With comparing mem
+generated -> <mem> Number of People: Not specified (within budget of 50 to 100 dollars per night) </mem>  What is the criteria for the cost of the hotel or resort?
+best_match -> <mem> Location: Near the beach in Goa </mem>  What amenities should the hotel or resort offer? (List all)
+BLEU_SCORE with mem20.41635400316488
+
+Without comparing mem
+generated ->   What is the criteria for the cost of the hotel or resort?
+best_match ->   What amenities should the hotel or resort offer? (List all)
+BLEU_SCORE without mem21.401603033752977
+
+With comparing mem
+generated -> <mem> Cost Criteria: Included in the cost, must offer breakfast, wifi, a swimming pool, and free cancellation </mem>  <Finish>
+best_match -> <mem> Amenities Required: Breakfast, wifi, swimming pool, free cancellation </mem>  <Finish>
+BLEU_SCORE with mem38.1283908828403
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 75
+With comparing mem
+generated -> <mem>  </mem> What genres of songs need to be considered for finding the most popular song?
+best_match -> <mem>  </mem> How is the most popular song determined?
+BLEU_SCORE with mem38.305978177479744
+
+Without comparing mem
+generated ->  What genres of songs need to be considered for finding the most popular song?
+best_match ->  How is the most popular song determined?
+BLEU_SCORE without mem17.395797375642243
+
+With comparing mem
+generated -> <mem> Song Selection Criteria: Top song of the week's no. 1 artist on weekly charts </mem>  How should the popularity of the song be determined?
+best_match -> <mem>  </mem> How is the most popular song determined?
+BLEU_SCORE with mem16.17355916490619
+
+Without comparing mem
+generated ->   How should the popularity of the song be determined?
+best_match ->  How is the most popular song determined?
+BLEU_SCORE without mem10.552670315936318
+
+With comparing mem
+generated -> <mem> Popularity Measurement: No. 1 weekly chart ranked artist's top song </mem>  <Finish>
+best_match -> <mem> Ranking Source: Reputable music chart (e.g., Billboard, Spotify) </mem>  <Finish>
+BLEU_SCORE with mem28.790030113423285
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 76
+With comparing mem
+generated -> <mem>  </mem> What is the destination for the tour?
+best_match -> <mem>  </mem> What is the destination of the tour to be booked?
+BLEU_SCORE with mem62.44798572535689
+
+Without comparing mem
+generated ->  What is the destination for the tour?
+best_match ->  What is the destination of the tour to be booked?
+BLEU_SCORE without mem29.36697784628212
+
+With comparing mem
+generated -> <mem> Tour Destination: The Statue of Liberty </mem>  What type of experience is being booked?
+best_match -> <mem>  </mem> What is the destination of the tour to be booked?
+BLEU_SCORE with mem24.87344417023397
+
+Without comparing mem
+generated ->   What type of experience is being booked?
+best_match ->  What is the destination of the tour to be booked?
+BLEU_SCORE without mem9.545138913210204
+
+With comparing mem
+generated -> <mem> Tour Type: The Statue of Liberty </mem>  <Finish>
+best_match -> <mem> Tour Date: March 27th </mem>  <Finish>
+BLEU_SCORE with mem50.7196093945688
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 77
+With comparing mem
+generated -> <mem>  </mem> What activity's season pass prices need to be browsed?
+best_match -> <mem>  </mem> What is the purpose of browsing the website?
+BLEU_SCORE with mem42.649937722961525
+
+Without comparing mem
+generated ->  What activity's season pass prices need to be browsed?
+best_match ->  What is the purpose of browsing the website?
+BLEU_SCORE without mem4.990049701936832
+
+With comparing mem
+generated -> <mem> Activity: Hurricane Harbor Los Angeles </mem>  What date is the season pass being checked for?
+best_match -> <mem>  </mem> What is the purpose of browsing the website?
+BLEU_SCORE with mem23.203058032469897
+
+Without comparing mem
+generated ->   What date is the season pass being checked for?
+best_match ->  What is the purpose of browsing the website?
+BLEU_SCORE without mem9.980099403873663
+
+With comparing mem
+generated -> <mem> Date: Not specified </mem>  <Finish>
+best_match -> <mem> Purpose: Check season pass prices for Hurricane Harbor Los Angeles </mem>  <Finish>
+BLEU_SCORE with mem33.02667917802211
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 78
+With comparing mem
+generated -> <mem>  </mem> What is the destination for the travel search?
+best_match -> <mem> Flight Type: Last-Minute Flights, Additional Service: Car Rentals, Quality Criterion: Highest rated </mem> <Finish>
+BLEU_SCORE with mem12.522158791375482
+
+Without comparing mem
+generated ->  What is the destination for the travel search?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Destination: none </mem>  What is the departure date for the travel search?
+best_match -> <mem> Flight Type: Last-Minute Flights, Additional Service: Car Rentals, Quality Criterion: Highest rated </mem> <Finish>
+BLEU_SCORE with mem12.630367496073815
+
+Without comparing mem
+generated ->   What is the departure date for the travel search?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Departure Date: none </mem>  How should the flight search be filtered?
+best_match -> <mem> Flight Type: Last-Minute Flights, Additional Service: Car Rentals, Quality Criterion: Highest rated </mem> <Finish>
+BLEU_SCORE with mem12.439007351913624
+
+Without comparing mem
+generated ->   How should the flight search be filtered?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Flight Filter: none </mem>  What type of car rental should be searched for?
+best_match -> <mem> Flight Type: Last-Minute Flights, Additional Service: Car Rentals, Quality Criterion: Highest rated </mem> <Finish>
+BLEU_SCORE with mem17.59818787771653
+
+Without comparing mem
+generated ->   What type of car rental should be searched for?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Car Rental Type: none </mem>  What is the rating criteria for the search?
+best_match -> <mem> Flight Type: Last-Minute Flights, Additional Service: Car Rentals, Quality Criterion: Highest rated </mem> <Finish>
+BLEU_SCORE with mem14.138884262884725
+
+Without comparing mem
+generated ->   What is the rating criteria for the search?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Rating Criteria: none </mem>  <Finish>
+best_match -> <mem> Flight Type: Last-Minute Flights, Additional Service: Car Rentals, Quality Criterion: Highest rated </mem> <Finish>
+BLEU_SCORE with mem21.514868757111255
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 79
+With comparing mem
+generated -> <mem>  </mem> What type of items are to be added to the cart?
+best_match -> <mem>  </mem> What type of product should be added to the cart first?
+BLEU_SCORE with mem68.59238121837059
+
+Without comparing mem
+generated ->  What type of items are to be added to the cart?
+best_match ->  What type of product should be added to the cart first?
+BLEU_SCORE without mem43.66835442847811
+
+With comparing mem
+generated -> <mem> Item Type: Western Digital internal SSD </mem>  How many Western Digital internal SSDs need to be added to the cart?
+best_match -> <mem> Product Type: Western Digital internal SSD </mem>  What is the storage capacity of the SSD to be added?
+BLEU_SCORE with mem42.7287006396234
+
+Without comparing mem
+generated ->   How many Western Digital internal SSDs need to be added to the cart?
+best_match ->   What is the storage capacity of the SSD to be added?
+BLEU_SCORE without mem12.011055432195764
+
+With comparing mem
+generated -> <mem> Quantity: 1TB </mem>  What is the maximum price for the item to be added to the cart?
+best_match -> <mem> SSD Storage Capacity: 1TB </mem>  What is the second product to be added to the cart?
+BLEU_SCORE with mem60.06601112195604
+
+Without comparing mem
+generated ->   What is the maximum price for the item to be added to the cart?
+best_match ->   What is the second product to be added to the cart?
+BLEU_SCORE without mem49.202745153855076
+
+With comparing mem
+generated -> <mem> Maximum Price: 8GB Ram DDR </mem>  <Finish>
+best_match -> <mem> RAM Size: 8GB </mem>  <Finish>
+BLEU_SCORE with mem49.35578819979934
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 80
+With comparing mem
+generated -> <mem>  </mem> What is the starting date for booking the car?
+best_match -> <mem> Car Make and Model: Honda Civic </mem>  What is the year of the car to search for?
+BLEU_SCORE with mem29.962256885409943
+
+Without comparing mem
+generated ->  What is the starting date for booking the car?
+best_match ->   What is the year of the car to search for?
+BLEU_SCORE without mem19.331263581394154
+
+With comparing mem
+generated -> <mem> Start Date: 2017 </mem>  What is the destination for picking up the car?
+best_match -> <mem> Car Make and Model: Honda Civic </mem>  What is the year of the car to search for?
+BLEU_SCORE with mem32.03278102946315
+
+Without comparing mem
+generated ->   What is the destination for picking up the car?
+best_match ->   What is the year of the car to search for?
+BLEU_SCORE without mem19.331263581394154
+
+With comparing mem
+generated -> <mem> Pickup Location: 2017 </mem>  What is the destination for dropping off the car?
+best_match -> <mem> Search Radius: 100 miles around zip code 07470 </mem>  What specific features are required in the car?
+BLEU_SCORE with mem23.63339973535087
+
+Without comparing mem
+generated ->   What is the destination for dropping off the car?
+best_match ->   What specific features are required in the car?
+BLEU_SCORE without mem16.784459625186194
+
+With comparing mem
+generated -> <mem> Dropoff Location: Sun roof and black exterior color </mem>  What is the duration of the car booking?
+best_match -> <mem> Car Make and Model: Honda Civic </mem>  What is the year of the car to search for?
+BLEU_SCORE with mem34.85331261535368
+
+Without comparing mem
+generated ->   What is the duration of the car booking?
+best_match ->   What is the year of the car to search for?
+BLEU_SCORE without mem24.839003933972585
+
+With comparing mem
+generated -> <mem> Duration of Booking: 2017 </mem>  <Finish>
+best_match -> <mem> Market Preference: Exclude out of market vehicles. </mem>  <Finish>
+BLEU_SCORE with mem39.44325829464272
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 81
+With comparing mem
+generated -> <mem>  </mem> What type of flight is being requested?
+best_match -> <mem> Departure City: Colombo </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem25.530403577247498
+
+Without comparing mem
+generated ->  What type of flight is being requested?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem6.892168295481103
+
+With comparing mem
+generated -> <mem> Flight Type: New York </mem>  Where should the flight be departing from?
+best_match -> <mem> Ticket Class: Business class </mem> What is the departure city for the flight?
+BLEU_SCORE with mem19.323033984562095
+
+Without comparing mem
+generated ->   Where should the flight be departing from?
+best_match ->  What is the departure city for the flight?
+BLEU_SCORE without mem10.786826322527466
+
+With comparing mem
+generated -> <mem> Departure Location: Colombo </mem>  What is the date of travel for the flight?
+best_match -> <mem> Number of Children: 1 </mem>  What is the date of departure for the flight?
+BLEU_SCORE with mem54.62268442759874
+
+Without comparing mem
+generated ->   What is the date of travel for the flight?
+best_match ->   What is the date of departure for the flight?
+BLEU_SCORE without mem65.80370064762461
+
+With comparing mem
+generated -> <mem> Travel Date: June 24th </mem>  What is the maximum price per person for the flight?
+best_match -> <mem> Stopover Location: Qatar </mem>  How many adults are traveling?
+BLEU_SCORE with mem15.875722180934986
+
+Without comparing mem
+generated ->   What is the maximum price per person for the flight?
+best_match ->   How many adults are traveling?
+BLEU_SCORE without mem3.7477767366779213
+
+With comparing mem
+generated -> <mem> Maximum Price per Person: 2 adults </mem>  What class of service is required for the flight?
+best_match -> <mem> Departure City: Colombo </mem>  What is the destination city for the flight?
+BLEU_SCORE with mem30.70898761263382
+
+Without comparing mem
+generated ->   What class of service is required for the flight?
+best_match ->   What is the destination city for the flight?
+BLEU_SCORE without mem29.071536848410968
+
+With comparing mem
+generated -> <mem> Service Class: New York (business class) </mem>  How many people need to be booked for the flight?
+best_match -> <mem> Stopover Location: Qatar </mem>  How many adults are traveling?
+BLEU_SCORE with mem22.883550345495298
+
+Without comparing mem
+generated ->   How many people need to be booked for the flight?
+best_match ->   How many adults are traveling?
+BLEU_SCORE without mem8.29519350710986
+
+With comparing mem
+generated -> <mem> Number of Passengers: 2 adults </mem>  <Finish>
+best_match -> <mem> Date of Departure: June 24th </mem>  <Finish>
+BLEU_SCORE with mem47.92365811426397
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 82
+With comparing mem
+generated -> <mem>  </mem> What type of trade offers are being requested?
+best_match -> <mem> Action: Open trade offers </mem> <Finish>
+BLEU_SCORE with mem27.56001678723635
+
+Without comparing mem
+generated ->  What type of trade offers are being requested?
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Trade Offer Type: None </mem>  <Finish>
+best_match -> <mem> Action: Open trade offers </mem> <Finish>
+BLEU_SCORE with mem50.389204852596336
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->  <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 83
+With comparing mem
+generated -> <mem> Product Type: Baby products, Price Range: Under $10 </mem> What is the maximum quantity of items to be listed?
+best_match -> <mem> Product Type: Baby products </mem> What is the price limit for the products?
+BLEU_SCORE with mem42.06436820894083
+
+Without comparing mem
+generated ->  What is the maximum quantity of items to be listed?
+best_match ->  What is the price limit for the products?
+BLEU_SCORE without mem14.991106946711685
+
+With comparing mem
+generated -> <mem> Maximum Quantity: Under 10 dollars </mem>  <Finish>
+best_match -> <mem> Item Condition: Sale items </mem>  <Finish>
+BLEU_SCORE with mem46.892438882117254
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 84
+With comparing mem
+generated -> <mem>  </mem> What is the tail number of the bus to track?
+best_match -> <mem>  </mem> What is the starting location of the bus that needs to be tracked?
+BLEU_SCORE with mem51.92070044057203
+
+Without comparing mem
+generated ->  What is the tail number of the bus to track?
+best_match ->  What is the starting location of the bus that needs to be tracked?
+BLEU_SCORE without mem19.193856766522426
+
+With comparing mem
+generated -> <mem> Bus Tail Number: Abbotsford </mem>  What is the departure location of the bus to track?
+best_match -> <mem>  </mem> What is the starting location of the bus that needs to be tracked?
+BLEU_SCORE with mem42.66219662386314
+
+Without comparing mem
+generated ->   What is the departure location of the bus to track?
+best_match ->  What is the starting location of the bus that needs to be tracked?
+BLEU_SCORE without mem27.507948153265307
+
+With comparing mem
+generated -> <mem> Departure Location: Abbotsford </mem>  <Finish>
+best_match -> <mem> Bus Starting Location: Abbotsford </mem>  <Finish>
+BLEU_SCORE with mem72.85959997974687
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 85
+With comparing mem
+generated -> <mem> Product Type: Blazer </mem> What color should the blazer be added to the wishlist?
+best_match -> <mem>  </mem> What color of blazer is to be found?
+BLEU_SCORE with mem29.694551474502376
+
+Without comparing mem
+generated ->  What color should the blazer be added to the wishlist?
+best_match ->  What color of blazer is to be found?
+BLEU_SCORE without mem9.864703138979419
+
+With comparing mem
+generated -> <mem> Blazer Color: Black </mem>  What is the price range for the blazer?
+best_match -> <mem> Gender Specification: Men </mem>  What size should the blazer be?
+BLEU_SCORE with mem27.57185986366082
+
+Without comparing mem
+generated ->   What is the price range for the blazer?
+best_match ->   What size should the blazer be?
+BLEU_SCORE without mem11.339582221952005
+
+With comparing mem
+generated -> <mem> Price Range: L (Large) </mem>  What size should the blazer be added to the wishlist?
+best_match -> <mem> Gender Specification: Men </mem>  What size should the blazer be?
+BLEU_SCORE with mem43.01606518769334
+
+Without comparing mem
+generated ->   What size should the blazer be added to the wishlist?
+best_match ->   What size should the blazer be?
+BLEU_SCORE without mem47.987820666906615
+
+With comparing mem
+generated -> <mem> Blazer Size: L (Large) </mem>  <Finish>
+best_match -> <mem> Action to Take: Add to wishlist </mem>  <Finish>
+BLEU_SCORE with mem43.85068972747104
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 86
+With comparing mem
+generated -> <mem>  </mem> What type of job is being searched for?
+best_match -> <mem>  </mem> What type of job is being searched for?
+BLEU_SCORE with mem100.00000000000004
+
+Without comparing mem
+generated ->  What type of job is being searched for?
+best_match ->  What type of job is being searched for?
+BLEU_SCORE without mem100.00000000000004
+
+With comparing mem
+generated -> <mem> Job Type: Customer services job </mem>  Where should the job be located?
+best_match -> <mem> Company: Qatar Airways </mem>  In which country should the job be located?
+BLEU_SCORE with mem42.849450901003145
+
+Without comparing mem
+generated ->   Where should the job be located?
+best_match ->   In which country should the job be located?
+BLEU_SCORE without mem60.80253214198355
+
+With comparing mem
+generated -> <mem> Job Location: India </mem>  What action is to be taken after finding the job?
+best_match -> <mem> Job Location: India </mem>  What action should be taken after finding the job?
+BLEU_SCORE with mem82.32490471721698
+
+Without comparing mem
+generated ->   What action is to be taken after finding the job?
+best_match ->   What action should be taken after finding the job?
+BLEU_SCORE without mem63.15552371794039
+
+With comparing mem
+generated -> <mem> Action After Finding: View the details and save the job </mem>  <Finish>
+best_match -> <mem> Action to Take: View details and save job </mem>  <Finish>
+BLEU_SCORE with mem53.688053584283026
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 87
+With comparing mem
+generated -> <mem> Product Type: Stainless steel spoons, Condition Required: In-stock </mem> What is the minimum star rating required for the stainless steel spoons?
+best_match -> <mem> Spoon Material: Stainless steel </mem> What is the key price factor for the spoons?
+BLEU_SCORE with mem29.49085102256453
+
+Without comparing mem
+generated ->  What is the minimum star rating required for the stainless steel spoons?
+best_match ->  What is the key price factor for the spoons?
+BLEU_SCORE without mem16.90062198556585
+
+With comparing mem
+generated -> <mem> Minimum Star Rating: Cheapest set available </mem>  What additional criteria should be considered for choosing the stainless steel spoons?
+best_match -> <mem> Spoon Material: Stainless steel </mem> What is the key price factor for the spoons?
+BLEU_SCORE with mem20.77097701007239
+
+Without comparing mem
+generated ->   What additional criteria should be considered for choosing the stainless steel spoons?
+best_match ->  What is the key price factor for the spoons?
+BLEU_SCORE without mem7.768562846380176
+
+With comparing mem
+generated -> <mem> Additional Criteria: Cheapest set available </mem>  <Finish>
+best_match -> <mem> Location Availability: San Diego, California </mem>  <Finish>
+BLEU_SCORE with mem44.05136963304349
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 88
+With comparing mem
+generated -> <mem>  </mem> What action should be performed on the photos?
+best_match -> <mem>  </mem> What is the specific model of the aircraft for which photos need to be opened?
+BLEU_SCORE with mem31.642853601385127
+
+Without comparing mem
+generated ->  What action should be performed on the photos?
+best_match ->  What is the specific model of the aircraft for which photos need to be opened?
+BLEU_SCORE without mem3.27542352440175
+
+With comparing mem
+generated -> <mem> Action: Adam A-500 </mem>  <Finish>
+best_match -> <mem> Photo Type: Most popular photos </mem>  <Finish>
+BLEU_SCORE with mem47.20305201905447
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 89
+With comparing mem
+generated -> <mem>  </mem> What is the genre of the games to be shown?
+best_match -> <mem>  </mem> What criteria is used to determine the most played games?
+BLEU_SCORE with mem43.90939918953566
+
+Without comparing mem
+generated ->  What is the genre of the games to be shown?
+best_match ->  What criteria is used to determine the most played games?
+BLEU_SCORE without mem5.865587580131999
+
+With comparing mem
+generated -> <mem> Game Genre: Number of daily players </mem>  <Finish>
+best_match -> <mem> Criteria: Daily Players Count </mem>  <Finish>
+BLEU_SCORE with mem43.85068972747104
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 90
+With comparing mem
+generated -> <mem>  </mem> What is the item code of the product to find the price for?
+best_match -> <mem>  </mem> What is the product to find the price for?
+BLEU_SCORE with mem75.10186074254291
+
+Without comparing mem
+generated ->  What is the item code of the product to find the price for?
+best_match ->  What is the product to find the price for?
+BLEU_SCORE without mem60.175029055992205
+
+With comparing mem
+generated -> <mem> Item Code: HomePod mini </mem>  <Finish>
+best_match -> <mem> Product Name: HomePod mini </mem>  <Finish>
+BLEU_SCORE with mem72.41577342575832
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 91
+With comparing mem
+generated -> <mem>  </mem> What is the zip code to check toll rates for bridges and tunnels?
+best_match -> <mem> Task Purpose: Check car toll rates for bridges and tunnels </mem>  <Finish>
+BLEU_SCORE with mem42.247659556990236
+
+Without comparing mem
+generated ->  What is the zip code to check toll rates for bridges and tunnels?
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+With comparing mem
+generated -> <mem> Zip Code: none </mem>  <Finish>
+best_match -> <mem> Task Purpose: Check car toll rates for bridges and tunnels </mem>  <Finish>
+BLEU_SCORE with mem33.02667917802211
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 92
+With comparing mem
+generated -> <mem> Game: Dota 2 </mem> What is the purpose of accessing the community discussions?
+best_match -> <mem> Discussion Subject: Dota 2 game </mem> What action needs to be taken within the community discussions?
+BLEU_SCORE with mem34.16369938777841
+
+Without comparing mem
+generated ->  What is the purpose of accessing the community discussions?
+best_match ->  What action needs to be taken within the community discussions?
+BLEU_SCORE without mem25.13293635022765
+
+With comparing mem
+generated -> <mem> Purpose: Open latest topic </mem>  <Finish>
+best_match -> <mem> Action Required: Open the latest topic </mem>  <Finish>
+BLEU_SCORE with mem60.3182295008993
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 93
+With comparing mem
+generated -> <mem> Vehicle Model: Audi A6 </mem> What is the specific year of the Audi A6 to research?
+best_match -> <mem> Model and Year: Audi A6 2020 </mem>  What types of information should be gathered about the Audi A6 2020?
+BLEU_SCORE with mem26.39219238338177
+
+Without comparing mem
+generated ->  What is the specific year of the Audi A6 to research?
+best_match ->   What types of information should be gathered about the Audi A6 2020?
+BLEU_SCORE without mem13.792484215432934
+
+With comparing mem
+generated -> <mem> Information Required: Reviews, specifications, safety features, performance data, pricing, common issues, recalls </mem>  What is the main focus of the research?
+best_match -> <mem> Task Purpose: Check reviews and research information about Audi A6 2020 </mem>  What specific model and year is the research focused on?
+BLEU_SCORE with mem16.04087710982023
+
+Without comparing mem
+generated ->   What is the main focus of the research?
+best_match ->   What specific model and year is the research focused on?
+BLEU_SCORE without mem11.417530270031051
+
+With comparing mem
+generated -> <mem> Focus: Audi A6 2020 </mem>  <Finish>
+best_match -> <mem> Information Sources: Automotive review websites, car magazines, official Audi site, consumer reports, automotive forums. </mem>  <Finish>
+BLEU_SCORE with mem18.9448060511711
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 94
+With comparing mem
+generated -> <mem>  </mem> What type of vehicle should be reserved?
+best_match -> <mem> Reservation Date and Time: Mar 29, 2023 at 12 noon </mem>  For how many adults should the taxi reservation be made?
+BLEU_SCORE with mem9.569568589870684
+
+Without comparing mem
+generated ->  What type of vehicle should be reserved?
+best_match ->   For how many adults should the taxi reservation be made?
+BLEU_SCORE without mem4.995138898472386
+
+With comparing mem
+generated -> <mem> Vehicle Type: 2 adults </mem>  What is the departure location for the taxi?
+best_match -> <mem> Pickup Location: O'hare Airport </mem>  What is the destination address for the taxi?
+BLEU_SCORE with mem46.2985228134777
+
+Without comparing mem
+generated ->   What is the departure location for the taxi?
+best_match ->   What is the destination address for the taxi?
+BLEU_SCORE without mem43.167001068522545
+
+With comparing mem
+generated -> <mem> Departure Location: 123 Main St, West Chicago, IL </mem>  What is the destination for the taxi?
+best_match -> <mem> Pickup Location: O'hare Airport </mem>  What is the destination address for the taxi?
+BLEU_SCORE with mem42.705459564591806
+
+Without comparing mem
+generated ->   What is the destination for the taxi?
+best_match ->   What is the destination address for the taxi?
+BLEU_SCORE without mem61.01950432112583
+
+With comparing mem
+generated -> <mem> Destination: 123 Main St, West Chicago, IL </mem>  What date and time should the taxi be reserved for?
+best_match -> <mem> Destination Address: 123 Main St, West Chicago, IL </mem>  On what date and time should the taxi reservation be made?
+BLEU_SCORE with mem65.3140956467441
+
+Without comparing mem
+generated ->   What date and time should the taxi be reserved for?
+best_match ->   On what date and time should the taxi reservation be made?
+BLEU_SCORE without mem45.305163015763085
+
+With comparing mem
+generated -> <mem> Reservation Date and Time: Mar 29, 2023 at 12 noon </mem>  <Finish>
+best_match -> <mem> Number of Passengers: 2 adults </mem>  <Finish>
+BLEU_SCORE with mem33.11822752222957
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 95
+With comparing mem
+generated -> <mem>  </mem> What is the question to be answered?
+best_match -> <mem>  </mem> Which section of the page should be accessed to answer a question?
+BLEU_SCORE with mem32.80876043971544
+
+Without comparing mem
+generated ->  What is the question to be answered?
+best_match ->  Which section of the page should be accessed to answer a question?
+BLEU_SCORE without mem4.420141128732569
+
+With comparing mem
+generated -> <mem> Question: What is the location of the home improvement section? </mem>  <Finish>
+best_match -> <mem> Section to Access: Home improvement </mem>  <Finish>
+BLEU_SCORE with mem33.846535837380095
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 96
+With comparing mem
+generated -> <mem>  </mem> What is the product to be added to the cart?
+best_match -> <mem>  </mem> What type of product should be added to the cart?
+BLEU_SCORE with mem66.54377827941899
+
+Without comparing mem
+generated ->  What is the product to be added to the cart?
+best_match ->  What type of product should be added to the cart?
+BLEU_SCORE without mem49.616830003403614
+
+With comparing mem
+generated -> <mem> Product: Decorative LED Candles </mem>  What is the price range for the Decorative LED Candles?
+best_match -> <mem>  </mem> What type of product should be added to the cart?
+BLEU_SCORE with mem21.800193956058234
+
+Without comparing mem
+generated ->   What is the price range for the Decorative LED Candles?
+best_match ->  What type of product should be added to the cart?
+BLEU_SCORE without mem4.9323515694897075
+
+With comparing mem
+generated -> <mem> Price Range: Decorative LED Candles </mem>  How should the Decorative LED Candles be displayed?
+best_match -> <mem>  </mem> What type of product should be added to the cart?
+BLEU_SCORE with mem17.509131039045975
+
+Without comparing mem
+generated ->   How should the Decorative LED Candles be displayed?
+best_match ->  What type of product should be added to the cart?
+BLEU_SCORE without mem5.3990167242108145
+
+With comparing mem
+generated -> <mem> Display Preference: Decorative LED Candles </mem>  <Finish>
+best_match -> <mem> Product Type: Decorative LED Candles </mem>  <Finish>
+BLEU_SCORE with mem74.47819789879651
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 97
+With comparing mem
+generated -> <mem>  </mem> Where should the flights be booked to and from?
+best_match -> <mem> Departure City First Flight: New York </mem>  What is the destination city for the first flight?
+BLEU_SCORE with mem14.606940251551615
+
+Without comparing mem
+generated ->  Where should the flights be booked to and from?
+best_match ->   What is the destination city for the first flight?
+BLEU_SCORE without mem4.990049701936832
+
+With comparing mem
+generated -> <mem> Departure City: Tokyo </mem>  What is the date for the outbound flight from Tokyo?
+best_match -> <mem> Destination City Second Flight: New Delhi </mem>  What is the date of departure for the second flight?
+BLEU_SCORE with mem37.43698570337415
+
+Without comparing mem
+generated ->   What is the date for the outbound flight from Tokyo?
+best_match ->   What is the date of departure for the second flight?
+BLEU_SCORE without mem29.982213893423374
+
+With comparing mem
+generated -> <mem> Outbound Flight Date: June 5 </mem>  What is the date for the return flight from Denver?
+best_match -> <mem> Destination City First Flight: Tokyo </mem>  What is the date and time range for the departure of the first flight?
+BLEU_SCORE with mem33.08274705943025
+
+Without comparing mem
+generated ->   What is the date for the return flight from Denver?
+best_match ->   What is the date and time range for the departure of the first flight?
+BLEU_SCORE without mem20.841953947969767
+
+With comparing mem
+generated -> <mem> Return Flight Date and Time: June 1, between 6 am and 12 pm </mem>  What is the main criterion for choosing the flights?
+best_match -> <mem> Departure Date and Time First Flight: June 1, between 6 to 12 pm </mem>  Are there any specific requirements for the first flight?
+BLEU_SCORE with mem38.25319906852252
+
+Without comparing mem
+generated ->   What is the main criterion for choosing the flights?
+best_match ->   Are there any specific requirements for the first flight?
+BLEU_SCORE without mem5.522397783539471
+
+With comparing mem
+generated -> <mem> Flight Criteria: Fastest direct flight, flexible, with priority given to speed. </mem>  <Finish>
+best_match -> <mem> Departure Date Second Flight: June 5. No time constraints mentioned. </mem>  <Finish>
+BLEU_SCORE with mem34.07909355129019
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 98
+With comparing mem
+generated -> <mem>  </mem> What is the location for the hotel search?
+best_match -> <mem>  </mem> What is the destination for the hotel search?
+BLEU_SCORE with mem81.53551038173119
+
+Without comparing mem
+generated ->  What is the location for the hotel search?
+best_match ->  What is the destination for the hotel search?
+BLEU_SCORE without mem59.694917920196445
+
+With comparing mem
+generated -> <mem> Location: Niagara Falls </mem>  What is the check-in date for the hotel search?
+best_match -> <mem> Guests: Three adults and one three-year-old kid </mem>  What are the check-in and check-out dates for the hotel stay?
+BLEU_SCORE with mem23.39809259593171
+
+Without comparing mem
+generated ->   What is the check-in date for the hotel search?
+best_match ->   What are the check-in and check-out dates for the hotel stay?
+BLEU_SCORE without mem17.491650626361267
+
+With comparing mem
+generated -> <mem> Check-in Date: May 17 </mem>  What type of room is being looked for?
+best_match -> <mem>  </mem> What is the destination for the hotel search?
+BLEU_SCORE with mem24.62292439135324
+
+Without comparing mem
+generated ->   What type of room is being looked for?
+best_match ->  What is the destination for the hotel search?
+BLEU_SCORE without mem6.742555929751843
+
+With comparing mem
+generated -> <mem> Room Type: Niagara Falls </mem>  How many rooms are needed?
+best_match -> <mem> Destination: Niagara Falls </mem>  How many adults and children will be staying in the hotel?
+BLEU_SCORE with mem40.89550959743249
+
+Without comparing mem
+generated ->   How many rooms are needed?
+best_match ->   How many adults and children will be staying in the hotel?
+BLEU_SCORE without mem6.60902979597904
+
+With comparing mem
+generated -> <mem> Number of Rooms: Three adults and one three-year-old kid </mem>  What amenities should the hotel offer?
+best_match -> <mem> Price Range: $100 to $200 with taxes and fees included </mem>  What additional amenities should the cheapest hotel offer?
+BLEU_SCORE with mem23.916742449110085
+
+Without comparing mem
+generated ->   What amenities should the hotel offer?
+best_match ->   What additional amenities should the cheapest hotel offer?
+BLEU_SCORE without mem32.109648293288444
+
+With comparing mem
+generated -> <mem> Desired Amenities: Free breakfast and a pool </mem>  <Finish>
+best_match -> <mem> Required Amenities: Free breakfast and a pool </mem>  <Finish>
+BLEU_SCORE with mem83.94327083733333
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 99
+With comparing mem
+generated -> <mem>  </mem> What is the name of the restaurant to review the menu for?
+best_match -> <mem>  </mem> What is the name of the restaurant whose dinner menu needs to be reviewed?
+BLEU_SCORE with mem64.03771798918234
+
+Without comparing mem
+generated ->  What is the name of the restaurant to review the menu for?
+best_match ->  What is the name of the restaurant whose dinner menu needs to be reviewed?
+BLEU_SCORE without mem44.09115290048176
+
+With comparing mem
+generated -> <mem> Restaurant Name: La Bergamote </mem>  <Finish>
+best_match -> <mem> Restaurant Location: Hell's Kitchen </mem>  <Finish>
+BLEU_SCORE with mem58.282339541526554
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 100
+With comparing mem
+generated -> <mem>  </mem> What type of car is being scheduled for a demo drive?
+best_match -> <mem>  </mem> What vehicle model is the demo drive for?
+BLEU_SCORE with mem42.794691107478805
+
+Without comparing mem
+generated ->  What type of car is being scheduled for a demo drive?
+best_match ->  What vehicle model is the demo drive for?
+BLEU_SCORE without mem8.91376552139813
+
+With comparing mem
+generated -> <mem> Car Model: Model Y </mem>  At which location should the demo drive be scheduled?
+best_match -> <mem> Vehicle Model: Model Y </mem>  Who is scheduling the demo drive?
+BLEU_SCORE with mem44.03313338639101
+
+Without comparing mem
+generated ->   At which location should the demo drive be scheduled?
+best_match ->   Who is scheduling the demo drive?
+BLEU_SCORE without mem16.784459625186194
+
+With comparing mem
+generated -> <mem> Demo Drive Location: Roy Adams </mem>  What date and time is preferred for the demo drive?
+best_match -> <mem> Vehicle Model: Model Y </mem>  Who is scheduling the demo drive?
+BLEU_SCORE with mem25.270455578796167
+
+Without comparing mem
+generated ->   What date and time is preferred for the demo drive?
+best_match ->   Who is scheduling the demo drive?
+BLEU_SCORE without mem24.808415001701817
+
+With comparing mem
+generated -> <mem> Preferred Date and Time: Not specified </mem>  <Finish>
+best_match -> <mem> Zip Code: 90001 </mem>  <Finish>
+BLEU_SCORE with mem43.85068972747104
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+EVAL DATA -> 101
+With comparing mem
+generated -> <mem>  </mem> What is the date for the dinner reservation?
+best_match -> <mem> Number of People: Two </mem>  What is the preferred timing for the reservation?
+BLEU_SCORE with mem38.52983385840644
+
+Without comparing mem
+generated ->  What is the date for the dinner reservation?
+best_match ->   What is the preferred timing for the reservation?
+BLEU_SCORE without mem26.084743001221455
+
+With comparing mem
+generated -> <mem> Dinner Date: Any time after 8 pm tomorrow </mem>  How many adults will be dining?
+best_match -> <mem> City: New York </mem>  For how many people should the reservation be made?
+BLEU_SCORE with mem16.692486522015717
+
+Without comparing mem
+generated ->   How many adults will be dining?
+best_match ->   For how many people should the reservation be made?
+BLEU_SCORE without mem5.630400552901077
+
+With comparing mem
+generated -> <mem> Number of Adults: Two </mem>  What type of table needs to be reserved?
+best_match -> <mem>  </mem> What type of restaurant should the reservation be made at?
+BLEU_SCORE with mem35.587851490678766
+
+Without comparing mem
+generated ->   What type of table needs to be reserved?
+best_match ->  What type of restaurant should the reservation be made at?
+BLEU_SCORE without mem16.14682615668325
+
+With comparing mem
+generated -> <mem> Table Type: Indian cuisine-serving restaurant </mem>  <Finish>
+best_match -> <mem> Search Preference: First available restaurant in search results </mem>  <Finish>
+BLEU_SCORE with mem39.73010802644725
+
+Without comparing mem
+generated ->   <Finish>
+best_match ->   <Finish>
+BLEU_SCORE without mem0.0
+
+AVERAGE BLEU SCORE WITH MEM -> 42.14000631024961AVERAGE BLEU SCORE WITHOUT MEM -> 17.331057137427802AVERAGE BERT SCORE -> 0.9395551197427922AVERAGE PERPLEXITY SCORE -> 3726.1839002175307

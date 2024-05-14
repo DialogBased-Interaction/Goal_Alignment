@@ -1,0 +1,50 @@
+Find highest rated guitar tab, What type of guitar tab needs to be found?,  Guitar Tab Type: Highest rating 
+Find antique Oak chair, What type of chair is being searched for?,  Chair Type: Used antique Oak chair ,  Price Range: Maximum price range not specified ,  Location: Not specified 
+Book hourly parking, What is the location for the parking spot?,  Parking Location: Atlanta International Airport ,  Parking Date and Time: [Date] [Time] ,  Parking Duration: [Duration] ,  Vehicle Details: [Make] [Model] ,  License Plate Number: [Plate Number] 
+Check flight status, What is the departure city for the flight?,  Departure City: April 6 ,  Destination City: 6944 ,  Travel Date: April 6 ,  Flight Status: April 6 
+Add movie to watchlist, What is the title of the movie to add to the watchlist?,  Movie Title: Prometheus ,  Location: Prometheus 
+Find cheapest red Model Y, What color of the Model Y is being searched for?,  Model Y Color: Red ,  Location for Vehicle Search: To find the cheapest option available for registration. ,  Vehicle Model: Model Y ,  Purpose of Search: Find the cheapest option available for registration. 
+Find baby products on sale under $10, What type of product is being searched for?,  Product Type: Baby products ,  Price Limit: Under 10 dollars 
+Browse trending searches, What is the time frame for the trending searches?,  Time Frame: Columbus 
+Find video highlights, What is the team to search for video highlights?,  Team for Video Highlights: The most recent Super Bowl ,  Moment for Video Highlights: The most recent Super Bowl 
+Find team schedule, What is the name of the team whose schedule needs to be found?,  Team Name: Chicago Bulls 
+Search and sort camping tents, What type of product is being searched for?,  Product Type: Camping tents ,  Filtering: Price-based sorting 
+Display RPG video games, What genre of video games should be shown?,  Game Genre: RPG ,  Release Timeframe: Specific time period ,  Sorting Method: Specific time period 
+Book round-trip flight, What is the departure city for the flight?,  Departure City: Santa Fe, New Mexico ,  Destination City: Phoenix, Arizona ,  Departure Date: August 13th ,  Return Date: August 28th ,  Aircraft Type: Phoenix, Arizona ,  Number of Travelers: 1 adult ,  Special Seating Options: 1 adult ,  Final Action: August 28th 
+Job application for engineering position, What is the job title for which the application is being made?,  Job Title: Engineering Position ,  Job Location: Madrid, Spain ,  Company Experience: N/A 
+Find a gaming PC, What type of gaming PC is being searched for?,  Gaming PC Requirement: Run Call of Duty Warzone at 4k resolution. ,  Price Range: 4k resolution. ,  Pickup Location: To be determined. 
+Add item to cart, What item needs to be added to the cart?,  Item: Pair of diamond stud earrings ,  Color Grade: Minimum of D color ,  Cut Grade: Excellent cut ,  Clarity Grade: VS2 clarity ,  Prong Type: Classic prongs ,  Price Range: $400 - $600 ,  Selection Criterion: Appearance and quality 
+Find Kinect camera for Xbox One, What is the purpose of the camera?,  Camera Purpose: Kinect camera for Xbox One ,  Console Compatibility: Xbox One ,  Main Camera Feature: Kinect camera 
+Open recently played games list, What action needs to be performed?,  Action: Open list of recently played games 
+Find guided vacations, What type of vacation are we looking for?,  Vacation Type: July ,  Vacation Duration: More than 10 nights ,  Price Range: More than 10 nights ,  Travelers: Europe ,  Children: Europe ,  Departure City: Europe ,  Destination City: Europe 
+Play movie trailer, What genre of movie trailer should be played?,  Movie Genre: The Flash 
+Search for recipe and add ingredients to cart, What type of recipe is to be searched for?,  Recipe Type: Gingerbread cakes recipe ,  Recipe Rating: Not specified ,  Number of Servings: Not specified ,  Action After Finding Recipe: Add ingredients to the cart ,  Next Step: Add ingredients to the cart 
+Play chart-topper track and like it, What action is to be performed with the chart-topper track?,  Action: Like the track ,  Selection Criteria: Like the track 
+Find car value, What type of car is being inquired about?,  Car Color: Black ,  Car Year: AZXA46 ,  VIN: 2016 Toyota Camry XLE Sedan 4D 
+Find a vehicle, What is the type of vehicle to find?,  Vehicle Type: Lexus SUV ,  Price Range: Between 2022-2023 ,  Location: Lexus SUV ,  Model Year Range: Between 2022-2023 
+Search for a receipt, What is the date of the receipt to search for?,  Receipt Date: 12345678 ,  Email Address: Jason Two ,  Last Name: 12345678 
+Find team schedule, What is the name of the team whose schedule is needed?,  Team Name: Real Madrid ,  Tournament: UEFA Champions League championship ,  Purpose: To access the UEFA Champions League championship schedule 
+Find health screening for women, What is the purpose of the search?,  Search Purpose: Comprehensive health screening for women 
+Find cheapest SUV rental, What type of vehicle is being searched for in the rental?,  Vehicle Type: SUV ,  Rental Period: 1 day ,  Pick-up Location: Brooklyn ,  Pick-up Time: 1 day ,  Drop-off Location: 1 day 
+Purchase digital gift card, What is the value of the digital gift card to be purchased?,  Gift Card Value: $25 ,  Recipient: Tim Stebee ,  Recipient Email: scisoorbros@gmail.com ,  Recipient Mailing Address: scisoorbros@gmail.com ,  Shipping Address: scisoorbros@gmail.com ,  Billing Address: Tim Stebee ,  Phone Number: Tim Stebee ,  Shipping Method: $25 
+Job search for full-time accountant positions in the USA, What type of job is being sought?,  Job Type: Full-time in finance ,  Job Location: USA ,  Salary Range: Full-time in finance 
+Book hotel or resort, What type of accommodation is being searched for?,  Accommodation Type: Cheapest 3-star hotel or resort ,  Location: Near beach in Goa ,  Number of Rooms: Not specified ,  Selection Criteria: Near the beach in Goa ,  Checkout Date: April 25th 
+Choose lowest priced hybrid SUV car rental, What type of car rental is being looked for?,  Car Type: Hybrid SUV ,  Price Range: Lowest priced option available ,  Rental Location: Bangkok downtown, May 24 at 9:30 am ,  Return Time: May 24 at 9:30 am from Bangkok downtown 
+Check refund status, What is the reference number to check the refund status with?,  Reference Number: 1234567890123 ,  Last Name: 1234567890123 
+Research Audi A6 2020, What is the model of the car to research?,  Car Model: Audi A6 2020 
+Share an article on Twitter, What is the title of the article to be shared on Twitter?,  Article Title: On Twitter ,  Article Source: On Twitter ,  Sharing Platform: Twitter ,  Sharer: On Twitter ,  Sharer Account Name: On Twitter ,  Cover Photo: On Twitter (if available) 
+Purchase metro card at booth, What type of metro card needs to be purchased at the booth?,  Purchase Location: Booth 
+Book outdoor activity events, What is the location where the outdoor activity events should be booked?,  Location: Spain ,  Activity Type: Morning group ,  Event Date: May 1 
+Check movie availability and purchase tickets, What is the movie to check availability for?,  Movie Title: 65 ,  Movie Date and Time: Tuesday, March 28, 2023 at 7:30 pm ,  Movie Location: 65 ,  Action After Availability Check: Purchase tickets if available 
+Add books to basket, What genre of books should be added to the basket?,  Book Genre: Mystery, Suspense ,  Author: Dr. Seuss ,  Action After Adding: Add 2 books to the basket 
+Find deals, What type of deals are being searched for?,  Deal Location: New York ,  Deal Availability: New York 
+Find latest news, What is the keyword to find news related to?,  Keyword: Mikal Bridges ,  Player: Mikal Bridges (Team) ,  Time Limit: Mikal Bridges 
+Find and follow fashion class event, What type of event is being searched for?,  Event Type: Free online fashion class events ,  Event Location: This weekend ,  Action: This weekend 
+Locate and add items from Sprouts Farmers Market, What type of items are to be located at Sprouts Farmers Market?,  Item Type: Fruits ,  Store: Sprouts Farmers Market 
+Find NBA team with highest average points, What is the specific season for which the NBA team's stats need to be checked?,  Season for Stats: Not specified ,  Organization of Data: Average points scored by NBA teams in the current season ,  Task: Identify NBA team with highest average points in current season 
+Inquire about cancellation fees, What is the specific service provided by the company that is subject to the cancellation policy?,  Service Subject to Cancellation Policy: Unspecified ,  Party Involved: Company ,  Nature of Inquiry: Fees associated with cancellation of a service 
+Read product reviews, What is the name of the product whose reviews need to be read?,  Product Name: DayQuil Severe Cough Liquicaps ,  Number of Reviews: Not specified 
+Find cast and crew of Titanic and add to watchlist, What is the title of the movie to find the cast and crew for?,  Movie Title: Titanic ,  Action: Add to watchlist 
+Search and share news about LeBron James' injury, What is the subject of the news search?,  News Subject: LeBron James' injury ,  News Sharing: Share the latest news about LeBron James' injury 
+Add item to shopping cart, What type of item needs to be found in the store?,  Item Type: NBA basketball game for the PS5 ,  Game Size: PS5 ,  Price Range: PS5 
+Add medication to cart for pickup, What is the name of the medication to add to the cart?,  Medication Name: Zyrtec ,  Quantity: Zyrtec ,  Pickup Time: Nearest CVS ,  Pickup Preference: Nearest CVS 

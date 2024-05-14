@@ -1,0 +1,189 @@
+****************************************Refined Train Responce.csv************************************
+=================================================FIXED==============================================
+Index: 72 ; Abstract:  Sell an item for cash credit at a store ; Match count:  1
+Index: 454 ; Abstract:  Browse season pass prices for a water park ; Match count:  1
+Index: 282 ; Abstract:  Book an outdoor table at a restaurant ; Match count:  1
+Index: 277 ; Abstract:  Find family-friendly activities with free cancellation in Singapore ; Match count:  1
+Index: 665 ; Abstract:  Find beauty salons in a specific location with certain criteria ; Match count:  1    
+Index: 251 ; Abstract:  Learn about a specific discount deal for veterans ; Match count:  1
+Index: 548 ; Abstract:  Find nearby activities on a specific date ; Match count:  1
+Index: 730 ; Abstract:  Find a cocktail bar in San Francisco ; Match count:  1
+Index: 887 ; Abstract:  Find the longest private sightseeing trip ; Match count:  1
+Index: 34 ; Abstract:  Find the most expensive ticket for an event ; Match count:  1       
+Index: 960 ; Abstract:  Find cheapest luxury car rental in New York ; Match count:  2      
+Index: 78 ; Abstract:  Retrieve information about the NBA Finals schedule ; Match count:  1
+Index: 911 ; Abstract:  Create a new list of albums ; Match count:  1
+Index: 774 ; Abstract:  Find and add surge protector to cart ; Match count:  1
+Index: 18 ; Abstract:  Get a quote for an Amtrak vacation ; Match count:  1
+Index: 232 ; Abstract:  Find and save a hotel in Los Angeles ; Match count:  1
+Index: 68 ; Abstract:  Find and add clothing item to wishlist ; Match count:  1
+Index: 959 ; Abstract:  Find a premium car rental ; Match count:  1
+Index: 83 ; Abstract:  Browse climbing courses nearby ; Match count:  1
+Index: 883 ; Abstract:  Search and save information on specific items online ; Match count:  2
+Index: 152 ; Abstract:  Locate specific terms and conditions for a service ; Match count:  1
+Index: 189 ; Abstract:  Search for a specific type of hydropack based on capacity ; Match count:  1
+Index: 271 ; Abstract:  Find specialized parking in California city ; Match count:  1
+Index: 270 ; Abstract:  Display RPG video games. ; Match count:  1
+Index: 168 ; Abstract:  Search for an item and add to cart ; Match count:  1
+Index: 196 ; Abstract:  Find and record rock music events ; Match count:  1
+Index: 365 ; Abstract:  Search and compare sports cars ; Match count:  1
+Index: 317 ; Abstract:  Shop for clothing at UA outlet ; Match count:  1
+Index: 207 ; Abstract:  Find hotel deals in Las Vegas or set an alert if no deals are available. ; Match count:  1
+Index: 394 ; Abstract:  Book a hybrid SUV car rental ; Match count:  1
+Index: 535 ; Abstract:  Watch the halftime show from the most recent Super Bowl ; Match count:  1
+Index: 300 ; Abstract:  Display the Amtrak national route map ; Match count:  1
+Index: 388 ; Abstract:  Find discounted items in the weekly ad ; Match count:  1
+Index: 186 ; Abstract:  Find and book an entire home in Manila ; Match count:  1
+Index: 827 ; Abstract:  Find a dry cleaning shop in New York City ; Match count:  1
+Index: 369 ; Abstract:  Book parking options in Florida ; Match count:  1
+Index: 851 ; Abstract:  Search and set alert for developer jobs ; Match count:  1
+Index: 809 ; Abstract:  Find the lowest priced flight in points ; Match count:  1
+Index: 178 ; Abstract:  Find monthly daytime only parking ; Match count:  1
+Index: 922 ; Abstract:  Browse and sort dog food for puppies ; Match count:  1
+Index: 386 ; Abstract:  Browse highest rated spas within a budget ; Match count:  1
+Index: 257 ; Abstract:  Find restaurants with available reservations and vegetarian options ; Match count:  1
+Index: 664 ; Abstract:  Find the highest rated guitar tab ; Match count:  1
+Index: 720 ; Abstract:  Gather information about a movie and its director, and manage a list with these details. ; Match count:  1
+Index: 409 ; Abstract:  Find a foldable over-ear headphone ; Match count:  1
+Index: 471 ; Abstract:  Find the cheapest wheelchair accessible parking for a sports event ; Match count:  1
+Index: 337 ; Abstract:  Search for a specific fishing rod ; Match count:  1
+Index: 225 ; Abstract:  Browse movie trailers with a "fresh" rating ; Match count:  1
+Index: 950 ; Abstract:  Show recommended gaming PCs for specific games at 4K resolution ; Match count:  1
+Index: 141 ; Abstract:  Book the cheapest small car rental ; Match count:  1
+Index: 322 ; Abstract:  Find the quickest one-way flight ; Match count:  2
+Index: 933 ; Abstract:  Find highest rated last-minute flights and car rentals ; Match count:  2
+Index: 792 ; Abstract:  Search for cultural tours ; Match count:  1
+Index: 473 ; Abstract:  Book hourly parking ; Match count:  1
+Index: 841 ; Abstract:  Find one-way flights ; Match count:  1
+Index: 552 ; Abstract:  Browse locations for a business meeting on a website ; Match count:  1
+Index: 852 ; Abstract:  Book first class vacation travel ; Match count:  1
+Index: 1004 ; Abstract:  Task description incomplete ; Match count:  1
+Index: 676 ; Abstract:  Find and select an event in Los Angeles on a specific date ; Match count:  1
+Index: 685 ; Abstract:  Find and select documentaries on Netflix based on metascore ; Match count:  1
+Index: 524 ; Abstract:  Search for water activities in Dubai ; Match count:  1
+Index: 870 ; Abstract:  Find the cheapest event ; Match count:  1
+Index: 714 ; Abstract:  Find the cheapest car available for registration ; Match count:  1
+Index: 929 ; Abstract:  Find and apply for a part-time job ; Match count:  1
+Index: 800 ; Abstract:  Find unique experiences in London ; Match count:  1
+Index: 814 ; Abstract:  Purchase and send digital gift cards ; Match count:  1
+Index: 417 ; Abstract:  Locate a place and find its current conditions ; Match count:  1
+Index: 392 ; Abstract:  Find and add clothing items to cart ; Match count:  1
+Index: 936 ; Abstract:  Find hotels in Tokyo ; Match count:  1
+Index: 931 ; Abstract:  Check restaurant availability for delivery service ; Match count:  1
+Index: 505 ; Abstract:  Add a frame to an avatar using points ; Match count:  1
+Index: 838 ; Abstract:  Book the cheapest exotic car ; Match count:  1
+Index: 1008 ; Abstract:  Find a Chevrolet car meeting specific criteria ; Match count:  1
+Index: 815 ; Abstract:  Find specific men's hiking shoes ; Match count:  1
+Index: 888 ; Abstract:  Find and mark home essentials under $20 as favorites ; Match count:  2
+total refined case:  80
+percentage:  9.84009840098401
+
+
+****************************************refined test domain response.csv************************************
+=================================================FIXED======================================================
+Index: 23 ; Abstract:  Find the cheapest condo in New York with specific features ; Match count:  1
+Index: 120 ; Abstract:  Find and print a recipe ; Match count:  1
+Index: 33 ; Abstract:  Find details about an online certification course ; Match count:  1
+Index: 58 ; Abstract:  Find and purchase a specific SAP S/4 HANA course ; Match count:  2 
+Index: 75 ; Abstract:  Find and join a music-related community ; Match count:  1
+Index: 131 ; Abstract:  Check health risk and running conditions ; Match count:  1
+Index: 71 ; Abstract:  Get a quote from a solar energy equipment company ; Match count:  1
+Index: 712 ; Abstract:  Subscribe to a LinkedIn Learning newsletter ; Match count:  1
+Index: 787 ; Abstract:  Find a permanent job in Logistics ; Match count:  2
+Index: 183 ; Abstract:  Find information about Cardiology hospitals in Portland, Oregon ; Match count:  2
+Index: 188 ; Abstract:  Find and display young cats in a specific location ; Match count:  1
+Index: 190 ; Abstract:  Join a gift card exchange group and save a specific post ; Match count:  1
+Index: 508 ; Abstract:  Find specific forms in the civil division ; Match count:  1
+Index: 477 ; Abstract:  Open the section to create a new message ; Match count:  1
+Index: 388 ; Abstract:  Find and checkout political every door direct mail service ; Match count:  1
+Index: 820 ; Abstract:  Find meditation and sound therapy sessions ; Match count:  1
+Index: 398 ; Abstract:  Locate the nearest veterinary clinic ; Match count:  1
+Index: 189 ; Abstract:  Find shorthaired dogs available for adoption ; Match count:  1
+Index: 365 ; Abstract:  Find eye doctors based on specific criteria ; Match count:  1
+Index: 340 ; Abstract:  Order Priority Mail padded envelopes ; Match count:  2
+Index: 510 ; Abstract:  View a list of forms related to DEA ; Match count:  1
+Index: 868 ; Abstract:  Find furnished housing ads in New York with specific criteria and select the lowest-priced option ; Match count:  1        
+Index: 251 ; Abstract:  Open login page for online applications ; Match count:  1
+Index: 614 ; Abstract:  Locate a specific type of kitten ; Match count:  1
+Index: 425 ; Abstract:  Find information about a specific African name ; Match count:  2
+Index: 569 ; Abstract:  Find legal career openings ; Match count:  1
+Index: 311 ; Abstract:  Apply for food stamps ; Match count:  1
+Index: 326 ; Abstract:  Find a primary care physician near a specific location ; Match count:  1
+Index: 271 ; Abstract:  Search and contact the seller of timberland for sale ; Match count:  1
+Index: 196 ; Abstract:  Find nursing master's programs with the highest enrollment in a specific location ; Match count:  1
+Index: 751 ; Abstract:  Find internship programs ; Match count:  1
+Index: 836 ; Abstract:  Retrieve email address from a specific listing ; Match count:  1
+Index: 650 ; Abstract:  Start and save a draft post ; Match count:  1
+Index: 270 ; Abstract:  Find and contact seller about undeveloped land for sale ; Match count:  1
+Index: 763 ; Abstract:  Find a rental place in Glasgow ; Match count:  1
+Index: 315 ; Abstract:  Search and apply for a part-time remote job ; Match count:  1
+Index: 464 ; Abstract:  Search for remote software engineering jobs ; Match count:  2
+Index: 728 ; Abstract:  Disable an email notification ; Match count:  1
+Index: 853 ; Abstract:  Open the page for finding a local court ; Match count:  1
+Index: 294 ; Abstract:  Find and save a list of furniture for sale ; Match count:  1
+Index: 601 ; Abstract:  Find and save a highly reviewed dairy-free pasta recipe with minimal ingredients. ; Match count:  1
+Index: 560 ; Abstract:  Extend a Global Talent visa ; Match count:  1
+Index: 427 ; Abstract:  Find the closest hospital offering urgent care near a specific location and get contact details ; Match count:  1
+Index: 742 ; Abstract:  Find specific press releases ; Match count:  1
+Index: 791 ; Abstract:  Search for a mobile home for sale ; Match count:  1
+Index: 782 ; Abstract:  Search for the lowest priced farm land in a specific location ; Match count:  1
+Index: 893 ; Abstract:  Locate an Indian community and find a seasonal vegetable recipe ; Match count:  2
+Index: 870 ; Abstract:  Find need-based undergraduate scholarships ; Match count:  1
+Index: 837 ; Abstract:  Browse dog-friendly vacation rentals with specific amenities ; Match count:  1
+Index: 778 ; Abstract:  Search and sort pencil drawing courses ; Match count:  1
+Index: 849 ; Abstract:  Display a list of baby boy names ; Match count:  1
+Index: 698 ; Abstract:  Schedule a motorcycle knowledge test appointment ; Match count:  1
+Index: 247 ; Abstract:  Find and compare salaries for a specific job position across different locations. ; Match count:  1
+Index: 443 ; Abstract:  Job search assistance for military personnel ; Match count:  1
+Index: 769 ; Abstract:  Find contact information for a specialized contractor ; Match count:  1
+Index: 612 ; Abstract:  Search for healthcare jobs ; Match count:  1
+total refined case:  63
+percentage:  9.06474820143885
+
+
+****************************************refined_test_task_response.csv************************************
+=================================================FIXED======================================================
+Index: 81 ; Abstract:  Add queen-sized bed sheets to the shopping cart ; Match count:  1
+Index: 108 ; Abstract:  Find online cooking experiences ; Match count:  1
+Index: 43 ; Abstract:  Find mobile delivery tickets for an event ; Match count:  1
+Index: 46 ; Abstract:  Search and bookmark an intern career opportunity ; Match count:  1
+Index: 85 ; Abstract:  Find and open the most replied community discussion ; Match count:  1
+Index: 84 ; Abstract:  Purchase a 9 mm pistol from a clearance sale with specific ratings ; Match count:  1
+Index: 105 ; Abstract:  Locate the nearest Gamestop store ; Match count:  1
+Index: 35 ; Abstract:  Add an e-gift card to shopping bag ; Match count:  1
+Index: 101 ; Abstract:  Find sports experiences in Portugal ; Match count:  1
+Index: 143 ; Abstract:  Browse and filter items in a clearance section ; Match count:  1
+Index: 29 ; Abstract:  Search for a business class flight ; Match count:  1
+Index: 246 ; Abstract:  Browse men's winter coats ; Match count:  1
+Index: 229 ; Abstract:  Add wireless headphones to cart ; Match count:  1
+Index: 147 ; Abstract:  Create a new collection and find the most reviewed car wash in a specific location to add to it. ; Match count:  2
+Index: 134 ; Abstract:  Find 5-star rated tours including visits to the Louvre ; Match count:  1
+Index: 235 ; Abstract:  Search for lowest priced new aluminum fish boat ; Match count:  1
+Index: 239 ; Abstract:  Search and book a European cruise ; Match count:  1
+Index: 169 ; Abstract:  Find one-way flight ; Match count:  1
+Index: 241 ; Abstract:  Find the lowest price SUV rental with specific details ; Match count:  1
+Index: 10 ; Abstract:  Purchase a diamond pass for an amusement park with additional options and payment plan ; Match count:  1
+total refined case:  21
+percentage:  9.722222222222223
+
+****************************************refined_test_website_response.csv************************************
+=================================================FIXED======================================================
+Index: 109 ; Abstract:  Play the latest video from a specified channel ; Match count:  1
+Index: 86 ; Abstract:  Find a vacation rental in Egypt. ; Match count:  1
+Index: 22 ; Abstract:  Find the shortest duration rail tour ; Match count:  1       
+Index: 115 ; Abstract:  Save a restaurant to my trips ; Match count:  1
+Index: 121 ; Abstract:  Search for a product with the lowest price ; Match count:  1
+Index: 72 ; Abstract:  Finance a new iPhone with Verizon ; Match count:  1
+Index: 92 ; Abstract:  Check price of engagement rings ; Match count:  1
+Index: 26 ; Abstract:  Find available tent campsites ; Match count:  1
+Index: 18 ; Abstract:  Find accommodation in Jaipur ; Match count:  1
+Index: 153 ; Abstract:  Access click analytics for a specific ad in the fitness category. ; Match count:  1
+Index: 164 ; Abstract:  Find and move anklets to shopping bag ; Match count:  1
+Index: 47 ; Abstract:  Find a hotel in New York City ; Match count:  1
+Index: 130 ; Abstract:  Find electric cars within specific criteria ; Match count:  1
+Index: 167 ; Abstract:  Play rock music suitable for social media ; Match count:  1
+Index: 128 ; Abstract:  Book a one-way nonstop flight ; Match count:  1
+Index: 65 ; Abstract:  Find a Hotel in New York ; Match count:  1
+Index: 131 ; Abstract:  Find a used BMW car ; Match count:  1    
+total refined case:  17
+percentage:  11.18421052631579

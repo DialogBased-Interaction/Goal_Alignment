@@ -1,0 +1,7 @@
+modified by removing pairs with following mem components:
+not specified
+not provided
+unknown
+N/A
+
+Also, removed sample identity_1004 from train

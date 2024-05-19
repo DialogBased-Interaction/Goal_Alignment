@@ -1,0 +1,158 @@
+[
+  {
+    "id": "identity_305_0",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank>  </mem_bank> Display the full menu for AMC dine-in locations"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_858_6",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Gather information for planning a wedding cruise"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_242_0",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank>  </mem_bank> Open a design tool for designing a new home office."
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_191_1",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Identify software requirements for iPhones supporting live TV on-demand streaming"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_296_1",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Access a list of recently played games"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_754_2",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Find information on ticket refund process"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_858_28",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Gather information for planning a wedding cruise"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_754_1",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Find information on ticket refund process"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_705_11",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Find and email the latest news article"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_858_29",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Gather information for planning a wedding cruise"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_968_0",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank>  </mem_bank> Find the cheapest last minute cruise deal"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_227_1",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<mem_bank> </mem_bank> Retrieve NFL passing touchdown season stats"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem> </mem> <Finish>"
+      }
+    ]
+  }
+]

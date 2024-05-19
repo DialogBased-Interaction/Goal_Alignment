@@ -1,0 +1,431 @@
+[
+  {
+    "id": "identity_348",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find a coffee shop with wi-fi"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_220",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find US box office revenue for a specific movie"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_191",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Identify software requirements for iPhones supporting live TV on-demand streaming"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_600",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Check car toll rates for specific bridges and tunnels"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_978",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Obtain a promo code for Spring Break savings and packages."
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_486",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find event tickets in a specified location."
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_737",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inquire about available exotic vehicles for rent."
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_276",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find fitness events for the weekend"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_100",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Follow a team leader from an NHL Atlantic Division team"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_124",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Understand BGG submission rules"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_242",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Open a design tool for designing a new home office."
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_296",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Access a list of recently played games"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_315",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inquire about Jerry Trainor's upcoming projects"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_148",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find a guide for paying with commuter benefits"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_430",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Like the top track on the Real Time Top Chart"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_383",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find Gloomhaven's ratings"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_305",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Display the full menu for AMC dine-in locations"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_504",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Open item inventory"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_867",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Inquire about payment methods for monthly parking"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_439",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find information about purchasing a metro card at a booth"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_858",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Gather information for planning a wedding cruise"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_610",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select a UFC event and view an athlete's profile"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_227",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Retrieve NFL passing touchdown season stats"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_754",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find information on ticket refund process"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_584",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find details on converting points to miles"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_968",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find the cheapest last minute cruise deal"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_1001",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Display the most popular Women's Athletic Shoes."
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem> <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_631",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Check statistics for Bayern Munich goalkeepers"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_464",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Make a reservation for a restaurant-related event"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_705",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find and email the latest news article"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_556",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Gather information about cancellation fees"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_807",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Locate push notification settings"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  },
+  {
+    "id": "identity_379",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Find available wine at Kroger"
+      },
+      {
+        "from": "gpt",
+        "value": "<mem>  </mem>  <Finish>"
+      }
+    ]
+  }
+]

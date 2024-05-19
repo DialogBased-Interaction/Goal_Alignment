@@ -1,0 +1,20 @@
+jsons/train/train.json
+33 samples removed from total 812 samples... 4.064039408866995%
+jsons/train/mem_bank_data/whole/mem_bank_whole.json
+127 samples removed from total 15316 samples... 0.829198224079394%
+jsons/train/mem_bank_data/splitted/train.json
+115 samples removed from total 13784 samples... 0.8343006384213582%
+jsons/train/mem_bank_data/splitted/eval.json
+12 samples removed from total 1532 samples... 0.7832898172323759%
+jsons/test/cross_domain.json
+58 samples removed from total 695 samples... 8.345323741007196%
+jsons/test/cross_website.json
+8 samples removed from total 152 samples... 5.263157894736842%
+jsons/test/cross_task.json
+17 samples removed from total 216 samples... 7.87037037037037%
+jsons/test/mem_bank_integration/cross_domain.json
+270 samples removed from total 7417 samples... 3.640285829850344%
+jsons/test/mem_bank_integration/cross_website.json
+28 samples removed from total 3146 samples... 0.8900190718372537%
+jsons/test/mem_bank_integration/cross_task.json
+48 samples removed from total 3536 samples... 1.3574660633484164%

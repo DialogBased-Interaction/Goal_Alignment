@@ -4784,10 +4784,10 @@
         "from": "gpt",
         "value": "<mem> Car Color: Blue </mem> What size are the wheels?"
       },
-      { "from": "human", "value": "19" },
+      { "from": "human", "value": "19\"" },
       {
         "from": "gpt",
-        "value": "<mem> Wheel Size: 19 </mem> What is the zip code for the search area?"
+        "value": "<mem> Wheel Size: 19\" </mem> What is the zip code for the search area?"
       },
       { "from": "human", "value": "60602" },
       { "from": "gpt", "value": "<mem> Zip Code: 60602 </mem> <Finish>" }
@@ -4854,11 +4854,11 @@
     "conversations": [
       {
         "from": "human",
-        "value": "<mem_bank>  Car Color: Blue ,  Car Condition: New ,  Wheel Size: 19  </mem_bank> View car inventory"
+        "value": "<mem_bank>  Car Color: Blue ,  Car Condition: New ,  Wheel Size: 19\"  </mem_bank> View car inventory"
       },
       {
         "from": "gpt",
-        "value": "<mem> Car Color: Blue ,  Car Condition: New ,  Wheel Size: 19 </mem> Which car model are we looking for?"
+        "value": "<mem> Car Color: Blue ,  Car Condition: New ,  Wheel Size: 19\" </mem> Which car model are we looking for?"
       },
       { "from": "human", "value": "Tesla Model S" },
       {
@@ -8376,10 +8376,10 @@
         "from": "gpt",
         "value": "<mem> Car Condition: New </mem> What size are the wheels?"
       },
-      { "from": "human", "value": "19" },
+      { "from": "human", "value": "19\"" },
       {
         "from": "gpt",
-        "value": "<mem> Wheel Size: 19 </mem> How far from the zip code should we search?"
+        "value": "<mem> Wheel Size: 19\" </mem> How far from the zip code should we search?"
       },
       { "from": "human", "value": "50 miles" },
       {
@@ -10043,11 +10043,11 @@
     "conversations": [
       {
         "from": "human",
-        "value": "<mem_bank>  Car Model: Tesla Model S ,  Car Color: Blue ,  Wheel Size: 19 ,  Zip Code: 60602  </mem_bank> View car inventory"
+        "value": "<mem_bank>  Car Model: Tesla Model S ,  Car Color: Blue ,  Wheel Size: 19\" ,  Zip Code: 60602  </mem_bank> View car inventory"
       },
       {
         "from": "gpt",
-        "value": "<mem> Car Model: Tesla Model S ,  Car Color: Blue ,  Wheel Size: 19 ,  Zip Code: 60602 </mem> Is the car new or used?"
+        "value": "<mem> Car Model: Tesla Model S ,  Car Color: Blue ,  Wheel Size: 19\" ,  Zip Code: 60602 </mem> Is the car new or used?"
       },
       { "from": "human", "value": "New" },
       {
@@ -18917,11 +18917,11 @@
     "conversations": [
       {
         "from": "human",
-        "value": "<mem_bank>  Car Model: Tesla Model S ,  Wheel Size: 19  </mem_bank> View car inventory"
+        "value": "<mem_bank>  Car Model: Tesla Model S ,  Wheel Size: 19\"  </mem_bank> View car inventory"
       },
       {
         "from": "gpt",
-        "value": "<mem> Car Model: Tesla Model S ,  Wheel Size: 19 </mem> What color should the car be?"
+        "value": "<mem> Car Model: Tesla Model S ,  Wheel Size: 19\" </mem> What color should the car be?"
       },
       { "from": "human", "value": "Blue" },
       {
@@ -22176,10 +22176,10 @@
         "from": "gpt",
         "value": "<mem> Car Condition: New </mem> What size are the wheels?"
       },
-      { "from": "human", "value": "19" },
+      { "from": "human", "value": "19\"" },
       {
         "from": "gpt",
-        "value": "<mem> Wheel Size: 19 </mem> How far from the zip code should we search?"
+        "value": "<mem> Wheel Size: 19\" </mem> How far from the zip code should we search?"
       },
       { "from": "human", "value": "50 miles" },
       {
@@ -25584,11 +25584,11 @@
     "conversations": [
       {
         "from": "human",
-        "value": "<mem_bank>  Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19 ,  Zip Code: 60602  </mem_bank> View car inventory"
+        "value": "<mem_bank>  Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19\" ,  Zip Code: 60602  </mem_bank> View car inventory"
       },
       {
         "from": "gpt",
-        "value": "<mem> Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19 ,  Zip Code: 60602 </mem> What color should the car be?"
+        "value": "<mem> Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19\" ,  Zip Code: 60602 </mem> What color should the car be?"
       },
       { "from": "human", "value": "Blue" },
       {
@@ -40392,11 +40392,11 @@
     "conversations": [
       {
         "from": "human",
-        "value": "<mem_bank>  Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19 ,  Search Radius: 50 miles  </mem_bank> View car inventory"
+        "value": "<mem_bank>  Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19\" ,  Search Radius: 50 miles  </mem_bank> View car inventory"
       },
       {
         "from": "gpt",
-        "value": "<mem> Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19 ,  Search Radius: 50 miles </mem> What color should the car be?"
+        "value": "<mem> Car Model: Tesla Model S ,  Car Condition: New ,  Wheel Size: 19\" ,  Search Radius: 50 miles </mem> What color should the car be?"
       },
       { "from": "human", "value": "Blue" },
       {

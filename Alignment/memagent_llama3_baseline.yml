@@ -1,0 +1,89 @@
+# https://github.com/OpenAccess-AI-Collective/axolotl/blob/main/examples/llama-3/lora-8b.yml
+base_model: meta-llama/Meta-Llama-3-8B
+model_type: LlamaForCausalLM
+tokenizer_type: AutoTokenizer
+
+load_in_8bit: true
+load_in_4bit: false
+strict: false
+
+datasets:
+  - path: /data/tir/projects/tir7/user_data/fhuq/memagent/train.json
+    ds_type: json
+    type: sharegpt
+    data_files:
+      - /data/tir/projects/tir7/user_data/fhuq/memagent/train.json
+
+dataset_prepared_path: /data/tir/projects/tir7/user_data/fhuq/memagent/llama-data-cache
+output_dir: /data/tir/projects/tir7/user_data/fhuq/memagent/llama-lora-out
+
+# A list of one or more datasets to eval the model with.
+# You can use either test_datasets, or val_set_size, but not both.
+# test_datasets:
+#   - path: /data/tir/projects/tir7/user_data/fhuq/memagent/eval_mem.json
+#     ds_type: json
+#     type: sharegpt
+#     split: train
+#     data_files:
+#       - /data/tir/projects/tir7/user_data/fhuq/memagent/eval_mem.json
+      
+val_set_size: 0.07
+adapter: lora
+lora_model_dir:
+
+sequence_len: 2048
+sample_packing: true
+pad_to_sequence_len: true
+
+lora_r: 32
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_linear: true
+lora_fan_in_fan_out:
+lora_modules_to_save: 
+  - embed_tokens
+  - lm_head
+
+wandb_mode: 
+wandb_project: "llama3"
+wandb_entity: "goalalignment"
+wandb_name: "llama3_without_mem"
+wandb_log_model: "checkpoint" 
+
+gradient_accumulation_steps: 1
+micro_batch_size: 2
+num_epochs: 3
+optimizer: adamw_bnb_8bit
+lr_scheduler: cosine
+learning_rate: 2e-5
+
+train_on_inputs: false
+group_by_length: false
+bf16: auto
+fp16:
+tf32: true
+
+gradient_checkpointing: true
+early_stopping_patience:
+resume_from_checkpoint: 
+local_rank:
+logging_steps: 1
+xformers_attention:
+flash_attention: true
+
+loss_watchdog_threshold: 5.0
+loss_watchdog_patience: 3
+
+warmup_steps: 10
+evals_per_epoch: 1
+eval_table_size:
+eval_max_new_tokens: 128
+saves_per_epoch: 1
+debug:
+deepspeed: 
+weight_decay: 0.0
+fsdp:
+fsdp_config:
+special_tokens:
+   pad_token: <|end_of_text|>
+   eos_token: <|eod_id|>

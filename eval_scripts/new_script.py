@@ -7,25 +7,12 @@ from bert_score import score as bert_score
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from torch.nn import CrossEntropyLoss
 import argparse
-import matplotlib.pyplot as plt
 import numpy as np
 
 def load_eval_data(filepath):
     with open(filepath, 'r') as file:
         return json.load(file)
 
-# def calculate_perplexity(model, tokenizer, text):
-#     input_ids = tokenizer.encode(text, return_tensors="pt")
-#     with torch.no_grad():
-#         outputs = model(input_ids=input_ids)
-#     logits = outputs.logits
-#     softmax_logits = torch.softmax(logits, dim=-1).squeeze(dim=0)
-#     word_ids = input_ids.squeeze(dim=0)
-#     perplexity = 0
-#     for i, word_id in enumerate(word_ids):
-#         perplexity -= torch.log(softmax_logits[i, word_id])
-#     perplexity = torch.exp(perplexity / len(word_ids))
-#     return perplexity.item()
 def calculate_perplexity(model, tokenizer, text, device='cuda'):
     input_ids = tokenizer.encode(text, return_tensors="pt").to(device)
     attention_mask = torch.ones(input_ids.shape, device=device)
@@ -66,10 +53,9 @@ def find_most_similar_model_output(input_string, ground_truth_conversations, mod
     best_match_index = cosine_similarities.argmax()
     
     if cosine_similarities[best_match_index] < similarity_threshold:
-        return "not mentioned", None
+        return "not mentioned", ground_truth_texts[best_match_index]
     
     return best_match_index * 2 + 1, ground_truth_texts[best_match_index]
-
 
 
 def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokenizer, model2, generation_params):
@@ -77,6 +63,8 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
     all_bleu_scores, all_bert_scores, all_perplexities = [], [], []
     all_bleu_scores_real, all_bert_scores_real, all_perplexities_real = [], [], []
     turn_counts, results = {}, []
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     for convo in eval_data:
         messages = [{"role": "user", "content": convo['conversations'][0]['value']}]
@@ -94,7 +82,7 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
         while not conversation_end:
             turn_of_conversation += 1
 
-            model_inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to("cuda")
+            model_inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
             response = model.generate(
                 model_inputs,
                 max_new_tokens=2048,
@@ -116,30 +104,26 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
                 asked_questions.add(idx)
 
             if not conversation_end:
-                human_response = convo['conversations'][idx + 1]['value'] if idx + 1 < len(convo['conversations']) else "none"
+                human_response = convo['conversations'][idx + 1]['value'] if isinstance(idx, int) and idx + 1 < len(convo['conversations']) else "not mentioned"
                 messages.append({"role": "user", "content": human_response})
 
-            
             bleu_score1 = bleu_scorer.sentence_score(model_output, [similar_str]).score
 
             _, _, bert_f1 = bert_score([model_output], [similar_str], lang="en")
-            perplexity = calculate_perplexity(gpt2_model, gpt2_tokenizer, model_output)
-
+            perplexity = calculate_perplexity(gpt2_model, gpt2_tokenizer, model_output, device=device)
 
             curr_bleu_scores.append(bleu_score1)
             curr_bert_scores.append(bert_f1.item())
             curr_perplexities.append(perplexity)
 
-
             if idx != "not mentioned":
                 bleu_score1 = bleu_scorer.sentence_score(model_output, [similar_str]).score
                 _, _, bert_f1 = bert_score([model_output], [similar_str], lang="en")
-                perplexity = calculate_perplexity(gpt2_model, gpt2_tokenizer, model_output)
+                perplexity = calculate_perplexity(gpt2_model, gpt2_tokenizer, model_output, device=device)
 
                 curr_bleu_scores_real.append(bleu_score1)
                 curr_bert_scores_real.append(bert_f1.item())
                 curr_perplexities_real.append(perplexity)
-
 
         result_entry = convo.copy()
         result_entry['conversations'] = messages
@@ -176,7 +160,6 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
 
         all_perplexities.append(result_entry['perplexity_score_with_false_positive'])
         all_perplexities_real.append(result_entry['perplexity_score_without_false_positive'])
-        
 
     avg_bleu_with_false_positive = sum(all_bleu_scores) / len(all_bleu_scores)
     avg_bleu_without_false_positive = sum(all_bleu_scores_real) / len(all_bleu_scores_real)
@@ -203,9 +186,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     eval_data = load_eval_data(args.test_file)
-    model = AutoModelForCausalLM.from_pretrained(args.model_dir, device_map="auto")
+    model = AutoModelForCausalLM.from_pretrained(args.model_dir, device_map="auto").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     tokenizer = AutoTokenizer.from_pretrained(args.model_dir)
-    gpt2_model = AutoModelForCausalLM.from_pretrained("gpt2")
+    gpt2_model = AutoModelForCausalLM.from_pretrained("gpt2").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     gpt2_tokenizer = AutoTokenizer.from_pretrained("gpt2")
     model2 = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -230,6 +213,3 @@ if __name__ == "__main__":
 
     print(f"Average Perplexity with false positive: {avg_perplexity_with_false_positive}")
     print(f"Average Perplexity without false positive: {avg_perplexity_without_false_positive}")
-
-
-    

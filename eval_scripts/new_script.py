@@ -51,11 +51,29 @@ def find_most_similar_model_output(input_string, ground_truth_conversations, mod
     cosine_similarities = cosine_similarity([embeddings[0]], embeddings[1:]).flatten()
     
     best_match_index = cosine_similarities.argmax()
+
+    # print("Similarity_score:", cosine_similarities[best_match_index])
     
     if cosine_similarities[best_match_index] < similarity_threshold:
         return "not mentioned", ground_truth_texts[best_match_index]
     
     return best_match_index * 2 + 1, ground_truth_texts[best_match_index]
+
+def clean_model_output(model_output):
+    # Find the first occurrence of [INST] and the last occurrence of [/INST]
+    start = model_output.find("[INST]")
+    end = model_output.rfind("[/INST]") + len("[/INST]")
+    
+    if start != -1 and end != -1 and end > start:
+        # Remove the content between the first [INST] and the last [/INST], including [INST] and [/INST] themselves
+        cleaned_output = model_output[:start] + model_output[end:]
+    else:
+        cleaned_output = model_output
+    
+    # Remove any leading or trailing whitespace
+    cleaned_output = cleaned_output.strip()
+
+    return cleaned_output
 
 
 def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokenizer, model2, generation_params):
@@ -65,8 +83,10 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
     turn_counts, results = {}, []
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+    my_count = 0
     for convo in eval_data:
+        my_count = my_count+1
+        print("conversation no", my_count)
         messages = [{"role": "user", "content": convo['conversations'][0]['value']}]
         extracted_variable_count = convo['conversations'][0]['value'].count(':')
         turn_counts.setdefault(extracted_variable_count, [])
@@ -92,19 +112,25 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
                 do_sample=True,
                 num_return_sequences=1
             )
-            model_output = tokenizer.decode(response[0], skip_special_tokens=True)
+            model_output = clean_model_output(tokenizer.decode(response[0], skip_special_tokens=True))
             messages.append({"role": "assistant", "content": model_output})
             if '<Finish>' in model_output:
                 conversation_end = True
 
             idx, similar_str = find_most_similar_model_output(model_output, convo['conversations'], model2)
+            print()
             if idx == "not mentioned":
                 false_positive += 1
             else:
                 asked_questions.add(idx)
 
+            # print("idx:", isinstance(idx, int), type(idx), idx, idx + 1 < len(convo['conversations']))
+
             if not conversation_end:
-                human_response = convo['conversations'][idx + 1]['value'] if isinstance(idx, int) and idx + 1 < len(convo['conversations']) else "not mentioned"
+                if idx == "not mentioned":
+                    human_response = "not mentioned"
+                else:
+                    human_response = convo['conversations'][idx + 1]['value'] if idx + 1 < len(convo['conversations']) else "not mentioned"
                 messages.append({"role": "user", "content": human_response})
 
             bleu_score1 = bleu_scorer.sentence_score(model_output, [similar_str]).score

@@ -1,0 +1,3085 @@
+[
+    {
+        "id": "identity_34_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Start the process to purchase a gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of gift card are you looking to purchase?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> How much should the gift card be?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the recipient's name?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipient's Name: not mentioned </mem> Who is sending the gift card?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sender: not mentioned </mem> What is the amount for the gift card?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.649155839334338,
+        "bert_score_with_false_positive": 0.9205486675103506,
+        "perplexity_score_with_false_positive": 470.45048268636066,
+        "bleu_score_without_false_positive": 30.926682129070933,
+        "bert_score_without_false_positive": 0.9203620851039886,
+        "perplexity_score_without_false_positive": 665.5110034942627,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_109_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Play the latest video from a specified channel"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which channel's video should be played?"
+            },
+            {
+                "role": "user",
+                "content": "NBA TV"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Channel Name: NBA TV </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 64.20060768984912,
+        "bert_score_with_false_positive": 0.9632698595523834,
+        "perplexity_score_with_false_positive": 187.10656356811523,
+        "bleu_score_without_false_positive": 64.20060768984912,
+        "bert_score_without_false_positive": 0.9632698595523834,
+        "perplexity_score_without_false_positive": 187.10656356811523,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_100_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare prices for a product"
+            },
+            {
+                "role": "assistant",
+                "content": "What product should I compare prices for?"
+            },
+            {
+                "role": "user",
+                "content": "Samsung Galaxy S22"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Name: Samsung Galaxy S22 </mem> What is the price range you are considering?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.01041691269299,
+        "bert_score_with_false_positive": 0.9109221498171488,
+        "perplexity_score_with_false_positive": 137.04617818196616,
+        "bleu_score_without_false_positive": 30.582264253252035,
+        "bert_score_without_false_positive": 0.9146402776241302,
+        "perplexity_score_without_false_positive": 169.06557083129883,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_159_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check permit availability for a national park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which national park do you want to check for permit availability?"
+            },
+            {
+                "role": "user",
+                "content": "Bryce Canyon National Park"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> National Park: Bryce Canyon National Park"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> National Park: Bryce Canyon National Park </mem> What is the specific permit you are inquiring about?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Permit Type: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.301849242413894,
+        "bert_score_with_false_positive": 0.9088318198919296,
+        "perplexity_score_with_false_positive": 142.06665515899658,
+        "bleu_score_without_false_positive": 55.063162642308356,
+        "bert_score_without_false_positive": 0.9515870809555054,
+        "perplexity_score_without_false_positive": 193.92501831054688,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_104_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Play a song from a playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which song should be played from the playlist?"
+            },
+            {
+                "role": "user",
+                "content": "Rock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Song Name: Rock </mem> Which playlist should be played from?"
+            },
+            {
+                "role": "user",
+                "content": "Rock"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Playlist Name: Rock </mem> What should be done after the song ends?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Post-Song Action: None </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.756407833259175,
+        "bert_score_with_false_positive": 0.9368639141321182,
+        "perplexity_score_with_false_positive": 199.65721130371094,
+        "bleu_score_without_false_positive": 49.09271854058119,
+        "bert_score_without_false_positive": 0.9462739825248718,
+        "perplexity_score_without_false_positive": 220.5831044514974,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_17_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse specific reviews for a location"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of location are you looking for reviews on?"
+            },
+            {
+                "role": "user",
+                "content": "5 star reviews"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Review Rating: 5 star </mem> What is the location or business you are looking for reviews on?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location/Business: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.590072541625556,
+        "bert_score_with_false_positive": 0.9129325350125631,
+        "perplexity_score_with_false_positive": 134.3209431966146,
+        "bleu_score_without_false_positive": 31.41772406284427,
+        "bert_score_without_false_positive": 0.9111395478248596,
+        "perplexity_score_without_false_positive": 155.3915252685547,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_86_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a vacation rental in Egypt."
+            },
+            {
+                "role": "assistant",
+                "content": "What is the location for the vacation rental?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> What are the check-in and check-out dates?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many guests will be staying?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many bedrooms are needed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many bathrooms are required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> What are the check-in and check-out dates?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many guests will be staying?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many bathrooms are required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many guests will be staying?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many bathrooms are required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many bathrooms are required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Egypt </mem> How many bathrooms are required?<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.303786528795566,
+        "bert_score_with_false_positive": 0.9147373636563619,
+        "perplexity_score_with_false_positive": 126.40211232503255,
+        "bleu_score_without_false_positive": 0,
+        "bert_score_without_false_positive": 0,
+        "perplexity_score_without_false_positive": 0,
+        "false_negative": 2,
+        "false_positive": 12,
+        "turn_of_conversation": 12,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_142_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a marriage registry"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the name of the city where the marriage registry is needed?"
+            },
+            {
+                "role": "user",
+                "content": "JANE DOE"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Registrant's Name: Jane Doe </mem> What city and state should the marriage registry be found in?"
+            },
+            {
+                "role": "user",
+                "content": "JANE DOE"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Registrant's Name: Jane Doe </mem> What city and state should the marriage registry be found in?"
+            },
+            {
+                "role": "user",
+                "content": "JANE DOE"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Registrant's Name: Jane Doe </mem> What city and state should the marriage registry be found in?"
+            },
+            {
+                "role": "user",
+                "content": "JANE DOE"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Registrant's Name: Jane Doe </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.171669880048853,
+        "bert_score_with_false_positive": 0.9095546483993531,
+        "perplexity_score_with_false_positive": 81.95284881591797,
+        "bleu_score_without_false_positive": 28.171669880048853,
+        "bert_score_without_false_positive": 0.9095546483993531,
+        "perplexity_score_without_false_positive": 81.95284881591797,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_50_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and select theatre events"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Type: Theatre events </mem> Which location should I look for events?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.905332218200996,
+        "bert_score_with_false_positive": 0.9432889819145203,
+        "perplexity_score_with_false_positive": 161.60447692871094,
+        "bleu_score_without_false_positive": 69.97522298221911,
+        "bert_score_without_false_positive": 0.9672306180000305,
+        "perplexity_score_without_false_positive": 199.07461547851562,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_35_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find NHL events in a specified location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which location are you interested in for the NHL events?"
+            },
+            {
+                "role": "user",
+                "content": "Boston"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Boston </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 58.64821819520732,
+        "bert_score_with_false_positive": 0.9718647301197052,
+        "perplexity_score_with_false_positive": 158.05126953125,
+        "bleu_score_without_false_positive": 58.64821819520732,
+        "bert_score_without_false_positive": 0.9718647301197052,
+        "perplexity_score_without_false_positive": 158.05126953125,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_93_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Display a list of products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which product list should be displayed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product List: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.85380260452322,
+        "bert_score_with_false_positive": 0.9250079095363617,
+        "perplexity_score_with_false_positive": 173.21953201293945,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9535179734230042,
+        "perplexity_score_without_false_positive": 219.5099334716797,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_132_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open a review creation page for a specific hotel"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which hotel should a review be created for?"
+            },
+            {
+                "role": "user",
+                "content": "Hotel Xcaret Mexico"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Hotel Name: Hotel Xcaret Mexico </mem> What is the rating for the hotel?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Hotel Rating: not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 18.907947008795425,
+        "bert_score_with_false_positive": 0.879486694931984,
+        "perplexity_score_with_false_positive": 1321.9846420288086,
+        "bleu_score_without_false_positive": 26.966981520990164,
+        "bert_score_without_false_positive": 0.8983489871025085,
+        "perplexity_score_without_false_positive": 1279.8366317749023,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_28_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for songs related to a specific theme"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What theme should the songs be related to?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Theme: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.01436996464925,
+        "bert_score_with_false_positive": 0.9473806917667389,
+        "perplexity_score_with_false_positive": 203.46434020996094,
+        "bleu_score_without_false_positive": 47.20305201905447,
+        "bert_score_without_false_positive": 0.9448327422142029,
+        "perplexity_score_without_false_positive": 253.93319702148438,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_98_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and sort a product"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of product are you looking for? What specific criteria should be used to sort the results?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Type: Not specified </mem> What sorting criteria should be used for the results?"
+            },
+            {
+                "role": "user",
+                "content": "Review Score"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Criteria: Review Score </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.30739825484391,
+        "bert_score_with_false_positive": 0.9368148247400919,
+        "perplexity_score_with_false_positive": 119.83945528666179,
+        "bleu_score_without_false_positive": 59.55361147871882,
+        "bert_score_without_false_positive": 0.9721608757972717,
+        "perplexity_score_without_false_positive": 171.5526885986328,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_46_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add an item to a shopping bag"
+            },
+            {
+                "role": "assistant",
+                "content": "What item should be added to the shopping bag?"
+            },
+            {
+                "role": "user",
+                "content": "Men's slim jeans"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item to add: Men's slim jeans </mem> What color are the jeans?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item color: Not mentioned </mem> What size should the jeans be?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Jeans size: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.898028116369915,
+        "bert_score_with_false_positive": 0.9109617173671722,
+        "perplexity_score_with_false_positive": 216.64575481414795,
+        "bleu_score_without_false_positive": 44.59802390010667,
+        "bert_score_without_false_positive": 0.9142862856388092,
+        "perplexity_score_without_false_positive": 189.9073543548584,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_94_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add item to shopping cart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What item should be added to the cart?"
+            },
+            {
+                "role": "user",
+                "content": "$50 Uber gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item: $50 Uber gift card </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 92.14007215392095,
+        "bert_score_with_false_positive": 0.9955121576786041,
+        "perplexity_score_with_false_positive": 275.8838310241699,
+        "bleu_score_without_false_positive": 92.14007215392095,
+        "bert_score_without_false_positive": 0.9955121576786041,
+        "perplexity_score_without_false_positive": 275.8838310241699,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_115_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Save a restaurant to my trips"
+            },
+            {
+                "role": "assistant",
+                "content": "Which restaurant should be saved to your trips?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant: Not mentioned </mem> What name should the restaurant be saved under in your trips?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Name: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 23.55693970447415,
+        "bert_score_with_false_positive": 0.9020440578460693,
+        "perplexity_score_with_false_positive": 221.1017608642578,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9435539245605469,
+        "perplexity_score_without_false_positive": 267.16204833984375,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_107_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse a product list"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What product list should be browsed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product List: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 48.76253187236262,
+        "bert_score_with_false_positive": 0.9459396004676819,
+        "perplexity_score_with_false_positive": 257.9302215576172,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.947864830493927,
+        "perplexity_score_without_false_positive": 359.2595520019531,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_19_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Provide information on rules and cancellation policies for Alley Spring"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Alley Spring is a campground located in Marble, North Carolina. Here are the rules and cancellation policies for Alley Spring:\n\nRules:\n1. Quiet hours are from 10 pm to 8 am.\n2. Pets are allowed but must be kept on a leash.\n3. Firewood is not provided and collection is prohibited within the campground.\n4. Check-in time is 3 pm and check-out time is 1 pm.\n5. No motorized boats are allowed on the lake.\n\nCancellation Policies:\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> I apologize if I missed any details. If there is specific information about Alley Spring that has not been mentioned, please let me know and I will do my best to provide it."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> If there is any additional information that needs to be clarified about Alley Spring, please let me know."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> If you have any specific questions about the rules or cancellation policies for Alley Spring, please let me know."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information."
+            },
+            {
+                "role": "user",
+                "content": "Full cancellation policy details"
+            },
+            {
+                "role": "assistant",
+                "content": "mem>  </mem> Here are the full cancellation policy details for Alley Spring:\n\n1. If you cancel at least 14 days before your scheduled arrival date, you will receive a full refund.\n2. If you cancel between 13 days and 7 days before your scheduled arrival date, you will be charged a 50% cancellation fee.\n3. If you cancel less than 7 days before your scheduled arrival date, you will not receive a refund.\n4. In case of severe weather, the campground may offer the option to reschedule your stay.\n5. If you need to cancel due to a medical emergency, you will receive a full refund.\n\nPlease note that these policies are subject to change and it is always a good idea to double-check with the campground directly for the most up-to-date information.<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 6.372685302648372,
+        "bert_score_with_false_positive": 0.8493049989144007,
+        "perplexity_score_with_false_positive": 21.161417961120605,
+        "bleu_score_without_false_positive": 4.3681761523170515,
+        "bert_score_without_false_positive": 0.8407975236574808,
+        "perplexity_score_without_false_positive": 18.424953354729546,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 12,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_43_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a restaurant in a specific location with particular food preferences and quality standards."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location Requirement: Specific location </mem> What type of food are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Food Type: Not mentioned </mem> What food preferences do you have?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Food Preferences: Not mentioned </mem> What are the desired quality standards for the restaurant?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Quality Standards: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.95271700394994,
+        "bert_score_with_false_positive": 0.9395304173231125,
+        "perplexity_score_with_false_positive": 290.0975341796875,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9641189575195312,
+        "perplexity_score_without_false_positive": 825.0213623046875,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_75_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Gather sports statistics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which sports statistics are needed?"
+            },
+            {
+                "role": "user",
+                "content": "Chris Paul"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Player Name - Chris Paul"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Sport - Unspecified"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Stat Type - Unspecified"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Time Frame - Unspecified"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Advanced Statistics - Unspecified"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 11.981110555030186,
+        "bert_score_with_false_positive": 0.8392535618373326,
+        "perplexity_score_with_false_positive": 895.4186488560268,
+        "bleu_score_without_false_positive": 38.05803001674944,
+        "bert_score_without_false_positive": 0.916092574596405,
+        "perplexity_score_without_false_positive": 1326.5005493164062,
+        "false_negative": 1,
+        "false_positive": 5,
+        "turn_of_conversation": 7,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_74_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare two car models, highlighting differences"
+            },
+            {
+                "role": "assistant",
+                "content": "Which two car models should be compared and what specific differences should be highlighted?"
+            },
+            {
+                "role": "user",
+                "content": "Audi A7 and Audi A6"
+            },
+            {
+                "role": "assistant",
+                "content": "What are the specific differences you want to highlight between the Audi A7 and Audi A6?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "In that case, here are some general differences between the Audi A7 and Audi A6:\n\n1. Body Style: The Audi A7 is a 5-door liftback, while the Audi A6 is a traditional sedan.\n2. Size: The Audi A7 is slightly larger than the Audi A6 in terms of dimensions.\n3. Interior Space: The Audi A7 offers more interior space, especially in the rear seat area.\n4. Trunk Space: The Audi A7 has a larger trunk due to its liftback design.\n5. Price: The Audi A7 tends to be more expensive than the Audi A6.\n6. Standard Features: The Audi A7 comes with some features as standard that are optional on the Audi A6, such as all-wheel drive and a power liftgate.\n7. Fuel Efficiency: The Audi A6 generally has better fuel efficiency than the Audi A7.\n8. Technology: The Audi A7 offers some advanced technology features as standard that are optional on the Audi A6, such as a digital instrument cluster and a touchscreen infotainment system with handwriting recognition."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Additional differences between the Audi A7 and Audi A6 include:\n\n1. Design: The Audi A7 features a sleek and distinctive design with a sloping roofline and a bold front grille, while the Audi A6 has a more traditional and understated look.\n2. Optional Features: The Audi A7 offers a wider range of optional features, including different drive modes, advanced safety features, and a Bang & Olufsen sound system.\n3. Ride Comfort: The Audi A7 offers a slightly smoother ride than the Audi A6 due to its more compliant suspension tuning.\n4. Handling: The Audi A6 offers slightly sharper handling than the Audi A7, making it a better choice for drivers who prioritize agility and responsiveness.\n5. Customer Reviews: The Audi A7 tends to receive slightly better customer reviews than the Audi A6, with owners praising its spacious interior, advanced features, and stylish design."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Engine Options: The Audi A7 offers a wider range of engine options, including a plug-in hybrid option, while the Audi A6 is available with fewer engine choices.\n2. Seating Capacity: The Audi A7 can seat up to five people, while the Audi A6 can seat up to four people.\n3. Cargo Capacity: The Audi A7 offers a maximum cargo capacity of 60.5 cubic feet with the rear seats folded down, while the Audi A6 offers a maximum cargo capacity of 45.3 cubic feet.\n4. Chassis: The Audi A7 uses a multilink suspension setup, while the Audi A6 uses a simpler twist beam suspension setup in the rear.\n5. Optional Suspension: The Audi A7 offers an adaptive air suspension system as an option, while the Audi A6 only offers a conventional steel spring suspension as standard.\n6. Steering System: The Audi A7 offers an optional active steering system, while the Audi A6 comes with a conventional rack-and-pinion steering system."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Braking System: The Audi A7 features larger brakes than the Audi A6, providing better stopping power.\n2. Infotainment System: The Audi A7 offers a larger infotainment screen as standard, while the Audi A6 offers a smaller screen as standard.\n3. Advanced Driver Assistance Systems: The Audi A7 offers a wider range of advanced driver assistance systems as standard or optional features, including adaptive cruise control, lane departure warning, and a 360-degree camera system.\n4. Rear Seat Comfort: The Audi A7 offers more rear seat legroom and headroom than the Audi A6, providing a more comfortable ride for passengers in the back seat.\n5. Optional Features Packages: The Audi A7 offers more comprehensive option packages than the Audi A6, allowing customers to add a wider range of features to their car with a single purchase."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Service Intervals: The Audi A7 requires service less frequently than the Audi A6, with longer oil change intervals and fewer required maintenance visits.\n2. Towing Capacity: The Audi A7 has a higher towing capacity than the Audi A6, making it a better choice for customers who need to tow heavy loads.\n3. Wheelbase: The Audi A7 has a longer wheelbase than the Audi A6, providing a more stable and composed ride.\n4. Advanced Lighting: The Audi A7 offers optional advanced lighting features, such as Matrix LED headlights and a 3D OLED taillight strip, while the Audi A6 offers more conventional lighting options.\n5. Personalization: The Audi A7 offers more options for personalization, including customizable ambient lighting and a wide range of interior color and material choices."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Suspension Adjustability: The Audi A7 offers adjustable suspension settings, allowing drivers to choose the ride height and firmness to suit their preferences.\n2. Rear Seat Entertainment: The Audi A7 offers optional rear seat entertainment systems, providing passengers in the back seat with entertainment options to keep them engaged on long trips.\n3. Advanced Climate Control: The Audi A7 offers an optional four-zone climate control system, allowing passengers in different areas of the car to set their preferred temperature independently.\n4. Charging Ports: The Audi A7 offers more charging ports than the Audi A6, including standard USB-C ports and optional wireless charging pads.\n5. Advanced Keyless Entry: The Audi A7 offers an optional advanced keyless entry system, allowing users to unlock the car and start the engine without even taking the key fob out of their pocket."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Active Noise Cancellation: The Audi A7 offers an optional active noise cancellation system, reducing cabin noise and providing a quieter, more comfortable ride.\n2. Panoramic Sunroof: The Audi A7 offers an optional panoramic sunroof, providing a larger open-air feeling and allowing more natural light into the cabin.\n3. Adaptive Cruise Control: The Audi A7 offers an optional adaptive cruise control system, allowing the car to maintain a safe distance from the vehicle in front and automatically adjust its speed to match traffic flow.\n4. Head-up Display: The Audi A7 offers an optional head-up display, projecting important information directly onto the windshield, allowing drivers to keep their eyes on the road.\n5. Smartphone Integration: The Audi A7 offers more comprehensive smartphone integration than the Audi A6, allowing users to control various car functions and access their phone's features directly from the infotainment system."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Front Camera System: The Audi A7 offers an optional front camera system, providing a 360-degree view of the car's surroundings, making parking and maneuvering in tight spaces easier.\n2. Surround Sound System: The Audi A7 offers an optional Bang & Olufsen 3D Premium Sound System, providing an immersive audio experience for passengers.\n3. Gesture Control: The Audi A7 offers optional gesture control features, allowing users to operate certain functions in the car using hand gestures.\n4. Virtual Cockpit: The Audi A7 offers an optional Virtual Cockpit Plus feature, replacing the traditional instrument cluster with a customizable digital display.\n5. Traffic Jam Assist: The Audi A7 offers an optional Traffic Jam Assist feature, allowing the car to automatically steer, accelerate, and brake in heavy traffic, making the driving experience more comfortable and less stressful."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Emergency Assist: The Audi A7 offers an optional Emergency Assist feature, which can detect if the driver is incapacitated and automatically pull over the car and call for emergency services.\n2. Park Assist: The Audi A7 offers an optional park assist feature, which can automatically steer the car into parking spots and help with parallel parking.\n3. Remote Vehicle Status: The Audi A7 offers a remote vehicle status feature, allowing users to check various car functions, such as fuel level, door status, and climate control settings, using the Audi smartphone app.\n4. Online Services: The Audi A7 offers an optional Online Services package, providing features such as real-time traffic information, weather updates, and online map updates.\n5. Voice Control: The Audi A7 offers an optional voice control feature, allowing users to operate various car functions using natural language commands."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Here are some additional differences between the Audi A7 and Audi A6 that have not been mentioned before:\n\n1. Valet Function: The Audi A7 offers an optional Valet Function, which can limit the top speed and prevent the car from leaving certain areas, providing peace of mind when leaving the car with a valet or parking attendant.\n2. Lane Departure Warning: The Audi A7 offers an optional Lane Departure Warning system, which can alert the driver if the car starts to drift out of its lane without signaling.\n3. Adaptive Lighting: The Audi A7 offers optional adaptive lighting features, such as Matrix LED headlights and a 3D OLED taillight strip, providing superior visibility and a distinctive appearance.\n4. Wireless Charging: The Audi A7 offers an optional wireless charging pad, allowing users to charge their smartphones wirelessly while on the go.\n5. Customizable Ambient Lighting: The Audi A7 offers an optional customizable ambient lighting system, allowing users to choose from a range of colors and lighting modes to suit their preferences.<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 0.9382617958253753,
+        "bert_score_with_false_positive": 0.7987866004308065,
+        "perplexity_score_with_false_positive": 17.21674648920695,
+        "bleu_score_without_false_positive": 6.250381527944883,
+        "bert_score_without_false_positive": 0.8493871688842773,
+        "perplexity_score_without_false_positive": 78.41900634765625,
+        "false_negative": 3,
+        "false_positive": 11,
+        "turn_of_conversation": 12,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_49_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and add an egift card to the cart"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of egift card are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "$100"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Egift Card Amount: $100 </mem> What brand of egift card do you want to add to the cart?"
+            },
+            {
+                "role": "user",
+                "content": "$100"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Egift Card Amount: $100 </mem> What brand of egift card do you want to add to the cart?"
+            },
+            {
+                "role": "user",
+                "content": "$100"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Brand of Egift Card: $100 </mem> What is the recipient's email address?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipient's Email: not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.235978196910704,
+        "bert_score_with_false_positive": 0.9095368266105652,
+        "perplexity_score_with_false_positive": 104.9692771911621,
+        "bleu_score_without_false_positive": 25.07507709454028,
+        "bert_score_without_false_positive": 0.9099913835525513,
+        "perplexity_score_without_false_positive": 93.01771450042725,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_124_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check order details"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the order number?"
+            },
+            {
+                "role": "user",
+                "content": "12345"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Order Number: 12345 </mem> What is the name of the customer for this order?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Customer Name: Not Mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.41401662160226,
+        "bert_score_with_false_positive": 0.9046633044878641,
+        "perplexity_score_with_false_positive": 105.36317825317383,
+        "bleu_score_without_false_positive": 36.19775701371334,
+        "bert_score_without_false_positive": 0.8973192870616913,
+        "perplexity_score_without_false_positive": 133.0013542175293,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_103_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve information on trending songs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which music chart should I check for trending songs?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Music Chart: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.55178038930865,
+        "bert_score_with_false_positive": 0.932351291179657,
+        "perplexity_score_with_false_positive": 247.69864654541016,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9449927806854248,
+        "perplexity_score_without_false_positive": 313.57745361328125,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_68_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare prices for a specific product and find the cheapest option with free delivery"
+            },
+            {
+                "role": "assistant",
+                "content": "What product are you looking to compare prices for? What is the minimum delivery requirement?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Delivery Requirement: Not mentioned </mem> What product do you want to compare prices for?"
+            },
+            {
+                "role": "user",
+                "content": "Granitestone Sandwich Maker"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Name: Granitestone Sandwich Maker </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.711862599849344,
+        "bert_score_with_false_positive": 0.9057381749153137,
+        "perplexity_score_with_false_positive": 201.36208852132162,
+        "bleu_score_without_false_positive": 38.909232322496486,
+        "bert_score_without_false_positive": 0.9230936467647552,
+        "perplexity_score_without_false_positive": 282.3811492919922,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_78_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and sort used cars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of used car are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Audi 100"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Car Model: Audi 100"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Model: Audi 100 </mem> What is the maximum distance for the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Search Radius: Unspecified </mem> What is the maximum budget for the car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Maximum Budget: Unspecified </mem> What is the postal code for the search area?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Postal Code: Unspecified </mem> What is the sorting preference for the search results?"
+            },
+            {
+                "role": "user",
+                "content": "By best deal"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Sorting Preference: Best deal </mem>"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.168189897668462,
+        "bert_score_with_false_positive": 0.9007783383131027,
+        "perplexity_score_with_false_positive": 1039.2724289894104,
+        "bleu_score_without_false_positive": 22.646778690066174,
+        "bert_score_without_false_positive": 0.9045617977778116,
+        "perplexity_score_without_false_positive": 863.6622479756674,
+        "false_negative": 0,
+        "false_positive": 5,
+        "turn_of_conversation": 8,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_102_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open a list of popular desktop computer products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which list of popular desktop computer products should be opened?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> List Name: Unspecified </mem>"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 18.694139138162953,
+        "bert_score_with_false_positive": 0.8939941922823588,
+        "perplexity_score_with_false_positive": 898.8638916015625,
+        "bleu_score_without_false_positive": 0.0,
+        "bert_score_without_false_positive": 0.8416354060173035,
+        "perplexity_score_without_false_positive": 2388.838623046875,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_77_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find the cheapest vehicle within a specified distance"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the starting location for the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Starting Location: Not specified </mem> What is the destination location?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination Location: Not specified </mem> What is the maximum distance for the search?"
+            },
+            {
+                "role": "user",
+                "content": "50 miles"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Search Distance: 50 miles </mem> What type of vehicle are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Dodge Ram 1500"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle Type: Dodge Ram 1500 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.1187205845648,
+        "bert_score_with_false_positive": 0.9185289740562439,
+        "perplexity_score_with_false_positive": 89.78492279052735,
+        "bleu_score_without_false_positive": 49.73967882163976,
+        "bert_score_without_false_positive": 0.9362004200617472,
+        "perplexity_score_without_false_positive": 115.94066874186198,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_55_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for top hashtags"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which platform's trending hashtags are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Platform: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 42.22719500523203,
+        "bert_score_with_false_positive": 0.9374319016933441,
+        "perplexity_score_with_false_positive": 178.65791702270508,
+        "bleu_score_without_false_positive": 47.20305201905447,
+        "bert_score_without_false_positive": 0.9385002851486206,
+        "perplexity_score_without_false_positive": 262.4874572753906,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_44_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse tickets for a sports event"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Type: Sports </mem> Which teams or players will be playing?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Teams/Players: Not mentioned </mem> What is the date of the event?"
+            },
+            {
+                "role": "user",
+                "content": "April 22nd"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Event Date: April 22nd </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.653308517529116,
+        "bert_score_with_false_positive": 0.9101177453994751,
+        "perplexity_score_with_false_positive": 181.64564005533853,
+        "bleu_score_without_false_positive": 36.504147992498304,
+        "bert_score_without_false_positive": 0.9134621918201447,
+        "perplexity_score_without_false_positive": 227.09529495239258,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_105_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Play a specific basketball game video"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which basketball game video should be played?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Video: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.21285878078244,
+        "bert_score_with_false_positive": 0.9411214590072632,
+        "perplexity_score_with_false_positive": 299.31482696533203,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9390755295753479,
+        "perplexity_score_without_false_positive": 416.9111328125,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_146_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and filter running shoes"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Type: Running shoes </mem> What is your price limit for the shoes?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Limit: Not specified </mem> What shoe size do you need?"
+            },
+            {
+                "role": "user",
+                "content": "Size 11"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Size: 11 </mem> What width do you need the shoes in?"
+            },
+            {
+                "role": "user",
+                "content": "Size 11"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Size: 11 </mem> What is the minimum star rating for the shoes?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Star Rating: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.92988590552652,
+        "bert_score_with_false_positive": 0.939945125579834,
+        "perplexity_score_with_false_positive": 123.65498657226563,
+        "bleu_score_without_false_positive": 48.14093854232613,
+        "bert_score_without_false_positive": 0.9449633558591207,
+        "perplexity_score_without_false_positive": 132.94766235351562,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_145_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find price comparisons for a product"
+            },
+            {
+                "role": "assistant",
+                "content": "What product are you looking to compare prices for?"
+            },
+            {
+                "role": "user",
+                "content": "Pokemon Go - Elite Trainer Box"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Name: Pokemon Go - Elite Trainer Box </mem> What is the minimum star rating required for the products?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Rating: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.90399651990891,
+        "bert_score_with_false_positive": 0.8989533185958862,
+        "perplexity_score_with_false_positive": 120.37510299682617,
+        "bleu_score_without_false_positive": 27.983356612237305,
+        "bert_score_without_false_positive": 0.8998548686504364,
+        "perplexity_score_without_false_positive": 134.54492378234863,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_144_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open sports team schedule"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which sports team's schedule do you want to open?"
+            },
+            {
+                "role": "user",
+                "content": "Boston Celtics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sports Team: Boston Celtics </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 51.20930413430251,
+        "bert_score_with_false_positive": 0.9520160257816315,
+        "perplexity_score_with_false_positive": 152.30677032470703,
+        "bleu_score_without_false_positive": 51.20930413430251,
+        "bert_score_without_false_positive": 0.9520160257816315,
+        "perplexity_score_without_false_positive": 152.30677032470703,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_106_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add specific item to shopping cart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What item should be added to the cart?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item: not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 50.63873818581905,
+        "bert_score_with_false_positive": 0.9539907276630402,
+        "perplexity_score_with_false_positive": 297.76525497436523,
+        "bleu_score_without_false_positive": 54.45178846139407,
+        "bert_score_without_false_positive": 0.9503567218780518,
+        "perplexity_score_without_false_positive": 517.8715209960938,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_140_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find restaurants with specific features"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of restaurants are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Big Sur, CA"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Location: Big Sur, CA </mem> What specific features are you looking for in the restaurants?"
+            },
+            {
+                "role": "user",
+                "content": "Outdoor seating"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Feature: Outdoor seating </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 69.74053155568802,
+        "bert_score_with_false_positive": 0.9791303078333536,
+        "perplexity_score_with_false_positive": 161.8263422648112,
+        "bleu_score_without_false_positive": 69.74053155568802,
+        "bert_score_without_false_positive": 0.9791303078333536,
+        "perplexity_score_without_false_positive": 161.8263422648112,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_99_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and sort pet food"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of pet food are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Cat food"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pet Food Type: Cat food </mem> How should the results be sorted?"
+            },
+            {
+                "role": "user",
+                "content": "By price, from least to most expensive"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Preference: Price, least to most expensive </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 79.60574884708483,
+        "bert_score_with_false_positive": 0.9726373553276062,
+        "perplexity_score_with_false_positive": 118.21395111083984,
+        "bleu_score_without_false_positive": 79.60574884708483,
+        "bert_score_without_false_positive": 0.9726373553276062,
+        "perplexity_score_without_false_positive": 118.21395111083984,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_170_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve TikTok series playlist from a specific country"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem_bank> Which country's TikTok series playlist do you want?"
+            },
+            {
+                "role": "user",
+                "content": "Brazil"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Country: Brazil </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 86.38408601171051,
+        "bert_score_with_false_positive": 0.9836902916431427,
+        "perplexity_score_with_false_positive": 489.6122131347656,
+        "bleu_score_without_false_positive": 86.38408601171051,
+        "bert_score_without_false_positive": 0.9836902916431427,
+        "perplexity_score_without_false_positive": 489.6122131347656,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_90_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and filter products based on specific criteria"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of products are you looking for? What specific criteria should be used to filter the products?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of products are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Electric coffee grinders"
+            },
+            {
+                "role": "assistant",
+                "content": "What specific criteria should be used to filter the electric coffee grinders?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the minimum rating for the electric coffee grinders?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Should the results be filtered based on any specific feature?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "How many top results would you like to see?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 9.202610972387964,
+        "bert_score_with_false_positive": 0.855704767363412,
+        "perplexity_score_with_false_positive": 389.7129415784563,
+        "bleu_score_without_false_positive": 13.712693428121629,
+        "bert_score_without_false_positive": 0.8677667081356049,
+        "perplexity_score_without_false_positive": 1202.0334796905518,
+        "false_negative": 1,
+        "false_positive": 5,
+        "turn_of_conversation": 7,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_177_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find recall information for a vehicle"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the VIN of the vehicle?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the make and model of the vehicle?"
+            },
+            {
+                "role": "user",
+                "content": "Bolt EUV"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the model year of the Bolt EUV?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the color of the vehicle?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the license plate number of the vehicle?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Where was the vehicle last driven?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 11.77137232070404,
+        "bert_score_with_false_positive": 0.8757669074194772,
+        "perplexity_score_with_false_positive": 398.98186833517894,
+        "bleu_score_without_false_positive": 10.680218619452432,
+        "bert_score_without_false_positive": 0.8755176961421967,
+        "perplexity_score_without_false_positive": 1201.9700927734375,
+        "false_negative": 2,
+        "false_positive": 5,
+        "turn_of_conversation": 7,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_14_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open helpful 5-star reviews"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Review Filter: 5-star reviews </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.85068972747104,
+        "bert_score_with_false_positive": 0.9326014518737793,
+        "perplexity_score_with_false_positive": 253.49378967285156,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9326014518737793,
+        "perplexity_score_without_false_positive": 253.49378967285156,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_119_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Create a list of specific products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of products are you looking to add to the list?"
+            },
+            {
+                "role": "user",
+                "content": "Drip coffee makers"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Type: Drip coffee makers </mem> What is the maximum price limit for the coffee makers?"
+            },
+            {
+                "role": "user",
+                "content": "$25-60"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: $25-60 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 54.83061981706058,
+        "bert_score_with_false_positive": 0.9480559229850769,
+        "perplexity_score_with_false_positive": 103.94546381632487,
+        "bleu_score_without_false_positive": 54.83061981706058,
+        "bert_score_without_false_positive": 0.9480559229850769,
+        "perplexity_score_without_false_positive": 103.94546381632487,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_91_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find specific shoes with particular features"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of shoes are you looking for? What specific features do you need in the shoes?"
+            },
+            {
+                "role": "user",
+                "content": "Cross training shoes"
+            },
+            {
+                "role": "assistant",
+                "content": "What specific features are required in the cross training shoes?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What are the preferred characteristics for the cross training shoes, such as width, color, or any other specifications?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your price limit for the cross training shoes?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Where do you want to buy the shoes from?"
+            },
+            {
+                "role": "user",
+                "content": "Nike"
+            },
+            {
+                "role": "assistant",
+                "content": "What size do you need the cross training shoes in?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 8.746254130261592,
+        "bert_score_with_false_positive": 0.8597095864159721,
+        "perplexity_score_with_false_positive": 428.1790805544172,
+        "bleu_score_without_false_positive": 9.944135908768033,
+        "bert_score_without_false_positive": 0.8658341964085897,
+        "perplexity_score_without_false_positive": 809.2944567998251,
+        "false_negative": 3,
+        "false_positive": 4,
+        "turn_of_conversation": 7,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_135_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse specific TVs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which TV series should be browsed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> TV Series: Not mentioned </mem> What is the minimum screen size required for the TVs?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem> Minimum Screen Size: Not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 17.791795109860384,
+        "bert_score_with_false_positive": 0.8858466446399689,
+        "perplexity_score_with_false_positive": 938.3950672149658,
+        "bleu_score_without_false_positive": 0.0,
+        "bert_score_without_false_positive": 0.8378185033798218,
+        "perplexity_score_without_false_positive": 2388.838623046875,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_129_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a highly rated car dealer"
+            },
+            {
+                "role": "assistant",
+                "content": "What specific criteria should be used to rate the car dealers?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Rating Criteria: Not specified </mem> What location should the top-rated car dealer be in?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not specified </mem> What type of car are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Cadillac"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Type: Cadillac </mem> What is your price preference for the car?"
+            },
+            {
+                "role": "user",
+                "content": "Cadillac"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Type: Cadillac </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 23.101827240521565,
+        "bert_score_with_false_positive": 0.9169913053512573,
+        "perplexity_score_with_false_positive": 196.8406982421875,
+        "bleu_score_without_false_positive": 29.82357961556019,
+        "bert_score_without_false_positive": 0.9318324526151022,
+        "perplexity_score_without_false_positive": 242.07630920410156,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_111_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check permit availability"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What permit are you checking availability for?"
+            },
+            {
+                "role": "user",
+                "content": "Brooks Camp, Katmai National Park"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Permit Area - Brooks Camp, Katmai National Park"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Number of People - not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Dates for Stay - not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Group Name - not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Phone Number - not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Email Address - not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: Address for Correspondence - not mentioned"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "mem: <Empty>"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 7.572084649874753,
+        "bert_score_with_false_positive": 0.8364479124546051,
+        "perplexity_score_with_false_positive": 901.7682754516602,
+        "bleu_score_without_false_positive": 30.523679179039235,
+        "bert_score_without_false_positive": 0.9074194729328156,
+        "perplexity_score_without_false_positive": 1290.5568771362305,
+        "false_negative": 2,
+        "false_positive": 8,
+        "turn_of_conversation": 10,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_117_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and purchase a smartphone"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the maximum price for the smartphone?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Limit: Not specified </mem> What is the minimum screen size required for the smartphone?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Screen Size: Not specified </mem> What brand of smartphone are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Google Pixel 7"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Phone Brand: Google Pixel 7 </mem> What is the color preference for the phone?"
+            },
+            {
+                "role": "user",
+                "content": "Snow"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Phone Color: Snow </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.25827215152234,
+        "bert_score_with_false_positive": 0.9262188076972961,
+        "perplexity_score_with_false_positive": 153.7080810546875,
+        "bleu_score_without_false_positive": 52.49031433064974,
+        "bert_score_without_false_positive": 0.9540297786394755,
+        "perplexity_score_without_false_positive": 217.5103530883789,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_171_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Locate and select an authorized Apple service provider for iMac services."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which location should I look for an Apple service provider for an iMac?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.35609152905022,
+        "bert_score_with_false_positive": 0.9182581305503845,
+        "perplexity_score_with_false_positive": 150.45656204223633,
+        "bleu_score_without_false_positive": 47.20305201905447,
+        "bert_score_without_false_positive": 0.9450613260269165,
+        "perplexity_score_without_false_positive": 199.07461547851562,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_33_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a ticket for an event"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of event are you looking for a ticket for?"
+            },
+            {
+                "role": "user",
+                "content": "NOFX show"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Type: NOFX show </mem> What is the date of the event?"
+            },
+            {
+                "role": "user",
+                "content": "April 23"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Date: April 23 </mem> Where is the event located?"
+            },
+            {
+                "role": "user",
+                "content": "Austin, Texas"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Location: Austin, Texas </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.35748477821653,
+        "bert_score_with_false_positive": 0.922265499830246,
+        "perplexity_score_with_false_positive": 102.01734685897827,
+        "bleu_score_without_false_positive": 37.35748477821653,
+        "bert_score_without_false_positive": 0.922265499830246,
+        "perplexity_score_without_false_positive": 102.01734685897827,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_147_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for smart TVs with specific features"
+            },
+            {
+                "role": "assistant",
+                "content": "What specific features are you looking for in the smart TVs?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Specific features: Not mentioned </mem> What screen size are you looking for in the TV?"
+            },
+            {
+                "role": "user",
+                "content": "65 inches"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Screen Size: 65 inches </mem> What is your budget for the TV?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Budget: Not mentioned </mem> What brand of TV are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> TV Brand: Not mentioned </mem> Should the TV be currently in stock?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Availability: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.295393250389463,
+        "bert_score_with_false_positive": 0.9251251816749573,
+        "perplexity_score_with_false_positive": 132.5044848124186,
+        "bleu_score_without_false_positive": 40.03134608383628,
+        "bert_score_without_false_positive": 0.946661651134491,
+        "perplexity_score_without_false_positive": 192.9350128173828,
+        "false_negative": 2,
+        "false_positive": 4,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_174_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find service and repair for a vehicle"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the make and model of your vehicle? What is the problem with your vehicle? Where should the service be located?"
+            },
+            {
+                "role": "user",
+                "content": "e-tron"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle Model: e-tron </mem> What is the problem with your vehicle?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Problem Description: Not mentioned </mem> Where should the service be located?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.31490774380414,
+        "bert_score_with_false_positive": 0.9174147695302963,
+        "perplexity_score_with_false_positive": 105.90076041221619,
+        "bleu_score_without_false_positive": 29.20815085740738,
+        "bert_score_without_false_positive": 0.9064065217971802,
+        "perplexity_score_without_false_positive": 105.55189085006714,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_173_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Purchase a gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of gift card do you want to purchase?"
+            },
+            {
+                "role": "user",
+                "content": "Best Buy gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the amount for the Best Buy gift card?"
+            },
+            {
+                "role": "user",
+                "content": "$100"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Type: Best Buy, Gift Card Amount: $100 </mem> What name should the gift card be under?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipient's Name: Not mentioned </mem> Who is sending the gift card?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sender's Name: Not mentioned </mem> What message should be included?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Personalized Message: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 23.598478571101083,
+        "bert_score_with_false_positive": 0.9107284247875214,
+        "perplexity_score_with_false_positive": 100.7596206665039,
+        "bleu_score_without_false_positive": 25.195664353059964,
+        "bert_score_without_false_positive": 0.9125856558481852,
+        "perplexity_score_without_false_positive": 98.00817108154297,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_10_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Book tickets for Eiffel Tower"
+            },
+            {
+                "role": "assistant",
+                "content": "How many tickets do you need?"
+            },
+            {
+                "role": "user",
+                "content": "2"
+            },
+            {
+                "role": "assistant",
+                "content": "What date do you want to visit the Eiffel Tower?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What time should the visit be scheduled for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 2.845268116466181,
+        "bert_score_with_false_positive": 0.8496164381504059,
+        "perplexity_score_with_false_positive": 620.7862167358398,
+        "bleu_score_without_false_positive": 2.365431383455901,
+        "bert_score_without_false_positive": 0.8620069921016693,
+        "perplexity_score_without_false_positive": 1206.69935131073,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_126_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find specific type of restaurants in a designated location"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of restaurants are you looking for? What location should I search in?"
+            },
+            {
+                "role": "user",
+                "content": "New York City"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: New York City </mem> What type of restaurants are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "New York City"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: New York City </mem> What type of restaurants are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "New York City"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: New York City </mem> What type of restaurants are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "New York City"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: New York City </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.896431350394884,
+        "bert_score_with_false_positive": 0.9338685512542725,
+        "perplexity_score_with_false_positive": 42.39008140563965,
+        "bleu_score_without_false_positive": 29.896431350394884,
+        "bert_score_without_false_positive": 0.9338685512542725,
+        "perplexity_score_without_false_positive": 42.39008140563965,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_130_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find electric cars within specific criteria"
+            },
+            {
+                "role": "assistant",
+                "content": "What are the specific criteria for finding electric cars?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Specific criteria for finding electric cars: Not mentioned </mem> What type of drive do you prefer?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Drive preference: Not mentioned </mem> What is the starting location for finding the electric cars?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Starting location: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.859768351493763,
+        "bert_score_with_false_positive": 0.92125004529953,
+        "perplexity_score_with_false_positive": 181.16885566711426,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9452582001686096,
+        "perplexity_score_without_false_positive": 276.8323669433594,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_176_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare two car models"
+            },
+            {
+                "role": "assistant",
+                "content": "Which two car models should be compared? What specific features or aspects need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the second car model for comparison? What features need to be compared for these models?<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 20.214571626320907,
+        "bert_score_with_false_positive": 0.8741878668467203,
+        "perplexity_score_with_false_positive": 58.16590372721354,
+        "bleu_score_without_false_positive": 20.214571626320907,
+        "bert_score_without_false_positive": 0.8741878668467203,
+        "perplexity_score_without_false_positive": 58.16590372721354,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 12,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_175_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find car recalls"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the make and model of the car?"
+            },
+            {
+                "role": "user",
+                "content": "4C"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the model year of the car?"
+            },
+            {
+                "role": "user",
+                "content": "4C"
+            },
+            {
+                "role": "assistant",
+                "content": "I see, the car model is Alfa Romeo 4C. What is the model year?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Can you provide the car's VIN number?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "In that case, I can help you check if there are any open recalls for the Alfa Romeo 4C model. If you provide the license plate number, I can also check if the car has been involved in any accidents."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "Very well. I will check for any open recalls for all Alfa Romeo 4C models."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "I see. In that case, I will check for any open recalls for all Alfa Romeo 4C models."
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 8.143619521198922,
+        "bert_score_with_false_positive": 0.8697194680571556,
+        "perplexity_score_with_false_positive": 337.199161529541,
+        "bleu_score_without_false_positive": 12.304114358899218,
+        "bert_score_without_false_positive": 0.8763070305188497,
+        "perplexity_score_without_false_positive": 814.4989159901937,
+        "false_negative": 1,
+        "false_positive": 5,
+        "turn_of_conversation": 8,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_141_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a car listing"
+            },
+            {
+                "role": "assistant",
+                "content": "What make of car are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Hatchback"
+            },
+            {
+                "role": "assistant",
+                "content": "What type of drive do you prefer?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is your price preference for the car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the zip code for the search area?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 9.853475064391073,
+        "bert_score_with_false_positive": 0.8618307709693909,
+        "perplexity_score_with_false_positive": 542.1265949249267,
+        "bleu_score_without_false_positive": 17.24279912751363,
+        "bert_score_without_false_positive": 0.8701802790164948,
+        "perplexity_score_without_false_positive": 1283.6233444213867,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_172_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check laptop specifications"
+            },
+            {
+                "role": "assistant",
+                "content": "What specifications should I check on your laptop?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Specifications to check: Not mentioned </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.379447179093074,
+        "bert_score_with_false_positive": 0.8896647989749908,
+        "perplexity_score_with_false_positive": 239.80762100219727,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.930961549282074,
+        "perplexity_score_without_false_positive": 388.9886474609375,
+        "false_negative": 5,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_149_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Book tickets for a show"
+            },
+            {
+                "role": "assistant",
+                "content": "What is the name of the show to book tickets for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Show Name: Not mentioned </mem> What date should the tickets be booked for?"
+            },
+            {
+                "role": "user",
+                "content": "Before 30 March"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Show Date: Before 30 March </mem> How many tickets are needed?"
+            },
+            {
+                "role": "user",
+                "content": "4"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Tickets: 4 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.911221109415315,
+        "bert_score_with_false_positive": 0.9170919507741928,
+        "perplexity_score_with_false_positive": 123.67692375183105,
+        "bleu_score_without_false_positive": 36.362167426723616,
+        "bert_score_without_false_positive": 0.930654247601827,
+        "perplexity_score_without_false_positive": 150.17370096842447,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    }
+]

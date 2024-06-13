@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sacrebleu.metrics import BLEU
 from bert_score import score as bert_score
-from transformers import AutoTokenizer, AutoModelForCausalLM, PhiForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from torch.nn import CrossEntropyLoss
 import argparse
 import numpy as np
@@ -42,22 +42,22 @@ def calculate_perplexity(model, tokenizer, text, device='cuda'):
     return perplexity.item()
 
 
-# def find_most_similar_model_output(input_string, ground_truth_conversations, model2, similarity_threshold=0.7):
-#     input_string = input_string.split("</mem>")[-1]
-#     ground_truth_texts = [conv['value'] for conv in ground_truth_conversations if conv['from'] == 'gpt']
-#     new_ground_truth_texts = [text.split("</mem>")[-1] for text in ground_truth_texts]
+def find_most_similar_model_output(input_string, ground_truth_conversations, model2, similarity_threshold=0.7):
+    input_string = input_string.split("</mem>")[-1]
+    ground_truth_texts = [conv['value'] for conv in ground_truth_conversations if conv['from'] == 'gpt']
+    new_ground_truth_texts = [text.split("</mem>")[-1] for text in ground_truth_texts]
     
-#     embeddings = model2.encode([input_string] + new_ground_truth_texts)
-#     cosine_similarities = cosine_similarity([embeddings[0]], embeddings[1:]).flatten()
+    embeddings = model2.encode([input_string] + new_ground_truth_texts)
+    cosine_similarities = cosine_similarity([embeddings[0]], embeddings[1:]).flatten()
     
-#     best_match_index = cosine_similarities.argmax()
+    best_match_index = cosine_similarities.argmax()
 
-#     # print("Similarity_score:", cosine_similarities[best_match_index])
+    # print("Similarity_score:", cosine_similarities[best_match_index])
     
-#     if cosine_similarities[best_match_index] < similarity_threshold:
-#         return "not mentioned", ground_truth_texts[best_match_index]
+    if cosine_similarities[best_match_index] < similarity_threshold:
+        return "not mentioned", ground_truth_texts[best_match_index]
     
-#     return best_match_index * 2 + 1, ground_truth_texts[best_match_index]
+    return best_match_index * 2 + 1, ground_truth_texts[best_match_index]
 
 def clean_model_output(model_output):
     # Find the first occurrence of [INST] and the last occurrence of [/INST]
@@ -71,158 +71,11 @@ def clean_model_output(model_output):
         cleaned_output = model_output
     
     # Remove any leading or trailing whitespace
+    cleaned_output = cleaned_output.replace("\n", " ")
     cleaned_output = cleaned_output.strip()
 
     return cleaned_output
 
-
-# def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokenizer, model2, generation_params):
-#     bleu_scorer = BLEU()
-#     all_bleu_scores, all_bert_scores, all_perplexities = [], [], []
-#     all_bleu_scores_real, all_bert_scores_real, all_perplexities_real = [], [], []
-#     turn_counts, results = {}, []
-
-#     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-#     my_count = 0
-#     for convo in eval_data:
-#         my_count = my_count+1
-#         print("conversation no", my_count)
-#         messages = [{"role": "user", "content": convo['conversations'][0]['value']}]
-#         extracted_variable_count = convo['conversations'][0]['value'].count(':')
-#         turn_counts.setdefault(extracted_variable_count, [])
-#         conversation_end, turn_of_conversation = False, 0
-#         false_negative, false_positive = 0, 0
-
-#         curr_bleu_scores, curr_bert_scores, curr_perplexities = [], [], []
-#         curr_bleu_scores_real, curr_bert_scores_real, curr_perplexities_real = [], [], []
-
-#         asked_questions = set()
-#         ground_truth_questions = set(i for i, message in enumerate(convo['conversations']) if message['from'] == 'gpt')
-
-#         while not conversation_end:
-#             turn_of_conversation += 1
-
-#             model_inputs = tokenizer(messages, return_tensors="pt").to(device)
-#             response = model.generate(
-#                 **model_inputs,
-#                 max_new_tokens=2048,
-#                 temperature=generation_params.get('temperature', 0.7),
-#                 top_p=generation_params.get('top_p', 0.95),
-#                 top_k=generation_params.get('top_k', 50),
-#                 do_sample=True,
-#                 num_return_sequences=1
-#             )
-#             model_output = tokenizer.batch_decode(response[0], skip_special_tokens=True)
-#             print(model_output)
-
-#             if turn_of_conversation > 11:
-#                 model_output = model_output + "<Finish>"
-
-#             messages.append({"role": "assistant", "content": model_output})
-#             if '<Finish>' in model_output:
-#                 conversation_end = True
-            
-#             if '<finish>' in model_output:
-#                 conversation_end = True
-
-#             if '<FINISH>' in model_output:
-#                 conversation_end = True
-
-#             idx, similar_str = find_most_similar_model_output(model_output, convo['conversations'], model2)
-#             print()
-#             if idx == "not mentioned":
-#                 false_positive += 1
-#             else:
-#                 asked_questions.add(idx)
-
-#             # print("idx:", isinstance(idx, int), type(idx), idx, idx + 1 < len(convo['conversations']))
-
-#             if not conversation_end:
-#                 if idx == "not mentioned":
-#                     human_response = "not mentioned"
-#                 else:
-#                     human_response = convo['conversations'][idx + 1]['value'] if idx + 1 < len(convo['conversations']) else "not mentioned"
-#                 messages.append({"role": "user", "content": human_response})
-
-#             bleu_score1 = bleu_scorer.sentence_score(model_output, [similar_str]).score
-
-#             _, _, bert_f1 = bert_score([model_output], [similar_str], lang="en")
-#             perplexity = calculate_perplexity(gpt2_model, gpt2_tokenizer, model_output, device=device)
-
-#             curr_bleu_scores.append(bleu_score1)
-#             curr_bert_scores.append(bert_f1.item())
-#             curr_perplexities.append(perplexity)
-
-#             if idx != "not mentioned":
-#                 bleu_score1 = bleu_scorer.sentence_score(model_output, [similar_str]).score
-#                 _, _, bert_f1 = bert_score([model_output], [similar_str], lang="en")
-#                 perplexity = calculate_perplexity(gpt2_model, gpt2_tokenizer, model_output, device=device)
-
-#                 curr_bleu_scores_real.append(bleu_score1)
-#                 curr_bert_scores_real.append(bert_f1.item())
-#                 curr_perplexities_real.append(perplexity)
-
-#         result_entry = convo.copy()
-#         result_entry['conversations'] = messages
-
-#         result_entry['bleu_score_with_false_positive'] = sum(curr_bleu_scores) / len(curr_bleu_scores)
-#         result_entry['bert_score_with_false_positive'] = sum(curr_bert_scores) / len(curr_bert_scores)
-#         result_entry['perplexity_score_with_false_positive'] = sum(curr_perplexities) / len(curr_perplexities)
-
-#         result_entry['bleu_score_without_false_positive'] = 0
-#         result_entry['bert_score_without_false_positive'] = 0
-#         result_entry['perplexity_score_without_false_positive'] = 0
-
-#         if len(curr_bleu_scores_real) > 0:
-#             result_entry['bleu_score_without_false_positive'] = sum(curr_bleu_scores_real) / len(curr_bleu_scores_real)
-#         if len(curr_bert_scores_real) > 0:
-#             result_entry['bert_score_without_false_positive'] = sum(curr_bert_scores_real) / len(curr_bert_scores_real)
-#         if len(curr_perplexities_real) > 0:
-#             result_entry['perplexity_score_without_false_positive'] = sum(curr_perplexities_real) / len(curr_perplexities_real)
-
-#         result_entry['false_negative'] = len(ground_truth_questions - asked_questions)
-#         result_entry['false_positive'] = false_positive
-
-#         result_entry['turn_of_conversation'] = turn_of_conversation
-#         result_entry['extracted_variable_count'] = extracted_variable_count
-#         results.append(result_entry)
-
-#         turn_counts[extracted_variable_count].append(turn_of_conversation)
-
-#         all_bleu_scores.append(result_entry['bleu_score_with_false_positive'])
-#         all_bleu_scores_real.append(result_entry['bleu_score_without_false_positive'])
-
-#         all_bert_scores.append(result_entry['bert_score_with_false_positive'])
-#         all_bert_scores_real.append(result_entry['bert_score_without_false_positive'])
-
-#         all_perplexities.append(result_entry['perplexity_score_with_false_positive'])
-#         all_perplexities_real.append(result_entry['perplexity_score_without_false_positive'])
-
-#     avg_bleu_with_false_positive = sum(all_bleu_scores) / len(all_bleu_scores)
-#     avg_bleu_without_false_positive = sum(all_bleu_scores_real) / len(all_bleu_scores_real)
-
-#     avg_bert_with_false_positive = sum(all_bert_scores) / len(all_bert_scores)
-#     avg_bert_without_false_positive = sum(all_bert_scores_real) / len(all_bert_scores_real)
-
-#     avg_perplexity_with_false_positive = sum(all_perplexities) / len(all_perplexities)
-#     avg_perplexity_without_false_positive = sum(all_perplexities_real) / len(all_perplexities_real)
-
-#     return results, avg_bleu_with_false_positive, avg_bleu_without_false_positive, avg_bert_with_false_positive, avg_bert_without_false_positive, avg_perplexity_with_false_positive, avg_perplexity_without_false_positive, turn_counts
-
-def find_most_similar_model_output(input_string, ground_truth_conversations, model2, similarity_threshold=0.7):
-    input_string = input_string.split("</mem>")[-1].strip()
-    ground_truth_texts = [conv['value'] for conv in ground_truth_conversations if conv['from'] == 'gpt']
-    new_ground_truth_texts = [text.split("</mem>")[-1].strip() for text in ground_truth_texts]
-    
-    embeddings = model2.encode([input_string] + new_ground_truth_texts)
-    cosine_similarities = cosine_similarity([embeddings[0]], embeddings[1:]).flatten()
-    
-    best_match_index = cosine_similarities.argmax()
-
-    if cosine_similarities[best_match_index] < similarity_threshold:
-        return "not mentioned", ground_truth_texts[best_match_index]
-    
-    return best_match_index * 2 + 1, ground_truth_texts[best_match_index]
 
 def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokenizer, model2, generation_params):
     bleu_scorer = BLEU()
@@ -233,11 +86,11 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     my_count = 0
     for convo in eval_data:
-        my_count = my_count + 1
+        my_count = my_count+1
         print("conversation no", my_count)
         messages = [{"role": "user", "content": convo['conversations'][0]['value']}]
-        extracted_variable_count = convo['conversations'][0]['value'].count(':')
-        turn_counts.setdefault(extracted_variable_count, [])
+        # extracted_variable_count = convo['conversations'][0]['value'].count(':')
+        # turn_counts.setdefault(extracted_variable_count, [])
         conversation_end, turn_of_conversation = False, 0
         false_negative, false_positive = 0, 0
 
@@ -250,10 +103,9 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
         while not conversation_end:
             turn_of_conversation += 1
 
-            # Extract content from messages
-            model_inputs = tokenizer([msg["content"] for msg in messages], return_tensors="pt", padding=True).to(device)
+            model_inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
             response = model.generate(
-                **model_inputs,
+                model_inputs,
                 max_new_tokens=2048,
                 temperature=generation_params.get('temperature', 0.7),
                 top_p=generation_params.get('top_p', 0.95),
@@ -261,15 +113,20 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
                 do_sample=True,
                 num_return_sequences=1
             )
-            model_output = tokenizer.batch_decode(response[0], skip_special_tokens=True)
-            model_output = " ".join(model_output)  # Ensure it's a single string
+            model_output = clean_model_output(tokenizer.decode(response[0], skip_special_tokens=True))
             print(model_output)
 
             if turn_of_conversation > 11:
                 model_output = model_output + "<Finish>"
 
             messages.append({"role": "assistant", "content": model_output})
-            if '<Finish>' in model_output or '<finish>' in model_output or '<FINISH>' in model_output:
+            if '<Finish>' in model_output:
+                conversation_end = True
+            
+            if '<finish>' in model_output:
+                conversation_end = True
+
+            if '<FINISH>' in model_output:
                 conversation_end = True
 
             idx, similar_str = find_most_similar_model_output(model_output, convo['conversations'], model2)
@@ -278,6 +135,8 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
                 false_positive += 1
             else:
                 asked_questions.add(idx)
+
+            # print("idx:", isinstance(idx, int), type(idx), idx, idx + 1 < len(convo['conversations']))
 
             if not conversation_end:
                 if idx == "not mentioned":
@@ -326,10 +185,10 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
         result_entry['false_positive'] = false_positive
 
         result_entry['turn_of_conversation'] = turn_of_conversation
-        result_entry['extracted_variable_count'] = extracted_variable_count
+        # result_entry['extracted_variable_count'] = extracted_variable_count
         results.append(result_entry)
 
-        turn_counts[extracted_variable_count].append(turn_of_conversation)
+        # turn_counts[extracted_variable_count].append(turn_of_conversation)
 
         all_bleu_scores.append(result_entry['bleu_score_with_false_positive'])
         all_bleu_scores_real.append(result_entry['bleu_score_without_false_positive'])
@@ -353,8 +212,6 @@ def evaluate_conversations(eval_data, model, tokenizer, gpt2_model, gpt2_tokeniz
 
 
 
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate fine-tuned model")
     parser.add_argument("test_file", type=str, help="Path to the test JSON file")
@@ -367,7 +224,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     eval_data = load_eval_data(args.test_file)
-    model = PhiForCausalLM.from_pretrained(args.model_dir, device_map="auto").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+    model = AutoModelForCausalLM.from_pretrained(args.model_dir, device_map="auto").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     tokenizer = AutoTokenizer.from_pretrained(args.model_dir)
     gpt2_model = AutoModelForCausalLM.from_pretrained("gpt2").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     gpt2_tokenizer = AutoTokenizer.from_pretrained("gpt2")

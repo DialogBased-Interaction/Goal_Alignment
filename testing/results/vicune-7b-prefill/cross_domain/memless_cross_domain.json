@@ -1,0 +1,3112 @@
+[
+    {
+        "id": "identity_35_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Join a subreddit"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the subreddit to join?"
+            },
+            {
+                "role": "user",
+                "content": "r/politics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Subreddit Name: r/politics </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 71.92534486373555,
+        "bert_score_with_false_positive": 0.9741392135620117,
+        "perplexity_score_with_false_positive": 93.90309715270996,
+        "bleu_score_without_false_positive": 71.92534486373555,
+        "bert_score_without_false_positive": 0.9741392135620117,
+        "perplexity_score_without_false_positive": 93.90309715270996,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_46_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve monthly weather forecast for a specific location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific location for which the monthly weather forecast is needed?"
+            },
+            {
+                "role": "user",
+                "content": "Florida city"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Florida city </mem> What is the specific city within Florida for which the weather forecast is needed?"
+            },
+            {
+                "role": "user",
+                "content": "Florida city"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Specific City: Florida city </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.60075114217533,
+        "bert_score_with_false_positive": 0.9465744495391846,
+        "perplexity_score_with_false_positive": 286.79689025878906,
+        "bleu_score_without_false_positive": 39.60075114217533,
+        "bert_score_without_false_positive": 0.9465744495391846,
+        "perplexity_score_without_false_positive": 286.79689025878906,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_13_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find hourly weather forecast"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Weather Forecast Type: Hourly </mem> What is the zip code to find the weather forecast for?"
+            },
+            {
+                "role": "user",
+                "content": "Seattle, WA"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: Seattle, WA </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.97219713786636,
+        "bert_score_with_false_positive": 0.9241301417350769,
+        "perplexity_score_with_false_positive": 111.79792976379395,
+        "bleu_score_without_false_positive": 32.97219713786636,
+        "bert_score_without_false_positive": 0.9241301417350769,
+        "perplexity_score_without_false_positive": 111.79792976379395,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_34_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Display restaurant reviews"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of food should the restaurant serve?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Food Type: All food </mem> What is the location of the restaurant where reviews are needed?"
+            },
+            {
+                "role": "user",
+                "content": "Mc Donald's"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Location: Mc Donald's </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.56786841201682,
+        "bert_score_with_false_positive": 0.9446846644083658,
+        "perplexity_score_with_false_positive": 170.6447296142578,
+        "bleu_score_without_false_positive": 47.60018818363167,
+        "bert_score_without_false_positive": 0.9478201866149902,
+        "perplexity_score_without_false_positive": 214.88758850097656,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_137_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find key events of a specific stock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Stock Symbol: [Stock Symbol], Task: Find key events of a specific stock </mem> What is the time frame for the events search?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: [Time Frame] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.56382426700145,
+        "bert_score_with_false_positive": 0.9085388779640198,
+        "perplexity_score_with_false_positive": 132.6237907409668,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9347673058509827,
+        "perplexity_score_without_false_positive": 141.75775146484375,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_125_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find the sun hours for a specific location over a week."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: One week </mem> What is the specific location for which the sun hours are needed?"
+            },
+            {
+                "role": "user",
+                "content": "Vancouver, British Columbia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Vancouver, British Columbia </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.56589486792046,
+        "bert_score_with_false_positive": 0.9286054372787476,
+        "perplexity_score_with_false_positive": 118.46580505371094,
+        "bleu_score_without_false_positive": 32.56589486792046,
+        "bert_score_without_false_positive": 0.9286054372787476,
+        "perplexity_score_without_false_positive": 118.46580505371094,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_460_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for job openings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What company's job openings are being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "Sam's Club"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Company: Sam's Club </mem> What type of job is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Part-time </mem> What is the location of the job?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: United States </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 51.853588579709495,
+        "bert_score_with_false_positive": 0.9516011774539948,
+        "perplexity_score_with_false_positive": 126.79355525970459,
+        "bleu_score_without_false_positive": 52.161209932781276,
+        "bert_score_without_false_positive": 0.950905054807663,
+        "perplexity_score_without_false_positive": 198.20099639892578,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_139_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Create a new watch list"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the person whose movies and TV shows should be added to the watch list?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Watch List Name: Person's Name </mem> How many movies and TV shows should be added to the watch list?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Titles: [Number] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.85215724462702,
+        "bert_score_with_false_positive": 0.9292631347974142,
+        "perplexity_score_with_false_positive": 89.2226676940918,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9266735911369324,
+        "perplexity_score_without_false_positive": 145.2361602783203,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_440_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Look up visitors trend for a specific stock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What stock is being requested for visitors' trend?"
+            },
+            {
+                "role": "user",
+                "content": "Apple stock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Stock: Apple stock </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 51.38200464932661,
+        "bert_score_with_false_positive": 0.9545814692974091,
+        "perplexity_score_with_false_positive": 403.0630187988281,
+        "bleu_score_without_false_positive": 51.38200464932661,
+        "bert_score_without_false_positive": 0.9545814692974091,
+        "perplexity_score_without_false_positive": 403.0630187988281,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_133_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a specific recipe"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the recipe to find?"
+            },
+            {
+                "role": "user",
+                "content": "Gluten-free bread"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipe Name: Gluten-free bread </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 45.99180923219035,
+        "bert_score_with_false_positive": 0.9403903484344482,
+        "perplexity_score_with_false_positive": 77.30357551574707,
+        "bleu_score_without_false_positive": 45.99180923219035,
+        "bert_score_without_false_positive": 0.9403903484344482,
+        "perplexity_score_without_false_positive": 77.30357551574707,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_67_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add a location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Where should the new location be added?"
+            },
+            {
+                "role": "user",
+                "content": "Miami, FL"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Miami, FL </mem> What is the task associated with the new location?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Add a new task </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.79471823816695,
+        "bert_score_with_false_positive": 0.9485378265380859,
+        "perplexity_score_with_false_positive": 71.86828231811523,
+        "bleu_score_without_false_positive": 48.25871624146298,
+        "bert_score_without_false_positive": 0.9667898118495941,
+        "perplexity_score_without_false_positive": 85.39556503295898,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_77_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for top comments mentioning a specific person"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of the search?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Purpose: Top comments mentioning a specific person </mem> What is the name of the specific person whose comments are being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Person Name: [Name] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.03644124846008,
+        "bert_score_with_false_positive": 0.9034437735875448,
+        "perplexity_score_with_false_positive": 90.80063247680664,
+        "bleu_score_without_false_positive": 47.92365811426397,
+        "bert_score_without_false_positive": 0.9397962093353271,
+        "perplexity_score_without_false_positive": 157.5904998779297,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_129_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open highway conditions information"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What state's highway conditions information is needed?"
+            },
+            {
+                "role": "user",
+                "content": "Vancouver Area"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> State: Vancouver Area </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 59.022855059739335,
+        "bert_score_with_false_positive": 0.9738340675830841,
+        "perplexity_score_with_false_positive": 370.6001434326172,
+        "bleu_score_without_false_positive": 59.022855059739335,
+        "bert_score_without_false_positive": 0.9738340675830841,
+        "perplexity_score_without_false_positive": 370.6001434326172,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_153_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Locate a UPS drop-off point"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to find the UPS drop-off point near?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 46.57704310986527,
+        "bert_score_with_false_positive": 0.9499562084674835,
+        "perplexity_score_with_false_positive": 142.42975997924805,
+        "bleu_score_without_false_positive": 59.230330720232516,
+        "bert_score_without_false_positive": 0.956351101398468,
+        "perplexity_score_without_false_positive": 181.72137451171875,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_134_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and save a recipe"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipe Type: Savory </mem> What is the main ingredient of the recipe?"
+            },
+            {
+                "role": "user",
+                "content": "Vegetarian dairy-free recipe"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Main Ingredient: Vegetarian dairy-free </mem> What criteria should the recipe meet?"
+            },
+            {
+                "role": "user",
+                "content": "Vegetarian dairy-free recipe"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipe Criteria: Vegetarian dairy-free </mem> Where should the recipe be saved?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipe Location: In recipe bank </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.91487656696117,
+        "bert_score_with_false_positive": 0.9240202456712723,
+        "perplexity_score_with_false_positive": 198.97765731811523,
+        "bleu_score_without_false_positive": 33.217582578672825,
+        "bert_score_without_false_positive": 0.9138511816660563,
+        "perplexity_score_without_false_positive": 230.8478012084961,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_131_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check health risk and running conditions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for which to check health risks and running conditions?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: United States </mem> What specific information is being sought regarding the United States?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Sought: Health risks and running conditions in the United States </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.676034991843977,
+        "bert_score_with_false_positive": 0.9267138044039408,
+        "perplexity_score_with_false_positive": 180.4571444193522,
+        "bleu_score_without_false_positive": 33.11822752222957,
+        "bert_score_without_false_positive": 0.9326453804969788,
+        "perplexity_score_without_false_positive": 274.8138732910156,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_492_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find the latest FedEx drop-off time at a specific location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Requested: Latest FedEx drop-off time </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.85068972747104,
+        "bert_score_with_false_positive": 0.9124040007591248,
+        "perplexity_score_with_false_positive": 357.11895751953125,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9124040007591248,
+        "perplexity_score_without_false_positive": 357.11895751953125,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_132_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Locate a shelter or rescue group"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of organization needs to be found?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Organization Type: Shelter or Rescue group </mem> In which state is the shelter or rescue group to be located?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> State: California </mem> What specific service does the organization provide?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Service: Emergency fostering </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.186558293201706,
+        "bert_score_with_false_positive": 0.9125411808490753,
+        "perplexity_score_with_false_positive": 340.1074619293213,
+        "bleu_score_without_false_positive": 54.45178846139407,
+        "bert_score_without_false_positive": 0.9373727440834045,
+        "perplexity_score_without_false_positive": 1091.0855712890625,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_712_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Subscribe to a LinkedIn Learning newsletter"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the person subscribing to the newsletter?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Newsletter Name: LinkedIn Learning </mem> What is the name of the group the newsletter should be added to?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Group Name: Group Name </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.74836528820141,
+        "bert_score_with_false_positive": 0.916634718577067,
+        "perplexity_score_with_false_positive": 84.58185195922852,
+        "bleu_score_without_false_positive": 49.615778556328834,
+        "bert_score_without_false_positive": 0.9476090669631958,
+        "perplexity_score_without_false_positive": 127.7648696899414,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_497_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for job openings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of jobs are being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Open positions </mem> What is the location of the job search?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: United States </mem> What is the company's name for which to search for jobs?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Company Name: Apple </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.925484422465818,
+        "bert_score_with_false_positive": 0.9296412169933319,
+        "perplexity_score_with_false_positive": 137.74772834777832,
+        "bleu_score_without_false_positive": 50.698033524721,
+        "bert_score_without_false_positive": 0.9621443748474121,
+        "perplexity_score_without_false_positive": 308.0729675292969,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_138_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve cryptocurrency price chart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Data Type: Cryptocurrency price chart </mem> Which cryptocurrency's price chart is to be retrieved?"
+            },
+            {
+                "role": "user",
+                "content": "Bitcoin"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Cryptocurrency: Bitcoin </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.10215561000123,
+        "bert_score_with_false_positive": 0.9334230124950409,
+        "perplexity_score_with_false_positive": 101.00171279907227,
+        "bleu_score_without_false_positive": 47.10215561000123,
+        "bert_score_without_false_positive": 0.9334230124950409,
+        "perplexity_score_without_false_positive": 101.00171279907227,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_205_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Gather information on Hypersomnia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is Hypersomnia?"
+            },
+            {
+                "role": "user",
+                "content": "General information about Hypersomnia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Request: General information about Hypersomnia </mem> What are the different types of Hypersomnia?"
+            },
+            {
+                "role": "user",
+                "content": "General information about Hypersomnia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Request: General information about Hypersomnia </mem> What is the definition of Hypersomnia?"
+            },
+            {
+                "role": "user",
+                "content": "General information about Hypersomnia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Request: Definition of Hypersomnia </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.042655709065684,
+        "bert_score_with_false_positive": 0.9350249916315079,
+        "perplexity_score_with_false_positive": 193.8838710784912,
+        "bleu_score_without_false_positive": 39.042655709065684,
+        "bert_score_without_false_positive": 0.9350249916315079,
+        "perplexity_score_without_false_positive": 193.8838710784912,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_161_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse homes for sale"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of homes are being searched for sale?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Home Type: For sale </mem> What is the price range for the homes to be browsed?"
+            },
+            {
+                "role": "user",
+                "content": "Under 1 million dollars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: Under 1 million dollars </mem> Which city should the homes be located in?"
+            },
+            {
+                "role": "user",
+                "content": "San Diego, CA"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> City: San Diego, CA </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.20568266855067,
+        "bert_score_with_false_positive": 0.9331320822238922,
+        "perplexity_score_with_false_positive": 108.7471981048584,
+        "bleu_score_without_false_positive": 27.66413000098721,
+        "bert_score_without_false_positive": 0.9281854033470154,
+        "perplexity_score_without_false_positive": 96.88595326741536,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_468_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for online courses"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the subject of the courses to search for?"
+            },
+            {
+                "role": "user",
+                "content": "Home workout courses"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Course Subject: Home workout courses </mem> What is the minimum duration of the courses?"
+            },
+            {
+                "role": "user",
+                "content": "1 hour"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Duration: 1 hour </mem> What is the maximum price limit for the courses?"
+            },
+            {
+                "role": "user",
+                "content": "1 hour"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Limit: 1 hour </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.502868215633676,
+        "bert_score_with_false_positive": 0.9400817304849625,
+        "perplexity_score_with_false_positive": 143.92778205871582,
+        "bleu_score_without_false_positive": 38.502868215633676,
+        "bert_score_without_false_positive": 0.9400817304849625,
+        "perplexity_score_without_false_positive": 143.92778205871582,
+        "false_negative": 3,
+        "false_positive": 0,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_174_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Calculate shipping cost"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the total weight of the items to calculate the shipping cost for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Total Weight: </mem> What is the destination zip code for the shipping address?"
+            },
+            {
+                "role": "user",
+                "content": "10023"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination Zip Code: 10023 </mem> What is the charge for packing and handling?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Packing and Handling Charge: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.0261359690023,
+        "bert_score_with_false_positive": 0.9332959800958633,
+        "perplexity_score_with_false_positive": 127.59383773803711,
+        "bleu_score_without_false_positive": 49.858955838466905,
+        "bert_score_without_false_positive": 0.9373636841773987,
+        "perplexity_score_without_false_positive": 170.24554443359375,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_670_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check availability of a specific information session"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Session Topic: Specific information session </mem> What is the request regarding the information session?"
+            },
+            {
+                "role": "user",
+                "content": "Undergraduate Information Session"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Request Type: Undergraduate Information Session </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 25.82237996158741,
+        "bert_score_with_false_positive": 0.913378894329071,
+        "perplexity_score_with_false_positive": 186.29471969604492,
+        "bleu_score_without_false_positive": 25.82237996158741,
+        "bert_score_without_false_positive": 0.913378894329071,
+        "perplexity_score_without_false_positive": 186.29471969604492,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_433_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Provide information about voting for citizens living abroad."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the eligibility criteria for voting for citizens living abroad?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Eligibility Criteria: Citizens living abroad </mem> What is the process for voting if a citizen is living abroad?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Voting Process: For citizens living abroad, the process is usually conducted through their embassy or consulate. </mem> Are there any specific requirements for voting such as registration or identification?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Requirements: Registration or identification with the embassy or consulate. </mem> What additional details should be confirmed before voting?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Additional Details to Confirm: Availability of voting services at the citizen's location. </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 20.30944600533947,
+        "bert_score_with_false_positive": 0.9054479718208313,
+        "perplexity_score_with_false_positive": 99.99980773925782,
+        "bleu_score_without_false_positive": 30.8301299550215,
+        "bert_score_without_false_positive": 0.9051111936569214,
+        "perplexity_score_without_false_positive": 203.1143035888672,
+        "false_negative": 1,
+        "false_positive": 4,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_604_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check hourly weather forecast"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code for the location to check the hourly weather forecast?"
+            },
+            {
+                "role": "user",
+                "content": "Boston"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location Zip Code: Boston </mem> What is the specific date for which the hourly weather forecast is requested?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date for Forecast: Today </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.746092570395945,
+        "bert_score_with_false_positive": 0.9277679522832235,
+        "perplexity_score_with_false_positive": 168.64987436930338,
+        "bleu_score_without_false_positive": 40.1361513165686,
+        "bert_score_without_false_positive": 0.9380541443824768,
+        "perplexity_score_without_false_positive": 166.5338020324707,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_158_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Look up shipment tracking information"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the tracking number for the shipment?"
+            },
+            {
+                "role": "user",
+                "content": "3023858502"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Tracking Number: 3023858502 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 71.0742697141458,
+        "bert_score_with_false_positive": 0.9787887930870056,
+        "perplexity_score_with_false_positive": 276.25263595581055,
+        "bleu_score_without_false_positive": 71.0742697141458,
+        "bert_score_without_false_positive": 0.9787887930870056,
+        "perplexity_score_without_false_positive": 276.25263595581055,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_478_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Clear all recent search topics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action: Clear recent search topics </mem> What is the task related to?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Related to search topics </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.14958077491139,
+        "bert_score_with_false_positive": 0.9367188513278961,
+        "perplexity_score_with_false_positive": 224.96072387695312,
+        "bleu_score_without_false_positive": 50.95172447616117,
+        "bert_score_without_false_positive": 0.9515624642372131,
+        "perplexity_score_without_false_positive": 297.27734375,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_257_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check university admission requirements"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific requirement to be checked for the university?"
+            },
+            {
+                "role": "user",
+                "content": "University of London"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> University: University of London </mem> What is the purpose of checking the university admission requirements?"
+            },
+            {
+                "role": "user",
+                "content": "University of London"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose: Check university admission requirements for University of London </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.20415161915049,
+        "bert_score_with_false_positive": 0.9253778457641602,
+        "perplexity_score_with_false_positive": 148.2181599934896,
+        "bleu_score_without_false_positive": 29.20415161915049,
+        "bert_score_without_false_positive": 0.9253778457641602,
+        "perplexity_score_without_false_positive": 148.2181599934896,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_357_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find eligibility requirements for a grant"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Purpose: Eligibility requirements for a grant </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.63100914774511,
+        "bert_score_with_false_positive": 0.927491307258606,
+        "perplexity_score_with_false_positive": 243.9176025390625,
+        "bleu_score_without_false_positive": 47.63100914774511,
+        "bert_score_without_false_positive": 0.927491307258606,
+        "perplexity_score_without_false_positive": 243.9176025390625,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_710_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and save specific job listings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job listings is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Specific job listings </mem> What is the location of the job listings?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Specific </mem> What is the duty location for the job listings?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Duty Location: Specific </mem> What is the preference regarding job status?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Status: Specific preference </mem> What action should be taken after finding the job listings?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action Required: Save </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.45278975574467,
+        "bert_score_with_false_positive": 0.9262545506159464,
+        "perplexity_score_with_false_positive": 187.84405517578125,
+        "bleu_score_without_false_positive": 44.91549451953856,
+        "bert_score_without_false_positive": 0.9513206481933594,
+        "perplexity_score_without_false_positive": 335.042724609375,
+        "false_negative": 2,
+        "false_positive": 5,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_883_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Job search and email alert setup"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of jobs should be searched for?"
+            },
+            {
+                "role": "user",
+                "content": "Fulfillment Center Warehouse"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Fulfillment Center Warehouse </mem> In which location should the job search be conducted?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: In which location should the job search be conducted?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: In which location should the job search be conducted? </mem> What action should be taken if a suitable job is found?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action if Suitable Job Found: Apply for the job </mem> What email address should be used for signing up for job alerts?"
+            },
+            {
+                "role": "user",
+                "content": "abc@abc.com"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Email Address for Job Alerts: abc@abc.com </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.781880039569906,
+        "bert_score_with_false_positive": 0.9233790536721548,
+        "perplexity_score_with_false_positive": 91.8501714070638,
+        "bleu_score_without_false_positive": 55.70502987939414,
+        "bert_score_without_false_positive": 0.9482180674870809,
+        "perplexity_score_without_false_positive": 106.0142084757487,
+        "false_negative": 0,
+        "false_positive": 3,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_673_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find information about undergraduate majors and degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Type: Undergraduate majors and degrees,  </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 42.08598069524091,
+        "bert_score_with_false_positive": 0.9086330533027649,
+        "perplexity_score_with_false_positive": 487.7435607910156,
+        "bleu_score_without_false_positive": 42.08598069524091,
+        "bert_score_without_false_positive": 0.9086330533027649,
+        "perplexity_score_without_false_positive": 487.7435607910156,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_477_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open the section to create a new message"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of the new message?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Message Purpose: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.02849616670127,
+        "bert_score_with_false_positive": 0.9377378821372986,
+        "perplexity_score_with_false_positive": 111.49008369445801,
+        "bleu_score_without_false_positive": 54.844980922047604,
+        "bert_score_without_false_positive": 0.9524924755096436,
+        "perplexity_score_without_false_positive": 175.77029418945312,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_135_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open cryptocurrency chart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the cryptocurrency whose chart is to be opened?"
+            },
+            {
+                "role": "user",
+                "content": "XRP"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Cryptocurrency: XRP </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 48.46548080864426,
+        "bert_score_with_false_positive": 0.9485186338424683,
+        "perplexity_score_with_false_positive": 127.09526062011719,
+        "bleu_score_without_false_positive": 48.46548080864426,
+        "bert_score_without_false_positive": 0.9485186338424683,
+        "perplexity_score_without_false_positive": 127.09526062011719,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_774_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add stock to watchlist"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the ticker symbol for the stock to add to the watchlist?"
+            },
+            {
+                "role": "user",
+                "content": "Tesla"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Stock Ticker Symbol: Tesla </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 56.34624694470803,
+        "bert_score_with_false_positive": 0.9650886654853821,
+        "perplexity_score_with_false_positive": 169.98251342773438,
+        "bleu_score_without_false_positive": 56.34624694470803,
+        "bert_score_without_false_positive": 0.9650886654853821,
+        "perplexity_score_without_false_positive": 169.98251342773438,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_674_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a class at a university"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of class are you looking for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Class Type: Live class at a university </mem> What subject should the class be about?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Class Subject: Live class at a university </mem> What is the time frame for when the class should be happening?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: Now to September </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.1262887400901,
+        "bert_score_with_false_positive": 0.9318455308675766,
+        "perplexity_score_with_false_positive": 195.88252925872803,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9396100044250488,
+        "perplexity_score_without_false_positive": 404.5455017089844,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_136_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find specific cryptocurrencies based on detailed criteria"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the minimum trading volume for a cryptocurrency to be considered?"
+            },
+            {
+                "role": "user",
+                "content": "More than $10M"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Trading Volume: More than $10M </mem> What is the minimum capitalization rating for a cryptocurrency?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Capitalization Rating: More than $50M </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.66548350309872,
+        "bert_score_with_false_positive": 0.9135257800420126,
+        "perplexity_score_with_false_positive": 86.0813102722168,
+        "bleu_score_without_false_positive": 46.24064406421621,
+        "bert_score_without_false_positive": 0.9172586798667908,
+        "perplexity_score_without_false_positive": 96.21493721008301,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_346_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find an Audiologist"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location where an Audiologist is needed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: United States </mem> What specific service is needed from the Audiologist?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Service Needed: Tinnitus counseling </mem> What additional information is required about the Audiologist?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Additional Information: Availability for tinnitus counseling </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.334347022731585,
+        "bert_score_with_false_positive": 0.9167854189872742,
+        "perplexity_score_with_false_positive": 211.68245315551758,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9201874136924744,
+        "perplexity_score_without_false_positive": 315.42681884765625,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_159_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Calculate shipping cost for a package"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the destination zip code for the package?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination Zip Code: </mem> What is the weight of the package?"
+            },
+            {
+                "role": "user",
+                "content": "4 pounds"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Package Weight: 4 pounds </mem> What is the cost per pound for the package?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Cost Per Pound: $2 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 51.591322302269774,
+        "bert_score_with_false_positive": 0.9422859102487564,
+        "perplexity_score_with_false_positive": 127.95106887817383,
+        "bleu_score_without_false_positive": 57.19349388237218,
+        "bert_score_without_false_positive": 0.9488723278045654,
+        "perplexity_score_without_false_positive": 161.77266693115234,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_340_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Order Priority Mail padded envelopes"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shipping Type: Priority Mail padded envelopes </mem> How many envelopes need to be ordered?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Envelopes: 20 </mem> What is the zip code for shipping?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: 12345 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.02726425472547,
+        "bert_score_with_false_positive": 0.9150869846343994,
+        "perplexity_score_with_false_positive": 111.0979741414388,
+        "bleu_score_without_false_positive": 33.02667917802211,
+        "bert_score_without_false_positive": 0.9185863733291626,
+        "perplexity_score_without_false_positive": 158.37002563476562,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_274_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Display properties in a specific area sorted by price"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Parameter: Price </mem> What is the location for displaying properties?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Specific area </mem> What type of properties should be displayed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Property Type: Single-family homes </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.695434897471454,
+        "bert_score_with_false_positive": 0.9250053366025289,
+        "perplexity_score_with_false_positive": 157.57406616210938,
+        "bleu_score_without_false_positive": 47.13945310979296,
+        "bert_score_without_false_positive": 0.9284847974777222,
+        "perplexity_score_without_false_positive": 239.19146728515625,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_349_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve air quality data"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Data Type: Air quality data </mem> What is the time frame for the data retrieval?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: Recent past </mem> What specific location's air quality data is to be retrieved?"
+            },
+            {
+                "role": "user",
+                "content": "Maine North, County Cork, Ireland"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Locations: Maine North, County Cork, Ireland </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 50.794756144294276,
+        "bert_score_with_false_positive": 0.9609752297401428,
+        "perplexity_score_with_false_positive": 245.1255671183268,
+        "bleu_score_without_false_positive": 63.45132375611783,
+        "bert_score_without_false_positive": 0.9771982133388519,
+        "perplexity_score_without_false_positive": 325.01932525634766,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_239_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for drug interactions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Drug Type: Drug interactions </mem> What is the reference drug for the interactions search?"
+            },
+            {
+                "role": "user",
+                "content": "Ibuprofen and aspirin"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Reference Drugs: Ibuprofen and aspirin </mem> What is the specific condition or health situation regarding which the drug interactions need to be searched?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Health Situation: Heart disease </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.089725934511364,
+        "bert_score_with_false_positive": 0.9078259269396464,
+        "perplexity_score_with_false_positive": 193.18245442708334,
+        "bleu_score_without_false_positive": 33.520806543308076,
+        "bert_score_without_false_positive": 0.9215773344039917,
+        "perplexity_score_without_false_positive": 246.22075653076172,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_344_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and apply for a government job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Government job </mem> What is the rank of the job to apply for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Rank: </mem> What is the duty location for the job?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Duty Location: </mem> What action should be taken after finding the job?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action to Take: Apply for the job </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.720636065501132,
+        "bert_score_with_false_positive": 0.9360404908657074,
+        "perplexity_score_with_false_positive": 151.2884407043457,
+        "bleu_score_without_false_positive": 41.180376356915765,
+        "bert_score_without_false_positive": 0.9428319334983826,
+        "perplexity_score_without_false_positive": 256.1963806152344,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_336_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and apply for a job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Customer service </mem> What is the location of the job?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: United States </mem> What is the preference regarding job location?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location Preference: Job location preference set </mem> What is the main criterion for the job selection?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Selection Criterion: Part time </mem> How recent should the job posting be?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Posting Recency: Recent </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.819026836763744,
+        "bert_score_with_false_positive": 0.9286433060963949,
+        "perplexity_score_with_false_positive": 153.3331731160482,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9333913326263428,
+        "perplexity_score_without_false_positive": 351.6535949707031,
+        "false_negative": 4,
+        "false_positive": 5,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_402_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find hourly weather forecast"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Weather Forecast Type: Hourly,  </mem> What specific location's hourly weather forecast is being requested?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Specific </mem> For which date should the hourly forecast be obtained?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date for Forecast: [Date] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.376065450052334,
+        "bert_score_with_false_positive": 0.9047112266222636,
+        "perplexity_score_with_false_positive": 183.80298360188803,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9282611608505249,
+        "perplexity_score_without_false_positive": 181.48947143554688,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_569_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find legal career openings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What organization's legal career openings are being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Organization: Legal Aid Society </mem> What type of opportunities are we looking for in the organization?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Opportunity Type: Career openings </mem> In which location should the opportunities be available?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: New York </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 45.230802027522955,
+        "bert_score_with_false_positive": 0.9416926205158234,
+        "perplexity_score_with_false_positive": 280.1704692840576,
+        "bleu_score_without_false_positive": 100.00000000000004,
+        "bert_score_without_false_positive": 1.0,
+        "perplexity_score_without_false_positive": 112.82007598876953,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_375_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a doctor"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to search for a doctor in?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: </mem> What specific qualities should the doctor have?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Doctor Qualities: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.771682107311136,
+        "bert_score_with_false_positive": 0.9249300758043925,
+        "perplexity_score_with_false_positive": 185.31726837158203,
+        "bleu_score_without_false_positive": 54.844980922047604,
+        "bert_score_without_false_positive": 0.9553120136260986,
+        "perplexity_score_without_false_positive": 250.21136474609375,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_770_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find the number of reported scams"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task Subject: Number of reported scams </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.85068972747104,
+        "bert_score_with_false_positive": 0.9342567324638367,
+        "perplexity_score_with_false_positive": 419.0995178222656,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9342567324638367,
+        "perplexity_score_without_false_positive": 419.0995178222656,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_356_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Identify state Senate representative for a specific address"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Required Information: Specific Address </mem> What is the purpose of the task?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task Purpose: Identify state Senate representative for a specific address </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.952548617132944,
+        "bert_score_with_false_positive": 0.8773496747016907,
+        "perplexity_score_with_false_positive": 227.86545944213867,
+        "bleu_score_without_false_positive": 33.202741157217616,
+        "bert_score_without_false_positive": 0.8860427141189575,
+        "perplexity_score_without_false_positive": 369.903564453125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_350_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Contact a real estate agent in Orange County, FL to assist a seller"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Agent Location: Orange County, FL </mem> What is the task the real estate agent is required for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Assist a seller </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.20666684651802,
+        "bert_score_with_false_positive": 0.9019676446914673,
+        "perplexity_score_with_false_positive": 253.7514877319336,
+        "bleu_score_without_false_positive": 36.10544299180199,
+        "bert_score_without_false_positive": 0.8968244194984436,
+        "perplexity_score_without_false_positive": 418.4004211425781,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_348_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> View wind flow map"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location of the wind flow map to be viewed?"
+            },
+            {
+                "role": "user",
+                "content": "Utah, the United States"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Wind Flow Map Location: Utah, United States </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.59464377035011,
+        "bert_score_with_false_positive": 0.9451426565647125,
+        "perplexity_score_with_false_positive": 148.8190155029297,
+        "bleu_score_without_false_positive": 38.59464377035011,
+        "bert_score_without_false_positive": 0.9451426565647125,
+        "perplexity_score_without_false_positive": 148.8190155029297,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_667_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find registration deadlines for an academic term"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of the registration deadlines?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose: Registration deadlines for an academic term </mem> Which academic term are we looking up registration deadlines for?"
+            },
+            {
+                "role": "user",
+                "content": "Fall 2024"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Academic Term: Fall 2024 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 55.71908041462845,
+        "bert_score_with_false_positive": 0.954771101474762,
+        "perplexity_score_with_false_positive": 222.73657989501953,
+        "bleu_score_without_false_positive": 63.70449865651743,
+        "bert_score_without_false_positive": 0.9634774625301361,
+        "perplexity_score_without_false_positive": 287.72190856933594,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_555_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Join an online community and set notification preferences"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of joining the online community?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose: Join an online community </mem> What is the email address to use when joining the online community?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Email Address: </mem> What notification preferences should be set for joining the online community?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Notification Preferences: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.38808792307046,
+        "bert_score_with_false_positive": 0.9361140877008438,
+        "perplexity_score_with_false_positive": 142.22124576568604,
+        "bleu_score_without_false_positive": 63.436083375358535,
+        "bert_score_without_false_positive": 0.9603421092033386,
+        "perplexity_score_without_false_positive": 373.860595703125,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_434_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Estimate Income Tax"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the gross income for the individual?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gross Income: $50,000 </mem> What is the deduction amount for the individual?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Deduction Amount: $15,000 </mem> What is the filing status for the individual?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Filing Status: Married, filing jointly </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.35706141395342,
+        "bert_score_with_false_positive": 0.9114816039800644,
+        "perplexity_score_with_false_positive": 117.06611251831055,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9050941467285156,
+        "perplexity_score_without_false_positive": 274.72021484375,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_462_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Determine affordable rent amount"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the maximum amount for rent payment?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Rent Amount: </mem> What is the minimum credit score required for the rental property?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Credit Score: </mem> What is the monthly income of the tenant?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Tenant's Monthly Income: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.933631350815986,
+        "bert_score_with_false_positive": 0.9157858192920685,
+        "perplexity_score_with_false_positive": 118.02246284484863,
+        "bleu_score_without_false_positive": 54.45178846139407,
+        "bert_score_without_false_positive": 0.9221025705337524,
+        "perplexity_score_without_false_positive": 231.72293090820312,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_580_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Set up job alerts"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of jobs is the inquiry focused on?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: All jobs </mem> What should be reviewed along with the job alerts?"
+            },
+            {
+                "role": "user",
+                "content": "Sales positions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Review Item: Sales positions </mem> In which location should the job alerts be set?"
+            },
+            {
+                "role": "user",
+                "content": "Sales positions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Any location </mem> What action should be taken after setting up the job alerts?"
+            },
+            {
+                "role": "user",
+                "content": "Sales positions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action to Take: Apply for sales positions </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.33370978061118,
+        "bert_score_with_false_positive": 0.9212623000144958,
+        "perplexity_score_with_false_positive": 335.3088180541992,
+        "bleu_score_without_false_positive": 27.40627104572463,
+        "bert_score_without_false_positive": 0.9143267422914505,
+        "perplexity_score_without_false_positive": 392.35521507263184,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_776_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add stock to a watch list"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the stock to add to the watch list?"
+            },
+            {
+                "role": "user",
+                "content": "Google"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Stock Name: Google </mem> What is the ticker symbol for the stock?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticker Symbol: Google </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.86023035458296,
+        "bert_score_with_false_positive": 0.9440898100535074,
+        "perplexity_score_with_false_positive": 190.15798568725586,
+        "bleu_score_without_false_positive": 57.81453074807908,
+        "bert_score_without_false_positive": 0.9633354544639587,
+        "perplexity_score_without_false_positive": 243.26210975646973,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_900_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Filter posts in a Reddit community"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Community Name: Reddit, Post Filtering Condition: Post author's name contains 'S'. </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.515162380863735,
+        "bert_score_with_false_positive": 0.8993685841560364,
+        "perplexity_score_with_false_positive": 278.7263488769531,
+        "bleu_score_without_false_positive": 29.515162380863735,
+        "bert_score_without_false_positive": 0.8993685841560364,
+        "perplexity_score_without_false_positive": 278.7263488769531,
+        "false_negative": 3,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_546_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Renew vehicle registration online"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the last name associated with the vehicle?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Last Name: </mem> What is the license number of the vehicle?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> License Number: </mem> What is the state where the vehicle is registered?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> State: </mem> What is the zip code for the renewal?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.793044678313958,
+        "bert_score_with_false_positive": 0.911792767047882,
+        "perplexity_score_with_false_positive": 97.51095504760742,
+        "bleu_score_without_false_positive": 40.318820478056765,
+        "bert_score_without_false_positive": 0.9277912974357605,
+        "perplexity_score_without_false_positive": 181.72137451171875,
+        "false_negative": 1,
+        "false_positive": 4,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_464_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for remote software engineering jobs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Remote software engineering jobs,  </mem> What is the location for the jobs search?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Global, including the US </mem> What is the qualification required for the jobs?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Required Qualification: Bachelor's or master's degree in computer science, software engineering, or a related field </mem> How recent should the job posting be?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Posting Recency: Most recent </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.907175954137372,
+        "bert_score_with_false_positive": 0.9152893573045731,
+        "perplexity_score_with_false_positive": 167.67049980163574,
+        "bleu_score_without_false_positive": 44.05136963304349,
+        "bert_score_without_false_positive": 0.9245604872703552,
+        "perplexity_score_without_false_positive": 355.933349609375,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_469_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and sort apartment listings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> How many rooms are needed in the apartment?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Rooms: %rooms% </mem> What is the minimum square footage required for the apartment?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Square Footage: %sqft% </mem> What is the maximum price range for the apartment listings?"
+            },
+            {
+                "role": "user",
+                "content": "1750 to 2750 dollars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: 1750 to 2750 dollars </mem> What is the preference regarding amenities in the apartment?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Amenities Preference: %amenities% </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.30228670649281,
+        "bert_score_with_false_positive": 0.9238203763961792,
+        "perplexity_score_with_false_positive": 116.71755676269531,
+        "bleu_score_without_false_positive": 43.600466233069355,
+        "bert_score_without_false_positive": 0.9236196577548981,
+        "perplexity_score_without_false_positive": 144.98996353149414,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_467_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find specific game development courses"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of courses are being sought?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Course Type: Game development courses </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.71728899934935,
+        "bert_score_with_false_positive": 0.9344980418682098,
+        "perplexity_score_with_false_positive": 175.7976531982422,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9307384490966797,
+        "perplexity_score_without_false_positive": 225.98956298828125,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_359_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find fees for a new driver's license in California"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> State: California </mem> What type of driver's license is being sought?"
+            },
+            {
+                "role": "user",
+                "content": "Standard driver's license"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> License Type: Standard driver's license </mem> What is the requirement for the new driver's license?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Requirement: Standard license </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.93078423073598,
+        "bert_score_with_false_positive": 0.940775990486145,
+        "perplexity_score_with_false_positive": 95.18477121988933,
+        "bleu_score_without_false_positive": 54.03951622282797,
+        "bert_score_without_false_positive": 0.9475024044513702,
+        "perplexity_score_without_false_positive": 116.86261367797852,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_692_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Join a challenge"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the challenge to join?"
+            },
+            {
+                "role": "user",
+                "content": "Mindful Eating Challenge"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Challenge Name: Mindful Eating Challenge </mem> What is the time frame for the challenge?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: [ INSERT TIME FRAME ] </mem> What should be recorded as part of the challenge?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recording Requirement: [ INSERT RECORDING REQUIREMENT ] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 50.11406141493626,
+        "bert_score_with_false_positive": 0.9273319244384766,
+        "perplexity_score_with_false_positive": 75.70112037658691,
+        "bleu_score_without_false_positive": 70.59018817845791,
+        "bert_score_without_false_positive": 0.9509396851062775,
+        "perplexity_score_without_false_positive": 72.38776397705078,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_828_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Determine eligibility for Jobseeker's Allowance"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the main criteria for eligibility for Jobseeker's Allowance?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Eligibility Criteria: Main criteria for eligibility </mem> What is the age limit for eligibility for Jobseeker's Allowance?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Age Limit: [Age Limit] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.74010705337725,
+        "bert_score_with_false_positive": 0.9198700388272604,
+        "perplexity_score_with_false_positive": 66.0854066212972,
+        "bleu_score_without_false_positive": 45.72082891936412,
+        "bert_score_without_false_positive": 0.9518782496452332,
+        "perplexity_score_without_false_positive": 137.3227081298828,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_853_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open the page for finding a local court"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of opening the page?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Page Purpose: Finding a local court </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.81144789151826,
+        "bert_score_with_false_positive": 0.9222553670406342,
+        "perplexity_score_with_false_positive": 374.99428367614746,
+        "bleu_score_without_false_positive": 50.7196093945688,
+        "bert_score_without_false_positive": 0.958276093006134,
+        "perplexity_score_without_false_positive": 696.0364379882812,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_826_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Provide information on Carer's Credit for disabled people"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Type: Carer's Credit for disabled people </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.3809674619955,
+        "bert_score_with_false_positive": 0.9267446994781494,
+        "perplexity_score_with_false_positive": 365.6365966796875,
+        "bleu_score_without_false_positive": 34.3809674619955,
+        "bert_score_without_false_positive": 0.9267446994781494,
+        "perplexity_score_without_false_positive": 365.6365966796875,
+        "false_negative": 3,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_678_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Create and update a portfolio"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of content should be added to the portfolio?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Portfolio Content: [A list of content types] </mem> Who is the portfolio being created and updated for?"
+            },
+            {
+                "role": "user",
+                "content": "Tech"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Portfolio Owner: Tech </mem> How often should the portfolio be updated?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Update Frequency: [Specify update interval] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.472097864845672,
+        "bert_score_with_false_positive": 0.9149271249771118,
+        "perplexity_score_with_false_positive": 244.92498970031738,
+        "bleu_score_without_false_positive": 27.45882776399626,
+        "bert_score_without_false_positive": 0.9096822440624237,
+        "perplexity_score_without_false_positive": 415.5139274597168,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_858_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find symptoms of a medical condition"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the medical condition for which symptoms are needed?"
+            },
+            {
+                "role": "user",
+                "content": "Acid reflux"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Medical Condition: Acid reflux </mem> What type of information is being requested about the condition?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Type: Symptoms of Acid reflux </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.05809579872072,
+        "bert_score_with_false_positive": 0.9455236792564392,
+        "perplexity_score_with_false_positive": 134.49249776204428,
+        "bleu_score_without_false_positive": 54.6787191780941,
+        "bert_score_without_false_positive": 0.9636068344116211,
+        "perplexity_score_without_false_positive": 159.7210464477539,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_779_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and save property listings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action After Finding Properties: Save property listings </mem> What type of properties should be searched for?"
+            },
+            {
+                "role": "user",
+                "content": "Undeveloped land, farms, and ranches"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Property Type: Undeveloped land, farms, and ranches </mem> What specific ranch is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ranch Name: [Specify Ranch Name] </mem> How should the saved properties be organized?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Organization Method: [Specify Organization Method] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.626113295965304,
+        "bert_score_with_false_positive": 0.9284154623746872,
+        "perplexity_score_with_false_positive": 177.86566162109375,
+        "bleu_score_without_false_positive": 38.86393443656072,
+        "bert_score_without_false_positive": 0.9258928596973419,
+        "perplexity_score_without_false_positive": 222.25306701660156,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_461_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find houses for sale with specific features"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location to find houses for sale?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: United States </mem> What minimum size should the house have?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Size: 1500 square feet </mem> What is the price range for the houses?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: $250k to $300k </mem> What type of house is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> House Type: Single-family detached </mem> What is the zip code for the location where the houses should be searched?"
+            },
+            {
+                "role": "user",
+                "content": "85747"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: 85747 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.66439156236484,
+        "bert_score_with_false_positive": 0.915258506933848,
+        "perplexity_score_with_false_positive": 109.61176300048828,
+        "bleu_score_without_false_positive": 35.73450526739669,
+        "bert_score_without_false_positive": 0.9205865263938904,
+        "perplexity_score_without_false_positive": 134.69839477539062,
+        "false_negative": 1,
+        "false_positive": 4,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_775_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Monitor currency"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Currency to Monitor: USD </mem> What is the purpose of monitoring the currency?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose: Track currency fluctuations </mem> Which specific currency should be monitored?"
+            },
+            {
+                "role": "user",
+                "content": "Euro"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Currency to Monitor: Euro </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.397546400588276,
+        "bert_score_with_false_positive": 0.9375160733858744,
+        "perplexity_score_with_false_positive": 214.10819244384766,
+        "bleu_score_without_false_positive": 36.563953184586815,
+        "bert_score_without_false_positive": 0.9324793517589569,
+        "perplexity_score_without_false_positive": 290.0369110107422,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_679_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a doctor specializing in back pain"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific condition for which a doctor is needed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Condition: Back pain </mem> What type of doctor is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Doctor Type: Specializing in back pain </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.25206620014529,
+        "bert_score_with_false_positive": 0.9324440956115723,
+        "perplexity_score_with_false_positive": 197.51399993896484,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9409422874450684,
+        "perplexity_score_without_false_positive": 355.55743408203125,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_404_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Calculate mortgage monthly payment"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the amount of the down payment for the mortgage?"
+            },
+            {
+                "role": "user",
+                "content": "$100k"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Down Payment Amount: $100k </mem> What is the interest rate for the mortgage?"
+            },
+            {
+                "role": "user",
+                "content": "30 year fixed rate"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Interest Rate Type: 30 year fixed rate </mem> In which area is the property located?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Property Location: [To be specified] </mem> Is there any prepayment option available for the mortgage?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Prepayment Option: [To be specified] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.344884004266437,
+        "bert_score_with_false_positive": 0.9094576001167297,
+        "perplexity_score_with_false_positive": 122.1411865234375,
+        "bleu_score_without_false_positive": 29.5487868044692,
+        "bert_score_without_false_positive": 0.915681521097819,
+        "perplexity_score_without_false_positive": 130.3496856689453,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_771_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Report a scam or fraud"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of scam or fraud needs to be reported?"
+            },
+            {
+                "role": "user",
+                "content": "The US page"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Scam/Fraud Type: US page </mem> What specific action should be taken in relation to the scam or fraud?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action Required: Report the US page </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.560317498997506,
+        "bert_score_with_false_positive": 0.9478302995363871,
+        "perplexity_score_with_false_positive": 272.3066151936849,
+        "bleu_score_without_false_positive": 47.956142728298154,
+        "bert_score_without_false_positive": 0.9596205949783325,
+        "perplexity_score_without_false_positive": 374.8440170288086,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_778_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and sort pencil drawing courses"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Course Type: Pencil drawing courses </mem> In what location should the courses be searched?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Worldwide </mem> What is the time frame for when the courses were conducted?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: Recently </mem> How should the course list be filtered?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Filter: List recent courses </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.23262553343843,
+        "bert_score_with_false_positive": 0.930742472410202,
+        "perplexity_score_with_false_positive": 241.0519504547119,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9510011076927185,
+        "perplexity_score_without_false_positive": 441.7149963378906,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_773_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a specialized landscape contractor"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What specific service is needed from the contractor?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Service Required: Specialized landscape contractor </mem> What is the location where the contractor is needed?"
+            },
+            {
+                "role": "user",
+                "content": "Milwaukee, WI"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Contractor Location: Milwaukee, WI </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 51.2094960193586,
+        "bert_score_with_false_positive": 0.954504132270813,
+        "perplexity_score_with_false_positive": 193.39678955078125,
+        "bleu_score_without_false_positive": 49.69532984044639,
+        "bert_score_without_false_positive": 0.9529755413532257,
+        "perplexity_score_without_false_positive": 191.7592544555664,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_654_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Data Scientist </mem> What is the location of the job?"
+            },
+            {
+                "role": "user",
+                "content": "Florida"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Florida </mem> What is the qualification of the candidate?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Candidate Qualification: BA in Computer Science </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.81740895422057,
+        "bert_score_with_false_positive": 0.9379491806030273,
+        "perplexity_score_with_false_positive": 99.50162315368652,
+        "bleu_score_without_false_positive": 33.79100471849891,
+        "bert_score_without_false_positive": 0.9387906491756439,
+        "perplexity_score_without_false_positive": 108.09864044189453,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_465_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a part-time job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Part-time </mem> What is the preference regarding job location?"
+            },
+            {
+                "role": "user",
+                "content": "Moscow, Idaho"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Moscow, Idaho </mem> What is the preference regarding the size of the company where the part-time job is located?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Company Size: Small </mem> What is the availability status for the part-time job?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Availability: Open to availability </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 25.822665708391405,
+        "bert_score_with_false_positive": 0.9157484024763107,
+        "perplexity_score_with_false_positive": 135.86236000061035,
+        "bleu_score_without_false_positive": 36.90605488156924,
+        "bert_score_without_false_positive": 0.9275332689285278,
+        "perplexity_score_without_false_positive": 179.1963653564453,
+        "false_negative": 4,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_857_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and subscribe to a diet plan"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of diet plan is to be found?"
+            },
+            {
+                "role": "user",
+                "content": "An easy-to-follow evidence-based nutritious vegetarian diet"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Diet Plan Type: Easy-to-follow evidence-based nutritious vegetarian </mem> What is the starting date for the diet plan?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Starting Date: </mem> What action should be taken after finding the diet plan?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action Required: Subscribe to the diet plan </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.80237270193719,
+        "bert_score_with_false_positive": 0.9201967120170593,
+        "perplexity_score_with_false_positive": 151.05933380126953,
+        "bleu_score_without_false_positive": 51.77200315655445,
+        "bert_score_without_false_positive": 0.933995932340622,
+        "perplexity_score_without_false_positive": 185.58119201660156,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_886_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> View historical cryptocurrency data"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Data Type: Historical cryptocurrency data </mem> Which cryptocurrency's historical data is to be viewed?"
+            },
+            {
+                "role": "user",
+                "content": "Litecoin"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Cryptocurrency: Litecoin </mem> For how long should the historical data be extended?"
+            },
+            {
+                "role": "user",
+                "content": "90 days"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Data Extension: 90 days </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 49.664672487070725,
+        "bert_score_with_false_positive": 0.9547544916470846,
+        "perplexity_score_with_false_positive": 226.3338419596354,
+        "bleu_score_without_false_positive": 49.664672487070725,
+        "bert_score_without_false_positive": 0.9547544916470846,
+        "perplexity_score_without_false_positive": 226.3338419596354,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_806_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Provide information about IBD treatments"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Subject: IBD treatments </mem> What are the different types of IBD treatments mentioned in the task?"
+            },
+            {
+                "role": "user",
+                "content": "Medical treatments, lifestyle changes, etc."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Treatment Types: Medical treatments, lifestyle changes, etc. </mem> What should be understood about the different types of IBD treatments?"
+            },
+            {
+                "role": "user",
+                "content": "Medical treatments, lifestyle changes, etc."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Comprehension Required: Understand the different types of IBD treatments, including medical treatments and lifestyle changes. </mem> Is there a specific patient population or condition that the information should be relevant to?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Patient Population: Individuals with IBD </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 20.73513678612326,
+        "bert_score_with_false_positive": 0.9252708107233047,
+        "perplexity_score_with_false_positive": 119.16453552246094,
+        "bleu_score_without_false_positive": 22.653394664984514,
+        "bert_score_without_false_positive": 0.9245840509732565,
+        "perplexity_score_without_false_positive": 137.90901947021484,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_676_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and share information on social media"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Type: Social media,  </mem> What is the specific task related to social media?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Share information on social media </mem> What details are to be used to identify the shared content?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Content ID: [To be specified] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.559821173483744,
+        "bert_score_with_false_positive": 0.8900266289710999,
+        "perplexity_score_with_false_positive": 140.7986272176107,
+        "bleu_score_without_false_positive": 41.180376356915765,
+        "bert_score_without_false_positive": 0.9213964343070984,
+        "perplexity_score_without_false_positive": 232.62353515625,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_756_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Provide information about symptoms and causes of fever"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Requested: Symptoms and causes of fever </mem> What is a fever, and what are some common causes of fever?"
+            },
+            {
+                "role": "user",
+                "content": "Fever can be caused by a variety of factors including infections like the flu, common cold, or bacterial infections, inflammation, heat exhaustion, or as a side effect of medication."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Causes of Fever: Infections (flu, common cold), inflammation, heat exhaustion, medication side effects </mem> What should someone do if they develop a fever?"
+            },
+            {
+                "role": "user",
+                "content": "The common symptoms of fever include an elevated body temperature, sweating, headache, muscle aches, dehydration, and shivering."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Symptoms of Fever: Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 21.312035288651163,
+        "bert_score_with_false_positive": 0.9088972012201945,
+        "perplexity_score_with_false_positive": 52.41265741984049,
+        "bleu_score_without_false_positive": 21.312035288651163,
+        "bert_score_without_false_positive": 0.9088972012201945,
+        "perplexity_score_without_false_positive": 52.41265741984049,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_865_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for a babysitter service"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location of the babysitter service to be searched in?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Babysitter Location: United States </mem> What is the minimum rating for the babysitter service?"
+            },
+            {
+                "role": "user",
+                "content": "No specific requirements or preferences mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Rating: Not specified </mem> Is there an emergency contact included in the list of babysitters?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Emergency Contact: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.67892210351207,
+        "bert_score_with_false_positive": 0.9248026907444,
+        "perplexity_score_with_false_positive": 127.00564575195312,
+        "bleu_score_without_false_positive": 42.54285545321576,
+        "bert_score_without_false_positive": 0.9283515214920044,
+        "perplexity_score_without_false_positive": 155.27447128295898,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_672_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Gather tuition fee information for a specific course"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific course for which tuition fee information is needed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Course: Specific Course </mem> What is the criteria for selecting the courses?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Selection Criteria: Tuition fee </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.16139564508973,
+        "bert_score_with_false_positive": 0.9332514603932699,
+        "perplexity_score_with_false_positive": 146.68270365397134,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9455060362815857,
+        "perplexity_score_without_false_positive": 268.5250244140625,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    }
+]

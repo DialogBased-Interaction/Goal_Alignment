@@ -1,0 +1,14 @@
+Average BLEU score with false positive: 46.83757988190614
+Average BERT score with false positive: 0.9376661353052566
+Average Perplexity score with false positive: 190.40897078775728     
+Average BLEU score without false positive: 49.24560777939818
+Average BERT score without false positive: 0.9408728662985829        
+Average Perplexity score without false positive: 243.70498273487374  
+Average turn of conversation: 2.8608923884514437
+
+Average turn of conversation for each extracted variable count:      
+Extracted variable count 1: 3.142857142857143 turns
+Extracted variable count 2: 2.835714285714286 turns
+Extracted variable count 3: 2.535211267605634 turns
+Extracted variable count 4: 2.25 turns
+Extracted variable count 5: 2.0 turns

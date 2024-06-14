@@ -1,0 +1,2225 @@
+[
+    {
+        "id": "identity_34_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Start the process to purchase a gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of gift card is being purchased?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Type: (Waiting for response) </mem> What is the value of the gift card?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Value: (Waiting for response) </mem> What name should the gift card be purchased in?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Name: (Waiting for response) </mem> Who is the gift card being purchased for?"
+            },
+            {
+                "role": "user",
+                "content": "(Awaiting user response)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Recipient: (Waiting for response) </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.65116904755994,
+        "bert_score_with_false_positive": 0.9339556813240051,
+        "perplexity_score_with_false_positive": 123.80709381103516,
+        "bleu_score_without_false_positive": 41.65116904755994,
+        "bert_score_without_false_positive": 0.9339556813240051,
+        "perplexity_score_without_false_positive": 123.80709381103516,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_109_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Play the latest video from a specified channel"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Requested Video Content: Latest video, [Specified Channel] </mem> What is the name of the channel where the latest video is located?"
+            },
+            {
+                "role": "user",
+                "content": "NBA TV"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Channel Name: NBA TV </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 56.66811275418256,
+        "bert_score_with_false_positive": 0.955057680606842,
+        "perplexity_score_with_false_positive": 155.9869785308838,
+        "bleu_score_without_false_positive": 56.66811275418256,
+        "bert_score_without_false_positive": 0.955057680606842,
+        "perplexity_score_without_false_positive": 155.9869785308838,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_100_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare prices for a product"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of product are prices to be compared for?"
+            },
+            {
+                "role": "user",
+                "content": "Samsung Galaxy S22"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Type: Samsung Galaxy S22 </mem> What is the main factor to consider when comparing prices?"
+            },
+            {
+                "role": "user",
+                "content": "Samsung Galaxy S22"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Comparison Factor: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.903395476043805,
+        "bert_score_with_false_positive": 0.9380367000897726,
+        "perplexity_score_with_false_positive": 158.50060272216797,
+        "bleu_score_without_false_positive": 39.903395476043805,
+        "bert_score_without_false_positive": 0.9380367000897726,
+        "perplexity_score_without_false_positive": 158.50060272216797,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_159_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check permit availability for a national park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of the inquiry?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Inquiry Purpose: Check permit availability for a national park </mem> Which national park are we checking for permit availability?"
+            },
+            {
+                "role": "user",
+                "content": "Bryce Canyon National Park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> National Park Name: Bryce Canyon National Park </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.847957527688266,
+        "bert_score_with_false_positive": 0.9299240112304688,
+        "perplexity_score_with_false_positive": 112.81266911824544,
+        "bleu_score_without_false_positive": 54.06197604873874,
+        "bert_score_without_false_positive": 0.9541537165641785,
+        "perplexity_score_without_false_positive": 141.97352600097656,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_104_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Play a song from a playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the playlist the song should be played from?"
+            },
+            {
+                "role": "user",
+                "content": "Rock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Playlist Name: Rock </mem> What should be done with the song once played?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action: Play full screen </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.067851418801006,
+        "bert_score_with_false_positive": 0.9459479848543803,
+        "perplexity_score_with_false_positive": 171.76007080078125,
+        "bleu_score_without_false_positive": 47.05665735175452,
+        "bert_score_without_false_positive": 0.9560014605522156,
+        "perplexity_score_without_false_positive": 197.12379455566406,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_17_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse specific reviews for a location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for which to find reviews?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: New York City </mem> What types of reviews are being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "5 star reviews"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Review Type: 5 star reviews </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 56.11324896400794,
+        "bert_score_with_false_positive": 0.9443267583847046,
+        "perplexity_score_with_false_positive": 226.6820920308431,
+        "bleu_score_without_false_positive": 71.17442614037374,
+        "bert_score_without_false_positive": 0.9690848588943481,
+        "perplexity_score_without_false_positive": 266.41046714782715,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_86_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a vacation rental in Egypt."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vacation Rental Location: Egypt </mem> What is the minimum acceptable rating for the vacation rental?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Rating: <span>Selection </span> </mem> How many people will be staying in the vacation rental?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Guests: <span> 1-2 people </span> What are the check-in and check-out dates for the vacation rental?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Stay Duration: <span> 7 days </span> What specific amenities are required in the vacation rental?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Required Amenities: <span> Air conditioning, internet access </span> </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 20.04712720162362,
+        "bert_score_with_false_positive": 0.9066741228103637,
+        "perplexity_score_with_false_positive": 83.60067367553711,
+        "bleu_score_without_false_positive": 28.880056375088657,
+        "bert_score_without_false_positive": 0.914467990398407,
+        "perplexity_score_without_false_positive": 73.02647399902344,
+        "false_negative": 1,
+        "false_positive": 4,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_142_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a marriage registry"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location where a marriage registry needs to be found?"
+            },
+            {
+                "role": "user",
+                "content": "JANE DOE"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Marriage Candidate Name: JANE DOE </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 57.72409511987853,
+        "bert_score_with_false_positive": 0.9567058086395264,
+        "perplexity_score_with_false_positive": 241.18391799926758,
+        "bleu_score_without_false_positive": 57.72409511987853,
+        "bert_score_without_false_positive": 0.9567058086395264,
+        "perplexity_score_without_false_positive": 241.18391799926758,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_50_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and select theatre events"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to search for theatre events?"
+            },
+            {
+                "role": "user",
+                "content": "Las Vegas"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: Las Vegas </mem> What type of events are we looking for in the theatre?"
+            },
+            {
+                "role": "user",
+                "content": "Las Vegas"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Type: Theatre events </mem> When should the events be happening?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Date: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.254593321794516,
+        "bert_score_with_false_positive": 0.9346052259206772,
+        "perplexity_score_with_false_positive": 146.1648998260498,
+        "bleu_score_without_false_positive": 43.166800444589,
+        "bert_score_without_false_positive": 0.9419577916463217,
+        "perplexity_score_without_false_positive": 138.47242991129556,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_35_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find NHL events in a specified location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Specified location </mem> What is the purpose of the search?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Purpose: Find NHL events in a specified location </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.831357384294826,
+        "bert_score_with_false_positive": 0.9214157462120056,
+        "perplexity_score_with_false_positive": 214.90911293029785,
+        "bleu_score_without_false_positive": 36.71108520099891,
+        "bert_score_without_false_positive": 0.9300602674484253,
+        "perplexity_score_without_false_positive": 384.7113037109375,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_93_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Display a list of products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> List Type: Products </mem> How many products should be displayed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Products: Unspecified (All) </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.101812957710045,
+        "bert_score_with_false_positive": 0.9271537661552429,
+        "perplexity_score_with_false_positive": 128.89015579223633,
+        "bleu_score_without_false_positive": 41.180376356915765,
+        "bert_score_without_false_positive": 0.9436694383621216,
+        "perplexity_score_without_false_positive": 153.72691345214844,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_132_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open a review creation page for a specific hotel"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the hotel to find reviews for?"
+            },
+            {
+                "role": "user",
+                "content": "Hotel Xcaret Mexico"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Hotel Name: Hotel Xcaret Mexico </mem> What is the specific complaint or issue with the hotel?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Complaint/Issue: Not specified </mem> What is the accession number for the hotel?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Accession Number: Not specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.165374579839394,
+        "bert_score_with_false_positive": 0.9093472212553024,
+        "perplexity_score_with_false_positive": 128.3739833831787,
+        "bleu_score_without_false_positive": 40.420372878262214,
+        "bert_score_without_false_positive": 0.928414911031723,
+        "perplexity_score_without_false_positive": 131.95247268676758,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_28_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for songs related to a specific theme"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Theme: Related to a specific theme </mem> What specific theme should the songs be based on?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Theme: Specific theme </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.01594510151375,
+        "bert_score_with_false_positive": 0.9275205731391907,
+        "perplexity_score_with_false_positive": 153.2083625793457,
+        "bleu_score_without_false_positive": 47.20305201905447,
+        "bert_score_without_false_positive": 0.9491471648216248,
+        "perplexity_score_without_false_positive": 212.72396850585938,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_98_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and sort a product"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of product is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Type: Clothing </mem> What size should the clothing item be?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Clothing Size: Medium </mem> What is the price range for the clothing item?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: Under $50 </mem> What is the main criterion for sorting the search results?"
+            },
+            {
+                "role": "user",
+                "content": "Review Score"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Criterion: Review Score </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 45.70385560497165,
+        "bert_score_with_false_positive": 0.9449709773063659,
+        "perplexity_score_with_false_positive": 136.10822982788085,
+        "bleu_score_without_false_positive": 47.99037398493924,
+        "bert_score_without_false_positive": 0.9592190384864807,
+        "perplexity_score_without_false_positive": 235.12792587280273,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_46_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add an item to a shopping bag"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of item is to be added to the shopping bag?"
+            },
+            {
+                "role": "user",
+                "content": "Men's slim jeans"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Type: Men's slim jeans </mem> What is the size of the jeans to be added?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Jeans Size: Slim </mem> What is the price limit for the jeans?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Limit: [Price Limit] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.782489009820885,
+        "bert_score_with_false_positive": 0.9514825195074081,
+        "perplexity_score_with_false_positive": 119.16302394866943,
+        "bleu_score_without_false_positive": 47.46852957739298,
+        "bert_score_without_false_positive": 0.9533721208572388,
+        "perplexity_score_without_false_positive": 129.02124214172363,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_94_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add item to shopping cart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of item needs to be added to the shopping cart?"
+            },
+            {
+                "role": "user",
+                "content": "$50 Uber gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Type: $50 Uber gift card </mem> What is the action to be performed with the Uber gift card once added to the shopping cart?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action: Add to favorites </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.89479931507265,
+        "bert_score_with_false_positive": 0.9404088060061137,
+        "perplexity_score_with_false_positive": 93.61094156901042,
+        "bleu_score_without_false_positive": 46.17078053164091,
+        "bert_score_without_false_positive": 0.9566279649734497,
+        "perplexity_score_without_false_positive": 104.3835220336914,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_115_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Save a restaurant to my trips"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the task related to?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Save a restaurant to my trips </mem> Where should the restaurant be saved?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Save Location: My trips </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.0623274017492,
+        "bert_score_with_false_positive": 0.9093470772107443,
+        "perplexity_score_with_false_positive": 176.71453348795572,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9291086196899414,
+        "perplexity_score_without_false_positive": 348.3031311035156,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_107_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse a product list"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of product list needs to be browsed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product List Type: Clothing </mem> What specific clothing item is being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Clothing Item: T-shirts </mem> What size of the t-shirts is being looked for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> T-shirt Size: Small </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.80347061148769,
+        "bert_score_with_false_positive": 0.9337468594312668,
+        "perplexity_score_with_false_positive": 115.91538619995117,
+        "bleu_score_without_false_positive": 50.698033524721,
+        "bert_score_without_false_positive": 0.9516168832778931,
+        "perplexity_score_without_false_positive": 148.56964111328125,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_19_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Provide information on rules and cancellation policies for Alley Spring"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Accommodation Name: Alley Spring </mem> What is the maximum duration for which the booking can be made?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Duration: One month </mem> What are the check-in and check-out times for the accommodation?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Check-in Time: 12:00 PM, Check-out Time: 11:00 AM </mem> What is the priority for the accommodation booking?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Priority: High </mem> What additional information should be noted about the accommodation?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Additional Information: No pets allowed </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.868505593784523,
+        "bert_score_with_false_positive": 0.9007539510726928,
+        "perplexity_score_with_false_positive": 93.08309669494629,
+        "bleu_score_without_false_positive": 41.38243206810593,
+        "bert_score_without_false_positive": 0.9366479516029358,
+        "perplexity_score_without_false_positive": 202.50244140625,
+        "false_negative": 2,
+        "false_positive": 4,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_43_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a restaurant in a specific location with particular food preferences and quality standards."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Type: In-N-Out Burger, Food Preferences: Quality standards required, Location: Prescott, AZ </mem> What is the specific requirement for the restaurant's service?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Requirement: Drive-thru service available </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.798033313592406,
+        "bert_score_with_false_positive": 0.9302531480789185,
+        "perplexity_score_with_false_positive": 101.87498092651367,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9409040212631226,
+        "perplexity_score_without_false_positive": 118.53983306884766,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_75_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Gather sports statistics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which team's statistics are being requested?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Team: Chicago Bulls </mem> What is the specific statistic being requested?"
+            },
+            {
+                "role": "user",
+                "content": "Average assists per game in the current season"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Statistic: Average assists per game </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 46.941830001081236,
+        "bert_score_with_false_positive": 0.9675596952438354,
+        "perplexity_score_with_false_positive": 179.72852579752603,
+        "bleu_score_without_false_positive": 41.62486682061058,
+        "bert_score_without_false_positive": 0.9612056314945221,
+        "perplexity_score_without_false_positive": 184.7298355102539,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_74_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare two car models, highlighting differences"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the make and color of the first car model to compare?"
+            },
+            {
+                "role": "user",
+                "content": "Audi A7 and Audi A6"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Model 1: Audi A7, Color: Audi A6 </mem> What is the fuel type of the first car model?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Fuel Type Audi A7: Fuel Type A </mem> What is the make and color of the second car model to compare?"
+            },
+            {
+                "role": "user",
+                "content": "Audi A7 and Audi A6"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Model 2: Audi A6, Color: Audi A6 </mem> What are the interior and exterior features that should be compared between the two cars?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Comparison Features: Interior and exterior features </mem> Should any specific components or accessories be compared between the two cars?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Comparison Components: Yes, specific components/accessories </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 19.426841933121313,
+        "bert_score_with_false_positive": 0.910131186246872,
+        "perplexity_score_with_false_positive": 145.65323893229166,
+        "bleu_score_without_false_positive": 26.889786670338697,
+        "bert_score_without_false_positive": 0.9266760945320129,
+        "perplexity_score_without_false_positive": 192.17278289794922,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_49_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and add an egift card to the cart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Type: Egift card,  </mem> What is the value of the egift card to be added?"
+            },
+            {
+                "role": "user",
+                "content": "$100"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Value: $100 </mem> Who is the recipient of the egift card?"
+            },
+            {
+                "role": "user",
+                "content": "Myself"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Recipient: Myself </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 53.75244315763474,
+        "bert_score_with_false_positive": 0.9427117506663004,
+        "perplexity_score_with_false_positive": 136.48397827148438,
+        "bleu_score_without_false_positive": 53.75244315763474,
+        "bert_score_without_false_positive": 0.9427117506663004,
+        "perplexity_score_without_false_positive": 136.48397827148438,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_124_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check order details"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the order number to check?"
+            },
+            {
+                "role": "user",
+                "content": "12345"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Order Number: 12345 </mem> What is the zip code to use for the order's location?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: 12345 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 51.27068250696819,
+        "bert_score_with_false_positive": 0.9487630327542623,
+        "perplexity_score_with_false_positive": 121.76916249593098,
+        "bleu_score_without_false_positive": 61.11924469885731,
+        "bert_score_without_false_positive": 0.9628420472145081,
+        "perplexity_score_without_false_positive": 135.69918823242188,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_103_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve information on trending songs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Type: Trending songs </mem> Where should the information on trending songs be obtained from?"
+            },
+            {
+                "role": "user",
+                "content": "Last 30 days"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Source: Last 30 days </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.37379409063942,
+        "bert_score_with_false_positive": 0.9339365065097809,
+        "perplexity_score_with_false_positive": 200.32855987548828,
+        "bleu_score_without_false_positive": 32.37379409063942,
+        "bert_score_without_false_positive": 0.9339365065097809,
+        "perplexity_score_without_false_positive": 200.32855987548828,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_68_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare prices for a specific product and find the cheapest option with free delivery"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Comparison Criteria: Cheapest option with free delivery,  </mem> What is the specific product to compare prices for?"
+            },
+            {
+                "role": "user",
+                "content": "Granitestone Sandwich Maker"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Name: Granitestone Sandwich Maker </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.371075458717264,
+        "bert_score_with_false_positive": 0.9193530380725861,
+        "perplexity_score_with_false_positive": 299.93377685546875,
+        "bleu_score_without_false_positive": 34.371075458717264,
+        "bert_score_without_false_positive": 0.9193530380725861,
+        "perplexity_score_without_false_positive": 299.93377685546875,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_78_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and sort used cars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Condition: Used </mem> What is the make of the cars to search for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Make: </mem> What is the zip code for the area to search in?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Area Zip Code: </mem> What is the maximum mileage for the cars?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Mileage: </mem> How should the search results be sorted?"
+            },
+            {
+                "role": "user",
+                "content": "By best deal"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Criteria: Best deal </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.305702202994475,
+        "bert_score_with_false_positive": 0.9339652776718139,
+        "perplexity_score_with_false_positive": 165.68106231689453,
+        "bleu_score_without_false_positive": 65.91277112985125,
+        "bert_score_without_false_positive": 0.964532196521759,
+        "perplexity_score_without_false_positive": 190.33111572265625,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_102_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open a list of popular desktop computer products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> List Type: Popular desktop computer products </mem> What is the availability status required for the desktop computer products?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Availability Status: In stock </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.052714093921793,
+        "bert_score_with_false_positive": 0.9195574820041656,
+        "perplexity_score_with_false_positive": 261.7409362792969,
+        "bleu_score_without_false_positive": 47.13945310979296,
+        "bert_score_without_false_positive": 0.9476457238197327,
+        "perplexity_score_without_false_positive": 239.80908203125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_77_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find the cheapest vehicle within a specified distance"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to search for a vehicle?"
+            },
+            {
+                "role": "user",
+                "content": "21122"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: 21122 </mem> What is the maximum distance for the vehicle search radius?"
+            },
+            {
+                "role": "user",
+                "content": "50 miles"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Radius: 50 miles </mem> What specific features are required in the vehicle?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle Features: None specified </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.87385696954746,
+        "bert_score_with_false_positive": 0.9287380576133728,
+        "perplexity_score_with_false_positive": 193.21472549438477,
+        "bleu_score_without_false_positive": 43.62416782894553,
+        "bert_score_without_false_positive": 0.9356582164764404,
+        "perplexity_score_without_false_positive": 185.65086364746094,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_55_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for top hashtags"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the task related to?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Search for top hashtags </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.653036435840875,
+        "bert_score_with_false_positive": 0.9247688949108124,
+        "perplexity_score_with_false_positive": 112.48157119750977,
+        "bleu_score_without_false_positive": 54.237828377183035,
+        "bert_score_without_false_positive": 0.9613974690437317,
+        "perplexity_score_without_false_positive": 151.8473663330078,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_44_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse tickets for a sports event"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of event are the tickets for?"
+            },
+            {
+                "role": "user",
+                "content": "Los Angeles Lakers vs Memphis Grizzlies game"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Type: Los Angeles Lakers vs Memphis Grizzlies game </mem> What is the specific date for the game?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Date: 10th March </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 53.69358753723952,
+        "bert_score_with_false_positive": 0.9610272645950317,
+        "perplexity_score_with_false_positive": 118.95788828531902,
+        "bleu_score_without_false_positive": 53.60008658798564,
+        "bert_score_without_false_positive": 0.9558466374874115,
+        "perplexity_score_without_false_positive": 143.5044822692871,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_105_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Play a specific basketball game video"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific game video to play?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Video: '04 NCAA Final Four' </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.04813475449632,
+        "bert_score_with_false_positive": 0.9286629557609558,
+        "perplexity_score_with_false_positive": 180.47235107421875,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9244394302368164,
+        "perplexity_score_without_false_positive": 256.9909362792969,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_146_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search and filter running shoes"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Type: Running shoes </mem> What color should the running shoes be?"
+            },
+            {
+                "role": "user",
+                "content": "Men's running shoes"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Color: Men's running shoes </mem> What size should the running shoes be?"
+            },
+            {
+                "role": "user",
+                "content": "Size 11"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Size: Size 11 </mem> What is the minimum star rating for the running shoes?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Star Rating: <span>**** </span>What is the price range for the running shoes?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: <span>$$ - $$$ </span> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 25.82035517459243,
+        "bert_score_with_false_positive": 0.9190934419631958,
+        "perplexity_score_with_false_positive": 120.10551300048829,
+        "bleu_score_without_false_positive": 39.42255469938323,
+        "bert_score_without_false_positive": 0.9495958983898163,
+        "perplexity_score_without_false_positive": 102.37308120727539,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_145_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find price comparisons for a product"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the price range for the price comparisons?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: [Price Range] </mem> What is the name of the product for which price comparisons are to be found?"
+            },
+            {
+                "role": "user",
+                "content": "Pokemon Go - Elite Trainer Box"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Name: Pokemon Go - Elite Trainer Box </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 63.80872306283453,
+        "bert_score_with_false_positive": 0.9644764463106791,
+        "perplexity_score_with_false_positive": 112.57218170166016,
+        "bleu_score_without_false_positive": 69.84448263500443,
+        "bert_score_without_false_positive": 0.9658982753753662,
+        "perplexity_score_without_false_positive": 133.57594680786133,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_144_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open sports team schedule"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which sports team's schedule needs to be opened?"
+            },
+            {
+                "role": "user",
+                "content": "Boston Celtics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sports Team: Boston Celtics </mem> What action needs to be taken with the schedule?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action Required: Open schedule for Boston Celtics </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.28894216307872,
+        "bert_score_with_false_positive": 0.9241089622179667,
+        "perplexity_score_with_false_positive": 262.88467661539715,
+        "bleu_score_without_false_positive": 43.76430401510695,
+        "bert_score_without_false_positive": 0.9422130286693573,
+        "perplexity_score_without_false_positive": 353.97998046875,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_106_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Add specific item to shopping cart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of item needs to be added to the shopping cart?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Type: Specific type </mem> What is the specific characteristic of the item to be added to the shopping cart?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Characteristic: Specific </mem> What is the specific action to be performed with the item once added to the shopping cart?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action: Specific action </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.549901375020404,
+        "bert_score_with_false_positive": 0.9311004877090454,
+        "perplexity_score_with_false_positive": 102.63351345062256,
+        "bleu_score_without_false_positive": 54.45178846139407,
+        "bert_score_without_false_positive": 0.9474471211433411,
+        "perplexity_score_without_false_positive": 244.39913940429688,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_140_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find restaurants with specific features"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of restaurants are being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Type: Italian </mem> In which location should the restaurants be situated?"
+            },
+            {
+                "role": "user",
+                "content": "Big Sur, CA"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Big Sur, CA </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.28449294759249,
+        "bert_score_with_false_positive": 0.9352711041768392,
+        "perplexity_score_with_false_positive": 123.28895568847656,
+        "bleu_score_without_false_positive": 32.922034224853995,
+        "bert_score_without_false_positive": 0.9309991300106049,
+        "perplexity_score_without_false_positive": 129.03031539916992,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_99_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and sort pet food"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of pet food is being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "Chewy.com"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pet Food Type: Chewy.com </mem> What is the minimum average rating required for the pet food?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Average Rating: <enter minimum average rating> </mem> How should the sorted results be viewed?"
+            },
+            {
+                "role": "user",
+                "content": "By price, from least to most expensive"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Preference: Price (least to most expensive) </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 25.703062705104852,
+        "bert_score_with_false_positive": 0.9117564558982849,
+        "perplexity_score_with_false_positive": 103.62654876708984,
+        "bleu_score_without_false_positive": 27.336365197678493,
+        "bert_score_without_false_positive": 0.9126967986424764,
+        "perplexity_score_without_false_positive": 102.63883463541667,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_170_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Retrieve TikTok series playlist from a specific country"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Platform: TikTok, Series Playlist Location: Specific country </mem> What action should be taken with the playlist once found?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action: Retrieve the playlist details </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.05519325424727,
+        "bert_score_with_false_positive": 0.9204973578453064,
+        "perplexity_score_with_false_positive": 228.3420867919922,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9453017115592957,
+        "perplexity_score_without_false_positive": 159.6668701171875,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_90_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and filter products based on specific criteria"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Criteria: Products that have a star rating of at least 3.5 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.573558123189937,
+        "bert_score_with_false_positive": 0.9106504917144775,
+        "perplexity_score_with_false_positive": 77.58455657958984,
+        "bleu_score_without_false_positive": 31.573558123189937,
+        "bert_score_without_false_positive": 0.9106504917144775,
+        "perplexity_score_without_false_positive": 77.58455657958984,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_177_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find recall information for a vehicle"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the VIN number of the vehicle?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> VIN Number: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 52.8242797744889,
+        "bert_score_with_false_positive": 0.9382758736610413,
+        "perplexity_score_with_false_positive": 123.72249603271484,
+        "bleu_score_without_false_positive": 54.844980922047604,
+        "bert_score_without_false_positive": 0.9450230002403259,
+        "perplexity_score_without_false_positive": 180.7890625,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_14_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Open helpful 5-star reviews"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Reviews Rating: 5-star, Reviews Source: Helpful </mem> Can the reviews be obtained from a specific source?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Reviews Source: Specific source not provided </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.534318676924165,
+        "bert_score_with_false_positive": 0.8986660838127136,
+        "perplexity_score_with_false_positive": 304.2124786376953,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.917352020740509,
+        "perplexity_score_without_false_positive": 453.51104736328125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_119_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Create a list of specific products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> List Purpose: Specific products,  </mem> How many products should be listed?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Products: 10 </mem> What specific aspect should the list of products have?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product Aspect: Sustainability </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.331039630371603,
+        "bert_score_with_false_positive": 0.9099878072738647,
+        "perplexity_score_with_false_positive": 201.8723347981771,
+        "bleu_score_without_false_positive": 47.20305201905447,
+        "bert_score_without_false_positive": 0.9065764546394348,
+        "perplexity_score_without_false_positive": 179.15972900390625,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_91_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find specific shoes with particular features"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of shoes are being searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Type: Running shoes </mem> What color should the shoes be?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Color: Red </mem> What is the specific requirement for the shoes regarding mirroring?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Miring Requirement: Mirroring pattern </mem> What size should the shoes be?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shoe Size: 9.5 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.756162167996003,
+        "bert_score_with_false_positive": 0.9217140674591064,
+        "perplexity_score_with_false_positive": 121.93514556884766,
+        "bleu_score_without_false_positive": 50.698033524721,
+        "bert_score_without_false_positive": 0.9391717910766602,
+        "perplexity_score_without_false_positive": 135.80812072753906,
+        "false_negative": 5,
+        "false_positive": 4,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_135_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Browse specific TVs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> TV Type: Specific </mem> What is the minimum price range for the TVs?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range Minimum: $200 </mem> What is the maximum price range for the TVs?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range Maximum: $500 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.105185743176246,
+        "bert_score_with_false_positive": 0.9174627860387167,
+        "perplexity_score_with_false_positive": 175.22781372070312,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9324426651000977,
+        "perplexity_score_without_false_positive": 330.683837890625,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_129_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a highly rated car dealer"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the geographical location for the car dealer search?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Geographical Location: United States </mem> What specific criterion should be used to select the car dealer?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Selection Criterion: Highly rated </mem> What type of customer service is expected from the car dealer?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Customer Service Type: Highly rated </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.076313027165895,
+        "bert_score_with_false_positive": 0.9283425956964493,
+        "perplexity_score_with_false_positive": 202.2316837310791,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9465792775154114,
+        "perplexity_score_without_false_positive": 470.7117004394531,
+        "false_negative": 4,
+        "false_positive": 3,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_111_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check permit availability"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location to check permit availability for?"
+            },
+            {
+                "role": "user",
+                "content": "Brooks Camp, Katmai National Park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Brooks Camp, Katmai National Park </mem> What is the purpose of checking the permit availability?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose: Camping </mem> For which date or dates is the permit availability being checked?"
+            },
+            {
+                "role": "user",
+                "content": "May 22"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date: May 22 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.46496496701862,
+        "bert_score_with_false_positive": 0.9314723461866379,
+        "perplexity_score_with_false_positive": 191.93097114562988,
+        "bleu_score_without_false_positive": 39.306471292995184,
+        "bert_score_without_false_positive": 0.9438513517379761,
+        "perplexity_score_without_false_positive": 220.87814331054688,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_117_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find and purchase a smartphone"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of smartphone is to be found?"
+            },
+            {
+                "role": "user",
+                "content": "Google Pixel 7"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Smartphone Type: Google Pixel 7 </mem> What is the maximum price for the smartphone?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Price: $1000 </mem> What additional feature is required in the smartphone?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Additional Feature: Fast charging </mem> What should be done after finding the smartphone?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Next Step: Purchase the smartphone </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.331665856384156,
+        "bert_score_with_false_positive": 0.9244627594947815,
+        "perplexity_score_with_false_positive": 164.9399887084961,
+        "bleu_score_without_false_positive": 48.2375781143555,
+        "bert_score_without_false_positive": 0.9472618401050568,
+        "perplexity_score_without_false_positive": 205.7437858581543,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_171_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Locate and select an authorized Apple service provider for iMac services."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Service Provider Type: Authorized Apple service provider, Selection Criteria: Locate an authorized provider in my area </mem> What specific service is needed from the provider?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Service Required: Authorized Apple service provider for iMac services </mem> What is the availability status required for the service provider?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Availability Status: Open for business on weekdays </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.23550218350182,
+        "bert_score_with_false_positive": 0.9102444847424825,
+        "perplexity_score_with_false_positive": 207.22122192382812,
+        "bleu_score_without_false_positive": 41.180376356915765,
+        "bert_score_without_false_positive": 0.9143631458282471,
+        "perplexity_score_without_false_positive": 167.47544860839844,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_33_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a ticket for an event"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of event are tickets being sought for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Event Type: Concert </mem> Which artist's concert are we looking for tickets?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Artist: Coldplay </mem> Where is the concert taking place?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Concert Location: Wembley Stadium, London </mem> What are the date and time of the concert?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Concert Date and Time: June 10, 2023, at 8:00 PM </mem> What is the maximum price acceptable for the ticket?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Price: \u00a3200 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.20215238150407,
+        "bert_score_with_false_positive": 0.9388072292009989,
+        "perplexity_score_with_false_positive": 105.44038772583008,
+        "bleu_score_without_false_positive": 50.698033524721,
+        "bert_score_without_false_positive": 0.95828777551651,
+        "perplexity_score_without_false_positive": 249.4547576904297,
+        "false_negative": 4,
+        "false_positive": 5,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_147_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Search for smart TVs with specific features"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> TV Type: Smart TVs </mem> What is the minimum screen size required for the TVs?"
+            },
+            {
+                "role": "user",
+                "content": "55 inches"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Screen Size: 55 inches </mem> What is the maximum price range for the smart TVs?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: [Maximum Price] </mem> Which manufacturer's smart TVs are to be searched for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Manufacturer: [Manufacturer] </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.92483619244102,
+        "bert_score_with_false_positive": 0.9371770769357681,
+        "perplexity_score_with_false_positive": 120.72512245178223,
+        "bleu_score_without_false_positive": 48.708584130400595,
+        "bert_score_without_false_positive": 0.9398535490036011,
+        "perplexity_score_without_false_positive": 108.12379837036133,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_174_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find service and repair for a vehicle"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the make and model of the vehicle to find services for?"
+            },
+            {
+                "role": "user",
+                "content": "e-tron"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle Make and Model: e-tron </mem> What is the zip code for the area where the vehicle is located?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: '' </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.837546575712594,
+        "bert_score_with_false_positive": 0.942798892656962,
+        "perplexity_score_with_false_positive": 132.65432357788086,
+        "bleu_score_without_false_positive": 44.62455205161815,
+        "bert_score_without_false_positive": 0.9345753490924835,
+        "perplexity_score_without_false_positive": 171.1218605041504,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_173_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Purchase a gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What brand of gift card should be purchased?"
+            },
+            {
+                "role": "user",
+                "content": "Best Buy gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Brand: Best Buy gift card </mem> What is the value of the gift card?"
+            },
+            {
+                "role": "user",
+                "content": "$100"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Card Value: $100 </mem> What type of packaging is preferred for the gift card?"
+            },
+            {
+                "role": "user",
+                "content": "Best Buy gift card"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Packaging Type: Best Buy gift card </mem> Who is the gift card for?"
+            },
+            {
+                "role": "user",
+                "content": "A birthday"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Gift Recipient: Birthday </mem> What is the final action to be taken after adding the gift card to the cart?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Final Action: Add to cart </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.49612604976058,
+        "bert_score_with_false_positive": 0.9406078557173411,
+        "perplexity_score_with_false_positive": 120.83247375488281,
+        "bleu_score_without_false_positive": 36.8760160221805,
+        "bert_score_without_false_positive": 0.9442425489425659,
+        "perplexity_score_without_false_positive": 126.3226531982422,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_10_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Book tickets for Eiffel Tower"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> How many tickets need to be booked?"
+            },
+            {
+                "role": "user",
+                "content": "2"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Tickets: 2 </mem> What date should the tickets be booked for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticket Date: </mem> What time of day should the tickets be booked for?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticket Time: </mem> What is the priority for the ticket booking?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticket Priority: </mem> What is the departure location for the tickets?"
+            },
+            {
+                "role": "user",
+                "content": "Eiffel Tower in Paris"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure Location: Eiffel Tower in Paris </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.48306956077446,
+        "bert_score_with_false_positive": 0.9269862274328867,
+        "perplexity_score_with_false_positive": 73.45327568054199,
+        "bleu_score_without_false_positive": 42.30709965194833,
+        "bert_score_without_false_positive": 0.9289549787839254,
+        "perplexity_score_without_false_positive": 80.47543334960938,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 6,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_126_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find specific type of restaurants in a designated location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Type: Specific type, Location: Designated area </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.51840463233444,
+        "bert_score_with_false_positive": 0.9373671412467957,
+        "perplexity_score_with_false_positive": 183.9662322998047,
+        "bleu_score_without_false_positive": 37.51840463233444,
+        "bert_score_without_false_positive": 0.9373671412467957,
+        "perplexity_score_without_false_positive": 183.9662322998047,
+        "false_negative": 3,
+        "false_positive": 0,
+        "turn_of_conversation": 1,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_130_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find electric cars within specific criteria"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Type: Electric cars, Selection Criteria: Range </mem> How far from the zip code should the search radius be?"
+            },
+            {
+                "role": "user",
+                "content": "10001"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Radius: 10001 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.09306251547351,
+        "bert_score_with_false_positive": 0.9373023509979248,
+        "perplexity_score_with_false_positive": 223.68279266357422,
+        "bleu_score_without_false_positive": 41.09306251547351,
+        "bert_score_without_false_positive": 0.9373023509979248,
+        "perplexity_score_without_false_positive": 223.68279266357422,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 2,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_176_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Compare two car models"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Models for Comparison: 1, 2 </mem> What is the fuel type of the car models to compare?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Fuel Type: ILX 2022 </mem> What is the manufacturing year for the car models?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Manufacturing Year: 2022 </mem> What is the main factor to consider when comparing the car models?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Comparison Factor: Manufacturing year </mem> What additional feature of the car models needs to be compared?"
+            },
+            {
+                "role": "user",
+                "content": "ILX 2022"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Additional Comparison Feature: ILX 2022 </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.52669911277694,
+        "bert_score_with_false_positive": 0.9224484682083129,
+        "perplexity_score_with_false_positive": 338.34974975585936,
+        "bleu_score_without_false_positive": 38.446739931626155,
+        "bert_score_without_false_positive": 0.9254433810710907,
+        "perplexity_score_without_false_positive": 353.8761215209961,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 5,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_175_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find car recalls"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Purpose: Car recalls </mem> Which vehicle is being searched for recalls?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle Type: 2018 Honda Accord </mem> What is the vehicle's license plate number?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> License Plate Number: CA69EG </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.128559871300766,
+        "bert_score_with_false_positive": 0.9307476083437601,
+        "perplexity_score_with_false_positive": 332.8953056335449,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9377579689025879,
+        "perplexity_score_without_false_positive": 454.9915771484375,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_141_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Find a car listing"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the make and model of the car to find in a listing?"
+            },
+            {
+                "role": "user",
+                "content": "Hatchback"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Make and Model: Hatchback </mem> What is the zip code for the area to search for the car listing?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Area Zip Code: </mem> What is the maximum mileage for the car?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Mileage: </mem> What is the VIN number of the car?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> VIN Number: </mem> What condition should the car be in?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Condition: </mem> How many keys should come with the car?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Keys: </mem> What financial status should the car have regarding any loans or liens?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Financial Status: </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 26.59553094752881,
+        "bert_score_with_false_positive": 0.9243772774934769,
+        "perplexity_score_with_false_positive": 124.7567811012268,
+        "bleu_score_without_false_positive": 35.601104177756525,
+        "bert_score_without_false_positive": 0.9364490509033203,
+        "perplexity_score_without_false_positive": 132.45159912109375,
+        "false_negative": 3,
+        "false_positive": 6,
+        "turn_of_conversation": 8,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_172_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Check laptop specifications"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the make and model of the laptop to check specifications for?"
+            },
+            {
+                "role": "user",
+                "content": "HP"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Laptop Make and Model: HP </mem> What is the serial number of the laptop?"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Serial Number: \\_\\_\\_\\_\\_\\_\\_\\_ </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.64384050788647,
+        "bert_score_with_false_positive": 0.923681894938151,
+        "perplexity_score_with_false_positive": 54.94291877746582,
+        "bleu_score_without_false_positive": 37.825684380475444,
+        "bert_score_without_false_positive": 0.9180591702461243,
+        "perplexity_score_without_false_positive": 49.39159679412842,
+        "false_negative": 4,
+        "false_positive": 1,
+        "turn_of_conversation": 3,
+        "extracted_variable_count": 0
+    },
+    {
+        "id": "identity_149_0",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "<mem_bank>  </mem_bank> Book tickets for a show"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> How many tickets need to be booked?"
+            },
+            {
+                "role": "user",
+                "content": "4"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticket Quantity: 4 </mem> What is the name of the show to visit?"
+            },
+            {
+                "role": "user",
+                "content": "Brisbane, Australia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Show Name: Brisbane, Australia </mem> On what date should the tickets be booked?"
+            },
+            {
+                "role": "user",
+                "content": "Before 30 March"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date: Before 30 March </mem> <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 42.78137924823137,
+        "bert_score_with_false_positive": 0.9441999346017838,
+        "perplexity_score_with_false_positive": 147.0175952911377,
+        "bleu_score_without_false_positive": 42.78137924823137,
+        "bert_score_without_false_positive": 0.9441999346017838,
+        "perplexity_score_without_false_positive": 147.0175952911377,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 4,
+        "extracted_variable_count": 0
+    }
+]

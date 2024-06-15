@@ -1,0 +1,2226 @@
+[
+    {
+        "confirmed_task": "Find help page about buying tickets.",
+        "annotation_id": "918d7ef3-a6ec-458a-88f1-1c2726fd2883",
+        "id": "identity_2",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate a help page"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the topic of the page to locate?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Page Topic: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 63.17942595340887,
+        "bert_score_with_false_positive": 0.9574958384037018,
+        "perplexity_score_with_false_positive": 498.2205467224121,
+        "bleu_score_without_false_positive": 54.01152096367801,
+        "bert_score_without_false_positive": 0.9508926272392273,
+        "perplexity_score_without_false_positive": 934.0567626953125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Rent a truck with the lowest rent with two dozen furniture pads for 100 miles at zip 08817 on April 12 at 2:30 pm rented truck is to be returned to the exact location and date, and the pickup and drop off will be at the nearest location.",
+        "annotation_id": "91695df8-f256-47c9-8c37-06e8d0fc758f",
+        "id": "identity_5",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Rent a truck with specific requirements"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the minimum size of the truck required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Truck Size: Not mentioned </mem>  Is the truck to be equipped with a GPS?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> GPS Equipment: Not mentioned </mem>  What is the pickup location for the truck?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pickup Location: Not mentioned </mem>  What is the return location for the truck?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Return Location: Not mentioned </mem>  What is the pickup date and time for the truck?"
+            },
+            {
+                "role": "user",
+                "content": "April 12 at 2:30 pm"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pickup Date and Time: April 12 at 2:30 pm </mem>  What is the return date and time for the truck?"
+            },
+            {
+                "role": "user",
+                "content": "April 12 at 2:30 pm"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Return Date and Time: April 12 at 2:30 pm </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 25.470080333626036,
+        "bert_score_with_false_positive": 0.9199824673788888,
+        "perplexity_score_with_false_positive": 143.18281991141183,
+        "bleu_score_without_false_positive": 30.016513922512672,
+        "bert_score_without_false_positive": 0.9217487573623657,
+        "perplexity_score_without_false_positive": 135.4391886393229,
+        "false_negative": 6,
+        "false_positive": 4,
+        "turn_of_conversation": 7
+    },
+    {
+        "confirmed_task": "find my trip with confirmation number SFTBAO including first and last name Joe Lukeman",
+        "annotation_id": "0572899e-7c07-4a2f-a77b-bba4f432a7ad",
+        "id": "identity_7",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate a trip using confirmation number and traveler's name"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the Confirmation Number to be used for locating the trip?"
+            },
+            {
+                "role": "user",
+                "content": "SFTBAO"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Confirmation Number: SFTBAO </mem>  What is the Traveler's Name associated with the trip?"
+            },
+            {
+                "role": "user",
+                "content": "Joe Lukeman"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Traveler's Name: Joe Lukeman </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 73.28876119939666,
+        "bert_score_with_false_positive": 0.9724380175272623,
+        "perplexity_score_with_false_positive": 248.14757029215494,
+        "bleu_score_without_false_positive": 73.28876119939666,
+        "bert_score_without_false_positive": 0.9724380175272623,
+        "perplexity_score_without_false_positive": 248.14757029215494,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find the status of March 25 flights from New York airports to Columbus in Ohio.",
+        "annotation_id": "1b4859f4-6951-4f6a-8a74-1c9647900eb1",
+        "id": "identity_8",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Check flight status"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the departure city for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "New York"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure City: New York </mem>  What is the destination city for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "Columbus"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination City: Columbus </mem>  What is the date of departure for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "March 25"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure Date: March 25 </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 49.023521195561,
+        "bert_score_with_false_positive": 0.9486242830753326,
+        "perplexity_score_with_false_positive": 139.30530738830566,
+        "bleu_score_without_false_positive": 49.023521195561,
+        "bert_score_without_false_positive": 0.9486242830753326,
+        "perplexity_score_without_false_positive": 139.30530738830566,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find the movie Donnie Darko and show its complete cast.",
+        "annotation_id": "e39333ef-a5a5-4117-9af2-3bb243b364f2",
+        "id": "identity_12",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find movie information"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What movie's information is being requested?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Movie Name: Not mentioned </mem>  What is the release year of the movie?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Release Year: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.64233075593717,
+        "bert_score_with_false_positive": 0.9352332353591919,
+        "perplexity_score_with_false_positive": 318.49622853597003,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9408243894577026,
+        "perplexity_score_without_false_positive": 663.4510498046875,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find the store location and hours of the closest Gamestop to zip code 90028 and set as home store",
+        "annotation_id": "a2500e0b-9244-4f0e-b686-fa290c32b829",
+        "id": "identity_19",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate and set the nearest Gamestop store as home store"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the task to be performed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Locate and set as home store </mem>  What specific store should be found in the task?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Store Type: Gamestop </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.979208092189676,
+        "bert_score_with_false_positive": 0.9163093368212382,
+        "perplexity_score_with_false_positive": 300.0942014058431,
+        "bleu_score_without_false_positive": 48.24110199509514,
+        "bert_score_without_false_positive": 0.9527580738067627,
+        "perplexity_score_without_false_positive": 701.7832641601562,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Rent \" The Whale \" movie on demand with format \"high definition\".",
+        "annotation_id": "1a53fb39-4d08-4722-addd-f04b0025ef81",
+        "id": "identity_25",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Rent a movie on demand"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of movie should be rented?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Movie Type: Not specified </mem>  How should the movie be rented?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Renting Method: Not specified </mem>  What is the maximum budget for the movie rental?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Budget: Not specified </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.134524533915894,
+        "bert_score_with_false_positive": 0.9401815682649612,
+        "perplexity_score_with_false_positive": 218.2751979827881,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9580227136611938,
+        "perplexity_score_without_false_positive": 450.64251708984375,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find tickets between $200-300 for next Amy Grant concert",
+        "annotation_id": "6bf5cdf6-abc8-4425-b813-1a0b51ed16bb",
+        "id": "identity_42",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find concert tickets within a specified price range"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to search for concerts in?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Zip Code: Not mentioned </mem>  What is the date range for the concert availability?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Concert Date Range: Not mentioned </mem>  What is the price range for the tickets?"
+            },
+            {
+                "role": "user",
+                "content": "$200-300"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticket Price Range: $200-300 </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 49.64373408871108,
+        "bert_score_with_false_positive": 0.9440129548311234,
+        "perplexity_score_with_false_positive": 198.33819961547852,
+        "bleu_score_without_false_positive": 73.72598064798841,
+        "bert_score_without_false_positive": 0.9736470282077789,
+        "perplexity_score_without_false_positive": 202.78907012939453,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Show me the list of Men's Blazers, Black, Size M.",
+        "annotation_id": "ef3a7151-b9cd-4ddb-aa76-e7e66815c23d",
+        "id": "identity_45",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Display product list"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of product list needs to be displayed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Product List Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 54.62803441915519,
+        "bert_score_with_false_positive": 0.9574806392192841,
+        "perplexity_score_with_false_positive": 366.0774116516113,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9565945267677307,
+        "perplexity_score_without_false_positive": 651.263427734375,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Book the cheapest parking spot near Bradley Airport",
+        "annotation_id": "4aa42fe7-cbef-48ed-95e9-fc041762ea65",
+        "id": "identity_48",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Book a parking spot"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for booking a parking spot?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Parking Location: Not specified </mem>  What is the time frame for booking the parking spot?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: Not specified </mem>  What is the phone number to use for booking the parking spot?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Phone Number: Not specified </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.95253659196358,
+        "bert_score_with_false_positive": 0.9314508885145187,
+        "perplexity_score_with_false_positive": 152.83533668518066,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.942798912525177,
+        "perplexity_score_without_false_positive": 320.5832824707031,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find an editor's choice review with a score of 10 in the boardgame category.",
+        "annotation_id": "01c6e863-be94-4c6b-b9c1-55c203332f50",
+        "id": "identity_56",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a review with a specific score in a specific category"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the score of the review being sought?"
+            },
+            {
+                "role": "user",
+                "content": "10"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Review Score: 10 </mem>  In which category of item is the review needed?"
+            },
+            {
+                "role": "user",
+                "content": "Boardgame"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Category: Boardgame </mem>  What is the specific criteria for the review?"
+            },
+            {
+                "role": "user",
+                "content": "Boardgame"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Review Criteria: Boardgame </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.42129898315086,
+        "bert_score_with_false_positive": 0.9301929920911789,
+        "perplexity_score_with_false_positive": 272.39239501953125,
+        "bleu_score_without_false_positive": 39.42129898315086,
+        "bert_score_without_false_positive": 0.9301929920911789,
+        "perplexity_score_without_false_positive": 272.39239501953125,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find a walkthrough for the game \"The Legend of Zelda: Breath of the Wild\".",
+        "annotation_id": "36b6bb33-de92-489a-baa1-a286a7b2dabd",
+        "id": "identity_57",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a game walkthrough"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What game's walkthrough is being requested?"
+            },
+            {
+                "role": "user",
+                "content": "The Legend of Zelda: Breath of the Wild"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Title: The Legend of Zelda: Breath of the Wild </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 67.19357638636288,
+        "bert_score_with_false_positive": 0.9809457361698151,
+        "perplexity_score_with_false_positive": 113.03275871276855,
+        "bleu_score_without_false_positive": 67.19357638636288,
+        "bert_score_without_false_positive": 0.9809457361698151,
+        "perplexity_score_without_false_positive": 113.03275871276855,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Find a store in Tempe, Arizona,  make it my store, and then visit the store page and see whats happening in store.",
+        "annotation_id": "b0bb4740-9b8d-4144-b443-c6e3d7db59f8",
+        "id": "identity_66",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Select and explore a store in a specific location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific location for the store to be explored?"
+            },
+            {
+                "role": "user",
+                "content": "Tempe, Arizona"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Tempe, Arizona </mem>  What type of store needs to be selected for exploration?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Store Type: Not mentioned </mem>  What additional criteria should be considered when selecting a store?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Criteria for Selection: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.94042322412999,
+        "bert_score_with_false_positive": 0.9353599548339844,
+        "perplexity_score_with_false_positive": 149.7480983734131,
+        "bleu_score_without_false_positive": 41.99004865158933,
+        "bert_score_without_false_positive": 0.9413169920444489,
+        "perplexity_score_without_false_positive": 200.9349136352539,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find a large car with lowest price from Mar 28 to Apr 1 in Zurich.",
+        "annotation_id": "e74c6528-0ec1-4169-90a9-970e66fabc0c",
+        "id": "identity_69",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a rental car"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for the rental car search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Rental Car Location: Not mentioned </mem>  What is the pickup date and time for the rental car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pickup Date and Time: Not mentioned </mem>  What is the drop-off date and time for the rental car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Drop-off Date and Time: Not mentioned </mem>  What type of car is being requested for the rental?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Type: Not mentioned </mem>  What is the minimum rental duration required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Rental Duration: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.614270896417963,
+        "bert_score_with_false_positive": 0.9252173105875651,
+        "perplexity_score_with_false_positive": 221.40137481689453,
+        "bleu_score_without_false_positive": 47.92365811426397,
+        "bert_score_without_false_positive": 0.9508607983589172,
+        "perplexity_score_without_false_positive": 559.0557250976562,
+        "false_negative": 4,
+        "false_positive": 5,
+        "turn_of_conversation": 6
+    },
+    {
+        "confirmed_task": "Explore the trending playlists,filter by tag #Electronics, play Countdown by Adrien Brunelat and like it.",
+        "annotation_id": "96016e7b-4097-49ac-9b72-97b061a886a6",
+        "id": "identity_70",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Interact with music platform"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of interacting with the music platform?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Interaction Purpose: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 45.22097484992603,
+        "bert_score_with_false_positive": 0.9462319016456604,
+        "perplexity_score_with_false_positive": 263.0361022949219,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9505451917648315,
+        "perplexity_score_without_false_positive": 450.0841979980469,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Check my AMC gift card balance with gift card number 87654321 and pin number 9753.",
+        "annotation_id": "925a2307-b2b7-4189-bf25-e3f463c24e1c",
+        "id": "identity_75",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Check AMC gift card balance"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the PIN number of the AMC gift card to check the balance for?"
+            },
+            {
+                "role": "user",
+                "content": "9753"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> PIN Number: 9753 </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 56.982263800993756,
+        "bert_score_with_false_positive": 0.956340104341507,
+        "perplexity_score_with_false_positive": 315.7649574279785,
+        "bleu_score_without_false_positive": 56.982263800993756,
+        "bert_score_without_false_positive": 0.956340104341507,
+        "perplexity_score_without_false_positive": 315.7649574279785,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Add a set of queen-sized bed sheets with at least a 4-star rating to the cart.",
+        "annotation_id": "1a13b675-36a8-4b42-b246-db49797e5d2b",
+        "id": "identity_81",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Add queen-sized bed sheets to the shopping cart"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Bed Size: Queen-sized </mem> What type of bed sheets are being added to the shopping cart?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Bed Sheet Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.35678312845333,
+        "bert_score_with_false_positive": 0.9435785710811615,
+        "perplexity_score_with_false_positive": 465.50844955444336,
+        "bleu_score_without_false_positive": 44.05136963304349,
+        "bert_score_without_false_positive": 0.9366459846496582,
+        "perplexity_score_without_false_positive": 842.2061767578125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Browse books by author Stephen King in German.",
+        "annotation_id": "c472a4fe-33a0-4b6f-8d42-adcc067ba4ed",
+        "id": "identity_88",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Browse books by author in a specific language"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Language: Spanish </mem> What is the purpose of the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Purpose: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 42.034707207862674,
+        "bert_score_with_false_positive": 0.9354447424411774,
+        "perplexity_score_with_false_positive": 402.8717956542969,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9528549313545227,
+        "perplexity_score_without_false_positive": 768.746337890625,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Find upcoming NBA games of the Miami Heat and book the 5 level 320 tickets for Sunday, April 16.",
+        "annotation_id": "bf7321eb-fb52-4440-8a5f-157114d935e9",
+        "id": "identity_89",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find and book NBA game tickets"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the team name for which NBA game tickets are being searched?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Team Name: Not mentioned </mem>  What is the date for the NBA game to find tickets?"
+            },
+            {
+                "role": "user",
+                "content": "Sunday, April 16"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Date: Sunday, April 16 </mem>  At what time should the NBA game be checked for ticket availability?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Time: Not mentioned </mem>  In which city is the NBA game taking place?"
+            },
+            {
+                "role": "user",
+                "content": "Miami Heat"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Game Location: Miami Heat </mem>  What type of tickets should be booked for the NBA game?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ticket Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.36929165407378,
+        "bert_score_with_false_positive": 0.9244893391927084,
+        "perplexity_score_with_false_positive": 234.03346888224283,
+        "bleu_score_without_false_positive": 34.91540093829969,
+        "bert_score_without_false_positive": 0.9290663599967957,
+        "perplexity_score_without_false_positive": 354.5733286539714,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 6
+    },
+    {
+        "confirmed_task": "Search for Monthly Parking Starting april 12 near Florida Keys",
+        "annotation_id": "2e78c6c2-d807-4d7a-8099-70b04d367d57",
+        "id": "identity_92",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for monthly parking"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for monthly parking search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Parking Location: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.552535389217,
+        "bert_score_with_false_positive": 0.9348721504211426,
+        "perplexity_score_with_false_positive": 376.9780044555664,
+        "bleu_score_without_false_positive": 53.03624596095554,
+        "bert_score_without_false_positive": 0.9582998156547546,
+        "perplexity_score_without_false_positive": 520.5933227539062,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Search for a full-time job in sales in Springfield and apply for the most recent job.",
+        "annotation_id": "d496bbbe-44f9-48cc-a11b-9540196dcf60",
+        "id": "identity_99",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search and apply for a job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job is being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Not mentioned </mem>  Where should the job be located?"
+            },
+            {
+                "role": "user",
+                "content": "Springfield"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Springfield </mem>  What is the maximum commute time from the zip code 63304?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Commute Time Maximum: Not mentioned </mem>  What is the minimum salary requirement per year for the job?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Salary: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.895188448956084,
+        "bert_score_with_false_positive": 0.9298454523086548,
+        "perplexity_score_with_false_positive": 252.0946517944336,
+        "bleu_score_without_false_positive": 34.70035404701602,
+        "bert_score_without_false_positive": 0.9329920411109924,
+        "perplexity_score_without_false_positive": 386.81493377685547,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find the closest in-store Gamestop location within 50 miles of 21122.",
+        "annotation_id": "a34a5ed4-b475-45b6-a4f9-bfdc774d80e5",
+        "id": "identity_105",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate the nearest Gamestop store"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the task to be performed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Locate nearest Gamestop store </mem>  How can the nearest location of Gamestop store be found?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Method of Finding: Not specified </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.74198351169474,
+        "bert_score_with_false_positive": 0.9047422409057617,
+        "perplexity_score_with_false_positive": 219.2097028096517,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9323272109031677,
+        "perplexity_score_without_false_positive": 501.0257873535156,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find the statistics of the player Cristiano Ronaldo for the national team of Portugal in all the world cups.",
+        "annotation_id": "87e3b392-e1de-4ca0-aee6-54a466b138c7",
+        "id": "identity_109",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find player statistics for specific soccer tournaments"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the soccer tournaments for which player statistics are being sought?"
+            },
+            {
+                "role": "user",
+                "content": "World Cups"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Tournament Name: World Cups </mem>  What specific years of World Cups are being considered for collecting player statistics?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Specific Years: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.34922215088756,
+        "bert_score_with_false_positive": 0.9240269263585409,
+        "perplexity_score_with_false_positive": 384.54122161865234,
+        "bleu_score_without_false_positive": 33.540845687306025,
+        "bert_score_without_false_positive": 0.9261446893215179,
+        "perplexity_score_without_false_positive": 480.6508369445801,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Make a build list with AI for a gaming pc with ryzen 9,rtx 6950xt and  price $2000-$2500.",
+        "annotation_id": "03fd47fc-8412-487a-b895-26c80a95c398",
+        "id": "identity_111",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Create a gaming PC build list"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the budget for the gaming PC build?"
+            },
+            {
+                "role": "user",
+                "content": "$2000-$2500"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Budget: $2000-$2500 </mem>  What are the specs required for the gaming PC?"
+            },
+            {
+                "role": "user",
+                "content": "Ryzen 9"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> CPU Spec: Ryzen 9 </mem>  What graphics card should be included in the build?"
+            },
+            {
+                "role": "user",
+                "content": "RTX 6950XT"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Graphics Card: RTX 6950XT </mem>  How many storage drives should be included in the build?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Storage Drives: Not mentioned (Assuming one primary drive) </mem>  How many memory slots are needed for the CPU?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Memory Slots: Not mentioned (Assuming two memory slots) </mem>  What is the minimum RAM size required for this build?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum RAM Size: Not mentioned (Assuming at least 32 GB) </mem>  What motherboard should be used for this build?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Motherboard: Not mentioned (Assuming a mid-range ATX board) </mem>  What case is recommended for this build?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Case: Not mentioned (Assuming a mid-tower case with good cooling) </mem>  What power supply unit (PSU) is needed for this build?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Power Supply Unit (PSU): Not mentioned (Assuming at least 850W) </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.84974713195647,
+        "bert_score_with_false_positive": 0.9228763043880462,
+        "perplexity_score_with_false_positive": 144.5805793762207,
+        "bleu_score_without_false_positive": 40.09075290989711,
+        "bert_score_without_false_positive": 0.9369216561317444,
+        "perplexity_score_without_false_positive": 148.26605033874512,
+        "false_negative": 0,
+        "false_positive": 6,
+        "turn_of_conversation": 10
+    },
+    {
+        "confirmed_task": "Browse used Audi cars made before 2015 and sort by lowest price",
+        "annotation_id": "5535f398-45ef-42e6-9d72-179b0a3d0ad8",
+        "id": "identity_118",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Browse and sort used cars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to search for dealerships offering used cars?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: Not mentioned </mem>  How should the used cars be sorted?"
+            },
+            {
+                "role": "user",
+                "content": "By lowest price"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sort Order: Lowest price </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 50.45640979668601,
+        "bert_score_with_false_positive": 0.9477678934733073,
+        "perplexity_score_with_false_positive": 524.5649159749349,
+        "bleu_score_without_false_positive": 60.61293843748795,
+        "bert_score_without_false_positive": 0.958234965801239,
+        "perplexity_score_without_false_positive": 711.9952087402344,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "check all restaurant available in Buchanan, MI to book a dine in reservation with Spanish cuisine for 2 guest at 8pm on 18th of March.",
+        "annotation_id": "e56ef366-a861-4d96-a1ad-8891d11a0950",
+        "id": "identity_122",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Check restaurant availability for booking"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the date for which to check restaurant availability?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date for Availability Check: Not mentioned </mem>  What is the preferred time for the reservation at the restaurant?"
+            },
+            {
+                "role": "user",
+                "content": "8pm"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Reservation Time: 8pm </mem>  How many people need to be accommodated at the restaurant?"
+            },
+            {
+                "role": "user",
+                "content": "2"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Guests: 2 </mem>  What is the ZIP code for the location where the restaurant availability needs to be checked?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location ZIP Code: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 29.74019742350618,
+        "bert_score_with_false_positive": 0.9295430183410645,
+        "perplexity_score_with_false_positive": 221.3893814086914,
+        "bleu_score_without_false_positive": 32.665115533828875,
+        "bert_score_without_false_positive": 0.9367310603459676,
+        "perplexity_score_without_false_positive": 283.0422617594401,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Show me the options for a roundtrip leaving from las vegas on flexile dates on the interactive map",
+        "annotation_id": "35c34724-ea09-4443-887d-7e63a2abd24d",
+        "id": "identity_126",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for roundtrip travel options on an interactive map"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the departure location for the roundtrip?"
+            },
+            {
+                "role": "user",
+                "content": "Las Vegas"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure Location: Las Vegas </mem>  What is the destination for the roundtrip?"
+            },
+            {
+                "role": "user",
+                "content": "Las Vegas"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination: Las Vegas </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 61.32091131904807,
+        "bert_score_with_false_positive": 0.9587713281313578,
+        "perplexity_score_with_false_positive": 161.07573445638022,
+        "bleu_score_without_false_positive": 61.32091131904807,
+        "bert_score_without_false_positive": 0.9587713281313578,
+        "perplexity_score_without_false_positive": 161.07573445638022,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find cars that can be picked up at SFO on April 20, 2023 and returned on April 27, 2023.",
+        "annotation_id": "380d2539-703d-4e2c-b3c0-b608b34733db",
+        "id": "identity_135",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find rental cars for specified dates and location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for finding rental cars?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Rental Location: Not mentioned </mem>  What is the start date for the rental?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Start Date: Not mentioned </mem>  What is the end date for the rental?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> End Date: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.563122779925266,
+        "bert_score_with_false_positive": 0.9472231268882751,
+        "perplexity_score_with_false_positive": 225.21762084960938,
+        "bleu_score_without_false_positive": 46.41590740722758,
+        "bert_score_without_false_positive": 0.9487619996070862,
+        "perplexity_score_without_false_positive": 490.9800720214844,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Download the e-receipt with the last name Smith and confirmation number X123456989.",
+        "annotation_id": "3c76cc80-ddcb-48ed-941d-74cffecfc33f",
+        "id": "identity_136",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Download e-receipt"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What action is requested to be performed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action Required: Not mentioned </mem>  For which flight number is the e-receipt needed?"
+            },
+            {
+                "role": "user",
+                "content": "X123456989"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Flight Number: X123456989 </mem>  What is the booking reference number associated with the flight?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Booking Reference Number: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.04301391282613,
+        "bert_score_with_false_positive": 0.9117824584245682,
+        "perplexity_score_with_false_positive": 245.80046272277832,
+        "bleu_score_without_false_positive": 35.11768540309587,
+        "bert_score_without_false_positive": 0.9311463534832001,
+        "perplexity_score_without_false_positive": 400.13255310058594,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find information about what I should do when I lose an item on a bus.",
+        "annotation_id": "a3b7ff6e-246b-48f0-901e-64b8d8223ad3",
+        "id": "identity_144",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find information about lost items on a bus"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> How long ago was the bus ride where the item was lost?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame for Item Loss: Not mentioned </mem>  What is the item that was lost on the bus?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Description: Not mentioned </mem>  Where is the bus company that lost the item located?"
+            },
+            {
+                "role": "user",
+                "content": "(User would provide the bus line or company if known)"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Bus Line or Company: To be provided by user </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 23.076351723655563,
+        "bert_score_with_false_positive": 0.9203991144895554,
+        "perplexity_score_with_false_positive": 348.25583267211914,
+        "bleu_score_without_false_positive": 32.27456483001586,
+        "bert_score_without_false_positive": 0.9348435997962952,
+        "perplexity_score_without_false_positive": 572.4156799316406,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find thrill rides in Six Flags Great America, Chicago, IL.",
+        "annotation_id": "38fb3573-356d-4750-a2b8-1df305d88431",
+        "id": "identity_146",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate thrill rides in an amusement park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Park Location: An amusement park </mem> How many thrill rides are to be located?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Thrill Rides: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.475927972593162,
+        "bert_score_with_false_positive": 0.9282713830471039,
+        "perplexity_score_with_false_positive": 257.2249755859375,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9392020106315613,
+        "perplexity_score_without_false_positive": 372.2652893066406,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Check in with confirmation number 10987654 for my flight with last name Lewis.",
+        "annotation_id": "2f14b18e-9ddc-4bc8-b8eb-21658a7e7192",
+        "id": "identity_151",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Check in for a flight"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the flight number for which to check in?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Flight Number: Not mentioned </mem>  What is the date for which to check in?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Check-in Date: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 46.782318779159255,
+        "bert_score_with_false_positive": 0.9489169915517172,
+        "perplexity_score_with_false_positive": 221.4920171101888,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9464566707611084,
+        "perplexity_score_without_false_positive": 300.93719482421875,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find the schedule for upcoming MLB games for the New York Yankees.",
+        "annotation_id": "e4bb7e5b-6ca2-4f43-96ba-53970d104df2",
+        "id": "identity_154",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find MLB game schedule"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the date for which to find the MLB game schedule?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date for Schedule: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.38257680766199,
+        "bert_score_with_false_positive": 0.9393600225448608,
+        "perplexity_score_with_false_positive": 363.1616973876953,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9440320134162903,
+        "perplexity_score_without_false_positive": 603.8193359375,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Browse hot deals near zip code 10019.",
+        "annotation_id": "97219f72-ed3f-41f9-8b15-f8e1ce10b925",
+        "id": "identity_162",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Browse hot deals based on location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which location should the hot deals be based on?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location for Hot Deals: Not specified </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 41.028557096062244,
+        "bert_score_with_false_positive": 0.9411998689174652,
+        "perplexity_score_with_false_positive": 297.30602264404297,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9386271238327026,
+        "perplexity_score_without_false_positive": 451.4342041015625,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Track flight with number D145 of Qatar Airways on April 18t\nh.",
+        "annotation_id": "eb03aa9f-bb6d-42e6-8fff-9897176d6db9",
+        "id": "identity_165",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Track a specific flight"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the flight number to be tracked?"
+            },
+            {
+                "role": "user",
+                "content": "D145"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Flight Number: D145 </mem>  What is the departure date and time for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "April 18th"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure Date: April 18th </mem>  Are there any specific passenger names to be looked up, or just the flight number?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Passenger Names: Not specified </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 49.22046736497698,
+        "bert_score_with_false_positive": 0.9393963366746902,
+        "perplexity_score_with_false_positive": 195.71591758728027,
+        "bleu_score_without_false_positive": 58.87465493268118,
+        "bert_score_without_false_positive": 0.9481286009152731,
+        "perplexity_score_without_false_positive": 238.1308135986328,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Browse coffee makers that are rated 5 stars.",
+        "annotation_id": "69ed8097-741e-4243-a26c-034a2ea4737b",
+        "id": "identity_186",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Browse coffee makers with a specific rating."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the minimum rating required for the coffee makers?"
+            },
+            {
+                "role": "user",
+                "content": "5 stars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Rating: 5 stars </mem>  What type of coffee makers are being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Coffee Maker Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.287456360572776,
+        "bert_score_with_false_positive": 0.9352612098058065,
+        "perplexity_score_with_false_positive": 303.875,
+        "bleu_score_without_false_positive": 47.74308853504016,
+        "bert_score_without_false_positive": 0.9436829686164856,
+        "perplexity_score_without_false_positive": 359.6716766357422,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find a person by address Nice st - 1234, Good, FL.",
+        "annotation_id": "b50ce7bf-50ee-4228-9510-efd60b867ab1",
+        "id": "identity_196",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate a person by their address"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the address of the person to locate?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Person's Address: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 48.09928566445964,
+        "bert_score_with_false_positive": 0.9332781434059143,
+        "perplexity_score_with_false_positive": 255.3759002685547,
+        "bleu_score_without_false_positive": 38.00213082631731,
+        "bert_score_without_false_positive": 0.9099803566932678,
+        "perplexity_score_without_false_positive": 436.51556396484375,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Search for the playlists \"Pop Workout mix\" and filtered by tag #Dance & edm.",
+        "annotation_id": "b4aeab35-a6d9-4524-a1df-337432ff2800",
+        "id": "identity_204",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for specific playlists"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the playlist to search for?"
+            },
+            {
+                "role": "user",
+                "content": "Pop Workout mix"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Playlist Name: Pop Workout mix </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 59.7016904754114,
+        "bert_score_with_false_positive": 0.9538239538669586,
+        "perplexity_score_with_false_positive": 299.5467472076416,
+        "bleu_score_without_false_positive": 59.7016904754114,
+        "bert_score_without_false_positive": 0.9538239538669586,
+        "perplexity_score_without_false_positive": 299.5467472076416,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Find a flight for three adults from New York to New Orleans on April 14, return on April 16.",
+        "annotation_id": "fe471e16-d33f-4f87-accf-dcf7e91617cb",
+        "id": "identity_208",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a flight"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the departure city for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure City: Not mentioned </mem>  What is the destination city for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination City: Not mentioned </mem>  When is the flight date?"
+            },
+            {
+                "role": "user",
+                "content": "April 14"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Flight Date: April 14 </mem>  What is the preferred departure time frame for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure Time Frame: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.60592119818997,
+        "bert_score_with_false_positive": 0.9447141289710999,
+        "perplexity_score_with_false_positive": 223.98019104003907,
+        "bleu_score_without_false_positive": 36.21135660636035,
+        "bert_score_without_false_positive": 0.9482072293758392,
+        "perplexity_score_without_false_positive": 365.58721923828125,
+        "false_negative": 4,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find me the deals available for the Great escape park",
+        "annotation_id": "f968b06b-b3cd-4285-8867-224773fc39eb",
+        "id": "identity_210",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find deals for a park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of deals are being requested?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Deal Type: Not mentioned </mem>  What is the destination for the park deals?"
+            },
+            {
+                "role": "user",
+                "content": "Great Escape Park"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Park Location: Great Escape Park </mem>  What is the timing for the park visits?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Visit Timing: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.233357028355748,
+        "bert_score_with_false_positive": 0.9232604950666428,
+        "perplexity_score_with_false_positive": 310.1986427307129,
+        "bleu_score_without_false_positive": 32.77469154957456,
+        "bert_score_without_false_positive": 0.9240946471691132,
+        "perplexity_score_without_false_positive": 473.8399658203125,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find a car to rent in Detroit, MI for pick up on April 2 and drop-off on April 3, both at 11AM, only show cars from Enterprise and Avis",
+        "annotation_id": "9ceab2a3-7919-4f15-871a-21638fd93b24",
+        "id": "identity_211",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a rental car"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the pickup location for the rental car?"
+            },
+            {
+                "role": "user",
+                "content": "Detroit, MI"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pickup Location: Detroit, MI </mem>  What is the drop-off location for the rental car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Drop-off Location: Not mentioned </mem>  What are the dates for the rental car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Rental Duration: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.01036167073547,
+        "bert_score_with_false_positive": 0.9382486045360565,
+        "perplexity_score_with_false_positive": 218.44390487670898,
+        "bleu_score_without_false_positive": 47.348654623524894,
+        "bert_score_without_false_positive": 0.9510022699832916,
+        "perplexity_score_without_false_positive": 316.0831642150879,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Rent a small air-conditioned car with collision damage coverage from the Liverpool Airport car rental center for pick-up on May 5, 11:30 am, and drop-off on May 7, 11 am.",
+        "annotation_id": "c86ddda7-8d34-4029-ae11-d8229d5e1d9a",
+        "id": "identity_212",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Rent a car"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the pickup location for the car?"
+            },
+            {
+                "role": "user",
+                "content": "Liverpool Airport car rental center"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Pickup Location: Liverpool Airport car rental center </mem>  What is the drop-off location for the car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Drop-off Location: Not mentioned </mem>  What is the collection date and time for the car?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Collection Date and Time: Not mentioned </mem>  What is the return date and time for the car?"
+            },
+            {
+                "role": "user",
+                "content": "May 7, 11 am"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Return Date and Time: May 7, 11 am </mem>  What type of car is to be rented?"
+            },
+            {
+                "role": "user",
+                "content": "Small air-conditioned car"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Car Type: Small air-conditioned car </mem>  What is the driver's age?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Driver's Age: Not mentioned </mem>  Is there an optional additional driver?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Optional Additional Driver: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.13634369443774,
+        "bert_score_with_false_positive": 0.9188577607274055,
+        "perplexity_score_with_false_positive": 220.55752277374268,
+        "bleu_score_without_false_positive": 31.38461752085586,
+        "bert_score_without_false_positive": 0.9250048696994781,
+        "perplexity_score_without_false_positive": 286.673152923584,
+        "false_negative": 2,
+        "false_positive": 4,
+        "turn_of_conversation": 8
+    },
+    {
+        "confirmed_task": "Show me a list of electronic music dvds in very good condition.",
+        "annotation_id": "eb1e79b0-f94d-4568-bd32-072e84d82a7e",
+        "id": "identity_218",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a list of DVDs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific genre of the list of DVDs to find?"
+            },
+            {
+                "role": "user",
+                "content": "Electronic music DVDs"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Genre: Electronic music DVDs </mem>  What is the minimum rating for the DVDs from the list?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Rating: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.57291647186897,
+        "bert_score_with_false_positive": 0.9452096025149027,
+        "perplexity_score_with_false_positive": 284.67116292317706,
+        "bleu_score_without_false_positive": 44.60322569692538,
+        "bert_score_without_false_positive": 0.9475111961364746,
+        "perplexity_score_without_false_positive": 376.0125312805176,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "What are the cheapest hotel options for a luxury trip in Chicago during summer",
+        "annotation_id": "a55e347d-b445-4a45-ae02-bc4c31f12660",
+        "id": "identity_226",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find the cheapest luxury hotel options"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the destination for the luxury hotel search?"
+            },
+            {
+                "role": "user",
+                "content": "Chicago"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination: Chicago </mem>  What is the check-in date for the luxury hotel?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Check-in Date: Not mentioned </mem>  What is the checkout date for the luxury hotel?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Checkout Date: Not mentioned </mem>  What is the main criteria for selecting the hotels?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Selection Criteria: Luxury hotel with good reviews, spa, and pool. </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 22.596182127267177,
+        "bert_score_with_false_positive": 0.9258392095565796,
+        "perplexity_score_with_false_positive": 179.13034210205078,
+        "bleu_score_without_false_positive": 27.215555638468935,
+        "bert_score_without_false_positive": 0.9227538108825684,
+        "perplexity_score_without_false_positive": 209.75118255615234,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Book a flight for 2 adults from Belo Horizonte to Buenos Aires on April 24",
+        "annotation_id": "c614be5b-a32a-4d67-9fb9-d0702257e83a",
+        "id": "identity_228",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Book a flight"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the departure location for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "Belo Horizonte"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Departure Location: Belo Horizonte </mem>  What is the destination for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "Buenos Aires"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Destination: Buenos Aires </mem>  On which date should the flight be booked?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Flight Date: Not mentioned </mem>  What type of passenger should be selected for the flight?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Passenger Type: Not mentioned </mem>  What is the minimum rating for the airline to be selected?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Airline Rating: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.98350777642105,
+        "bert_score_with_false_positive": 0.9366195499897003,
+        "perplexity_score_with_false_positive": 211.32082875569662,
+        "bleu_score_without_false_positive": 53.20927446890571,
+        "bert_score_without_false_positive": 0.9480224251747131,
+        "perplexity_score_without_false_positive": 253.97588857014975,
+        "false_negative": 2,
+        "false_positive": 3,
+        "turn_of_conversation": 6
+    },
+    {
+        "confirmed_task": "Show me tickets for food and drink attractions in Ireland from April 11 to April 12",
+        "annotation_id": "3594153c-7dbb-40bc-bad9-8c730840ab1a",
+        "id": "identity_233",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find tickets for attractions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Attraction Type: Tickets </mem> What is the location for the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.740271800456426,
+        "bert_score_with_false_positive": 0.9343617558479309,
+        "perplexity_score_with_false_positive": 249.76167678833008,
+        "bleu_score_without_false_positive": 40.9192825960765,
+        "bert_score_without_false_positive": 0.9397295713424683,
+        "perplexity_score_without_false_positive": 386.8060302734375,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Locate a store in New York 10007 and view store timings.",
+        "annotation_id": "afcc3ff5-c043-4787-8608-cb21dab9dc42",
+        "id": "identity_237",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate a store and view its timings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to find a store near?"
+            },
+            {
+                "role": "user",
+                "content": "10007"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: 10007 </mem>  What action should be performed after locating the store?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action to Perform: Not Mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.743408783294804,
+        "bert_score_with_false_positive": 0.9219257434209188,
+        "perplexity_score_with_false_positive": 202.58604431152344,
+        "bleu_score_without_false_positive": 39.70772030148366,
+        "bert_score_without_false_positive": 0.9263090491294861,
+        "perplexity_score_without_false_positive": 228.3044891357422,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Show schedule for East Boston Ferry outbound Lewis Wharf and Long Wharf (North) stop.",
+        "annotation_id": "0f9382d3-d73b-48db-aff4-55482fbb16c8",
+        "id": "identity_240",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Show ferry schedule"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which ferry schedule is being requested?"
+            },
+            {
+                "role": "user",
+                "content": "East Boston Ferry"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Ferry Schedule: East Boston Ferry </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.41544326019923,
+        "bert_score_with_false_positive": 0.9508439302444458,
+        "perplexity_score_with_false_positive": 919.5631866455078,
+        "bleu_score_without_false_positive": 47.41544326019923,
+        "bert_score_without_false_positive": 0.9508439302444458,
+        "perplexity_score_without_false_positive": 919.5631866455078,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Show me products from Calvin Klein brand menswear list.",
+        "annotation_id": "150146b2-ae80-4760-b2a9-1c7475ce5de2",
+        "id": "identity_250",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Display specific brand products"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What brand of products is to be displayed?"
+            },
+            {
+                "role": "user",
+                "content": "Calvin Klein"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Brand: Calvin Klein </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.58199810846236,
+        "bert_score_with_false_positive": 0.9554022550582886,
+        "perplexity_score_with_false_positive": 240.533935546875,
+        "bleu_score_without_false_positive": 47.58199810846236,
+        "bert_score_without_false_positive": 0.9554022550582886,
+        "perplexity_score_without_false_positive": 240.533935546875,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Find adventure cruises under $999 for Alaska",
+        "annotation_id": "1570a4b7-176f-4250-8c55-08f43dc032ad",
+        "id": "identity_251",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find adventure cruises"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Cruise Type: Adventure cruises </mem> What is the maximum price range for the cruises?"
+            },
+            {
+                "role": "user",
+                "content": "Under $999"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: Under $999 </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 55.35287766740338,
+        "bert_score_with_false_positive": 0.9570646286010742,
+        "perplexity_score_with_false_positive": 259.45426177978516,
+        "bleu_score_without_false_positive": 55.35287766740338,
+        "bert_score_without_false_positive": 0.9570646286010742,
+        "perplexity_score_without_false_positive": 259.45426177978516,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    }
+]

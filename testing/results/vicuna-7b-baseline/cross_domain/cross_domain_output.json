@@ -1,0 +1,2130 @@
+[
+    {
+        "confirmed_task": "Find the hourly weather forecast for Seattle, WA for the next 24 hours.",
+        "annotation_id": "3cad7a9a-41bd-4c0a-9fd2-0cc34eb8e836",
+        "id": "identity_13",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find hourly weather forecast"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location to find the hourly weather forecast for?"
+            },
+            {
+                "role": "user",
+                "content": "Seattle, WA"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Seattle, WA </mem>  What date and time should the hourly weather forecast be for?"
+            },
+            {
+                "role": "user",
+                "content": "Next 24 hours"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Time Frame: Next 24 hours </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.15045296473355,
+        "bert_score_with_false_positive": 0.9531535704930624,
+        "perplexity_score_with_false_positive": 188.51107533772787,
+        "bleu_score_without_false_positive": 47.15045296473355,
+        "bert_score_without_false_positive": 0.9531535704930624,
+        "perplexity_score_without_false_positive": 188.51107533772787,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Show me Mc Donald's reviews.",
+        "annotation_id": "c4166e68-7917-4d68-b091-e74dfaf23457",
+        "id": "identity_34",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Display restaurant reviews"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of restaurant's reviews are being requested?"
+            },
+            {
+                "role": "user",
+                "content": "Mc Donald's"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Restaurant Type: Mc Donald's </mem>  In which location should the reviews for Mc Donald's be shown?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location for Restaurant Reviews: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.09838236844261,
+        "bert_score_with_false_positive": 0.9350404739379883,
+        "perplexity_score_with_false_positive": 323.08974202473956,
+        "bleu_score_without_false_positive": 43.56340138825725,
+        "bert_score_without_false_positive": 0.949374794960022,
+        "perplexity_score_without_false_positive": 387.6695861816406,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Join the r/politics subreddit.",
+        "annotation_id": "158027d3-05c9-4a7b-af96-43625c84e0e2",
+        "id": "identity_35",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Join a subreddit"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the subreddit to join?"
+            },
+            {
+                "role": "user",
+                "content": "r/politics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Subreddit Name: r/politics </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 71.92534486373555,
+        "bert_score_with_false_positive": 0.9741392135620117,
+        "perplexity_score_with_false_positive": 128.78629112243652,
+        "bleu_score_without_false_positive": 71.92534486373555,
+        "bert_score_without_false_positive": 0.9741392135620117,
+        "perplexity_score_without_false_positive": 128.78629112243652,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Show me the monthly weather forecast for florida city",
+        "annotation_id": "5635a86d-5ecc-4a65-b4f9-5f9b661a7303",
+        "id": "identity_46",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Retrieve monthly weather forecast for a specific location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for which the monthly weather forecast is being requested?"
+            },
+            {
+                "role": "user",
+                "content": "Florida city"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Florida city </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 65.71025246135855,
+        "bert_score_with_false_positive": 0.9718182384967804,
+        "perplexity_score_with_false_positive": 358.56743240356445,
+        "bleu_score_without_false_positive": 65.71025246135855,
+        "bert_score_without_false_positive": 0.9718182384967804,
+        "perplexity_score_without_false_positive": 358.56743240356445,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Add Miami, FL to your locations.",
+        "annotation_id": "f7f87ceb-0e39-4d83-8c4e-8b708c82adc5",
+        "id": "identity_67",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Add a location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the location to add?"
+            },
+            {
+                "role": "user",
+                "content": "Miami, FL"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location Name: Miami, FL </mem>  What is the zip code for the location?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: Not mentioned </mem>  What is the address for the location?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Address: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.98785819680472,
+        "bert_score_with_false_positive": 0.9387292563915253,
+        "perplexity_score_with_false_positive": 214.06122398376465,
+        "bleu_score_without_false_positive": 43.86863674099118,
+        "bert_score_without_false_positive": 0.9588983058929443,
+        "perplexity_score_without_false_positive": 312.48934173583984,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find top comments mentioning Donald Trump",
+        "annotation_id": "98986fb1-c663-410c-938a-8ed506f1c5b3",
+        "id": "identity_77",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for top comments mentioning a specific person"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Person of Interest: [Person's Name] </mem> What is the main task to be performed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: [Main Task to be performed] </mem>  What is the specific requirement for the top comments?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Comment Requirement: [Comment Requirement] </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 24.781964668070888,
+        "bert_score_with_false_positive": 0.9011168678601583,
+        "perplexity_score_with_false_positive": 122.22629419962566,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9227162599563599,
+        "perplexity_score_without_false_positive": 148.04986572265625,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find the hours of sun for Vancouver, British Columbia for the next seven days.",
+        "annotation_id": "253b052a-a418-466d-9117-9d92a5ac9f3d",
+        "id": "identity_125",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find the sun hours for a specific location over a week."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for which to find the sun hours?"
+            },
+            {
+                "role": "user",
+                "content": "Vancouver, British Columbia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Vancouver, British Columbia </mem>  How many days' worth of sun hours are needed for the search?"
+            },
+            {
+                "role": "user",
+                "content": "Seven days"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Duration: Seven days </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 62.541140318693756,
+        "bert_score_with_false_positive": 0.9616525173187256,
+        "perplexity_score_with_false_positive": 189.2821248372396,
+        "bleu_score_without_false_positive": 62.541140318693756,
+        "bert_score_without_false_positive": 0.9616525173187256,
+        "perplexity_score_without_false_positive": 189.2821248372396,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Open Vancouver Area Highway Conditions.",
+        "annotation_id": "7ba05167-9593-4bab-8719-711cfdae15f7",
+        "id": "identity_129",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Open highway conditions information"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of information is being requested about the highway?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Highway Information Type: Not mentioned </mem>  What is the purpose of obtaining the highway information?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose of Information: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.53056313021026,
+        "bert_score_with_false_positive": 0.9305227200190226,
+        "perplexity_score_with_false_positive": 258.4229278564453,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9504171013832092,
+        "perplexity_score_without_false_positive": 587.5281372070312,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find a UPS drop off point near miami in Florida",
+        "annotation_id": "55990a0a-eba0-413c-a8b7-c1744e4d6737",
+        "id": "identity_153",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Locate a UPS drop-off point"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code to locate a UPS drop-off point?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.129604532874666,
+        "bert_score_with_false_positive": 0.9486457407474518,
+        "perplexity_score_with_false_positive": 321.37213134765625,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9555518627166748,
+        "perplexity_score_without_false_positive": 554.8842163085938,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Look up tracking information for shipment #3023858502",
+        "annotation_id": "9c62f688-e606-409b-a337-4954fb9ac637",
+        "id": "identity_158",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Look up shipment tracking information"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the tracking number to look up?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Tracking Number: Not mentioned </mem>  What company's shipment is being tracked?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shipping Company: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 46.27916255968368,
+        "bert_score_with_false_positive": 0.940256933371226,
+        "perplexity_score_with_false_positive": 421.15891520182294,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9348187446594238,
+        "perplexity_score_without_false_positive": 849.4340209960938,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Calculate shipping cost for 4 pound package from Texas to New York.",
+        "annotation_id": "9db512af-da9c-4a0b-a475-633fc502842f",
+        "id": "identity_159",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Calculate shipping cost for a package"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Package Weight: 1.5 lbs </mem> What is the zip code for shipping origin?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shipping Origin Zip Code: Not mentioned </mem>  What is the zip code for shipping destination?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shipping Destination Zip Code: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.226036471692055,
+        "bert_score_with_false_positive": 0.9359035094579061,
+        "perplexity_score_with_false_positive": 415.4728647867839,
+        "bleu_score_without_false_positive": 44.81501736040872,
+        "bert_score_without_false_positive": 0.9448747634887695,
+        "perplexity_score_without_false_positive": 856.0647583007812,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Browse homes for sale in San Diego, CA that is under 1 million dollars and has at least 3 bedrooms.",
+        "annotation_id": "282f29ee-acff-452b-a700-a4e5c0de24c4",
+        "id": "identity_161",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Browse homes for sale"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the price range for the homes to browse?"
+            },
+            {
+                "role": "user",
+                "content": "Under 1 million dollars"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Price Range: Under 1 million dollars </mem>  What is the maximum number of bedrooms required for the homes?"
+            },
+            {
+                "role": "user",
+                "content": "At least 3 bedrooms"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Bedrooms: At least 3 bedrooms </mem>  Is there a minimum square footage required for the homes?"
+            },
+            {
+                "role": "user",
+                "content": "At least 3 bedrooms"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Square Footage: At least 3 bedrooms </mem>  What aspect or feature is required for the homes?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Required Aspect/Feature: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.254190765981313,
+        "bert_score_with_false_positive": 0.9279414057731629,
+        "perplexity_score_with_false_positive": 230.29109802246094,
+        "bleu_score_without_false_positive": 33.43028331950367,
+        "bert_score_without_false_positive": 0.932002916932106,
+        "perplexity_score_without_false_positive": 229.65641403198242,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Calculate the cost for a package from 10001 to 10023 shipping on april 10",
+        "annotation_id": "2fbde8a4-7420-4b0b-8e01-961371de698b",
+        "id": "identity_174",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Calculate shipping cost"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code for calculating the shipping cost?"
+            },
+            {
+                "role": "user",
+                "content": "10023"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: 10023 </mem>  What is the destination for the shipping?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Shipping Destination: Not mentioned </mem>  What is the weight of the item to be shipped?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Item Weight: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.59198998235968,
+        "bert_score_with_false_positive": 0.9450384825468063,
+        "perplexity_score_with_false_positive": 526.1698303222656,
+        "bleu_score_without_false_positive": 46.10963965380277,
+        "bert_score_without_false_positive": 0.9394247829914093,
+        "perplexity_score_without_false_positive": 939.9716529846191,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find information regarding Hypersomnia.",
+        "annotation_id": "4bd16a73-571b-4b86-a3f4-f02e4af451ed",
+        "id": "identity_205",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Gather information on Hypersomnia"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Condition: Hypersomnia </mem> What is the purpose of the information gathering?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose of Information Gathering: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.13147780835988,
+        "bert_score_with_false_positive": 0.9259420335292816,
+        "perplexity_score_with_false_positive": 325.79244232177734,
+        "bleu_score_without_false_positive": 44.81501736040872,
+        "bert_score_without_false_positive": 0.9404612183570862,
+        "perplexity_score_without_false_positive": 540.1743774414062,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Search for the interactions between ibuprofen and aspirin.",
+        "annotation_id": "47e4f80b-d853-4acc-b34e-5f96965967ac",
+        "id": "identity_239",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for drug interactions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Medication: Adderall, Prilosec </mem> What is the purpose of the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Search Purpose: Not mentioned </mem>  What specific information is wanted from the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Desired Information: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 28.607226844042575,
+        "bert_score_with_false_positive": 0.9055893222490946,
+        "perplexity_score_with_false_positive": 248.48658752441406,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9200136661529541,
+        "perplexity_score_without_false_positive": 470.156982421875,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Check the requirements for Admission for Bsc Computer Science in the University of London",
+        "annotation_id": "0a060d81-3edf-4fa6-9477-3e21edfcd32a",
+        "id": "identity_257",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Check university admission requirements"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the university to check admission requirements for?"
+            },
+            {
+                "role": "user",
+                "content": "University of London"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> University Name: University of London </mem>  What specific program's admission requirements need to be checked?"
+            },
+            {
+                "role": "user",
+                "content": "University of London"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Program Name: University of London </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.83123946845811,
+        "bert_score_with_false_positive": 0.9368973970413208,
+        "perplexity_score_with_false_positive": 171.75079854329428,
+        "bleu_score_without_false_positive": 36.83123946845811,
+        "bert_score_without_false_positive": 0.9368973970413208,
+        "perplexity_score_without_false_positive": 171.75079854329428,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Show all the properties available in 10017 Zip code below $300,000 from lowest price first.",
+        "annotation_id": "a2a888e7-1e21-4610-aba0-e23e5982a33b",
+        "id": "identity_274",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Display properties in a specific area sorted by price"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code for the area where properties should be displayed?"
+            },
+            {
+                "role": "user",
+                "content": "10017"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Area Zip Code: 10017 </mem>  What is the desired sorting order for the properties?"
+            },
+            {
+                "role": "user",
+                "content": "From lowest price first"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Sorting Order: Lowest price first </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 61.12951742676345,
+        "bert_score_with_false_positive": 0.9650257031122843,
+        "perplexity_score_with_false_positive": 211.13779958089194,
+        "bleu_score_without_false_positive": 61.12951742676345,
+        "bert_score_without_false_positive": 0.9650257031122843,
+        "perplexity_score_without_false_positive": 211.13779958089194,
+        "false_negative": 1,
+        "false_positive": 0,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find a latest job as a truck driver in Rochester, New York and apply.",
+        "annotation_id": "f0ae88cd-8499-45e2-8d51-6a991d5c5748",
+        "id": "identity_336",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find and apply for a job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job is being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Not mentioned </mem>  In which location should the job be searched?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.86356335250746,
+        "bert_score_with_false_positive": 0.9483457008997599,
+        "perplexity_score_with_false_positive": 278.3122863769531,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9559748768806458,
+        "perplexity_score_without_false_positive": 546.7542114257812,
+        "false_negative": 4,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Look for a Doctor for Stomach Pain in San Antonio.",
+        "annotation_id": "5d51089f-69a0-4bba-aed0-4851d8887cf9",
+        "id": "identity_375",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a doctor"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location where the doctor needs to be found?"
+            },
+            {
+                "role": "user",
+                "content": "San Antonio"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Doctor Location: San Antonio </mem>  What type of doctor is being sought?"
+            },
+            {
+                "role": "user",
+                "content": "A doctor for Stomach Pain"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Doctor Type: Stomach Pain specialist </mem>  What is the desired rating for the doctor?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Doctor Rating: Not mentioned </mem>  What insurance plans should the doctor accept?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Insurance Plans Accepted: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.628179136179426,
+        "bert_score_with_false_positive": 0.9298809409141541,
+        "perplexity_score_with_false_positive": 257.4593841552734,
+        "bleu_score_without_false_positive": 36.22906980473174,
+        "bert_score_without_false_positive": 0.9303591847419739,
+        "perplexity_score_without_false_positive": 221.41826375325522,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find the hourly forecast for zip code 90210.",
+        "annotation_id": "5ef9bea9-925c-44d4-9cf3-7863e60ccd5e",
+        "id": "identity_402",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find hourly weather forecast"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> Which location's hourly weather forecast is being requested?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem>  What is the current date and time to start the forecast from?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Start Date and Time: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 38.98536980886673,
+        "bert_score_with_false_positive": 0.926607628663381,
+        "perplexity_score_with_false_positive": 227.5635248819987,
+        "bleu_score_without_false_positive": 43.85068972747104,
+        "bert_score_without_false_positive": 0.9394657015800476,
+        "perplexity_score_without_false_positive": 346.07611083984375,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Calculate what a 30 year fixed rate mortgage monthly payment would be for a $500k home purchase with $100k down in zip code 85747",
+        "annotation_id": "01ac3b25-46df-46ae-93f5-a259c2784b5e",
+        "id": "identity_404",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Calculate mortgage monthly payment"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Mortgage Type: Conventional </mem> What is the loan amount for the mortgage?"
+            },
+            {
+                "role": "user",
+                "content": "30 year fixed rate"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Loan Amount: $300,000 </mem>  What is the interest rate for the mortgage?"
+            },
+            {
+                "role": "user",
+                "content": "30 year fixed rate"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Interest Rate: 3.375% </mem>  What is the down payment amount for the mortgage?"
+            },
+            {
+                "role": "user",
+                "content": "$100k"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Down Payment: $100,000 </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.17842299624574,
+        "bert_score_with_false_positive": 0.9211777895689011,
+        "perplexity_score_with_false_positive": 81.67720890045166,
+        "bleu_score_without_false_positive": 32.17842299624574,
+        "bert_score_without_false_positive": 0.9211777895689011,
+        "perplexity_score_without_false_positive": 81.67720890045166,
+        "false_negative": 2,
+        "false_positive": 0,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Show me information about voting for those who live abroad.",
+        "annotation_id": "6dad2b8d-731d-4763-871a-c30db28eff67",
+        "id": "identity_433",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Provide information about voting for citizens living abroad."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of election is the information needed for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Election Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.29395485391741,
+        "bert_score_with_false_positive": 0.9341217279434204,
+        "perplexity_score_with_false_positive": 367.85437393188477,
+        "bleu_score_without_false_positive": 31.59852037865128,
+        "bert_score_without_false_positive": 0.9140070080757141,
+        "perplexity_score_without_false_positive": 648.598876953125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Estimate the Income Tax for the current year for a person over the state pension age, who doesn't pay the Scottish Income Tax rate and receives \u00a31,000  per week",
+        "annotation_id": "884a7c23-dab4-45cd-aedb-ffd8e58e4e64",
+        "id": "identity_434",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Estimate Income Tax"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the annual salary for the income tax calculation?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Annual Salary: Not mentioned </mem>  What is the filing status for the income tax calculation?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Filing Status: Not mentioned </mem>  What is the zip code for the location where the income tax will be calculated?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location Zip Code: Not mentioned </mem>  What is the tax year for which the income tax is being estimated?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Tax Year: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 32.28063134510846,
+        "bert_score_with_false_positive": 0.9248798608779907,
+        "perplexity_score_with_false_positive": 243.04281005859374,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9386175870895386,
+        "perplexity_score_without_false_positive": 700.7914428710938,
+        "false_negative": 3,
+        "false_positive": 4,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Look up the visitors trend for Apple stock",
+        "annotation_id": "34e0bf85-6441-40cb-b7f6-d107e5bcb049",
+        "id": "identity_440",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Look up visitors trend for a specific stock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the stock symbol for which visitors trend needs to be looked up?"
+            },
+            {
+                "role": "user",
+                "content": "Apple stock"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Stock Symbol: Apple </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 55.37989346924283,
+        "bert_score_with_false_positive": 0.9662129580974579,
+        "perplexity_score_with_false_positive": 387.7210922241211,
+        "bleu_score_without_false_positive": 55.37989346924283,
+        "bert_score_without_false_positive": 0.9662129580974579,
+        "perplexity_score_without_false_positive": 387.7210922241211,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Open the section to create a new message.",
+        "annotation_id": "60cd970c-2790-4440-8bc6-b1f112d214ae",
+        "id": "identity_477",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Open the section to create a new message"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of section needs to be opened?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Section Type: Not mentioned </mem>  Where should the section to create a new message be located?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location for Section: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 33.7509601071385,
+        "bert_score_with_false_positive": 0.9398356278737386,
+        "perplexity_score_with_false_positive": 282.2989679972331,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9583778977394104,
+        "perplexity_score_without_false_positive": 615.0008544921875,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Clear all the recent searched topics",
+        "annotation_id": "6741baf0-ea89-40ab-a995-db1858fc6464",
+        "id": "identity_478",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Clear all recent search topics"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What action needs to be taken?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Action: Clear recent search topics </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.66084099432341,
+        "bert_score_with_false_positive": 0.926595002412796,
+        "perplexity_score_with_false_positive": 387.16649436950684,
+        "bleu_score_without_false_positive": 51.98157258729877,
+        "bert_score_without_false_positive": 0.966908872127533,
+        "perplexity_score_without_false_positive": 720.5997314453125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Get time for latest drop off from FedEx at Dollar General store near 49103.",
+        "annotation_id": "f9d02b1b-d4b1-497c-aae5-45be06feac06",
+        "id": "identity_492",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find the latest FedEx drop-off time at a specific location"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the zip code of the FedEx location to find the drop-off time for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> FedEx Location Zip Code: Not mentioned </mem>  What is the task related to finding the latest FedEx drop-off time for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.940056800527955,
+        "bert_score_with_false_positive": 0.9171499212582906,
+        "perplexity_score_with_false_positive": 228.08226521809897,
+        "bleu_score_without_false_positive": 54.45178846139407,
+        "bert_score_without_false_positive": 0.9363823533058167,
+        "perplexity_score_without_false_positive": 416.2453308105469,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find job openings in Thumbtack engineering which are virtual and based in united states",
+        "annotation_id": "27b8672e-0bad-4b4c-8293-7afcf2728ce5",
+        "id": "identity_497",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for job openings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location to search for job openings?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 47.386842824670374,
+        "bert_score_with_false_positive": 0.9593853950500488,
+        "perplexity_score_with_false_positive": 245.4312744140625,
+        "bleu_score_without_false_positive": 53.36129799268556,
+        "bert_score_without_false_positive": 0.9604886174201965,
+        "perplexity_score_without_false_positive": 386.8060302734375,
+        "false_negative": 3,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Go to the Renew Vehicle Registration online service.",
+        "annotation_id": "72bb2bfd-f868-4aac-ae9a-48bc4c8a9457",
+        "id": "identity_546",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Renew vehicle registration online"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the license plate number of the vehicle to be renewed?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle License Plate Number: Not mentioned </mem>  What is the state where the vehicle is registered?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Vehicle Registration State: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.492586651456367,
+        "bert_score_with_false_positive": 0.9293647607167562,
+        "perplexity_score_with_false_positive": 306.2015190124512,
+        "bleu_score_without_false_positive": 44.436700892349045,
+        "bert_score_without_false_positive": 0.9458339810371399,
+        "perplexity_score_without_false_positive": 757.871337890625,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Join the r/answers community and set the notifications as frequent",
+        "annotation_id": "233be033-8b78-43e0-8869-3de251af6677",
+        "id": "identity_555",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Join an online community and set notification preferences"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the online community to join?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Community Name: Not mentioned </mem>  What is the purpose of the community?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Community Purpose: Not mentioned </mem>  What type of notifications should be set?"
+            },
+            {
+                "role": "user",
+                "content": "Frequent"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Notification Type: Frequent </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 40.334131909745324,
+        "bert_score_with_false_positive": 0.947892814874649,
+        "perplexity_score_with_false_positive": 242.1198320388794,
+        "bleu_score_without_false_positive": 54.02702055585247,
+        "bert_score_without_false_positive": 0.9610177576541901,
+        "perplexity_score_without_false_positive": 417.80298614501953,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find legal career openings for summer volunteer law students in the state of New York",
+        "annotation_id": "947081d2-83e4-4cd0-a0f3-b64c15394b81",
+        "id": "identity_569",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find legal career openings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Legal careers </mem> What location should be used to find the legal career openings?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 43.6898043785541,
+        "bert_score_with_false_positive": 0.9375487864017487,
+        "perplexity_score_with_false_positive": 274.79833221435547,
+        "bleu_score_without_false_positive": 69.97522298221911,
+        "bert_score_without_false_positive": 0.9716317057609558,
+        "perplexity_score_without_false_positive": 386.8060302734375,
+        "false_negative": 2,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Create a job alerts for sales positions and also opt for email and other notifications.",
+        "annotation_id": "1d564aaf-b6d5-474c-a4e4-8eba885ff649",
+        "id": "identity_580",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Set up job alerts"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job alerts needs to be set up?"
+            },
+            {
+                "role": "user",
+                "content": "Sales positions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Sales positions </mem>  In which country should the job alerts be set up?"
+            },
+            {
+                "role": "user",
+                "content": "Sales positions"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: USA </mem>  What are the qualifications required for the sales positions?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Qualifications: Not mentioned </mem>  What is the frequency of notifications for job alerts?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Notification Frequency: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.58353620943588,
+        "bert_score_with_false_positive": 0.9209216117858887,
+        "perplexity_score_with_false_positive": 330.3563537597656,
+        "bleu_score_without_false_positive": 43.601968668872644,
+        "bert_score_without_false_positive": 0.9380122621854147,
+        "perplexity_score_without_false_positive": 460.3662923177083,
+        "false_negative": 1,
+        "false_positive": 2,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Check the hourly forecast for Boston.",
+        "annotation_id": "ddc28045-4b8e-456b-8243-e5ae45c13bfe",
+        "id": "identity_604",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Check hourly weather forecast"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for which to check the hourly weather forecast?"
+            },
+            {
+                "role": "user",
+                "content": "Boston"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location: Boston </mem>  What is the date for which to check the hourly weather forecast?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Date: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 34.87878398589164,
+        "bert_score_with_false_positive": 0.9428629477818807,
+        "perplexity_score_with_false_positive": 237.1477508544922,
+        "bleu_score_without_false_positive": 43.78838912802907,
+        "bert_score_without_false_positive": 0.9543329477310181,
+        "perplexity_score_without_false_positive": 283.05484771728516,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find a grocery store cashier job in Florida.",
+        "annotation_id": "12f65c16-2a55-4492-8c30-c887f6618145",
+        "id": "identity_654",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find a job"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of job is being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Not mentioned </mem>  What is the general location for the job search?"
+            },
+            {
+                "role": "user",
+                "content": "Florida"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Florida </mem>  What is the minimum salary requirement for the job?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Minimum Salary: Not mentioned </mem>  What is the date when the job listing should have been posted?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Posting Date: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 31.6986476520633,
+        "bert_score_with_false_positive": 0.9305302381515503,
+        "perplexity_score_with_false_positive": 182.1687805175781,
+        "bleu_score_without_false_positive": 35.11214230320144,
+        "bert_score_without_false_positive": 0.9358285367488861,
+        "perplexity_score_without_false_positive": 302.7837905883789,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find registration deadlines for fall 2024 academic term",
+        "annotation_id": "174dfd52-ae65-4d5b-ba28-1a1762bff53a",
+        "id": "identity_667",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find registration deadlines for an academic term"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the academic term for which registration deadlines are needed?"
+            },
+            {
+                "role": "user",
+                "content": "Fall 2024"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Academic Term: Fall 2024 </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 70.23636001239046,
+        "bert_score_with_false_positive": 0.9713449776172638,
+        "perplexity_score_with_false_positive": 448.8499450683594,
+        "bleu_score_without_false_positive": 70.23636001239046,
+        "bert_score_without_false_positive": 0.9713449776172638,
+        "perplexity_score_without_false_positive": 448.8499450683594,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Find the list of undergraduate majors and degrees for the schools of public health and public policy",
+        "annotation_id": "77e17464-56ae-4504-8a06-9a895e0b8de7",
+        "id": "identity_673",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find information about undergraduate majors and degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of school is being searched for undergraduate majors and degrees information?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> School Type: Not specified </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.16597739281883,
+        "bert_score_with_false_positive": 0.9306187629699707,
+        "perplexity_score_with_false_positive": 263.1431579589844,
+        "bleu_score_without_false_positive": 44.09928765478173,
+        "bert_score_without_false_positive": 0.9239174723625183,
+        "perplexity_score_without_false_positive": 338.5177001953125,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Join the mindful eating challenge.",
+        "annotation_id": "66c89053-2743-4c72-848b-aec13ea3d57d",
+        "id": "identity_692",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Join a challenge"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of challenge should be joined?"
+            },
+            {
+                "role": "user",
+                "content": "Mindful Eating Challenge"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Challenge Type: Mindful Eating Challenge </mem>  What is the starting date of the challenge?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Starting Date: Not mentioned </mem>  How long should the challenge last?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Duration: Not mentioned </mem>  What is the maximum number of participants allowed in the challenge?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Maximum Participants: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.28099614756144,
+        "bert_score_with_false_positive": 0.9251730799674988,
+        "perplexity_score_with_false_positive": 296.3094757080078,
+        "bleu_score_without_false_positive": 46.1189242972944,
+        "bert_score_without_false_positive": 0.937717616558075,
+        "perplexity_score_without_false_positive": 523.1526298522949,
+        "false_negative": 0,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find Data Entry or similar jobs and save two of them.",
+        "annotation_id": "a8637b2a-ddcb-41a1-ba40-675d90aeed75",
+        "id": "identity_710",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find and save specific job listings"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location of the job listings to be found?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Not mentioned </mem>  What is the company name associated with the job listings to be found?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Company Name: Not mentioned </mem>  What is the job title to be saved?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Title: Not mentioned </mem>  How many job listings need to be saved?"
+            },
+            {
+                "role": "user",
+                "content": "Two"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Number of Job Listings to Save: Two </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 37.44608433092717,
+        "bert_score_with_false_positive": 0.93762766122818,
+        "perplexity_score_with_false_positive": 142.44284362792968,
+        "bleu_score_without_false_positive": 55.857010127985205,
+        "bert_score_without_false_positive": 0.9596365392208099,
+        "perplexity_score_without_false_positive": 192.8676986694336,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find LinkedIn Learning page and subscribe for the newsletter.",
+        "annotation_id": "f9e3d54d-b9e3-44a3-b992-803494aa95d1",
+        "id": "identity_712",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Subscribe to a LinkedIn Learning newsletter"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of the task?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Task Purpose: Not mentioned </mem>  What specific newsletter needs to be subscribed to?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Newsletter to Subscribe: Not mentioned </mem>  Who is the target audience for the newsletter subscription?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Target Audience: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.870811741358125,
+        "bert_score_with_false_positive": 0.8934124261140823,
+        "perplexity_score_with_false_positive": 208.439697265625,
+        "bleu_score_without_false_positive": 47.13945310979296,
+        "bert_score_without_false_positive": 0.9203963279724121,
+        "perplexity_score_without_false_positive": 316.20556640625,
+        "false_negative": 0,
+        "false_positive": 3,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "What are the Symptoms and causes of fever?",
+        "annotation_id": "ce8dfc6b-3044-4838-a3bd-799b6c403dde",
+        "id": "identity_756",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Provide information about symptoms and causes of fever"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What are the common symptoms associated with a fever?"
+            },
+            {
+                "role": "user",
+                "content": "The common symptoms of fever include an elevated body temperature, sweating, headache, muscle aches, dehydration, and shivering."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Symptoms of Fever: Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering </mem>  What are the main causes of fever according to Dr. David Geier?"
+            },
+            {
+                "role": "user",
+                "content": "Fever can be caused by a variety of factors including infections like the flu, common cold, or bacterial infections, inflammation, heat exhaustion, or as a side effect of medication."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Common Causes of Fever: Infections, inflammation, heat exhaustion, side effect of medication </mem>  What is a potential side effect of taking a medication that may cause a fever?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Potential Side Effect of Medication: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 44.5910009859504,
+        "bert_score_with_false_positive": 0.9460763335227966,
+        "perplexity_score_with_false_positive": 151.47596836090088,
+        "bleu_score_without_false_positive": 55.024340636884624,
+        "bert_score_without_false_positive": 0.9603617389996847,
+        "perplexity_score_without_false_positive": 184.62051010131836,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Show me information about treatments for IBD",
+        "annotation_id": "5891bf55-3196-4c0c-954e-cdc7db5cf16d",
+        "id": "identity_806",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Provide information about IBD treatments"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the purpose of the information request?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Purpose: Not mentioned </mem>  What type of information is being requested?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Information Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 16.733696269678813,
+        "bert_score_with_false_positive": 0.8982938130696615,
+        "perplexity_score_with_false_positive": 219.3951644897461,
+        "bleu_score_without_false_positive": 27.65418195663045,
+        "bert_score_without_false_positive": 0.9140695333480835,
+        "perplexity_score_without_false_positive": 493.22637939453125,
+        "false_negative": 2,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Show information regarding Carer's Credit for Disabled people.",
+        "annotation_id": "082601c7-1aa3-4d14-86da-16177dc3b4a9",
+        "id": "identity_826",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Provide information on Carer's Credit for disabled people"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Benefit Type: Carer's Credit </mem> What is the requirement for someone to be eligible for Carer's Credit?"
+            },
+            {
+                "role": "user",
+                "content": "People who care for someone for at least 20 hours a week and are not paid for their care."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Eligibility Requirement: Care for at least 20 hours a week, not paid for care. </mem>  What is the purpose of Carer's Credit?"
+            },
+            {
+                "role": "user",
+                "content": "Carer's Credit is a benefit for those who care for someone else and do not get paid for it."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Purpose: Benefit for unpaid carers. </mem>  What is the amount of Carer's Credit that a person can receive?"
+            },
+            {
+                "role": "user",
+                "content": "People who care for someone for at least 20 hours a week and are not paid for their care."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Carer's Credit Amount: Up to \u00a327.35 per week. </mem>  Is Carer's Credit only available to people who are caring for a disabled person?"
+            },
+            {
+                "role": "user",
+                "content": "It helps carers of disabled individuals by potentially enhancing their future pension, acknowledging their unpaid work."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Target Group: Disabled individuals' carers. </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 23.886056026383407,
+        "bert_score_with_false_positive": 0.9283092379570007,
+        "perplexity_score_with_false_positive": 161.47545471191407,
+        "bleu_score_without_false_positive": 23.886056026383407,
+        "bert_score_without_false_positive": 0.9283092379570007,
+        "perplexity_score_without_false_positive": 161.47545471191407,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Find eligibility for Jobseeker's Allowance (JSA).",
+        "annotation_id": "17cfd4fe-079b-4f9d-ae2a-d17660677d1d",
+        "id": "identity_828",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Determine eligibility for Jobseeker's Allowance"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the age of the individual seeking Jobseeker's Allowance?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Age of Individual: Not mentioned </mem>  What is the nationality of the individual seeking Jobseeker's Allowance?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Nationality: Not mentioned </mem>  What is the employment status of the individual seeking Jobseeker's Allowance?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Employment Status: Not mentioned </mem>  What is the duration of the individual's unemployment?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Duration of Unemployment: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 35.280618453977084,
+        "bert_score_with_false_positive": 0.9228569746017456,
+        "perplexity_score_with_false_positive": 155.92811431884766,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9448662996292114,
+        "perplexity_score_without_false_positive": 502.2947998046875,
+        "false_negative": 3,
+        "false_positive": 4,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "Open the page for finding a local court.",
+        "annotation_id": "95aaaaf6-21bd-4563-91be-e2e96c0b3d55",
+        "id": "identity_853",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Open the page for finding a local court"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What specific information is being requested from the court's webpage?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Requested Information: Not mentioned </mem>  What is the zip code associated with the location for finding a court?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Location Zip Code: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 27.563204958067757,
+        "bert_score_with_false_positive": 0.900955080986023,
+        "perplexity_score_with_false_positive": 313.45984141031903,
+        "bleu_score_without_false_positive": 46.892438882117254,
+        "bert_score_without_false_positive": 0.9349162578582764,
+        "perplexity_score_without_false_positive": 632.8843994140625,
+        "false_negative": 0,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Find an easy-to-follow evidence-based nutritious vegetarian diet to lose weight for a diabetic and heart patient, and sign-up to get the results by email buckeye.foodbar@gym.",
+        "annotation_id": "0d91fb81-2c31-4a86-98ce-88fc96f23957",
+        "id": "identity_857",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find and subscribe to a diet plan"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What type of diet plan is being searched for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Diet Plan Type: Not mentioned </mem>  What specific feature is required for the diet plan?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Diet Plan Feature: Not mentioned </mem>  What should be done with the diet plan after finding it?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Diet Plan Action: Subscribe </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.4462634326541,
+        "bert_score_with_false_positive": 0.9223694205284119,
+        "perplexity_score_with_false_positive": 348.4047260284424,
+        "bleu_score_without_false_positive": 41.2551916359669,
+        "bert_score_without_false_positive": 0.9047143459320068,
+        "perplexity_score_without_false_positive": 951.47607421875,
+        "false_negative": 3,
+        "false_positive": 3,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find the symptoms of acid reflux.",
+        "annotation_id": "161b687a-23d2-4473-843f-ab8d1247d327",
+        "id": "identity_858",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Find symptoms of a medical condition"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the main query for which symptoms need to be found?"
+            },
+            {
+                "role": "user",
+                "content": "Acid reflux"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Medical Condition: Acid reflux </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 74.81609206126268,
+        "bert_score_with_false_positive": 0.9723944365978241,
+        "perplexity_score_with_false_positive": 205.51379013061523,
+        "bleu_score_without_false_positive": 74.81609206126268,
+        "bert_score_without_false_positive": 0.9723944365978241,
+        "perplexity_score_without_false_positive": 205.51379013061523,
+        "false_negative": 0,
+        "false_positive": 0,
+        "turn_of_conversation": 2
+    },
+    {
+        "confirmed_task": "Search for a babysitter service.",
+        "annotation_id": "0f4b58c0-30a1-4495-b815-d96ba99a898c",
+        "id": "identity_865",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Search for a babysitter service"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Service Type: Babysitter service </mem> What is the zip code to search for the babysitter service?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code: Not mentioned </mem>  What date should the babysitter service be available on?"
+            },
+            {
+                "role": "user",
+                "content": "No specific requirements or preferences mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Availability Date: No specific requirements or preferences mentioned. </mem>  What additional service options should be considered when searching for a babysitter?"
+            },
+            {
+                "role": "user",
+                "content": "No specific requirements or preferences mentioned."
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Additional Service Options: No specific requirements or preferences mentioned. </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 30.600210008770397,
+        "bert_score_with_false_positive": 0.9217002987861633,
+        "perplexity_score_with_false_positive": 271.64337158203125,
+        "bleu_score_without_false_positive": 29.2787852192579,
+        "bert_score_without_false_positive": 0.9270870089530945,
+        "perplexity_score_without_false_positive": 320.8209584554036,
+        "false_negative": 0,
+        "false_positive": 1,
+        "turn_of_conversation": 4
+    },
+    {
+        "confirmed_task": "Find a job in Fulfillment Center Warehouse and signup for alerts to email abc@abc.com.",
+        "annotation_id": "a56cca7c-c3c7-4631-9f74-7c43cccbee81",
+        "id": "identity_883",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Job search and email alert setup"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the location for the job search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Location: Not Mentioned </mem>  What type of jobs should be included in the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Job Type: Not Mentioned </mem>  Which zip code should be used for the search?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Zip Code for Search: Not Mentioned </mem>  What email address should be used to set up an alert?"
+            },
+            {
+                "role": "user",
+                "content": "abc@abc.com"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Email for Alert: abc@abc.com </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 45.55147744421513,
+        "bert_score_with_false_positive": 0.9376242160797119,
+        "perplexity_score_with_false_positive": 119.45350952148438,
+        "bleu_score_without_false_positive": 52.09793386090889,
+        "bert_score_without_false_positive": 0.9430876076221466,
+        "perplexity_score_without_false_positive": 155.73092651367188,
+        "false_negative": 1,
+        "false_positive": 3,
+        "turn_of_conversation": 5
+    },
+    {
+        "confirmed_task": "View the historical data of Litecoin for the last 90 days.",
+        "annotation_id": "f6aced06-8981-4a45-b54d-6bf07fc9aa97",
+        "id": "identity_886",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "View historical cryptocurrency data"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the specific cryptocurrency for which historical data needs to be viewed?"
+            },
+            {
+                "role": "user",
+                "content": "Litecoin"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Cryptocurrency: Litecoin </mem>  What type of historical data is required?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Historical Data Type: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 39.91921103915866,
+        "bert_score_with_false_positive": 0.9510075052579244,
+        "perplexity_score_with_false_positive": 214.79949951171875,
+        "bleu_score_without_false_positive": 39.5353040457085,
+        "bert_score_without_false_positive": 0.9444843232631683,
+        "perplexity_score_without_false_positive": 284.300838470459,
+        "false_negative": 1,
+        "false_positive": 1,
+        "turn_of_conversation": 3
+    },
+    {
+        "confirmed_task": "Open AskReddit community and filter this month's top posts by Breaking News flair",
+        "annotation_id": "6bc6d924-1265-41f3-9021-581913ecc521",
+        "id": "identity_900",
+        "conversations": [
+            {
+                "role": "user",
+                "content": "Filter posts in a Reddit community"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem>  </mem> What is the name of the Reddit community to filter posts for?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Reddit Community Name: Not mentioned </mem>  What is the criteria for filtering posts in the community?"
+            },
+            {
+                "role": "user",
+                "content": "not mentioned"
+            },
+            {
+                "role": "assistant",
+                "content": "<mem> Filtering Criteria: Not mentioned </mem>  <Finish>"
+            }
+        ],
+        "bleu_score_with_false_positive": 36.41906657483011,
+        "bert_score_with_false_positive": 0.9398586948712667,
+        "perplexity_score_with_false_positive": 226.8994572957357,
+        "bleu_score_without_false_positive": 50.389204852596336,
+        "bert_score_without_false_positive": 0.9311461448669434,
+        "perplexity_score_without_false_positive": 478.73004150390625,
+        "false_negative": 3,
+        "false_positive": 2,
+        "turn_of_conversation": 3
+    }
+]

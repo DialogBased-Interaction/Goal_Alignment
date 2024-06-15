@@ -1,0 +1,8 @@
+Average BLEU score with false positive: 40.8523060198317
+Average BERT score with false positive: 0.938094309405202
+Average Perplexity score with false positive: 276.76740614264355   
+Average BLEU score without false positive: 46.58641051984754       
+Average BERT score without false positive: 0.9444434544444085      
+Average Perplexity score without false positive: 407.20301012674963
+Average false positive: 1.64
+Average false negative: 1.68

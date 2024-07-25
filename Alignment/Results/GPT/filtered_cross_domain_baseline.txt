@@ -1,0 +1,2769 @@
+identity -> identity_13
+generated -> What location would you like the hourly weather forecast for?
+best_match ->  Location for the weather forecast?
+user response -> Seattle, WA
+BLEU_SCORE 9.425159511373677
+BERT SCORE 0.8815449476242065
+
+generated -> For which date would you like the hourly weather forecast?
+best_match ->  Location for the weather forecast?
+user response -> Seattle, WA
+BLEU_SCORE 14.991106946711685
+BERT SCORE 0.879559338092804
+
+generated -> For which specific date are you seeking the hourly weather forecast in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 5.816635421147515
+BERT SCORE 0.8819928169250488
+
+generated -> Would you like the hourly weather forecast for today in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 7.141816289329644
+BERT SCORE 0.8872563242912292
+
+generated -> Would you like the hourly weather forecast for the next 24 hours in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 6.839596061560946
+BERT SCORE 0.8757393956184387
+
+generated -> For which time period are you looking to get the hourly weather forecast in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 5.10809933294318
+BERT SCORE 0.8799501061439514
+
+generated -> Would you prefer to get the hourly weather forecast for the next 24 hours or for a specific future date in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 4.504556737153659
+BERT SCORE 0.8757885694503784
+
+generated -> Is there a specific time range or event you need the weather forecast for in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 8.562365224473284
+BERT SCORE 0.8803538084030151
+
+generated -> Would you like the hourly weather forecast for the upcoming hours starting from now in Seattle, WA?
+best_match ->  Location for the weather forecast?
+user response -> Not specified
+BLEU_SCORE 6.054506513220935
+BERT SCORE 0.8753499984741211
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_34
+generated -> Which restaurant reviews would you like to see?
+best_match ->  Which restaurant's reviews would you like to see?
+user response -> Mc Donald's
+BLEU_SCORE 75.06238537503395
+BERT SCORE 0.9775257706642151
+
+generated -> Which location or branch of McDonald's are you interested in?
+best_match ->  Which restaurant's reviews would you like to see?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.892831027507782
+
+generated -> Do you have a specific city or area in mind for the McDonald's reviews?
+best_match ->  Which restaurant's reviews would you like to see?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8813352584838867
+
+generated -> Would you like to see the most recent reviews or the highest-rated reviews?
+best_match ->  Which restaurant's reviews would you like to see?
+user response -> Not specified
+BLEU_SCORE 19.67497981115564
+BERT SCORE 0.892799973487854
+
+generated -> Do you have any specific criteria or aspects you are interested in, such as service, cleanliness, or menu items?
+best_match ->  Which restaurant's reviews would you like to see?
+user response -> Not specified
+BLEU_SCORE 1.958224832501124
+BERT SCORE 0.8649337291717529
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_35
+generated -> What subreddit would you like to join?
+best_match ->  Which subreddit would you like to join?
+user response -> r/politics
+BLEU_SCORE 84.08964152537145
+BERT SCORE 0.9997084736824036
+
+generated -> What is your Reddit username?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 5.815868174415823
+BERT SCORE 0.894354522228241
+
+generated -> Would you like to create a new Reddit account or use an existing one?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 10.511846841633776
+BERT SCORE 0.8783795833587646
+
+generated -> Could you please specify which account you would like to use or if you need to create a new one?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 4.567211833282236
+BERT SCORE 0.8828131556510925
+
+generated -> Could you please provide your Reddit username or confirm that you need to create a new one?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8552701473236084
+
+generated -> Are you currently logged into Reddit with an existing account?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.87040114402771
+
+generated -> Would you like me to help you create a new Reddit account, or are you able to log into an existing one?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 3.7419436034576044
+BERT SCORE 0.8793835639953613
+
+generated -> Do you already have a Reddit account, or do you need instructions on how to create one?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 2.6643211213888947
+BERT SCORE 0.876621425151825
+
+generated -> Would you prefer to proceed with joining the subreddit using an existing account or should I guide you through the account creation process first?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 2.1300733682208985
+BERT SCORE 0.8817104697227478
+
+generated -> Can you confirm whether you need assistance with joining the subreddit using an existing Reddit account or if you need help creating a new one?
+best_match ->  Which subreddit would you like to join?
+user response -> Not specified
+BLEU_SCORE 1.9011755113058346
+BERT SCORE 0.8710331320762634
+
+identity -> identity_46
+generated -> Which location would you like the monthly weather forecast for?
+best_match ->  Which city's weather forecast do you need?
+user response -> Florida city
+BLEU_SCORE 9.425159511373677
+BERT SCORE 0.9178283214569092
+
+generated -> Which specific city in Florida do you need the weather forecast for?
+best_match ->  Which city's weather forecast do you need?
+user response -> Florida city
+BLEU_SCORE 15.727800941615351
+BERT SCORE 0.9288493990898132
+
+generated -> Could you specify the name of the city in Florida you are referring to?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8529093861579895
+
+generated -> For which month do you need the weather forecast?
+best_match ->  Which city's weather forecast do you need?
+user response -> Florida city
+BLEU_SCORE 20.556680845025987
+BERT SCORE 0.9381188750267029
+
+generated -> To provide an accurate weather forecast, I need the name of the specific city in Florida. Can you please provide that information?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 3.787865612579481
+BERT SCORE 0.8706290125846863
+
+generated -> Without specifying a city, can you at least give me the region or area you are interested in within Florida?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.8457285165786743
+
+generated -> To retrieve the weather forecast, it's essential to have a specific location. Can you please specify a city or a more precise area in Florida?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 3.176023542809473
+BERT SCORE 0.8621999621391296
+
+generated -> Unfortunately, I cannot retrieve an accurate weather forecast without a specific location. Could you please provide the name of a specific city in Florida?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 3.300809119141885
+BERT SCORE 0.8641448616981506
+
+generated -> Without a specific city, I won't be able to provide a detailed weather forecast. Could you please provide any additional information or parameters to refine the search?
+best_match ->  Which city's weather forecast do you need?
+user response -> Florida city
+BLEU_SCORE 2.952787808378777
+BERT SCORE 0.8616715669631958
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Florida city
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_67
+generated -> What is the name of the location you want to add?
+best_match ->  What location should be added?
+user response -> Miami, FL
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.9255135655403137
+
+generated -> What type of location is Miami, FL (e.g., city, office, landmark)?
+best_match ->  What location should be added?
+user response -> Not specified
+BLEU_SCORE 2.3901021968803136
+BERT SCORE 0.8573154211044312
+
+generated -> What is the address or specific details related to the location Miami, FL?
+best_match ->  What location should be added?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.866333544254303
+
+generated -> Is there any additional information or specific description you would like to include about Miami, FL?
+best_match ->  What location should be added?
+user response -> Not specified
+BLEU_SCORE 2.1476912089159055
+BERT SCORE 0.859872043132782
+
+generated -> Which category should Miami, FL be added to (e.g., travel, business, personal)?
+best_match ->  What location should be added?
+user response -> Not specified
+BLEU_SCORE 4.108053662461269
+BERT SCORE 0.8886567950248718
+
+generated -> Do you want to assign any tags or labels to Miami, FL?
+best_match ->  What location should be added?
+user response -> Not specified
+BLEU_SCORE 2.8398387225677895
+BERT SCORE 0.8779078125953674
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_77
+generated -> Who is the specific person you want to search for?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 5.300156689756295
+BERT SCORE 0.8699502348899841
+
+generated -> Can you please provide the name of the person you want to search for in the top comments?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 9.917720727091444
+BERT SCORE 0.8723634481430054
+
+generated -> On which platform or website would you like to search for these comments?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 6.754312828675707
+BERT SCORE 0.8716397881507874
+
+generated -> Could you tell me the topic or context in which this person is mentioned in the comments?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 14.216645907653843
+BERT SCORE 0.871527373790741
+
+generated -> Could you specify the time frame for when these comments were made?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 4.6192151051305474
+BERT SCORE 0.8569084405899048
+
+generated -> Are there any particular keywords or phrases that should be included in the comments along with the person's name?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 7.658412276041004
+BERT SCORE 0.8739607334136963
+
+generated -> Is there any additional information or criteria that should be included in the search for these comments?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 6.423094863383858
+BERT SCORE 0.8578572869300842
+
+generated -> Could you please confirm if there are any specific languages you want to include or exclude in this search?
+best_match ->  Whose mentions are you looking for in the comments?
+user response -> Not specified
+BLEU_SCORE 2.7076576267554477
+BERT SCORE 0.8460135459899902
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_125
+generated -> What is the location you are interested in?
+best_match ->  Which location's sun hours are you looking for?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.8986586928367615
+
+generated -> Please provide the name of the location for which you want to find the sun hours.
+best_match ->  Which location's sun hours are you looking for?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 5.439330544349821
+BERT SCORE 0.8740789890289307
+
+generated -> What week are you looking to find the sun hours for (please provide specific dates)?
+best_match ->  Which location's sun hours are you looking for?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 10.934883431625593
+BERT SCORE 0.9100968241691589
+
+generated -> Please provide the specific dates for the week you want to find the sun hours for in Vancouver, British Columbia.
+best_match ->  Which location's sun hours are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.108053662461269
+BERT SCORE 0.8724668622016907
+
+generated -> Could you provide the start and end dates for the week you are interested in?
+best_match ->   For how many days do you need the sun hours information?
+user response -> Not specified
+BLEU_SCORE 3.21858262703621
+BERT SCORE 0.8551368117332458
+
+generated -> Would you like to find the sun hours for the upcoming week instead?
+best_match ->  Which location's sun hours are you looking for?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 7.141816289329644
+BERT SCORE 0.8750253319740295
+
+generated -> Would you like to find the sun hours for the current week, the next week, or a specific future week?
+best_match ->  Which location's sun hours are you looking for?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 4.141141330484801
+BERT SCORE 0.8640410304069519
+
+generated -> Would you like to find the sun hours for this current week?
+best_match ->  Which location's sun hours are you looking for?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 7.768562846380176
+BERT SCORE 0.8740297555923462
+
+generated -> Would you like to find the sun hours for Vancouver, British Columbia, for the week starting today?
+best_match ->  Which location's sun hours are you looking for?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 4.814971807094068
+BERT SCORE 0.861652135848999
+
+generated -> What is the desired start date for the week you are interested in?
+best_match ->   For how many days do you need the sun hours information?
+user response -> Vancouver, British Columbia
+BLEU_SCORE 3.737437943747671
+BERT SCORE 0.8749536275863647
+
+identity -> identity_129
+generated -> Which highway are you interested in?
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Vancouver Area
+BLEU_SCORE 6.050259138270144
+BERT SCORE 0.9203237295150757
+
+generated -> What specific details about the highway conditions are you looking for? (e.g., traffic, construction, weather, etc.)
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Vancouver Area
+BLEU_SCORE 3.300809119141885
+BERT SCORE 0.8951042294502258
+
+generated -> Would you like real-time updates or a general overview?
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.869757354259491
+
+generated -> Do you have a specific time frame in mind for these highway conditions?
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Vancouver Area
+BLEU_SCORE 6.754312828675707
+BERT SCORE 0.8995605707168579
+
+generated -> Would you like information for all highways in the Vancouver area or a specific one?
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.8863271474838257
+
+generated -> Is there any particular source or website you prefer for obtaining this highway information?
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8655707240104675
+
+generated -> Are you interested in any additional information, such as alternate routes or travel advisories?
+best_match ->  Which area's highway conditions do you want to check?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.8737360835075378
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_153
+generated -> What is your current location or zip code?
+best_match ->   In which state is this city located?
+user response -> Not specified
+BLEU_SCORE 5.669791110976001
+BERT SCORE 0.8403202295303345
+
+generated -> Can you provide your current location or zip code?
+best_match ->   In which state is this city located?
+user response -> Not specified
+BLEU_SCORE 4.196114906296549
+BERT SCORE 0.789970874786377
+
+generated -> What is the city and state you are in?
+best_match ->   In which state is this city located?
+user response -> Florida
+BLEU_SCORE 5.934202609760488
+BERT SCORE 0.8871209621429443
+
+generated -> Can you specify the city or area within Florida?
+best_match ->   In which state is this city located?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.8528053164482117
+
+generated -> What is the nearest landmark or intersection to your location?
+best_match ->  Which city should I look for the drop-off point in?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8775113224983215
+
+generated -> Do you have access to the internet to look up your current address or nearby locations?
+best_match ->   In which state is this city located?
+user response -> Not specified
+BLEU_SCORE 2.2869567780619007
+BERT SCORE 0.8440131545066833
+
+generated -> Can you provide any additional details about your location to help narrow down the search?
+best_match ->   In which state is this city located?
+user response -> Not specified
+BLEU_SCORE 2.445593937240363
+BERT SCORE 0.8365648984909058
+
+generated -> Are you able to share your current coordinates (latitude and longitude)?
+best_match ->   In which state is this city located?
+user response -> Not specified
+BLEU_SCORE 2.8398387225677895
+BERT SCORE 0.8243327736854553
+
+generated -> Can you mention any nearby major cities or towns in Florida where you would like to locate a UPS drop-off point?
+best_match ->  Which city should I look for the drop-off point in?
+user response -> Not specified
+BLEU_SCORE 4.108053662461269
+BERT SCORE 0.8837476968765259
+
+generated -> Do you have a specific street address or specific locality you can provide to help locate the nearest UPS drop-off point?
+best_match ->  Which city should I look for the drop-off point in?
+user response -> Not specified
+BLEU_SCORE 4.108053662461269
+BERT SCORE 0.8831372857093811
+
+identity -> identity_158
+generated -> What is the shipment tracking number?
+best_match ->  What is the shipment number?
+user response -> 3023858502
+BLEU_SCORE 48.892302243490086
+BERT SCORE 0.9707282781600952
+
+generated -> Which shipping carrier is handling this shipment (e.g., UPS, FedEx, USPS)?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 2.5197593442434796
+BERT SCORE 0.8694286942481995
+
+generated -> Do you have a shipping confirmation email or any other information that might indicate the carrier?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8708711266517639
+
+generated -> When was the shipment sent?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 17.965205598154213
+BERT SCORE 0.9392250776290894
+
+generated -> What is the destination address of the shipment?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 22.31618068926665
+BERT SCORE 0.9469574689865112
+
+generated -> Can you provide the sender's information or the name of the company sending the shipment?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 5.412989186545263
+BERT SCORE 0.8881781101226807
+
+generated -> Could you provide any other details or context that might help locate the shipment, such as the contents or the order number?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 4.449945957170704
+BERT SCORE 0.8712782859802246
+
+generated -> Without specific details, I won't be able to proceed. Could you try to provide at least some information about the shipment? For example, any related reference numbers or the approximate date it was sent?
+best_match ->  What is the shipment number?
+user response -> Not specified
+BLEU_SCORE 2.0877077807874116
+BERT SCORE 0.8607578873634338
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_159
+generated -> What is the destination address for the package?
+best_match ->   What is the destination of the package?
+user response -> New York
+BLEU_SCORE 43.167001068522545
+BERT SCORE 0.9642250537872314
+
+generated -> What is the origin address for the package?
+best_match ->   Where is the package being shipped from?
+user response -> Texas
+BLEU_SCORE 13.485111859503691
+BERT SCORE 0.8932269811630249
+
+generated -> What are the dimensions of the package (length, width, height)?
+best_match ->  What is the weight of the package?
+user response -> Not specified
+BLEU_SCORE 11.633270842295033
+BERT SCORE 0.9224794507026672
+
+generated -> What is the weight of the package?
+best_match ->  What is the weight of the package?
+user response -> 4 pounds
+BLEU_SCORE 100.00000000000004
+BERT SCORE 1.0
+
+generated -> What shipping method would you prefer (e.g., standard, expedited, overnight)?
+best_match ->   Where is the package being shipped from?
+user response -> Not specified
+BLEU_SCORE 2.0244462660665508
+BERT SCORE 0.8598111867904663
+
+generated -> Would you like to add any additional services like insurance or tracking?
+best_match ->   Where is the package being shipped from?
+user response -> Not specified
+BLEU_SCORE 3.0890553181566975
+BERT SCORE 0.8521822690963745
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_161
+generated -> Which location are you interested in?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 11.737849637633069
+BERT SCORE 0.9182676076889038
+
+generated -> What is your budget range for purchasing a home?
+best_match ->   What's the maximum price for the homes?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.9179582595825195
+
+generated -> What type of home are you looking for (e.g., single-family, condo, townhouse)?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 2.7156804039319287
+BERT SCORE 0.8840709328651428
+
+generated -> Do you have a preference for the number of bedrooms and bathrooms?
+best_match ->   Minimum number of bedrooms required?
+user response -> Not specified
+BLEU_SCORE 12.35622127262679
+BERT SCORE 0.9003231525421143
+
+generated -> Are there any specific features or amenities that you are looking for in a home?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 3.6570159134143823
+BERT SCORE 0.8732188940048218
+
+generated -> Would you like to browse homes in a specific city or neighborhood?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 4.065425428798724
+BERT SCORE 0.8768123984336853
+
+generated -> Are you looking for new construction homes, resale homes, or both?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 4.016138436407654
+BERT SCORE 0.8793798685073853
+
+generated -> Do you have any particular school districts in mind for the home search?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 3.737437943747671
+BERT SCORE 0.8770695328712463
+
+generated -> Are there any commute considerations or proximity to specific places (like work or family) that are important to you?
+best_match ->  What location are we looking in for homes?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.835950493812561
+
+generated -> What is your timeline for purchasing a home?
+best_match ->   What's the maximum price for the homes?
+user response -> Not specified
+BLEU_SCORE 5.669791110976001
+BERT SCORE 0.9159826636314392
+
+identity -> identity_174
+generated -> What is the destination country or location for the shipping?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8917928338050842
+
+generated -> What is the weight of the package?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 12.22307556087252
+BERT SCORE 0.9223949313163757
+
+generated -> What are the dimensions of the package?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 12.22307556087252
+BERT SCORE 0.9090782999992371
+
+generated -> What type of service—standard, expedited, or overnight—do you prefer?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 3.3864985683445354
+BERT SCORE 0.8571166396141052
+
+generated -> Could you please provide the origin and destination address details?
+best_match ->  What is the origin zip code?
+user response -> Not specified
+BLEU_SCORE 8.29519350710986
+BERT SCORE 0.8615492582321167
+
+generated -> What is the value of the package?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 12.22307556087252
+BERT SCORE 0.9062502384185791
+
+generated -> What type of items are you shipping?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 5.522397783539471
+BERT SCORE 0.9105363488197327
+
+generated -> Can you provide the package weight?
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 14.535768424205482
+BERT SCORE 0.88953697681427
+
+generated -> Do you have any preference for the shipping carrier? (e.g., USPS, FedEx, UPS)
+best_match ->   When will the package be shipped?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.8616870045661926
+
+generated -> Could you please provide at least the origin city and country?
+best_match ->  What is the origin zip code?
+user response -> Not specified
+BLEU_SCORE 7.495553473355845
+BERT SCORE 0.8664636015892029
+
+identity -> identity_205
+generated -> What specific information are you looking to gather about Hypersomnia?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> General information about Hypersomnia
+BLEU_SCORE 25.06920238931036
+BERT SCORE 0.9601539969444275
+
+generated -> Are you interested in the causes, symptoms, or treatment options for Hypersomnia?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> General information about Hypersomnia
+BLEU_SCORE 3.9297193407553004
+BERT SCORE 0.8885403275489807
+
+generated -> Who will be using this information, and for what purpose? For example, is it for academic research, personal understanding, or something else?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> Not specified
+BLEU_SCORE 1.8884748972625875
+BERT SCORE 0.8352167010307312
+
+generated -> Would you prefer a brief overview or a detailed explanation of Hypersomnia?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> General information about Hypersomnia
+BLEU_SCORE 4.368583925857938
+BERT SCORE 0.8880227208137512
+
+generated -> Would you also like information on how Hypersomnia is diagnosed?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> General information about Hypersomnia
+BLEU_SCORE 4.839576869824698
+BERT SCORE 0.8928046226501465
+
+generated -> Would you like to know about any specific types of Hypersomnia, such as primary or secondary Hypersomnia?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> General information about Hypersomnia
+BLEU_SCORE 3.168429634207702
+BERT SCORE 0.8904502391815186
+
+generated -> Would you be needing information about lifestyle changes or coping strategies for managing Hypersomnia?
+best_match ->  What specific information or aspects about Hypersomnia are you looking for?
+user response -> General information about Hypersomnia
+BLEU_SCORE 4.274580923189599
+BERT SCORE 0.8928905725479126
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> General information about Hypersomnia
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_239
+generated -> Which drugs would you like to check interactions for?
+best_match ->  Which drugs are you interested in for interaction information?
+user response -> Ibuprofen and aspirin
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.9256076216697693
+
+generated -> Do you have any specific concerns or symptoms related to taking these drugs together?
+best_match ->  Which drugs are you interested in for interaction information?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.864238440990448
+
+generated -> Are there any other medications, supplements, or medical conditions you want to consider when checking for interactions?
+best_match ->  Which drugs are you interested in for interaction information?
+user response -> Not specified
+BLEU_SCORE 2.5197593442434796
+BERT SCORE 0.875364363193512
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_257
+generated -> Which university are you interested in?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 6.495032985064742
+BERT SCORE 0.9207048416137695
+
+generated -> What program or course are you looking to apply for?
+best_match ->  What program are you interested in?
+user response -> Bsc Computer Science
+BLEU_SCORE 11.208466750961147
+BERT SCORE 0.9363683462142944
+
+generated -> Which country or region are you looking to study in?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 5.300156689756295
+BERT SCORE 0.8965350985527039
+
+generated -> Do you have a specific GPA or grades that you have achieved or are aiming for?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8666002750396729
+
+generated -> Are you looking for undergraduate admission requirements or do you need details for another type of program?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 5.10809933294318
+BERT SCORE 0.8822978138923645
+
+generated -> Are there any other specific requirements or criteria you are interested in, such as language proficiency, standardized tests, or application deadlines?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 1.9822566267103439
+BERT SCORE 0.8734419345855713
+
+generated -> Could you specify if you are an international or domestic student?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 4.02724819242185
+BERT SCORE 0.8644921779632568
+
+generated -> When are you planning to start your studies? (e.g., Fall 2024, Spring 2025)
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 2.3901021968803136
+BERT SCORE 0.8651002049446106
+
+generated -> Would you prefer universities with certain characteristics, such as campus size, urban or rural setting, or specific facilities?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.857272744178772
+
+generated -> Are you seeking information on financial aid or scholarship opportunities as part of the admission requirements?
+best_match ->   Which university's requirements do you want to check?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.8758897185325623
+
+identity -> identity_274
+generated -> Which area are you interested in?
+best_match ->  What is the zip code for the property search?
+user response -> Not specified
+BLEU_SCORE 4.278179264606695
+BERT SCORE 0.8775342702865601
+
+generated -> In which city or region are you looking for properties?
+best_match ->  What is the zip code for the property search?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8675493001937866
+
+generated -> Can you please specify the city, town, or neighborhood you are interested in?
+best_match ->  What is the zip code for the property search?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.865537166595459
+
+generated -> What type of properties are you looking for (e.g., apartments, houses, commercial properties)?
+best_match ->   What is the maximum price limit for the properties?
+user response -> Not specified
+BLEU_SCORE 2.4426633221059637
+BERT SCORE 0.8707972168922424
+
+generated -> What is your budget range for these properties?
+best_match ->   What is the maximum price limit for the properties?
+user response -> Not specified
+BLEU_SCORE 12.759307794697138
+BERT SCORE 0.9301660656929016
+
+generated -> Are there any specific features or amenities you are looking for in these properties?
+best_match ->   What is the maximum price limit for the properties?
+user response -> Not specified
+BLEU_SCORE 5.816635421147513
+BERT SCORE 0.8743191957473755
+
+generated -> Would you like to search for properties that are for rent, for sale, or both?
+best_match ->  What is the zip code for the property search?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8712164759635925
+
+generated -> Would you prefer to narrow down your search by specifying any criteria, such as number of bedrooms, square footage, or other important factors?
+best_match ->  What is the zip code for the property search?
+user response -> Not specified
+BLEU_SCORE 1.6504045595709425
+BERT SCORE 0.8567790389060974
+
+generated -> Could you provide any more details or preferences to help tailor the search to your needs?
+best_match ->  What is the zip code for the property search?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.8625136613845825
+
+generated -> It's challenging to find the right properties without any criteria. Would you like me to display a variety of properties across different areas sorted by price?
+best_match ->   How should the properties be sorted?
+user response -> Not specified
+BLEU_SCORE 1.8884748972625875
+BERT SCORE 0.8672897815704346
+
+identity -> identity_336
+generated -> What type of job are you looking for?
+best_match ->  What job are you looking for?
+user response -> Truck driver
+BLEU_SCORE 61.04735835807847
+BERT SCORE 0.972526490688324
+
+generated -> Where would you like to work?
+best_match ->   In which city are you looking for a job?
+user response -> Not specified
+BLEU_SCORE 5.08764122072739
+BERT SCORE 0.883662760257721
+
+generated -> Do you have any specific requirements or preferences for the job, such as salary, work hours, or company size?
+best_match ->   Do you have any specific companies in mind where you want to apply?
+user response -> Not specified
+BLEU_SCORE 16.133948681475342
+BERT SCORE 0.9033788442611694
+
+generated -> Do you have a resume ready to use for the application?
+best_match ->   Do you have any specific companies in mind where you want to apply?
+user response -> Not specified
+BLEU_SCORE 12.12428055266944
+BERT SCORE 0.9126890301704407
+
+generated -> What is your level of experience with truck driving?
+best_match ->  What job are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.875568687915802
+
+generated -> Do you have a valid commercial driver's license (CDL)?
+best_match ->   In which state are you looking for a job?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8477498888969421
+
+generated -> Are you open to long-haul or long-distance truck driving?
+best_match ->   In which state are you looking for a job?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.8641383051872253
+
+generated -> Can you provide your contact information, such as your email address or phone number, to include in the job application?
+best_match ->   In which state are you looking for a job?
+user response -> Not specified
+BLEU_SCORE 2.1671320168371846
+BERT SCORE 0.8443599343299866
+
+generated -> Would you like assistance in creating or updating your resume for the job application?
+best_match ->   Do you have any specific companies in mind where you want to apply?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8802550435066223
+
+generated -> Are there any specific companies or job boards where you would like to apply?
+best_match ->   Do you have any specific companies in mind where you want to apply?
+user response -> Not specified
+BLEU_SCORE 18.69300079996002
+BERT SCORE 0.9422518014907837
+
+identity -> identity_375
+generated -> What is the medical specialty or condition you need the doctor for?
+best_match ->  What type of doctor are you looking for?
+user response -> A doctor for Stomach Pain
+BLEU_SCORE 7.768562846380176
+BERT SCORE 0.8916813731193542
+
+generated -> What city or area are you located in?
+best_match ->   In which city should the doctor be located?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.8881109356880188
+
+generated -> Do you have a preference for seeing a male or female doctor?
+best_match ->  What type of doctor are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.368583925857938
+BERT SCORE 0.8851136565208435
+
+generated -> Do you need the doctor to be part of a specific insurance network?
+best_match ->   In which city should the doctor be located?
+user response -> Not specified
+BLEU_SCORE 6.754312828675707
+BERT SCORE 0.8766623735427856
+
+generated -> Are you looking for an in-person appointment or a virtual consultation?
+best_match ->  What type of doctor are you looking for?
+user response -> Not specified
+BLEU_SCORE 13.545994273378144
+BERT SCORE 0.8881716132164001
+
+generated -> Do you have a preference for the language the doctor speaks?
+best_match ->  What type of doctor are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.789232204309912
+BERT SCORE 0.89158695936203
+
+generated -> What is the urgency of your situation?
+best_match ->  What type of doctor are you looking for?
+user response -> Not specified
+BLEU_SCORE 6.413885305524152
+BERT SCORE 0.8922382593154907
+
+generated -> Would you prefer a doctor with a lot of experience, or are you open to seeing a less experienced but potentially more available doctor?
+best_match ->  What type of doctor are you looking for?
+user response -> Not specified
+BLEU_SCORE 3.632928877985223
+BERT SCORE 0.8775535821914673
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_402
+generated -> For which location would you like the hourly weather forecast?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 8.29519350710986
+BERT SCORE 0.8611121773719788
+
+generated -> Could you please provide the location for the hourly weather forecast?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 10.127993013562818
+BERT SCORE 0.8612921237945557
+
+generated -> Could you specify the location you need the hourly weather forecast for?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 4.6192151051305474
+BERT SCORE 0.8746358156204224
+
+generated -> Without a specified location, I won't be able to find the hourly weather forecast. Could you please tell me the location you're interested in?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 1.962672844874697
+BERT SCORE 0.8511192202568054
+
+generated -> Which city or region are you interested in for the hourly weather forecast?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 8.032276872815304
+BERT SCORE 0.8749673962593079
+
+generated -> I'm unable to proceed without a location. Could you please provide a specific city or region?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 2.1476912089159055
+BERT SCORE 0.8481758832931519
+
+generated -> Without a location, I cannot provide the forecast. Could you please tell me the city or area you're inquiring about?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 3.9164496650022476
+BERT SCORE 0.8543040752410889
+
+generated -> Please let me know the specific location for which you need the hourly weather forecast.
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027365
+BERT SCORE 0.8454470634460449
+
+generated -> I need a specific location to look up the hourly weather forecast. Could you provide the name of a city or region?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 2.224972978585352
+BERT SCORE 0.8661475777626038
+
+generated -> Without a location, it's not possible to provide an accurate forecast. Could you please specify a city or region?
+best_match ->  What is the zip code for the forecast?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.8466135859489441
+
+identity -> identity_404
+generated -> What is the loan amount?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 9.042266054940777
+BERT SCORE 0.9132840633392334
+
+generated -> What is the loan amount you are considering?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.8934206962585449
+
+generated -> What is the interest rate?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 9.042266054940777
+BERT SCORE 0.9008542895317078
+
+generated -> What is the loan term in years?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 7.267884212102741
+BERT SCORE 0.8952268362045288
+
+generated -> What is the loan amount you are considering borrowing?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 5.522397783539471
+BERT SCORE 0.8906919360160828
+
+generated -> To calculate the mortgage monthly payment, we need the loan amount, interest rate, and loan term. Could you provide these details?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 1.7179060012299232
+BERT SCORE 0.8490846753120422
+
+generated -> Are you able to provide an estimated loan amount, interest rate, and loan term?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 2.2869567780619007
+BERT SCORE 0.8571826815605164
+
+generated -> Without specific figures, it is difficult to proceed. Could you specify at least one of the following: loan amount, interest rate, or loan term?
+best_match ->   Total purchase price of the home?
+user response -> Not specified
+BLEU_SCORE 2.747878682374729
+BERT SCORE 0.8536525964736938
+
+generated -> Are you looking to estimate a mortgage payment based on any specific property price or budget?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8532803654670715
+
+generated -> Do you have any information on the interest rate you might qualify for?
+best_match ->  What type of mortgage is it?
+user response -> Not specified
+BLEU_SCORE 2.8398387225677895
+BERT SCORE 0.8664997816085815
+
+identity -> identity_433
+generated -> Which country are you referring to for information on voting for citizens living abroad?
+best_match ->  Which country's voting information is needed?
+user response -> (This information is not provided in the task, so cannot be assumed or answered.)
+BLEU_SCORE 3.716499092256817
+BERT SCORE 0.8865661025047302
+
+generated -> Are you looking for information on how to register to vote, how to cast your ballot, or both?
+best_match ->  Which country's voting information is needed?
+user response -> Not specified
+BLEU_SCORE 2.159701133933343
+BERT SCORE 0.8605962991714478
+
+generated -> Which country is your citizenship from?
+best_match ->  Which country's voting information is needed?
+user response -> Not specified
+BLEU_SCORE 8.643019616048525
+BERT SCORE 0.875809371471405
+
+generated -> What type of election are you interested in (e.g., national, local, or both)?
+best_match ->  Which country's voting information is needed?
+user response -> Not specified
+BLEU_SCORE 1.727223799216787
+BERT SCORE 0.8527253270149231
+
+generated -> Are you looking for general guidelines or specific steps for voting as a citizen living abroad?
+best_match ->  Which country's voting information is needed?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8649699687957764
+
+generated -> Are you currently living abroad, or are you planning to move overseas soon?
+best_match ->  Which country's voting information is needed?
+user response -> Not specified
+BLEU_SCORE 2.627961710408444
+BERT SCORE 0.8472127914428711
+
+generated -> Could you provide more details on what specific information you need about voting for citizens living abroad?
+best_match ->  Which country's voting information is needed?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.87298983335495
+
+generated -> Which country's voting procedures are you interested in learning about for citizens living abroad?
+best_match ->  Which country's voting information is needed?
+user response -> (This information is not provided in the task, so cannot be assumed or answered.)
+BLEU_SCORE 10.511846841633776
+BERT SCORE 0.8966577649116516
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> (This information is not provided in the task, so cannot be assumed or answered.)
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_434
+generated -> What is your annual income?
+best_match ->   What is the weekly income amount?
+user response -> �1,000
+BLEU_SCORE 16.341219448835542
+BERT SCORE 0.9528524279594421
+
+generated -> What is your filing status (e.g., single, married filing jointly, etc.)?
+best_match ->  Is the individual over the state pension age?
+user response -> Not specified
+BLEU_SCORE 1.8160849415439309
+BERT SCORE 0.8524727821350098
+
+generated -> In which country do you need to estimate the income tax?
+best_match ->   Does the individual pay Scottish Income Tax rates?
+user response -> Not specified
+BLEU_SCORE 4.02724819242185
+BERT SCORE 0.8831289410591125
+
+generated -> Could you please specify the country for which you need the income tax estimation?
+best_match ->   Does the individual pay Scottish Income Tax rates?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8750317692756653
+
+generated -> Could you provide more details about any potential deductions or credits you might be eligible for?
+best_match ->   What is the weekly income amount?
+user response -> Not specified
+BLEU_SCORE 2.2869567780619007
+BERT SCORE 0.8556331396102905
+
+generated -> To proceed with the tax estimation, do you have any other specific details or factors that might affect your tax calculation?
+best_match ->   Does the individual pay Scottish Income Tax rates?
+user response -> Not specified
+BLEU_SCORE 1.958224832501124
+BERT SCORE 0.8605967164039612
+
+generated -> Without additional information, it is challenging to provide an accurate tax estimate. If you have any more details, please provide them. If not, I can give a very general estimation. What would you prefer?
+best_match ->   Does the individual pay Scottish Income Tax rates?
+user response -> Not specified
+BLEU_SCORE 0.8954307276600084
+BERT SCORE 0.8463405966758728
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_440
+generated -> Which stock are you interested in?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 8.208611846457007
+BERT SCORE 0.8982465863227844
+
+generated -> Can you please provide the name or ticker symbol of the stock you want to look up?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 5.401157445454033
+BERT SCORE 0.8554354906082153
+
+generated -> Are you interested in a particular industry or sector to narrow down the list of stocks?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8587554693222046
+
+generated -> Could you specify the time period for which you want to see the visitors trend?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 10.343603005129705
+BERT SCORE 0.8658092021942139
+
+generated -> Is there a specific source or platform where you would like to look up the visitors trend for the stock?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Apple stock
+BLEU_SCORE 24.04315522172745
+BERT SCORE 0.9011068940162659
+
+generated -> What time period are you interested in for the visitors trend of Apple stock?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 11.633270842295033
+BERT SCORE 0.8959473967552185
+
+generated -> Are you looking for recent trends, historical data, or a specific date range for the visitors trend of Apple stock?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 7.289334177359764
+BERT SCORE 0.8705200552940369
+
+generated -> Would you prefer to see daily, weekly, or monthly visitors trends for Apple stock?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 3.2342452920962157
+BERT SCORE 0.8643919229507446
+
+generated -> Is there a particular platform or service you typically use for stock analysis, such as Google Trends, Yahoo Finance, or another source?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 1.9011755113058346
+BERT SCORE 0.8384439945220947
+
+generated -> Are you interested in a general overview of the visitors trend, or do you have a specific type of analysis in mind, such as visits to the Apple stock page, news articles, or retail investor interest?
+best_match ->  Which stock should I look up the visitors trend for?
+user response -> Not specified
+BLEU_SCORE 3.787210879317467
+BERT SCORE 0.8606071472167969
+
+identity -> identity_477
+generated -> What platform or application are you using to create the new message?
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7852048277854919
+
+generated -> Could you specify which platform or application you want to use to create a new message?
+best_match ->  What action needs to be performed?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8598030805587769
+
+generated -> Is this message for email, social media, or another type of communication?
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.780064582824707
+
+generated -> Could you please provide more details or context about the type of message you want to create?
+best_match ->  What action needs to be performed?
+user response -> Not specified
+BLEU_SCORE 2.5540496664715904
+BERT SCORE 0.8525087833404541
+
+generated -> Is there a particular reason or purpose for the message you want to create?
+best_match ->  What action needs to be performed?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8715576529502869
+
+generated -> What is the content or main topic of the message you want to create?
+best_match ->  What action needs to be performed?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8617769479751587
+
+generated -> Who is the intended recipient or audience for this message?
+best_match ->  What action needs to be performed?
+user response -> Not specified
+BLEU_SCORE 3.7477767366779213
+BERT SCORE 0.8640297055244446
+
+generated -> Do you have any specific details or elements that must be included in the message?
+best_match ->  What action needs to be performed?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.8730974197387695
+
+generated -> Is there a preferred format or structure you would like the message to follow?
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7778757214546204
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_478
+generated -> Which search engine or platform do you want to clear the recent search topics from?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.8570453524589539
+
+generated -> Could you please specify the search engine or platform from which you'd like to clear the recent search topics?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 2.276859592073037
+BERT SCORE 0.8453808426856995
+
+generated -> Are you trying to clear recent search topics from your web browser or a specific application?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.861078679561615
+
+generated -> Can you please provide the name of the web browser or application you are using?
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7675819396972656
+
+generated -> Is this for a Windows, macOS, Android, or iOS device?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8315666913986206
+
+generated -> Are you trying to clear recent search topics across all devices and platforms, or just one specific device?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 2.7076576267554477
+BERT SCORE 0.8893178105354309
+
+generated -> Can you please provide more details or context about what you are looking to achieve?
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7733765840530396
+
+generated -> Could you specify if there are any particular reasons or concerns motivating this request?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.838592529296875
+
+generated -> Is there a specific timeframe for the search topics you want to clear, such as the last hour, day, or week?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 1.9822566267103439
+BERT SCORE 0.8556491136550903
+
+generated -> Are you looking for instructions to clear recent search topics, or would you like assistance in performing the task directly?
+best_match ->   Should all types of searches be cleared or specific ones?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.8593319058418274
+
+identity -> identity_492
+generated -> What is the address or location where you need the FedEx drop-off time?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8869017958641052
+
+generated -> What city or zip code are you looking to find the FedEx drop-off time in?
+best_match ->   What is the postal code of the location?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027365
+BERT SCORE 0.8796725869178772
+
+generated -> Do you have a specific FedEx location or store in mind?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.891697108745575
+
+generated -> Could you please provide any nearby landmarks or cross streets to help narrow down the location?
+best_match ->   What is the postal code of the location?
+user response -> Not specified
+BLEU_SCORE 8.513012360883549
+BERT SCORE 0.8689785599708557
+
+generated -> Can you specify any particular type of FedEx location, such as FedEx Office, FedEx Ship Center, or a drop box near you?
+best_match ->   What is the postal code of the location?
+user response -> Not specified
+BLEU_SCORE 1.9011755113058346
+BERT SCORE 0.8637161254882812
+
+generated -> Could you please provide your current location or an area you are interested in for finding the FedEx drop-off time?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 2.3901021968803136
+BERT SCORE 0.8716230988502502
+
+generated -> Would you prefer to look up the FedEx drop-off time using your city, neighborhood, or perhaps a place of work?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 2.1671320168371846
+BERT SCORE 0.8665717244148254
+
+generated -> Could you share any specific time frame in which you need to drop off your package?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 9.672649511413097
+BERT SCORE 0.8970046639442444
+
+generated -> Are you looking for drop-off times on a particular day of the week?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 6.285596338261262
+BERT SCORE 0.8994659781455994
+
+generated -> Are there any other specific requirements or preferences you have for the FedEx drop-off location?
+best_match ->  Which store are you looking to drop off at?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.8790894150733948
+
+identity -> identity_497
+generated -> What type of job are you looking for?
+best_match ->  Which department are the job openings for?
+user response -> Not specified
+BLEU_SCORE 11.339582221952005
+BERT SCORE 0.9084368348121643
+
+generated -> What location are you interested in for the job?
+best_match ->  Which department are the job openings for?
+user response -> Not specified
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.915299654006958
+
+generated -> Are there any specific companies or industries you're interested in?
+best_match ->  Which department are the job openings for?
+user response -> Not specified
+BLEU_SCORE 3.7477767366779213
+BERT SCORE 0.8592871427536011
+
+generated -> What level of experience do you have?
+best_match ->   Are the job openings virtual or in-person?
+user response -> Not specified
+BLEU_SCORE 5.522397783539471
+BERT SCORE 0.8598561882972717
+
+generated -> Are there any specific keywords or roles you would like to focus on in the job search?
+best_match ->  Which department are the job openings for?
+user response -> Not specified
+BLEU_SCORE 4.753622060013117
+BERT SCORE 0.865792989730835
+
+generated -> Do you have a preferred job type, such as full-time, part-time, remote, or freelance?
+best_match ->   Are the job openings virtual or in-person?
+user response -> Not specified
+BLEU_SCORE 2.6643211213888947
+BERT SCORE 0.8772252798080444
+
+generated -> Would you like me to include any specific qualifications or skills in the search?
+best_match ->  Which department are the job openings for?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8542559146881104
+
+generated -> Are there any specific benefits or perks you're looking for in a job?
+best_match ->   Where should the jobs be based?
+user response -> Not specified
+BLEU_SCORE 2.8398387225677895
+BERT SCORE 0.86016845703125
+
+generated -> Would you like me to search for jobs within a certain salary range?
+best_match ->   Where should the jobs be based?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8628549575805664
+
+generated -> Would you like me to focus on specific job boards or websites, such as LinkedIn, Indeed, or Glassdoor?
+best_match ->   Where should the jobs be based?
+user response -> Not specified
+BLEU_SCORE 1.727223799216787
+BERT SCORE 0.8489117622375488
+
+identity -> identity_546
+generated -> What is the make and model of your vehicle?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 4.515183688171633
+BERT SCORE 0.8669862747192383
+
+generated -> What is your vehicle's registration number?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 4.410363736106611
+BERT SCORE 0.878869354724884
+
+generated -> What is the state or region where the vehicle is registered?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 4.02724819242185
+BERT SCORE 0.8812600374221802
+
+generated -> Can you provide the expiration date of the current registration?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 7.495553473355842
+BERT SCORE 0.8680723905563354
+
+generated -> What is your full name as it appears on the current registration?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 6.178110636313396
+BERT SCORE 0.8592994809150696
+
+generated -> Can you provide contact information, such as an email address or phone number, for the renewal process?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 2.276859592073037
+BERT SCORE 0.8630812764167786
+
+generated -> Do you have the VIN (Vehicle Identification Number) of your vehicle?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8556879162788391
+
+generated -> Do you have access to the current registration document?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 4.515183688171633
+BERT SCORE 0.8329273462295532
+
+generated -> Are you able to provide your driver's license number?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 3.7968017775955714
+BERT SCORE 0.8636968731880188
+
+generated -> Do you need assistance with any specific step in the online renewal process?
+best_match ->  Which online service should be used for renewing vehicle registration?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8886603713035583
+
+identity -> identity_555
+generated -> Which online community would you like to join?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.9126983284950256
+
+generated -> Can you specify the type of community or interest area you are looking for?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8568025827407837
+
+generated -> Are there any specific features or qualities you're looking for in an online community?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8506324291229248
+
+generated -> Would you like suggestions for popular online communities?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 4.767707020457095
+BERT SCORE 0.8654772043228149
+
+generated -> Do you have an email address that you would like to use for joining the community?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.849036455154419
+
+generated -> What are your preferred notification preferences for the online community?
+best_match ->   How frequent should the notifications be set?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8887374997138977
+
+generated -> Is there a specific reason you want to join an online community?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 3.673526562988939
+BERT SCORE 0.8866338133811951
+
+generated -> Are there any particular topics or subjects you are interested in?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 3.3864985683445354
+BERT SCORE 0.8444280028343201
+
+generated -> Is this community for personal or professional use?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 5.669791110976001
+BERT SCORE 0.851008951663971
+
+generated -> Do you have a preference for the community platform, such as a forum, social media group, or a dedicated app?
+best_match ->  Which community should be joined?
+user response -> Not specified
+BLEU_SCORE 1.8709718017288024
+BERT SCORE 0.8537368774414062
+
+identity -> identity_569
+generated -> In which location are you searching for legal career openings?
+best_match ->   In which location should these openings be?
+user response -> Not specified
+BLEU_SCORE 15.851165692617148
+BERT SCORE 0.9004576206207275
+
+generated -> In which area of law are you looking for career openings?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 4.789232204309912
+BERT SCORE 0.8800914883613586
+
+generated -> Are you looking for full-time or part-time legal career openings?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8684871196746826
+
+generated -> What is your highest level of education or qualifications in the legal field?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8677622079849243
+
+generated -> Do you have any specific law firms or organizations in mind where you would like to find career openings?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 2.276859592073037
+BERT SCORE 0.8617051839828491
+
+generated -> Do you require remote work options for the legal career openings you are seeking?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 3.9297193407553004
+BERT SCORE 0.8724092245101929
+
+generated -> Are you looking for entry-level, mid-level, or senior-level positions in the legal field?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 3.21858262703621
+BERT SCORE 0.8491835594177246
+
+generated -> What type of legal positions are you interested in (e.g., attorney, paralegal, legal assistant, legal clerk)?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 1.7179060012299232
+BERT SCORE 0.8503525853157043
+
+generated -> Are there any specific benefits or work conditions you are looking for in your legal career openings?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 3.0372940354383413
+BERT SCORE 0.8543354272842407
+
+generated -> Would you like me to summarize the information I have to help narrow down your search criteria?
+best_match ->  Who are the openings for?
+user response -> Not specified
+BLEU_SCORE 2.5540496664715904
+BERT SCORE 0.8485057353973389
+
+identity -> identity_580
+generated -> What type of job are you looking for?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 31.76215203205584
+BERT SCORE 0.9084839820861816
+
+generated -> What industry or field are you interested in for the job alerts?
+best_match ->  What type of job should the alerts be for?
+user response -> Sales positions
+BLEU_SCORE 4.834632845440431
+BERT SCORE 0.8681958913803101
+
+generated -> In which locations would you like to receive job alerts?
+best_match ->  What type of job should the alerts be for?
+user response -> Sales positions
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8790906667709351
+
+generated -> What locations are you interested in for the sales positions?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 5.300156689756295
+BERT SCORE 0.8782724738121033
+
+generated -> What email address should be used to send the job alerts?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 5.508399197492329
+BERT SCORE 0.8963106274604797
+
+generated -> Would you like to specify a frequency for the job alerts (e.g., daily, weekly)?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 2.5828020030551087
+BERT SCORE 0.8630570769309998
+
+generated -> Would you like to set any specific criteria or keywords for the job alerts in sales positions?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 3.211547431691929
+BERT SCORE 0.8447601795196533
+
+generated -> What email address should be used to send the job alerts?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 5.508399197492329
+BERT SCORE 0.8963106274604797
+
+generated -> Please provide the email address that should be used to send the job alerts.
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 3.9297193407553004
+BERT SCORE 0.8507834076881409
+
+generated -> I need an email address to set up the job alerts. Can you specify one?
+best_match ->  What type of job should the alerts be for?
+user response -> Not specified
+BLEU_SCORE 3.2342452920962157
+BERT SCORE 0.8600261807441711
+
+identity -> identity_604
+generated -> For which location would you like the hourly weather forecast?
+best_match ->  Which city's weather forecast do you need?
+user response -> Boston
+BLEU_SCORE 8.913765521398126
+BERT SCORE 0.9109588861465454
+
+generated -> For which date and time range do you need the hourly weather forecast for Boston?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 11.980914528565991
+BERT SCORE 0.9088267087936401
+
+generated -> Would you like the hourly weather forecast for today?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 9.980099403873663
+BERT SCORE 0.872693657875061
+
+generated -> Do you need the weather forecast for a specific time period such as morning, afternoon, or evening?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 5.7259987315337755
+BERT SCORE 0.8812830448150635
+
+generated -> Are there any specific weather conditions you are particularly interested in, such as temperature, precipitation, or wind?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 2.3901021968803136
+BERT SCORE 0.8509934544563293
+
+generated -> Would you like the forecast for the next 24 hours?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8759702444076538
+
+generated -> Would you like a detailed forecast for a general timeframe like today or tomorrow?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8609299063682556
+
+generated -> Would you prefer a forecast for weekdays or the weekend?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8669055700302124
+
+generated -> Should I provide the weather forecast for an upcoming event or activity you have in mind?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 5.439330544349821
+BERT SCORE 0.8755839467048645
+
+generated -> Is there a specific way you would like to receive the hourly weather forecast, such as via email or a specific app?
+best_match ->  Which city's weather forecast do you need?
+user response -> Not specified
+BLEU_SCORE 3.7419436034576044
+BERT SCORE 0.8609359860420227
+
+identity -> identity_654
+generated -> What type of job are you looking for?
+best_match ->  What job title are you looking for?
+user response -> Grocery store cashier
+BLEU_SCORE 48.54917717073236
+BERT SCORE 0.9664824604988098
+
+generated -> In which location are you seeking a grocery store cashier job?
+best_match ->   In which location are you looking for this job?
+user response -> Florida
+BLEU_SCORE 36.462858619364674
+BERT SCORE 0.9457738399505615
+
+generated -> Are you looking for part-time or full-time employment?
+best_match ->   In which location are you looking for this job?
+user response -> Not specified
+BLEU_SCORE 17.0653267718276
+BERT SCORE 0.8860177993774414
+
+generated -> Do you have any specific stores or chains in mind where you would like to apply?
+best_match ->   In which location are you looking for this job?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8569584488868713
+
+generated -> Do you have any prior experience working as a grocery store cashier?
+best_match ->   In which location are you looking for this job?
+user response -> Not specified
+BLEU_SCORE 3.673526562988939
+BERT SCORE 0.8496894836425781
+
+generated -> Are you willing to work weekends and holidays?
+best_match ->   In which location are you looking for this job?
+user response -> Not specified
+BLEU_SCORE 5.0735520042259505
+BERT SCORE 0.8506446480751038
+
+generated -> Are there any other preferences or requirements you have for this job search?
+best_match ->   In which location are you looking for this job?
+user response -> Not specified
+BLEU_SCORE 12.011055432195764
+BERT SCORE 0.8660528063774109
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_667
+generated -> Which academic institution are you inquiring about?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Not specified
+BLEU_SCORE 12.862534787413374
+BERT SCORE 0.9046050906181335
+
+generated -> Which academic term are you interested in?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Not specified
+BLEU_SCORE 12.862534787413374
+BERT SCORE 0.9313716292381287
+
+generated -> Could you provide the academic year or semester for which you're looking to find registration deadlines?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Fall 2024
+BLEU_SCORE 6.256118460580956
+BERT SCORE 0.8969799876213074
+
+generated -> Which academic institution or university are you looking to find the registration deadlines for Fall 2024?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Fall 2024
+BLEU_SCORE 13.32358437599213
+BERT SCORE 0.9157302379608154
+
+generated -> Could you specify the academic institution or university you are inquiring about?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.368583925857938
+BERT SCORE 0.8624235987663269
+
+generated -> Are you looking for general information about registration deadlines across multiple institutions, or do you have a specific institution in mind?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Fall 2024
+BLEU_SCORE 8.066974340737668
+BERT SCORE 0.8861374258995056
+
+generated -> Are you interested in undergraduate or graduate registration deadlines for Fall 2024?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Fall 2024
+BLEU_SCORE 7.768562846380176
+BERT SCORE 0.885951578617096
+
+generated -> Could you specify at least one or two institutions you are considering for Fall 2024?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027365
+BERT SCORE 0.856250524520874
+
+generated -> Are you looking for registration deadlines for a specific country or region for Fall 2024?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Fall 2024
+BLEU_SCORE 11.980914528565991
+BERT SCORE 0.8975100517272949
+
+generated -> Would you like information on public universities, private universities, or community colleges for Fall 2024?
+best_match ->  Which academic term's registration deadlines are you looking for?
+user response -> Fall 2024
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8516848087310791
+
+identity -> identity_673
+generated -> Which university or institution are you interested in?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 5.61480827173619
+BERT SCORE 0.9082795977592468
+
+generated -> Are you looking for information on a specific major or degree, or general information about all available undergraduate majors and degrees?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 2.328734903585348
+BERT SCORE 0.8703018426895142
+
+generated -> Do you have a particular field or area of interest in mind, such as sciences, humanities, or engineering?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.852367103099823
+
+generated -> Do you need information about undergraduate programs available in a specific country or region?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8853135704994202
+
+generated -> Are you looking for online undergraduate programs, on-campus programs, or both?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 3.737437943747671
+BERT SCORE 0.8712396621704102
+
+generated -> Is there any specific information you are particularly interested in, such as program duration, curriculum details, admission requirements, or career prospects?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 1.9011755113058346
+BERT SCORE 0.8714174628257751
+
+generated -> Could you provide more context or specific details about what information you need regarding undergraduate majors and degrees?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 2.6643211213888947
+BERT SCORE 0.8690922856330872
+
+generated -> Would you like me to provide a general overview of undergraduate majors and degrees available?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 3.21858262703621
+BERT SCORE 0.8678738474845886
+
+generated -> Is there any other information or criteria you want me to consider while gathering information on undergraduate majors and degrees?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 4.567211833282236
+BERT SCORE 0.881902813911438
+
+generated -> Would you like to know about the most popular undergraduate majors and degrees?
+best_match ->  Which schools do you want to find information for?
+user response -> Not specified
+BLEU_SCORE 3.737437943747671
+BERT SCORE 0.885213315486908
+
+identity -> identity_692
+generated -> What challenge are you looking to join?
+best_match ->  What is the name of the challenge to join?
+user response -> Mindful Eating Challenge
+BLEU_SCORE 18.190371142855746
+BERT SCORE 0.908014714717865
+
+generated -> Do you have any specific goals or objectives you want to achieve with the Mindful Eating Challenge?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8698030114173889
+
+generated -> What is your email address to sign up for the challenge?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 10.600313379512592
+BERT SCORE 0.8858518600463867
+
+generated -> Could you please provide your email address to join the Mindful Eating Challenge?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 6.754312828675707
+BERT SCORE 0.8608912825584412
+
+generated -> Do you have a preferred start date for the Mindful Eating Challenge?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 3.673526562988939
+BERT SCORE 0.8870528340339661
+
+generated -> Would you like daily tips and reminders, or a different frequency of updates?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8662290573120117
+
+generated -> How did you hear about the Mindful Eating Challenge?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.8859974145889282
+
+generated -> Do you have any dietary restrictions or preferences we should be aware of?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8586122989654541
+
+generated -> Could you please provide your email address to join the Mindful Eating Challenge?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 6.754312828675707
+BERT SCORE 0.8608912825584412
+
+generated -> Could you provide your name for the registration?
+best_match ->  What is the name of the challenge to join?
+user response -> Not specified
+BLEU_SCORE 5.61480827173619
+BERT SCORE 0.8554096221923828
+
+identity -> identity_710
+generated -> What type of job listings are you looking for?
+best_match ->  What type of job are you looking for?
+user response -> Data Entry or similar jobs
+BLEU_SCORE 65.80370064762461
+BERT SCORE 0.970517635345459
+
+generated -> Which location or locations are you interested in for these job listings?
+best_match ->  What type of job are you looking for?
+user response -> Not specified
+BLEU_SCORE 7.768562846380176
+BERT SCORE 0.8903626203536987
+
+generated -> Are there any specific job boards or websites you'd like me to search on?
+best_match ->  What type of job are you looking for?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8672778606414795
+
+generated -> Do you have any specific requirements regarding job type, such as part-time, full-time, remote, or contract?
+best_match ->  What type of job are you looking for?
+user response -> Not specified
+BLEU_SCORE 2.568331954752977
+BERT SCORE 0.8727958798408508
+
+generated -> What is the deadline for saving these job listings?
+best_match ->   How many jobs should I save?
+user response -> Not specified
+BLEU_SCORE 4.196114906296549
+BERT SCORE 0.893936276435852
+
+generated -> In what format would you like the job listings to be saved? For example, as a PDF, Excel file, or something else?
+best_match ->   How many jobs should I save?
+user response -> Not specified
+BLEU_SCORE 1.387819277861591
+BERT SCORE 0.857229471206665
+
+generated -> How many job listings would you like me to find and save?
+best_match ->   How many jobs should I save?
+user response -> Two
+BLEU_SCORE 8.73716785171588
+BERT SCORE 0.9101265072822571
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Two
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_712
+generated -> Which newsletter from LinkedIn Learning would you like to subscribe to?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7656412124633789
+
+generated -> What email address should be used for the subscription?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7877939343452454
+
+generated -> Can you provide the email address to be used for the subscription?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7688978910446167
+
+generated -> Would you prefer to subscribe to a specific topic or just the general LinkedIn Learning newsletter?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7779285311698914
+
+generated -> Could you provide an email address for the subscription?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7694724798202515
+
+generated -> To help you better, can you specify your field of interest or a particular topic for the LinkedIn Learning newsletter?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7763129472732544
+
+generated -> Can you please provide the email address to be used for the subscription?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7758063673973083
+
+generated -> Would you like assistance in selecting a specific LinkedIn Learning newsletter tailored to your interests?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7736787796020508
+
+generated -> Since you haven't specified details, would you like to subscribe to the general LinkedIn Learning newsletter?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7674098610877991
+
+generated -> Can you provide the email address we should use for the subscription?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7734333872795105
+
+identity -> identity_756
+generated -> What specific information are you looking for about the symptoms and causes of fever?
+best_match ->  What are the common symptoms of fever?
+user response -> The common symptoms of fever include an elevated body temperature, sweating, headache, muscle aches, dehydration, and shivering.
+BLEU_SCORE 12.090340630072072
+BERT SCORE 0.9165627360343933
+
+generated -> Could you specify what information you need regarding the causes of fever?
+best_match ->   What are the typical causes of fever?
+user response -> Fever can be caused by a variety of factors including infections like the flu, common cold, or bacterial infections, inflammation, heat exhaustion, or as a side effect of medication.
+BLEU_SCORE 20.448007360218387
+BERT SCORE 0.9147182703018188
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Fever can be caused by a variety of factors including infections like the flu, common cold, or bacterial infections, inflammation, heat exhaustion, or as a side effect of medication.
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_806
+generated -> What specific type of IBD are you looking for treatments for, Crohn's disease or ulcerative colitis?
+best_match ->  What type of treatments are you interested in for IBD?
+user response -> Medical treatments, lifestyle changes, etc.
+BLEU_SCORE 7.439820585622744
+BERT SCORE 0.9129979610443115
+
+generated -> Are you interested in information about medications, surgical options, or both?
+best_match ->  What type of treatments are you interested in for IBD?
+user response -> Not specified
+BLEU_SCORE 11.359354890271161
+BERT SCORE 0.881817638874054
+
+generated -> Are you seeking information for yourself or someone you know?
+best_match ->   Any specific aspect of IBD treatment you are interested in?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.854026734828949
+
+generated -> Would you like to know more about dietary changes and lifestyle modifications for managing IBD?
+best_match ->   Any specific aspect of IBD treatment you are interested in?
+user response -> Specific medication, dietary recommendations, etc.
+BLEU_SCORE 3.21858262703621
+BERT SCORE 0.8837124109268188
+
+generated -> Are you looking for details on prescription medications, over-the-counter treatments, or both?
+best_match ->  What type of treatments are you interested in for IBD?
+user response -> Not specified
+BLEU_SCORE 3.716499092256817
+BERT SCORE 0.8760038018226624
+
+generated -> Would you prefer information on conventional treatments, alternative therapies, or a combination of both?
+best_match ->  What type of treatments are you interested in for IBD?
+user response -> Not specified
+BLEU_SCORE 3.2342452920962157
+BERT SCORE 0.8770825862884521
+
+generated -> Would you like to start with information on medications or dietary recommendations first?
+best_match ->  What type of treatments are you interested in for IBD?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.8670425415039062
+
+generated -> Are you looking for general information, or do you have a specific concern or symptom you'd like to address?
+best_match ->   Any specific aspect of IBD treatment you are interested in?
+user response -> Not specified
+BLEU_SCORE 2.3901021968803136
+BERT SCORE 0.8792597651481628
+
+generated -> Is there a particular age group or demographic you are interested in for IBD treatments?
+best_match ->  What type of treatments are you interested in for IBD?
+user response -> Medical treatments, lifestyle changes, etc.
+BLEU_SCORE 18.20705281109213
+BERT SCORE 0.9245243072509766
+
+generated -> Would you like an overview of the medical treatments first?
+best_match ->   Any specific aspect of IBD treatment you are interested in?
+user response -> Medical treatments, lifestyle changes, etc.
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8752106428146362
+
+identity -> identity_826
+generated -> Who is the carer that needs information on the Carer's Credit?
+best_match ->  What is Carer's Credit?
+user response -> Carer's Credit is a benefit for those who care for someone else and do not get paid for it.
+BLEU_SCORE 13.545994273378144
+BERT SCORE 0.9018352031707764
+
+generated -> Who is the person being cared for, and what type of disability or condition do they have?
+best_match ->   How does Carer's Credit benefit disabled people?
+user response -> Not specified
+BLEU_SCORE 2.0244462660665508
+BERT SCORE 0.8662299513816833
+
+generated -> How many hours per week do you provide care for the individual?
+best_match ->   Who is eligible for Carer's Credit?
+user response -> Not specified
+BLEU_SCORE 3.673526562988939
+BERT SCORE 0.856437087059021
+
+generated -> Do you currently receive or are you eligible for any other benefits or allowances related to caregiving?
+best_match ->   Who is eligible for Carer's Credit?
+user response -> Not specified
+BLEU_SCORE 4.753622060013117
+BERT SCORE 0.8630149960517883
+
+generated -> Are you looking for information on how to apply for Carer's Credit?
+best_match ->  What is Carer's Credit?
+user response -> Carer's Credit is a benefit for those who care for someone else and do not get paid for it.
+BLEU_SCORE 11.498759556447217
+BERT SCORE 0.8745726346969604
+
+generated -> Are you seeking details about the eligibility requirements for Carer's Credit?
+best_match ->   Who is eligible for Carer's Credit?
+user response -> People who care for someone for at least 20 hours a week and are not paid for their care.
+BLEU_SCORE 21.200626759025184
+BERT SCORE 0.9287434816360474
+
+generated -> Do you need information on how Carer's Credit can impact your future State Pension?
+best_match ->   How does Carer's Credit benefit disabled people?
+user response -> Not specified
+BLEU_SCORE 5.816635421147513
+BERT SCORE 0.8895920515060425
+
+generated -> Do you need help understanding the application process for Carer's Credit?
+best_match ->  What is Carer's Credit?
+user response -> Not specified
+BLEU_SCORE 12.605968092174914
+BERT SCORE 0.8893502354621887
+
+generated -> Are there specific aspects or detailed information about Carer's Credit that you are interested in?
+best_match ->  What is Carer's Credit?
+user response -> Carer's Credit is a benefit for those who care for someone else and do not get paid for it.
+BLEU_SCORE 5.412989186545263
+BERT SCORE 0.8693373799324036
+
+generated -> Are you looking for the contact information or resources where you can get more detailed guidance about Carer's Credit?
+best_match ->  What is Carer's Credit?
+user response -> Carer's Credit is a benefit for those who care for someone else and do not get paid for it.
+BLEU_SCORE 7.12695567709093
+BERT SCORE 0.8664526343345642
+
+identity -> identity_828
+generated -> What is your current employment status?
+best_match ->  What is your current employment status?
+user response -> Unemployed, working less than 16 hours a week, or unable to work full-time
+BLEU_SCORE 100.00000000000004
+BERT SCORE 0.9999999403953552
+
+generated -> Are you actively seeking work and available to start immediately if offered a job?
+best_match ->  What is your current employment status?
+user response -> Not specified
+BLEU_SCORE 2.627961710408444
+BERT SCORE 0.8769583106040955
+
+generated -> Are you over 18 and under the State Pension age?
+best_match ->   Are you a resident in the area where the JSA is offered?
+user response -> Not specified
+BLEU_SCORE 7.431878014503621
+BERT SCORE 0.8767510652542114
+
+generated -> Do you have any savings or capital over a certain amount (if so, please specify the amount)?
+best_match ->   Are you a resident in the area where the JSA is offered?
+user response -> Not specified
+BLEU_SCORE 2.568331954752977
+BERT SCORE 0.8627268671989441
+
+generated -> Do you reside in the country and have the right to work here?
+best_match ->   Are you a resident in the area where the JSA is offered?
+user response -> Not specified
+BLEU_SCORE 7.141816289329644
+BERT SCORE 0.8987951278686523
+
+generated -> Are you receiving any educational training or taking part in any government-approved employment programs?
+best_match ->  What is your current employment status?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8759992122650146
+
+generated -> Have you been employed or self-employed in the last 2-3 years?
+best_match ->  What is your current employment status?
+user response -> Not specified
+BLEU_SCORE 2.8398387225677895
+BERT SCORE 0.8739810585975647
+
+generated -> Are you currently receiving any other benefits or allowances?
+best_match ->  What is your current employment status?
+user response -> Not specified
+BLEU_SCORE 4.196114906296549
+BERT SCORE 0.8874203562736511
+
+generated -> Have you been making regular contributions to National Insurance in the past few years?
+best_match ->  What is your current employment status?
+user response -> Not specified
+BLEU_SCORE 2.627961710408444
+BERT SCORE 0.8738244771957397
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_853
+generated -> What is your location or the area's name for which you need to find a local court?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7789793610572815
+
+generated -> Can you please provide your city or zip code to help find the local court?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7810651063919067
+
+generated -> Could you please provide me your state or county to narrow down the search for the local court?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7874674797058105
+
+generated -> Is there a specific type of court case or legal matter you are seeking information about? (e.g., family court, traffic court, criminal court)
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7835479378700256
+
+generated -> Can you provide any additional details or preferences that might help in locating the appropriate local court for you?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7770745754241943
+
+generated -> Could you please clarify if this search for a local court is for personal use, legal representation, or research purposes?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7685196995735168
+
+generated -> Can you confirm whether you have access to the internet to search for the local court online directly?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7904742360115051
+
+generated -> Are there any specific features or requirements you need from the local court (e.g., accessible facilities, virtual services, specific languages spoken)?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7851995825767517
+
+generated -> Would you be able to provide any information whatsoever that might assist in identifying the local court you need?
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7755328416824341
+
+generated -> <Finish>
+best_match ->  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_857
+generated -> What type of diet plan are you looking for?
+best_match ->  What type of diet are you looking for?
+user response -> An easy-to-follow evidence-based nutritious vegetarian diet
+BLEU_SCORE 65.80370064762461
+BERT SCORE 0.986254870891571
+
+generated -> What email address should be used for the subscription?
+best_match ->   What email should we use to send you the diet plan?
+user response -> Not specified
+BLEU_SCORE 8.639795714750207
+BERT SCORE 0.9163906574249268
+
+generated -> Would you like to use your existing email address or create a new one for this subscription?
+best_match ->   What email should we use to send you the diet plan?
+user response -> Not specified
+BLEU_SCORE 3.211547431691929
+BERT SCORE 0.8218128681182861
+
+generated -> Could you please provide the email address you would like to use for the subscription?
+best_match ->   What email should we use to send you the diet plan?
+user response -> Not specified
+BLEU_SCORE 3.8275613602956104
+BERT SCORE 0.8428981900215149
+
+generated -> Would you prefer to provide the email address later or receive diet plan details directly on this platform?
+best_match ->   What email should we use to send you the diet plan?
+user response -> buckeye.foodbar@gym
+BLEU_SCORE 5.538003944406129
+BERT SCORE 0.8747866749763489
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> buckeye.foodbar@gym
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_858
+generated -> What medical condition are you interested in?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 10.229197414177778
+BERT SCORE 0.908514678478241
+
+generated -> Can you specify the symptoms or the nature of the medical condition you are concerned about?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Acid reflux
+BLEU_SCORE 9.672649511413097
+BERT SCORE 0.8937293887138367
+
+generated -> Can you describe the specific symptoms you are experiencing?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 5.522397783539471
+BERT SCORE 0.8850873708724976
+
+generated -> Are you looking for common symptoms of acid reflux in general?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.881621241569519
+
+generated -> Are you looking for symptoms experienced by adults, children, or infants?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 3.737437943747671
+BERT SCORE 0.875951886177063
+
+generated -> Would you like information on how to identify acid reflux symptoms or how to manage them?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.8588993549346924
+
+generated -> Is there any particular reason or context for why you're seeking information on acid reflux symptoms?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.8588162064552307
+
+generated -> Would you like a general list of the most common symptoms of acid reflux?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8670480251312256
+
+generated -> Are you also interested in potential causes and triggers of acid reflux, or just the symptoms?
+best_match ->  What is the medical condition to find symptoms for?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8620142340660095
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_865
+generated -> What is your location?
+best_match ->  What specific requirements or preferences do you have for the babysitter service?
+user response -> Not specified
+BLEU_SCORE 2.564755813286796
+BERT SCORE 0.8605074286460876
+
+generated -> What age group of children do you need a babysitter for?
+best_match ->  What specific requirements or preferences do you have for the babysitter service?
+user response -> No specific requirements or preferences mentioned.
+BLEU_SCORE 8.201060181277787
+BERT SCORE 0.904275119304657
+
+generated -> What is the duration or schedule for the babysitting service you need?
+best_match ->  What specific requirements or preferences do you have for the babysitter service?
+user response -> No specific requirements or preferences mentioned.
+BLEU_SCORE 8.450310992782928
+BERT SCORE 0.9186639189720154
+
+generated -> Do you have any special requirements, such as background checks or certifications for the babysitter?
+best_match ->  What specific requirements or preferences do you have for the babysitter service?
+user response -> No specific requirements or preferences mentioned.
+BLEU_SCORE 12.03921753741131
+BERT SCORE 0.9119729995727539
+
+generated -> What is your budget for the babysitting service?
+best_match ->  What specific requirements or preferences do you have for the babysitter service?
+user response -> No specific requirements or preferences mentioned.
+BLEU_SCORE 9.142443536148708
+BERT SCORE 0.9235773086547852
+
+generated -> Are there any specific tasks or responsibilities the babysitter should handle?
+best_match ->  What specific requirements or preferences do you have for the babysitter service?
+user response -> No specific requirements or preferences mentioned.
+BLEU_SCORE 7.835643838636099
+BERT SCORE 0.9128521084785461
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> No specific requirements or preferences mentioned.
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_883
+generated -> What type of job are you looking for?
+best_match ->  What type of job are you looking for?
+user response -> Fulfillment Center Warehouse
+BLEU_SCORE 100.00000000000004
+BERT SCORE 0.9999999403953552
+
+generated -> In which location are you searching for this job?
+best_match ->  What type of job are you looking for?
+user response -> Not specified
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.9246879816055298
+
+generated -> Would you like to specify any particular companies or industries to focus on?
+best_match ->  What type of job are you looking for?
+user response -> Not specified
+BLEU_SCORE 3.377156414337854
+BERT SCORE 0.861160933971405
+
+generated -> How frequently would you like to receive email alerts?
+best_match ->   What email should be used for job alerts?
+user response -> Not specified
+BLEU_SCORE 9.287528999566801
+BERT SCORE 0.8847046494483948
+
+generated -> What email address should be used for the alerts?
+best_match ->   What email should be used for job alerts?
+user response -> abc@abc.com
+BLEU_SCORE 35.494810560100525
+BERT SCORE 0.957546591758728
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> abc@abc.com
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_886
+generated -> Which cryptocurrency are you interested in?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Not specified
+BLEU_SCORE 5.630400552901077
+BERT SCORE 0.9147263169288635
+
+generated -> Which time period are you looking to view the historical data for?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Not specified
+BLEU_SCORE 10.04916995660316
+BERT SCORE 0.9267405867576599
+
+generated -> Which specific details or metrics do you need from the historical data (e.g., closing price, volume, market cap)?
+best_match ->   How many days of historical data do you need?
+user response -> Not specified
+BLEU_SCORE 6.798898171917449
+BERT SCORE 0.8832938075065613
+
+generated -> Would you like historical data from a specific cryptocurrency exchange?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Litecoin
+BLEU_SCORE 8.913765521398126
+BERT SCORE 0.9038983583450317
+
+generated -> Which time period are you looking to view the historical data for Litecoin?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Not specified
+BLEU_SCORE 9.238430210261097
+BERT SCORE 0.9137817621231079
+
+generated -> What specific details or metrics do you need from the historical data for Litecoin (e.g., closing price, volume, market cap)?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Not specified
+BLEU_SCORE 3.848169719653079
+BERT SCORE 0.8783151507377625
+
+generated -> Would you like to receive the data in a specific format (e.g., CSV, JSON)?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Not specified
+BLEU_SCORE 2.4426633221059637
+BERT SCORE 0.8645308613777161
+
+generated -> Would you like to receive updates on historical cryptocurrency data on a regular basis?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Litecoin
+BLEU_SCORE 3.9297193407553004
+BERT SCORE 0.8992078304290771
+
+generated -> Would you like data from a specific cryptocurrency exchange for Litecoin?
+best_match ->  Which cryptocurrency's historical data do you want to view?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8905857801437378
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_900
+generated -> Which Reddit community would you like to filter posts in?
+best_match ->  Which Reddit community should be accessed?
+user response -> Not specified
+BLEU_SCORE 14.991106946711685
+BERT SCORE 0.9095319509506226
+
+generated -> Can you specify the criteria for filtering posts?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 5.61480827173619
+BERT SCORE 0.9020711779594421
+
+generated -> Would you like to filter posts by keyword, date, user, or another attribute?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.868719220161438
+
+generated -> What type of content are you interested in filtering out or highlighting (e.g., offensive language, specific topics, etc.)?
+best_match ->  Which Reddit community should be accessed?
+user response -> Not specified
+BLEU_SCORE 1.3353534059549443
+BERT SCORE 0.8582960367202759
+
+generated -> Is there a particular goal or purpose you have in mind for filtering these posts?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.8859278559684753
+
+generated -> Would you prefer to see more specific questions to help narrow down your requirements?
+best_match ->  Which Reddit community should be accessed?
+user response -> Not specified
+BLEU_SCORE 2.627961710408444
+BERT SCORE 0.8603981137275696
+
+generated -> Are you looking for a manual filtering process or an automated one?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 3.0890553181566975
+BERT SCORE 0.8760208487510681
+
+generated -> Would you like to use any existing tools or software for filtering, or are you interested in creating a custom solution?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 1.6466642419110007
+BERT SCORE 0.866390585899353
+
+generated -> Are you filtering the posts for moderation purposes, research, or a different reason?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 5.412989186545263
+BERT SCORE 0.8796640634536743
+
+generated -> Do you have a timeframe or deadline in mind for completing this task?
+best_match ->   What time frame should the posts be filtered by?
+user response -> Not specified
+BLEU_SCORE 2.8398387225677895
+BERT SCORE 0.8822296857833862
+
+Average BLEU Score with false positive: 7.320597421067082
+Average BLEU Score without false positive: 11.562738129177163
+Average BERT Score with false positive: 0.8846923035387954
+Average BERT Score without false positive: 0.6790983353711308
+Turn counts: {0: [10, 6, 10, 10, 7, 9, 10, 8, 10, 9, 7, 10, 10, 8, 4, 10, 10, 10, 9, 10, 10, 9, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 8, 10, 10, 10, 8, 10, 3, 10, 10, 10, 10, 6, 10, 7, 6, 10, 10]}
+
+Average Turns: 9.04

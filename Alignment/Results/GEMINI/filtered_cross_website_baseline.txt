@@ -1,0 +1,1845 @@
+identity -> identity_10
+generated -> For what date and time? 
+
+best_match ->   What type of tickets do you want to book?
+user response -> Not specified
+BLEU_SCORE 4.167251645138561
+BERT SCORE 0.8404001593589783
+
+generated -> How many tickets? 
+
+best_match ->   How many tickets are needed?
+user response -> 2
+BLEU_SCORE 38.75385825373298
+BERT SCORE 0.9561672806739807
+
+generated -> Do you have any preference for ticket type? (e.g., stairs only, elevator to top) 
+
+best_match ->   What type of tickets do you want to book?
+user response -> Not specified
+BLEU_SCORE 2.4426633221059637
+BERT SCORE 0.8735856413841248
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_14
+generated -> What product or service are you looking for reviews on? 
+
+best_match ->  What is the name of the place or product to check reviews for?
+user response -> Alpine Ridge
+BLEU_SCORE 4.46547409295887
+BERT SCORE 0.9086804986000061
+
+generated -> What category does Alpine Ridge fall under?  (e.g., hotels, restaurants, products) 
+
+best_match ->  What is the name of the place or product to check reviews for?
+user response -> Not specified
+BLEU_SCORE 2.276859592073037
+BERT SCORE 0.8508639335632324
+
+generated -> Could you please provide more context for Alpine Ridge? What is it? 
+
+best_match ->  What is the name of the place or product to check reviews for?
+user response -> Not specified
+BLEU_SCORE 6.754312828675707
+BERT SCORE 0.8499923944473267
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_17
+generated -> What location are you interested in? 
+
+best_match ->  What location are you interested in?
+user response -> Brooken Cove
+BLEU_SCORE 100.00000000000004
+BERT SCORE 1.0
+
+generated -> What kind of reviews are you looking for? (e.g., restaurants, hotels, activities) 
+
+best_match ->   What type of reviews are you looking for?
+user response -> 5 star reviews
+BLEU_SCORE 28.592291256793107
+BERT SCORE 0.9291792511940002
+
+generated -> For what specifically at Broken Cove? (e.g., restaurants, hotels, activities) 
+
+best_match ->  What location are you interested in?
+user response -> Not specified
+BLEU_SCORE 2.0244462660665508
+BERT SCORE 0.8484646677970886
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_19
+generated -> What information are you looking for specifically? 
+
+best_match ->  What specific rules are you interested in for Alley Spring?
+user response -> Not specified
+BLEU_SCORE 9.545138913210204
+BERT SCORE 0.9078171849250793
+
+generated -> About what aspect of Alley Spring?  
+
+best_match ->  What specific rules are you interested in for Alley Spring?
+user response -> General rules
+BLEU_SCORE 13.805184551789745
+BERT SCORE 0.8854318857192993
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> General rules
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_28
+generated -> What theme are you interested in? 
+
+best_match ->  What type of songs are you looking for?
+user response -> Not specified
+BLEU_SCORE 11.737849637633069
+BERT SCORE 0.9235726594924927
+
+generated -> Can you give me an example of a theme you'd like to search for? 
+
+best_match ->  What type of songs are you looking for?
+user response -> Not specified
+BLEU_SCORE 6.250381527944883
+BERT SCORE 0.8741892576217651
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_33
+generated -> What kind of event are you looking for a ticket to? 
+
+best_match ->  What is the name of the event?
+user response -> Not specified
+BLEU_SCORE 4.789232204309912
+BERT SCORE 0.9012699127197266
+
+generated -> In what city are you looking for this event? 
+
+best_match ->   Where is the event located?
+user response -> Austin, Texas
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.8913173079490662
+
+generated -> What date are you interested in? 
+
+best_match ->   On what date is the event?
+user response -> Not specified
+BLEU_SCORE 7.809849842300637
+BERT SCORE 0.9131825566291809
+
+generated -> Do you have a price range in mind? 
+
+best_match ->   How many tickets are needed?
+user response -> Not specified
+BLEU_SCORE 4.767707020457095
+BERT SCORE 0.8878066539764404
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_34
+generated -> What type of gift card are you looking for? 
+
+best_match ->  What type of gift card would you like to purchase?
+user response -> (Awaiting user response)
+BLEU_SCORE 38.66252716278829
+BERT SCORE 0.9444245100021362
+
+generated -> (Waiting for the user's response to the question: "What type of gift card are you looking for?") 
+
+best_match ->  What type of gift card would you like to purchase?
+user response -> (Awaiting user response)
+BLEU_SCORE 17.33705613469748
+BERT SCORE 0.8871222734451294
+
+generated -> (Still waiting for a user response so the dialogue can continue!) 
+
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8213217854499817
+
+generated -> For what retailer or brand? 
+
+best_match ->  What type of gift card would you like to purchase?
+user response -> Not specified
+BLEU_SCORE 3.5275023606301383
+BERT SCORE 0.8392673134803772
+
+generated -> What amount should be on the gift card? 
+
+best_match ->   What amount should the gift card be?
+user response -> (Awaiting user response)
+BLEU_SCORE 32.07318193985873
+BERT SCORE 0.9615072011947632
+
+generated -> (Waiting for the user's input for the desired amount on the gift card.) 
+
+best_match ->   What amount should the gift card be?
+user response -> Not specified
+BLEU_SCORE 9.782375748961453
+BERT SCORE 0.8828794360160828
+
+generated -> Do you have any preferences for how you would like to receive the gift card (e.g., physical card, email delivery)? 
+
+best_match ->  What type of gift card would you like to purchase?
+user response -> Not specified
+BLEU_SCORE 4.344109103419242
+BERT SCORE 0.8856659531593323
+
+generated -> I need more information to proceed. Would you like to provide more details or cancel the request? 
+
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7857105135917664
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_35
+generated -> What is the location? 
+
+best_match ->  What city should I look for NHL events?
+user response -> Not specified
+BLEU_SCORE 5.70796903405875
+BERT SCORE 0.8812851309776306
+
+generated -> What dates are you interested in? 
+
+best_match ->  What city should I look for NHL events?
+user response -> Not specified
+BLEU_SCORE 5.868924818816531
+BERT SCORE 0.8929870128631592
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_43
+generated -> What location are you interested in? 
+
+best_match ->  Which city should the restaurant be located in?
+user response -> Not specified
+BLEU_SCORE 9.870315683072755
+BERT SCORE 0.9074510931968689
+
+generated -> What kind of food are you looking for? 
+
+best_match ->   What type of food should the restaurant serve?
+user response -> Not specified
+BLEU_SCORE 11.339582221952005
+BERT SCORE 0.9312683939933777
+
+generated -> What quality level are you looking for (e.g., fine dining, casual, cheap eats)? 
+
+best_match ->   What type of food should the restaurant serve?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.8771864175796509
+
+generated -> Is there anything else you can tell me to help me narrow down your search? 
+
+best_match ->  Which city should the restaurant be located in?
+user response -> Not specified
+BLEU_SCORE 2.445593937240363
+BERT SCORE 0.8435479998588562
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_44
+generated -> What sport are you interested in? 
+
+best_match ->   Type of tickets you are interested in?
+user response -> Not specified
+BLEU_SCORE 24.0785655451027
+BERT SCORE 0.9038668274879456
+
+generated -> In what city or area are you looking for events? 
+
+best_match ->  What event are you looking for tickets for?
+user response -> Los Angeles Lakers vs Memphis Grizzlies game
+BLEU_SCORE 24.808415001701817
+BERT SCORE 0.9249416589736938
+
+generated -> When are you looking to attend a game?  
+
+best_match ->  What event are you looking for tickets for?
+user response -> Not specified
+BLEU_SCORE 19.070828081828378
+BERT SCORE 0.9177442789077759
+
+generated -> How many tickets do you need? 
+
+best_match ->   Type of tickets you are interested in?
+user response -> Not specified
+BLEU_SCORE 7.492442692259767
+BERT SCORE 0.8919952511787415
+
+generated -> What is your budget for the tickets? 
+
+best_match ->   Type of tickets you are interested in?
+user response -> Floor tickets
+BLEU_SCORE 6.567274736060395
+BERT SCORE 0.8849235773086548
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Floor tickets
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_46
+generated -> What item would you like to add? 
+
+best_match ->  What item should be added to the bag?
+user response -> Not specified
+BLEU_SCORE 11.59119922599073
+BERT SCORE 0.926704466342926
+
+generated -> What kind of item are we talking about? 
+
+best_match ->  What item should be added to the bag?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.8837522268295288
+
+generated -> Can you please provide more information about the item you want to add? 
+
+best_match ->  What item should be added to the bag?
+user response -> Not specified
+BLEU_SCORE 4.016138436407654
+BERT SCORE 0.8824805617332458
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_49
+generated -> What type of egift card are you looking for? 
+
+best_match ->  What is the value of the egift card you are looking for?
+user response -> $100
+BLEU_SCORE 16.853397475764726
+BERT SCORE 0.9314470887184143
+
+generated -> For what store? 
+
+best_match ->  What is the value of the egift card you are looking for?
+user response -> Not specified
+BLEU_SCORE 1.683602693167689
+BERT SCORE 0.8437613844871521
+
+generated -> For what occasion? 
+
+best_match ->   What message should be on the egift card?
+user response -> Not specified
+BLEU_SCORE 4.576506607182439
+BERT SCORE 0.8339046835899353
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_50
+generated -> What kind of theatre events are you interested in? 
+
+best_match ->  What city are we looking at for theatre events?
+user response -> Las Vegas
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.9196003675460815
+
+generated -> When are you interested in going? 
+
+best_match ->  What city are we looking at for theatre events?
+user response -> Not specified
+BLEU_SCORE 5.08764122072739
+BERT SCORE 0.8899703621864319
+
+generated -> How many tickets do you need? 
+
+best_match ->  What city are we looking at for theatre events?
+user response -> Not specified
+BLEU_SCORE 4.278179264606695
+BERT SCORE 0.8926954865455627
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_55
+generated -> What topic are you interested in? 
+
+best_match ->   What specific data are you looking for?
+user response -> Not specified
+BLEU_SCORE 13.540372457315735
+BERT SCORE 0.9213674664497375
+
+generated -> Are you looking for hashtags for a specific platform, like Instagram or Twitter? 
+
+best_match ->  What is the time frame for the hashtag search?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8806092739105225
+
+generated -> What is the purpose of finding these hashtags?  
+
+best_match ->  What is the time frame for the hashtag search?
+user response -> Not specified
+BLEU_SCORE 17.0653267718276
+BERT SCORE 0.9298038482666016
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_68
+generated -> What product do you want to compare prices for? 
+
+best_match ->  What product are we comparing prices for?
+user response -> Granitestone Sandwich Maker
+BLEU_SCORE 19.64073254502565
+BERT SCORE 0.9539054036140442
+
+generated -> Where would you like to look for this product? (e.g., specific online stores, general websites like Google Shopping) 
+
+best_match ->  What product are we comparing prices for?
+user response -> Not specified
+BLEU_SCORE 1.9011755113058346
+BERT SCORE 0.8481488227844238
+
+generated -> Do you have a preferred retailer?  
+
+best_match ->   Should the store offer free delivery?
+user response -> Not specified
+BLEU_SCORE 6.567274736060395
+BERT SCORE 0.8963199853897095
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_74
+generated -> Which car models would you like to compare? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 20.164945583740657
+BERT SCORE 0.9574147462844849
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+generated -> What aspects of the cars are you most interested in comparing (e.g., performance, features, size, price)? 
+
+best_match ->  Which car models are you comparing?
+user response -> Audi A7 and Audi A6
+BLEU_SCORE 3.435812002459847
+BERT SCORE 0.8996192216873169
+
+identity -> identity_75
+generated -> What sport are you interested in? 
+
+best_match ->  Which player's statistics are needed?
+user response -> Not specified
+BLEU_SCORE 7.809849842300637
+BERT SCORE 0.8766301274299622
+
+generated -> What statistic are you looking for? 
+
+best_match ->   What specific statistic are you looking for?
+user response -> Average assists per game in the current season
+BLEU_SCORE 72.89545183625967
+BERT SCORE 0.9740928411483765
+
+generated -> For what league? 
+
+best_match ->  Which player's statistics are needed?
+user response -> Not specified
+BLEU_SCORE 9.688464563433238
+BERT SCORE 0.8637120723724365
+
+generated -> Do you have a specific team in mind? 
+
+best_match ->  Which player's statistics are needed?
+user response -> Not specified
+BLEU_SCORE 4.767707020457095
+BERT SCORE 0.8747122287750244
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_77
+generated -> What kind of vehicle are you looking for? 
+
+best_match ->  What vehicle model are you looking for?
+user response -> Dodge Ram 1500
+BLEU_SCORE 48.54917717073236
+BERT SCORE 0.9617289304733276
+
+generated -> What distance are you willing to travel? 
+
+best_match ->   What is the maximum distance for the search?
+user response -> Not specified
+BLEU_SCORE 6.413885305524152
+BERT SCORE 0.9058922529220581
+
+generated -> What is your current location? 
+
+best_match ->   What zip code should the search be centered around?
+user response -> Not specified
+BLEU_SCORE 4.955725306405571
+BERT SCORE 0.8773205876350403
+
+generated -> Is there a specific location you are looking to pick the vehicle up from? 
+
+best_match ->  What vehicle model are you looking for?
+user response -> Not specified
+BLEU_SCORE 3.9297193407553004
+BERT SCORE 0.9016163945198059
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_78
+generated -> What kind of car are you looking for? 
+
+best_match ->  What car model are you looking to find?
+user response -> Audi 100
+BLEU_SCORE 21.10534063187263
+BERT SCORE 0.9524587392807007
+
+generated -> What year Audi 100 are you interested in? 
+
+best_match ->  What car model are you looking to find?
+user response -> Not specified
+BLEU_SCORE 11.339582221952005
+BERT SCORE 0.906132161617279
+
+generated -> What is your budget? 
+
+best_match ->  What car model are you looking to find?
+user response -> Not specified
+BLEU_SCORE 5.70796903405875
+BERT SCORE 0.8868122696876526
+
+generated -> Where are you looking to buy the car? 
+
+best_match ->  What car model are you looking to find?
+user response -> Not specified
+BLEU_SCORE 33.03164318013809
+BERT SCORE 0.9294188022613525
+
+generated -> How would you like to sort the results? 
+
+best_match ->   How should the results be sorted?
+user response -> By best deal
+BLEU_SCORE 11.339582221952005
+BERT SCORE 0.9310725927352905
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> By best deal
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_86
+generated -> Where in Egypt are you looking to stay? 
+
+best_match ->  What type of property are you looking for?
+user response -> Not specified
+BLEU_SCORE 19.070828081828378
+BERT SCORE 0.8992728590965271
+
+generated -> What dates are you interested in? 
+
+best_match ->  What type of property are you looking for?
+user response -> Not specified
+BLEU_SCORE 11.737849637633069
+BERT SCORE 0.9107541441917419
+
+generated -> How many guests will be staying? 
+
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7909732460975647
+
+generated -> What is your budget for this vacation rental? 
+
+best_match ->  What type of property are you looking for?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.8797019720077515
+
+generated -> Do you have any specific amenities or features in mind for the rental (e.g., pool, beach access, number of bedrooms)? 
+
+best_match ->  What type of property are you looking for?
+user response -> Not specified
+BLEU_SCORE 1.8196871111910016
+BERT SCORE 0.8547831773757935
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_90
+generated -> What kind of products are you looking for? 
+
+best_match ->  What type of product are you looking for?
+user response -> Electric coffee grinders
+BLEU_SCORE 48.54917717073236
+BERT SCORE 0.9900678992271423
+
+generated -> What criteria are important to you for filtering these grinders? 
+
+best_match ->   What is the desired capacity range in ounces?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8669559955596924
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_91
+generated -> What kind of shoes are you looking for? 
+
+best_match ->   What type of shoes are you interested in?
+user response -> Cross training shoes
+BLEU_SCORE 33.03164318013809
+BERT SCORE 0.9648330211639404
+
+generated -> What features are important to you in a cross training shoe? 
+
+best_match ->   Who are the shoes for?
+user response -> Not specified
+BLEU_SCORE 4.02724819242185
+BERT SCORE 0.8853737115859985
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_93
+generated -> What kind of products are you interested in? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 33.03164318013809
+BERT SCORE 0.9428209066390991
+
+generated -> What category of kitchen products? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products?  
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products?  
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products? 
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+generated -> What category of kitchen products? 
+
+
+
+best_match ->   What category of products are you looking for?
+user response -> Kitchen products
+BLEU_SCORE 20.82186541080652
+BERT SCORE 0.9230448007583618
+
+identity -> identity_94
+generated -> What is the item you would like to add? 
+
+best_match ->  What item should be added to the cart?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.9138523936271667
+
+generated -> What kind of item are you looking for? 
+
+best_match ->  What item should be added to the cart?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.9009508490562439
+
+generated -> Can you please tell me what you want to add to your shopping cart, even generally? 
+
+best_match ->  What item should be added to the cart?
+user response -> $50 Uber gift card
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.9025587439537048
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> $50 Uber gift card
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_98
+generated -> What product are you looking for? 
+
+best_match ->  What type of product are you looking for?
+user response -> Wireless earbuds
+BLEU_SCORE 63.191456189157286
+BERT SCORE 0.975620687007904
+
+generated -> How would you like to sort the results? 
+
+best_match ->   How should the results be sorted?
+user response -> Review Score
+BLEU_SCORE 11.339582221952005
+BERT SCORE 0.9310725927352905
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Review Score
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_99
+generated -> What kind of pet do you have? 
+
+best_match ->  What type of pet food are you looking for?
+user response -> Not specified
+BLEU_SCORE 10.816059393812111
+BERT SCORE 0.9228984117507935
+
+generated -> What kind of pet food are you looking for? 
+
+best_match ->  What type of pet food are you looking for?
+user response -> Cat food
+BLEU_SCORE 78.25422900366438
+BERT SCORE 0.9947389364242554
+
+generated -> How should the cat food be sorted? 
+
+best_match ->   Which website should be used to find the pet food?
+user response -> Not specified
+BLEU_SCORE 5.67557355463946
+BERT SCORE 0.9248184561729431
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_100
+generated -> What product are you looking to compare prices for? 
+
+best_match ->  What product are we comparing prices for?
+user response -> Samsung Galaxy S22
+BLEU_SCORE 26.269098944241577
+BERT SCORE 0.9578413963317871
+
+generated -> Where are you looking to buy the phone from? 
+
+best_match ->  What product are we comparing prices for?
+user response -> Not specified
+BLEU_SCORE 4.990049701936832
+BERT SCORE 0.8911813497543335
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_107
+generated -> What kind of product are you looking for? 
+
+best_match ->  What type of product are you looking for?
+user response -> Women's Nike jerseys
+BLEU_SCORE 75.06238537503395
+BERT SCORE 0.9939679503440857
+
+generated -> What team? 
+
+best_match ->  What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8729948401451111
+
+generated -> What size? 
+
+best_match ->  What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8395037651062012
+
+generated -> What price range are you interested in? 
+
+best_match ->   What is the minimum price range?
+user response -> Over $60
+BLEU_SCORE 13.134549472120788
+BERT SCORE 0.9158451557159424
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Over $60
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_111
+generated -> What type of permit are you looking for? 
+
+best_match ->   How many people is the permit for?
+user response -> Not specified
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.9084261655807495
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+generated -> In what city or county do you need the permit? 
+
+
+
+best_match ->   What date do you need the permit for?
+user response -> May 22
+BLEU_SCORE 36.72056269893591
+BERT SCORE 0.9246427416801453
+
+identity -> identity_115
+generated -> Which restaurant would you like to save? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Not specified
+BLEU_SCORE 7.267884212102741
+BERT SCORE 0.8981674313545227
+
+generated -> To which trip would you like to save a restaurant? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8698763251304626
+
+generated -> What is the name of the restaurant? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Johannesburg
+BLEU_SCORE 15.619699684601276
+BERT SCORE 0.913053035736084
+
+generated -> Is there anything else you would like to specify about the restaurant, like the cuisine or address? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Johannesburg
+BLEU_SCORE 4.480836160121357
+BERT SCORE 0.8702029585838318
+
+generated -> Is there anything else you would like to specify about the restaurant, like the cuisine or address?
+
+best_match ->  Which city is the restaurant located in?
+user response -> Johannesburg
+BLEU_SCORE 4.480836160121357
+BERT SCORE 0.8702029585838318
+
+generated -> It seems like you are repeating the restaurant name "Johannesburg". Is there any other information you can give me about this restaurant, or would you like to clarify your request? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Not specified
+BLEU_SCORE 2.3372496156461082
+BERT SCORE 0.8396219611167908
+
+generated -> I need more information to save a restaurant to your trips. Can you please tell me the name of the restaurant, the city it's in, or the trip you'd like to save it to? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Johannesburg
+BLEU_SCORE 2.4371431437250504
+BERT SCORE 0.874182403087616
+
+generated -> Okay, it seems you are set on saving a restaurant named "Johannesburg". To help me categorize it better, could you please tell me what city this restaurant is located in? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Not specified
+BLEU_SCORE 4.5388618272891605
+BERT SCORE 0.8641499876976013
+
+generated -> Can you tell me anything else about this restaurant, such as the cuisine type or a general address? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Johannesburg
+BLEU_SCORE 2.5197593442434796
+BERT SCORE 0.8612372875213623
+
+generated -> I understand you want to save a restaurant called "Johannesburg," but I need more information. Can you please tell me what type of food it serves or its approximate location? 
+
+best_match ->  Which city is the restaurant located in?
+user response -> Johannesburg
+BLEU_SCORE 1.2557690800697192
+BERT SCORE 0.8579656481742859
+
+identity -> identity_117
+generated -> What kind of smartphone are you looking for? 
+
+best_match ->  What model of smartphone are you looking for?
+user response -> Google Pixel 7
+BLEU_SCORE 75.06238537503395
+BERT SCORE 0.9700629115104675
+
+generated -> What storage size do you need? 
+
+best_match ->   What storage capacity are you looking for?
+user response -> 128gb
+BLEU_SCORE 13.540372457315735
+BERT SCORE 0.9411906599998474
+
+generated -> What color are you interested in? 
+
+best_match ->   What color do you want the phone in?
+user response -> Snow
+BLEU_SCORE 14.759564526951554
+BERT SCORE 0.9283480644226074
+
+generated -> Where would you like to purchase the phone from? 
+
+best_match ->   Where do you want to buy the phone from?
+user response -> Google
+BLEU_SCORE 30.213753973567687
+BERT SCORE 0.9801121950149536
+
+generated -> Do you want to trade in a device or use any promotions? 
+
+best_match ->   Where do you want to buy the phone from?
+user response -> Not specified
+BLEU_SCORE 12.35622127262679
+BERT SCORE 0.8855859041213989
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_119
+generated -> What kind of products are we making a list for? 
+
+best_match ->  What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 9.425159511373677
+BERT SCORE 0.9307112693786621
+
+generated -> What criteria should we use for this list? 
+
+best_match ->  What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 6.27465531099474
+BERT SCORE 0.8778049945831299
+
+generated -> What is the purpose of this list? 
+
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.796629011631012
+
+generated -> How many products should be on this list? 
+
+best_match ->  What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.767707020457095
+BERT SCORE 0.8842804431915283
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_124
+generated -> What is the order number? 
+
+best_match ->  What is the order number?
+user response -> 12345
+BLEU_SCORE 100.00000000000004
+BERT SCORE 1.0
+
+generated -> What information about the order would you like to know? 
+
+best_match ->  What is the order number?
+user response -> Not specified
+BLEU_SCORE 8.913765521398126
+BERT SCORE 0.8786286115646362
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_126
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+generated -> What type of restaurant are you looking for? 
+
+best_match ->   In which city are you looking for restaurants?
+user response -> New York City
+BLEU_SCORE 31.55984539112946
+BERT SCORE 0.9306439161300659
+
+identity -> identity_129
+generated -> What type of car are you looking for? 
+
+best_match ->  Which car brand are you interested in?
+user response -> Cadillac
+BLEU_SCORE 11.339582221952005
+BERT SCORE 0.930276095867157
+
+generated -> What is your preferred location? 
+
+best_match ->   How far from the zip code should the search extend?
+user response -> Not specified
+BLEU_SCORE 3.5275023606301383
+BERT SCORE 0.8654517531394958
+
+generated -> Do you have a preferred price range? 
+
+best_match ->  Which car brand are you interested in?
+user response -> Not specified
+BLEU_SCORE 6.567274736060395
+BERT SCORE 0.8813097476959229
+
+generated -> Do you prefer a new or used Cadillac? 
+
+best_match ->  Which car brand are you interested in?
+user response -> Not specified
+BLEU_SCORE 5.669791110976001
+BERT SCORE 0.8716718554496765
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_130
+generated -> What criteria are important to you in an electric car? 
+
+best_match ->  What is the maximum price for the car?
+user response -> Not specified
+BLEU_SCORE 8.29519350710986
+BERT SCORE 0.8900505900382996
+
+generated -> What are you looking for in an electric car? 
+
+best_match ->  What is the maximum price for the car?
+user response -> Not specified
+BLEU_SCORE 9.980099403873663
+BERT SCORE 0.8930360674858093
+
+generated -> Could you please provide more information about what you are looking for in an electric car? 
+
+best_match ->  What is the maximum price for the car?
+user response -> Not specified
+BLEU_SCORE 5.061867434834413
+BERT SCORE 0.8710201382637024
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_132
+generated -> What hotel are you looking to review? 
+
+best_match ->  Which hotel would you like to review?
+user response -> Hotel Xcaret Mexico
+BLEU_SCORE 23.356898886410015
+BERT SCORE 0.9662766456604004
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Hotel Xcaret Mexico
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_135
+generated -> What kind of TVs are you interested in browsing? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.9353046417236328
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+generated -> What size TV are you looking for? 
+
+best_match ->  What brand of TV are you looking for?
+user response -> Samsung
+BLEU_SCORE 62.401954419369176
+BERT SCORE 0.966852068901062
+
+identity -> identity_140
+generated -> What kind of features are you looking for in a restaurant? 
+
+best_match ->   What specific feature are you looking for in the restaurants?
+user response -> Outdoor seating
+BLEU_SCORE 34.48444257953326
+BERT SCORE 0.9568418264389038
+
+generated -> What location are you interested in? 
+
+best_match ->  What location are you interested in for restaurants?
+user response -> Big Sur, CA
+BLEU_SCORE 63.191456189157286
+BERT SCORE 0.9637028574943542
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Big Sur, CA
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_142
+generated -> Where do you need to find the marriage registry? 
+
+best_match ->  What is the name to search in the marriage registry?
+user response -> JANE DOE
+BLEU_SCORE 25.13293635022765
+BERT SCORE 0.9084852933883667
+
+generated -> What state was JANE DOE married in? 
+
+best_match ->  What is the name to search in the marriage registry?
+user response -> Not specified
+BLEU_SCORE 4.995138898472386
+BERT SCORE 0.8725312948226929
+
+generated -> What state do you think JANE DOE may have been married in?  
+
+best_match ->  What is the name to search in the marriage registry?
+user response -> Not specified
+BLEU_SCORE 4.065425428798724
+BERT SCORE 0.8707626461982727
+
+generated -> Do you know the city or county where JANE DOE may have been married? 
+
+best_match ->  What is the name to search in the marriage registry?
+user response -> Not specified
+BLEU_SCORE 3.1251907639724417
+BERT SCORE 0.8716960549354553
+
+generated -> Do you have any other information about JANE DOE, such as age or date of birth? 
+
+best_match ->  What is the name to search in the marriage registry?
+user response -> Not specified
+BLEU_SCORE 2.1476912089159055
+BERT SCORE 0.848983645439148
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_144
+generated -> Which sports team? 
+
+best_match ->   Which team's schedule should be opened?
+user response -> Not specified
+BLEU_SCORE 8.9730240870212
+BERT SCORE 0.8859440684318542
+
+generated -> What sport are you interested in? 
+
+best_match ->   Which team's schedule should be opened?
+user response -> Not specified
+BLEU_SCORE 6.567274736060395
+BERT SCORE 0.8690962791442871
+
+generated -> For which league? 
+
+best_match ->   Which team's schedule should be opened?
+user response -> Not specified
+BLEU_SCORE 7.545383788761362
+BERT SCORE 0.8683498501777649
+
+generated -> Do you have a location in mind? 
+
+best_match ->   Which team's schedule should be opened?
+user response -> Not specified
+BLEU_SCORE 5.522397783539471
+BERT SCORE 0.8712432980537415
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_145
+generated -> What product do you want to compare prices for? 
+
+best_match ->  What is the name of the product to compare prices for?
+user response -> Pokemon Go - Elite Trainer Box
+BLEU_SCORE 34.98330125272251
+BERT SCORE 0.9270373582839966
+
+generated -> Where do you want to buy it from?  
+
+best_match ->  What is the name of the product to compare prices for?
+user response -> Not specified
+BLEU_SCORE 4.062582855427254
+BERT SCORE 0.884894847869873
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_146
+generated -> What kind of running shoes are you looking for? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 78.25422900366438
+BERT SCORE 0.9947514533996582
+
+generated -> What size shoe do you need? 
+
+best_match ->   What shoe size do you need?
+user response -> Size 11
+BLEU_SCORE 47.2870804501588
+BERT SCORE 0.9889156818389893
+
+generated -> What is your budget for these shoes? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Not specified
+BLEU_SCORE 6.082317172853824
+BERT SCORE 0.8983711004257202
+
+generated -> Do you have any specific brands you are interested in? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8822639584541321
+
+generated -> What type of running will the shoes be used for (e.g., road running, trail running)? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 11.856660123276004
+BERT SCORE 0.8951132297515869
+
+generated -> What type of running will the shoes be used for (e.g., road running, trail running)? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 11.856660123276004
+BERT SCORE 0.8951132297515869
+
+generated -> What type of running will the shoes be used for (e.g., road running, trail running)? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 11.856660123276004
+BERT SCORE 0.8951132297515869
+
+generated -> What type of running will the shoes be used for (e.g., road running, trail running)? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 11.856660123276004
+BERT SCORE 0.8951132297515869
+
+generated -> What type of running will the shoes be used for (e.g., road running, trail running)? 
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 11.856660123276004
+BERT SCORE 0.8951132297515869
+
+generated -> What type of running will the shoes be used for (e.g., road running, trail running)? 
+
+
+
+best_match ->  What type of running shoes are you looking for?
+user response -> Men's running shoes
+BLEU_SCORE 11.856660123276004
+BERT SCORE 0.8951132297515869
+
+identity -> identity_147
+generated -> What features are you looking for in a smart TV? 
+
+best_match ->   What type of display should the TV have?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.9003099203109741
+
+generated -> What size screen are you looking for? 
+
+best_match ->   What is the maximum screen size you are looking for?
+user response -> 65 inches
+BLEU_SCORE 18.05447006787649
+BERT SCORE 0.9430146217346191
+
+generated -> What is your budget for the TV? 
+
+best_match ->   What type of display should the TV have?
+user response -> Not specified
+BLEU_SCORE 11.59119922599073
+BERT SCORE 0.9063476920127869
+
+generated -> Do you have any brand preferences?  
+
+best_match ->   What type of display should the TV have?
+user response -> Not specified
+BLEU_SCORE 5.868924818816531
+BERT SCORE 0.8701558113098145
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_149
+generated -> What show would you like tickets for? 
+
+best_match ->   Which city is the show located in?
+user response -> Not specified
+BLEU_SCORE 6.567274736060395
+BERT SCORE 0.8998186588287354
+
+generated -> What type of show are you interested in? 
+
+best_match ->   Which city is the show located in?
+user response -> Not specified
+BLEU_SCORE 10.552670315936318
+BERT SCORE 0.9112011194229126
+
+generated -> In what city are you looking for shows? 
+
+best_match ->   Which city is the show located in?
+user response -> Brisbane, Australia
+BLEU_SCORE 5.669791110976001
+BERT SCORE 0.9106377959251404
+
+generated -> What date are you interested in? 
+
+best_match ->   What is the latest date to book the tickets by?
+user response -> Not specified
+BLEU_SCORE 4.880869806051147
+BERT SCORE 0.8915128707885742
+
+generated -> How many tickets do you need? 
+
+best_match ->  How many tickets do you need?
+user response -> 4
+BLEU_SCORE 100.00000000000004
+BERT SCORE 1.0000001192092896
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> 4
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_159
+generated -> Which national park are you interested in? 
+
+best_match ->  Which national park's permit availability do you want to check?
+user response -> Not specified
+BLEU_SCORE 9.027235033938242
+BERT SCORE 0.9293035268783569
+
+generated -> What date are you interested in? 
+
+best_match ->  Which national park's permit availability do you want to check?
+user response -> Not specified
+BLEU_SCORE 4.410363736106611
+BERT SCORE 0.8998871445655823
+
+generated -> What kind of permit are you looking for?  
+
+best_match ->  Which national park's permit availability do you want to check?
+user response -> Not specified
+BLEU_SCORE 5.0243511979240845
+BERT SCORE 0.8946746587753296
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_170
+generated -> What country's playlist are you interested in? 
+
+best_match ->  Which country's TikTok series playlist do you want to see?
+user response -> Brazil
+BLEU_SCORE 5.367626065580593
+BERT SCORE 0.9369065761566162
+
+generated -> What is the name of the TikTok series playlist? 
+
+best_match ->  Which country's TikTok series playlist do you want to see?
+user response -> Brazil
+BLEU_SCORE 15.187207110382285
+BERT SCORE 0.9027920961380005
+
+generated -> Is there anything else I should know about the playlist you are looking for? 
+
+best_match ->  Which country's TikTok series playlist do you want to see?
+user response -> Not specified
+BLEU_SCORE 3.4585921141027356
+BERT SCORE 0.8566578030586243
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_174
+generated -> What is the make and model of the vehicle? 
+
+best_match ->  What is the make of the vehicle?
+user response -> Audi
+BLEU_SCORE 52.53819788848316
+BERT SCORE 0.9706732630729675
+
+generated -> What year is the Audi? 
+
+best_match ->   What is the year of the vehicle?
+user response -> Not specified
+BLEU_SCORE 14.626134130279034
+BERT SCORE 0.9302517771720886
+
+generated -> What type of service or repair are you looking for? 
+
+best_match ->   What model of the vehicle needs servicing?
+user response -> Not specified
+BLEU_SCORE 4.9323515694897075
+BERT SCORE 0.8899015784263611
+
+generated -> What is your location? 
+
+best_match ->  What is the make of the vehicle?
+user response -> Not specified
+BLEU_SCORE 12.975849993980741
+BERT SCORE 0.9134988188743591
+
+generated -> Do you have a preferred service provider? 
+
+best_match ->   What model of the vehicle needs servicing?
+user response -> Not specified
+BLEU_SCORE 5.522397783539471
+BERT SCORE 0.8784268498420715
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_175
+generated -> What is the make and model of your car? 
+
+best_match ->   What is the model of the car?
+user response -> 4C
+BLEU_SCORE 22.957488466614326
+BERT SCORE 0.9474038481712341
+
+generated -> What year is your car? 
+
+best_match ->   What is the model of the car?
+user response -> Not specified
+BLEU_SCORE 13.83254362586636
+BERT SCORE 0.9153560996055603
+
+generated -> What is the make of your car?  
+best_match ->  What is the make of the car?
+user response -> Alfa Romeo
+BLEU_SCORE 59.4603557501361
+BERT SCORE 0.9682720303535461
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Alfa Romeo
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+identity -> identity_176
+generated -> What are the two car models you want to compare? 
+
+best_match ->   What is the second car model to compare?
+user response -> ILX 2022
+BLEU_SCORE 16.59038701421971
+BERT SCORE 0.936834454536438
+
+generated -> What is the second car model you would like to compare it to? 
+
+best_match ->   What is the second car model to compare?
+user response -> ILX 2022
+BLEU_SCORE 40.52587697205425
+BERT SCORE 0.9348257184028625
+
+generated -> You provided the same car model twice. Do you want to compare the 2022 ILX to a different year model? 
+
+best_match ->   What is the second car model to compare?
+user response -> Not specified
+BLEU_SCORE 5.406502668979588
+BERT SCORE 0.8789893388748169
+
+generated -> What aspect of the 2022 ILX are you interested in comparing?  
+
+best_match ->   What is the second car model to compare?
+user response -> Not specified
+BLEU_SCORE 4.456882760699063
+BERT SCORE 0.8788307905197144
+
+generated -> Can you please provide more information about what you would like to know about the 2022 ILX? 
+
+best_match ->   What is the second car model to compare?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8419527411460876
+
+generated -> <Finish>
+best_match ->   <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 1.000000238418579
+
+Average BLEU Score with false positive: 14.12544679301771
+Average BLEU Score without false positive: 16.276428362008367
+Average BERT Score with false positive: 0.9275227185818885
+Average BERT Score without false positive: 0.968204137603442
+Turn counts: {0: [4, 4, 4, 3, 3, 5, 9, 3, 5, 6, 4, 4, 4, 4, 4, 10, 5, 5, 6, 6, 3, 3, 10, 4, 3, 4, 3, 5, 10, 10, 6, 5, 3, 10, 5, 4, 2, 10, 3, 6, 5, 3, 10, 5, 6, 4, 4, 6, 4, 6]}
+
+Average Turns: 5.2

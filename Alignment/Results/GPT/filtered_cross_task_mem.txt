@@ -1,0 +1,2169 @@
+identity -> identity_2
+generated -> What is the topic of the help page you are looking for?
+best_match -> <mem>  </mem> What is the topic of the help page you need?
+user response -> Buying tickets
+BLEU_SCORE 45.28132841952112
+BERT SCORE 0.9031259417533875
+
+generated -> <mem> Help Page Topic: Buying tickets </mem> Is there a specific website or platform you need help with?
+best_match -> <mem>  </mem> What is the topic of the help page you need?
+user response -> Not specified
+BLEU_SCORE 15.980518115118317
+BERT SCORE 0.9052718877792358
+
+generated -> <mem> Website/Platform: Not specified </mem><Finish>
+best_match -> <mem> Help Page Topic: Buying tickets </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 46.892438882117254
+BERT SCORE 0.8979873061180115
+
+identity -> identity_5
+generated -> What type of truck do you need to rent?
+best_match -> <mem>  </mem> What type of truck do you want to rent?
+user response -> The lowest rent truck
+BLEU_SCORE 32.67715067669964
+BERT SCORE 0.895971417427063
+
+generated -> <mim> Truck Type: Lowest rent truck </mem> What is the rental duration?
+best_match -> <mem> Furniture Pads: Two dozen </mem>  What is the mileage limit for the rental?
+user response -> Not specified
+BLEU_SCORE 32.99615684205933
+BERT SCORE 0.9019863605499268
+
+generated -> When would you like to start the rental?
+best_match -> <mem> Furniture Pads: Two dozen </mem>  What is the mileage limit for the rental?
+user response -> Not specified
+BLEU_SCORE 4.678165240801188
+BERT SCORE 0.8353630304336548
+
+generated -> How will you be using the truck?
+best_match -> <mem>  </mem> What type of truck do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.3595365419339505
+BERT SCORE 0.8482165932655334
+
+generated -> Where do you intend to pick up the truck from?
+best_match -> <mem>  </mem> What type of truck do you want to rent?
+user response -> Not specified
+BLEU_SCORE 5.462617726874232
+BERT SCORE 0.8625091314315796
+
+generated -> Do you have a preferred rental company?
+best_match -> <mem>  </mem> What type of truck do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.1320819468821623
+BERT SCORE 0.8494744896888733
+
+generated -> Will you need any additional equipment or services with the truck rental?
+best_match -> <mem>  </mem> What type of truck do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.988662868962178
+BERT SCORE 0.850645899772644
+
+generated -> <Finish>
+best_match -> <mem> Pickup and Drop-off Location: Nearest available </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8436124920845032
+
+identity -> identity_7
+generated -> <mem> Confirmation Number: [user's response] </mem>
+best_match -> <mem> Traveler's Name: Joe Lukeman </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 24.75215108688025
+BERT SCORE 0.8871704339981079
+
+generated -> What is the confirmation number?
+best_match -> <mem>  </mem> What is the confirmation number for the trip?
+user response -> SFTBAO
+BLEU_SCORE 15.020723831494387
+BERT SCORE 0.8921839594841003
+
+generated -> <mem> Confirmation Number: SFTBAO </mem> What is the traveler's name?
+best_match -> <mem> Confirmation Number: SFTBAO </mem>  What is the full name of the traveler?
+user response -> Joe Lukeman
+BLEU_SCORE 69.79463881925183
+BERT SCORE 0.9714057445526123
+
+generated -> <mem> Traveler's Name: Joe Lukeman </mem><Finish>
+best_match -> <mem> Traveler's Name: Joe Lukeman </mem>  <Finish>
+user response -> Joe Lukeman
+BLEU_SCORE 100.00000000000004
+BERT SCORE 0.9742345809936523
+
+identity -> identity_8
+generated -> What is the flight number?
+best_match -> <mem>  </mem> What is the date for the flight status check?
+user response -> Not specified
+BLEU_SCORE 6.074116824213336
+BERT SCORE 0.8799065351486206
+
+generated -> What is the departure city?
+best_match -> <mem> Departure City: New York </mem>  What is the destination city?
+user response -> Columbus
+BLEU_SCORE 5.141628886547205
+BERT SCORE 0.8802323937416077
+
+generated -> <mem> Departure City: Columbus </mem> What is the destination city?
+best_match -> <mem> Departure City: New York </mem>  What is the destination city?
+user response -> Columbus
+BLEU_SCORE 78.09325628873462
+BERT SCORE 0.9770297408103943
+
+generated -> What is the airline?
+best_match -> <mem> Flight Date: March 25 </mem>  From which city are the flights departing?
+user response -> Not specified
+BLEU_SCORE 0.6324609968081097
+BERT SCORE 0.8506019711494446
+
+generated -> What is the departure date?
+best_match -> <mem>  </mem> What is the date for the flight status check?
+user response -> Not specified
+BLEU_SCORE 5.488584132519439
+BERT SCORE 0.8774990439414978
+
+generated -> Do you know the time of departure?
+best_match -> <mem> Flight Date: March 25 </mem>  From which city are the flights departing?
+user response -> Not specified
+BLEU_SCORE 1.4653570635958932
+BERT SCORE 0.8524450659751892
+
+generated -> Do you have any further details like booking reference or passenger name?
+best_match -> <mem> Flight Date: March 25 </mem>  From which city are the flights departing?
+user response -> Not specified
+BLEU_SCORE 1.802913168177516
+BERT SCORE 0.8152628540992737
+
+generated -> Could you please specify the current status you want to check, such as "delayed" or "on-time"?
+best_match -> <mem>  </mem> What is the date for the flight status check?
+user response -> Not specified
+BLEU_SCORE 2.4426633221059637
+BERT SCORE 0.8428274989128113
+
+generated -> I'm sorry, but I need more specific information to check the flight status. Do you have any identifying detail, such as the airport, terminal, or gate information?
+best_match -> <mem>  </mem> What is the date for the flight status check?
+user response -> Not specified
+BLEU_SCORE 4.971656282820335
+BERT SCORE 0.8454809188842773
+
+generated -> Without additional details, I can't proceed further. Please provide any further information you may have for checking the flight status.
+best_match -> <mem>  </mem> What is the date for the flight status check?
+user response -> Not specified
+BLEU_SCORE 6.586656967644003
+BERT SCORE 0.8414976596832275
+
+identity -> identity_12
+generated -> Which movie are you looking for information on?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 5.159175834092273
+BERT SCORE 0.859514594078064
+
+generated -> Could you please specify the name of the movie you are looking for information on?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Donnie Darko
+BLEU_SCORE 17.775955083125037
+BERT SCORE 0.8618139624595642
+
+generated -> <mem> Movie Name: Donnie Darko </mem> What specific information are you looking for about "Donnie Darko"?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 22.128776529156546
+BERT SCORE 0.8990750312805176
+
+generated -> Are you interested in the movie's cast, plot summary, reviews, or box office details?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8316861987113953
+
+generated -> Do you want to know about the release date or the director of "Donnie Darko"?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8252590298652649
+
+generated -> Could you please clarify what kind of information you would like to know about "Donnie Darko"?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 2.4074859035470344
+BERT SCORE 0.8276277184486389
+
+generated -> Would you like to know about the genre, ratings, or awards of "Donnie Darko"?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 2.6643211213888947
+BERT SCORE 0.8150266408920288
+
+generated -> In that case, would a brief overview or summary of "Donnie Darko" suffice?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 2.2869567780619007
+BERT SCORE 0.8176451325416565
+
+generated -> Are you looking for general details or in-depth information about "Donnie Darko"?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 5.4701671470962525
+BERT SCORE 0.8297697901725769
+
+generated -> Are you interested in learning about the main actors or characters in "Donnie Darko"?
+best_match -> <mem>  </mem> What is the movie title you are looking for?
+user response -> Not specified
+BLEU_SCORE 3.0098043843528286
+BERT SCORE 0.8161559104919434
+
+identity -> identity_19
+generated -> What is your current location?
+best_match -> <mem> Zip Code: 90028 </mem>  Do you want to set this location as your home store?
+user response -> Not specified
+BLEU_SCORE 0.6282878523720715
+BERT SCORE 0.8338950872421265
+
+generated -> Can you please provide your city or ZIP code?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 2.242173863464727
+BERT SCORE 0.8276268839836121
+
+generated -> Can you provide your primary address or any landmark near you?
+best_match -> <mem> Zip Code: 90028 </mem>  Do you want to set this location as your home store?
+user response -> Not specified
+BLEU_SCORE 1.7820830313210292
+BERT SCORE 0.8203989267349243
+
+generated -> Can you enable location services or share your live location to find the nearest Gamestop store?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 21.12743815525968
+BERT SCORE 0.8647394180297852
+
+generated -> Could you share the name of your city or town?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 2.35864181846352
+BERT SCORE 0.8231019973754883
+
+generated -> Please provide the state or region you are currently in?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 2.35864181846352
+BERT SCORE 0.810158908367157
+
+generated -> Could you specify the country you are in?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 2.0857995854646623
+BERT SCORE 0.8248485326766968
+
+generated -> Can you tell me the specific area or neighborhood you are in?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 2.5006150769968634
+BERT SCORE 0.8314884901046753
+
+generated -> Could you provide a postal code that is near your location?
+best_match -> <mem>  </mem> What is the zip code to find the nearest Gamestop?
+user response -> Not specified
+BLEU_SCORE 2.7032360411086658
+BERT SCORE 0.8479828834533691
+
+generated -> I need some information about your location to help you. Could you provide the name of any nearby popular location, landmark, or business?
+best_match -> <mem> Zip Code: 90028 </mem>  Do you want to set this location as your home store?
+user response -> Not specified
+BLEU_SCORE 2.0752738657056446
+BERT SCORE 0.8324242830276489
+
+identity -> identity_25
+generated -> What movie would you like to rent?
+best_match -> <mem>  </mem> What is the movie title to rent?
+user response -> The Whale
+BLEU_SCORE 9.736604043215582
+BERT SCORE 0.8446407914161682
+
+generated -> <mem> Movie Title: The Whale </mem> How long would you like to rent it for?
+best_match -> <mem>  </mem> What is the movie title to rent?
+user response -> Not specified
+BLEU_SCORE 17.894177180728462
+BERT SCORE 0.9104309678077698
+
+generated -> Would you like to rent it in standard definition (SD) or high definition (HD)?
+best_match -> <mem> Movie Title: The Whale </mem>  What format should the movie be in?
+user response -> Not specified
+BLEU_SCORE 2.2840528494190804
+BERT SCORE 0.8261621594429016
+
+generated -> Which payment method would you like to use?
+best_match -> <mem> Movie Title: The Whale </mem>  What format should the movie be in?
+user response -> Not specified
+BLEU_SCORE 1.4044464769840423
+BERT SCORE 0.8442943692207336
+
+generated -> Would you like to rent any additional movies?
+best_match -> <mem>  </mem> What is the movie title to rent?
+user response -> Not specified
+BLEU_SCORE 5.417921591708777
+BERT SCORE 0.8350615501403809
+
+generated -> <Finish>
+best_match -> <mem> Movie Format: High definition </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.83402019739151
+
+identity -> identity_42
+generated -> What is the price range for the concert tickets?
+best_match -> <mem> Artist: Amy Grant </mem>  What is the price range for the tickets?
+user response -> $200-300
+BLEU_SCORE 26.013004751144457
+BERT SCORE 0.9003691673278809
+
+generated -> <mem> Price Range: $200-300 </mem> Which concert are you interested in?
+best_match -> <mem>  </mem> Which artist's concert tickets are you looking for?
+user response -> Amy Grant
+BLEU_SCORE 26.153117750218023
+BERT SCORE 0.9072675108909607
+
+generated -> <mem> Concert: Amy Grant </mem> How many tickets do you need?
+best_match -> <mem> Artist: Amy Grant </mem>  What is the price range for the tickets?
+user response -> $200-300
+BLEU_SCORE 37.66019021279213
+BERT SCORE 0.9389870762825012
+
+generated -> How many tickets do you need?
+best_match -> <mem> Artist: Amy Grant </mem>  What is the price range for the tickets?
+user response -> $200-300
+BLEU_SCORE 1.2192584915912204
+BERT SCORE 0.8670088648796082
+
+generated -> How many tickets do you need?
+best_match -> <mem> Artist: Amy Grant </mem>  What is the price range for the tickets?
+user response -> $200-300
+BLEU_SCORE 1.2192584915912204
+BERT SCORE 0.8670088648796082
+
+generated -> How many tickets do you need?
+best_match -> <mem> Artist: Amy Grant </mem>  What is the price range for the tickets?
+user response -> $200-300
+BLEU_SCORE 1.2192584915912204
+BERT SCORE 0.8670088648796082
+
+generated -> How many tickets do you need for the Amy Grant concert?
+best_match -> <mem> Artist: Amy Grant </mem>  What is the price range for the tickets?
+user response -> Not specified
+BLEU_SCORE 5.442382356151994
+BERT SCORE 0.8746540546417236
+
+generated -> <Finish>
+best_match -> <mem> Price Range: $200-300 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8495773673057556
+
+identity -> identity_45
+generated -> What type of products are you interested in?
+best_match -> <mem>  </mem> What type of product are you looking for?
+user response -> Men's Blazers
+BLEU_SCORE 10.730762517812739
+BERT SCORE 0.8740873336791992
+
+generated -> <mem> Product Type: Men's Blazers </mem> Any specific brands you are looking for?
+best_match -> <mem>  </mem> What type of product are you looking for?
+user response -> Men's Blazers
+BLEU_SCORE 23.185078121230152
+BERT SCORE 0.9068540334701538
+
+generated -> <mem> Specific Brands: Men's Blazers </mem> What is your preferred price range?
+best_match -> <mem>  </mem> What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 26.104909033290696
+BERT SCORE 0.8974980115890503
+
+generated -> <mem> Price Range: Not specified </mem> Any particular size or sizes you need?
+best_match -> <mem> Color Preference: Black </mem>  What size are you looking for?
+user response -> Size M
+BLEU_SCORE 19.4086232706272
+BERT SCORE 0.9023465514183044
+
+generated -> <mem> Size: M </mem> Do you have any color preferences?
+best_match -> <mem> Product Type: Men's Blazers </mem>  What color do you prefer?
+user response -> Black
+BLEU_SCORE 21.858844577603044
+BERT SCORE 0.9095924496650696
+
+generated -> <mem> Color: Black </mem> Any other specific features or requirements?
+best_match -> <mem>  </mem> What type of product are you looking for?
+user response -> Not specified
+BLEU_SCORE 21.409092659758045
+BERT SCORE 0.8973862528800964
+
+generated -> <mem> Specific Features: Not specified </mem><Finish>
+best_match -> <mem> Size: M </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 50.389204852596336
+BERT SCORE 0.9263622760772705
+
+identity -> identity_48
+generated -> For what date do you need the parking spot?
+best_match -> <mem>  </mem> Which airport do you need parking near?
+user response -> Not specified
+BLEU_SCORE 10.764345432696361
+BERT SCORE 0.8676713109016418
+
+generated -> For how many hours do you need the parking spot?
+best_match -> <mem>  </mem> Which airport do you need parking near?
+user response -> Not specified
+BLEU_SCORE 11.018841589267419
+BERT SCORE 0.8576791882514954
+
+generated -> What is the location where you need the parking spot?
+best_match -> <mem>  </mem> Which airport do you need parking near?
+user response -> Bradley Airport
+BLEU_SCORE 6.196349981371174
+BERT SCORE 0.8625487089157104
+
+generated -> <mem> Location: Bradley Airport </mem> Do you know the time duration or time span for parking?
+best_match -> <mem> Airport: Bradley Airport </mem>  What is your preference for the parking cost?
+user response -> Not specified
+BLEU_SCORE 33.535699101570344
+BERT SCORE 0.9337688088417053
+
+generated -> What type of vehicle will you be parking?
+best_match -> <mem> Airport: Bradley Airport </mem>  What is your preference for the parking cost?
+user response -> Not specified
+BLEU_SCORE 1.8483555109413787
+BERT SCORE 0.848668098449707
+
+generated -> What is your name?
+best_match -> <mem> Cost Preference: Cheapest </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.7732095718383789
+
+generated -> Could you provide your contact information, such as an email address or phone number?
+best_match -> <mem>  </mem> Which airport do you need parking near?
+user response -> Not specified
+BLEU_SCORE 2.908317710573757
+BERT SCORE 0.7916430830955505
+
+generated -> Would you like any additional services, such as car wash or valet parking?
+best_match -> <mem> Airport: Bradley Airport </mem>  What is your preference for the parking cost?
+user response -> Not specified
+BLEU_SCORE 2.2392970339022753
+BERT SCORE 0.8414385318756104
+
+generated -> Can you provide any specific preferences or requirements for the parking spot?
+best_match -> <mem> Airport: Bradley Airport </mem>  What is your preference for the parking cost?
+user response -> Cheapest
+BLEU_SCORE 7.211652672710064
+BERT SCORE 0.8562117218971252
+
+generated -> <mem> Preferences: Cheapest </mem><Finish>
+best_match -> <mem> Cost Preference: Cheapest </mem>  <Finish>
+user response -> Cheapest
+BLEU_SCORE 70.4805090506219
+BERT SCORE 0.9479948878288269
+
+identity -> identity_56
+generated -> Which category is the review for?
+best_match -> <mem>  </mem> What is the category of the review?
+user response -> Boardgame
+BLEU_SCORE 6.263558399254998
+BERT SCORE 0.8705663084983826
+
+generated -> <mem> Category: Boardgame </mem> What is the specific score you are looking for?
+best_match -> <mem> Review Category: Boardgame </mem>  What score should the review have?
+user response -> Not specified
+BLEU_SCORE 44.129945550173765
+BERT SCORE 0.9272710084915161
+
+generated -> <mem> Score: Not specified </mem><Finish>
+best_match -> <mem> Review Score: 10 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 57.3122448409426
+BERT SCORE 0.9290388226509094
+
+identity -> identity_57
+generated -> What game do you need the walkthrough for?
+best_match -> <mem>  </mem> What game do you need a walkthrough for?
+user response -> The Legend of Zelda: Breath of the Wild
+BLEU_SCORE 27.425386856243257
+BERT SCORE 0.905249834060669
+
+generated -> <mem> Game: The Legend of Zelda: Breath of the Wild </mem> Which part or section of the game do you need the walkthrough for?
+best_match -> <mem>  </mem> What game do you need a walkthrough for?
+user response -> The Legend of Zelda: Breath of the Wild
+BLEU_SCORE 21.004850229269245
+BERT SCORE 0.9227101802825928
+
+generated -> Is there a specific quest or objective within "The Legend of Zelda: Breath of the Wild" you need help with?
+best_match -> <mem>  </mem> What game do you need a walkthrough for?
+user response -> Not specified
+BLEU_SCORE 3.7419436034576044
+BERT SCORE 0.837432861328125
+
+generated -> <Finish>
+best_match -> <mem> Game Name: The Legend of Zelda: Breath of the Wild </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8412609696388245
+
+identity -> identity_66
+generated -> Which store would you like to explore?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 1.0569482404431718
+BERT SCORE 0.8463879227638245
+
+generated -> What is the location of the store you want to explore?
+best_match -> <mem>  </mem> Which city and state is the store located in?
+user response -> Tempe, Arizona
+BLEU_SCORE 6.3145129130910505
+BERT SCORE 0.860532820224762
+
+generated -> <mem> Location: Tempe, Arizona </mem> What type of store are you interested in exploring?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 41.090877382941905
+BERT SCORE 0.9310709834098816
+
+generated -> Would you prefer a specific category such as grocery, clothing, electronics, or something else?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 3.8700984230065583
+BERT SCORE 0.8321491479873657
+
+generated -> How about I suggest some popular stores in Tempe, Arizona? Are you looking for local favorites or major retailers?
+best_match -> <mem>  </mem> Which city and state is the store located in?
+user response -> Not specified
+BLEU_SCORE 2.0540268312306345
+BERT SCORE 0.8264777064323425
+
+generated -> Please confirm if you are looking for any specific kind of shopping experience, such as budget-friendly, luxury, or specialty stores?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 2.224972978585352
+BERT SCORE 0.8416855931282043
+
+generated -> Okay, would you like recommendations for malls, standalone stores, or both?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 1.89811559672262
+BERT SCORE 0.8340131640434265
+
+generated -> I'll provide a general recommendation. Is that acceptable for you?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 1.6395955393726065
+BERT SCORE 0.8437782526016235
+
+generated -> Would you like to visit a store for shopping or just exploring for now?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 2.156675700790255
+BERT SCORE 0.8322999477386475
+
+generated -> Just to tailor my recommendations better, is there a specific purpose or product you are seeking in Tempe, Arizona?
+best_match -> <mem> Store Location: Tempe, Arizona </mem>  Have you chosen a specific store to make your store?
+user response -> Not specified
+BLEU_SCORE 8.302475485300015
+BERT SCORE 0.8537717461585999
+
+identity -> identity_69
+generated -> Where will you be picking up the rental car?
+best_match -> <mem> Rental Dates: From Mar 28 to Apr 1 </mem>  Where do you need the car?
+user response -> Not specified
+BLEU_SCORE 2.8759381624989255
+BERT SCORE 0.8524337410926819
+
+generated -> What date do you need the rental car?
+best_match -> <mem> Price Preference: Lowest price </mem>  What are the rental start and end dates?
+user response -> Not specified
+BLEU_SCORE 2.989081421134522
+BERT SCORE 0.8465388417243958
+
+generated -> What type of car are you looking to rent?
+best_match -> <mem>  </mem> What size of car are you looking for?
+user response -> Not specified
+BLEU_SCORE 23.45000810620359
+BERT SCORE 0.8757222294807434
+
+generated -> How long will you need the rental car for?
+best_match -> <mem> Rental Dates: From Mar 28 to Apr 1 </mem>  Where do you need the car?
+user response -> Not specified
+BLEU_SCORE 4.836732182673402
+BERT SCORE 0.8732662796974182
+
+generated -> Will you need any additional services, such as GPS or car seats?
+best_match -> <mem> Rental Dates: From Mar 28 to Apr 1 </mem>  Where do you need the car?
+user response -> Not specified
+BLEU_SCORE 3.5513367985431006
+BERT SCORE 0.8349629640579224
+
+generated -> Could you please provide your name for the booking?
+best_match -> <mem> Price Preference: Lowest price </mem>  What are the rental start and end dates?
+user response -> Not specified
+BLEU_SCORE 1.6610432519909921
+BERT SCORE 0.8169924020767212
+
+generated -> Would you like to specify a budget range for the car rental?
+best_match -> <mem> Price Preference: Lowest price </mem>  What are the rental start and end dates?
+user response -> Not specified
+BLEU_SCORE 2.1970900464782472
+BERT SCORE 0.8396220803260803
+
+generated -> Please provide a contact number or email for the rental car booking.
+best_match -> <mem> Price Preference: Lowest price </mem>  What are the rental start and end dates?
+user response -> Not specified
+BLEU_SCORE 3.338854843808176
+BERT SCORE 0.8342015147209167
+
+generated -> <Finish>
+best_match -> <mem> Rental Location: Zurich </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8478565216064453
+
+identity -> identity_70
+generated -> What kind of interaction would you like to perform with the music platform?
+best_match -> <mem> Filter Tag: #Electronics </mem>  Which song should be played?
+user response -> Not specified
+BLEU_SCORE 2.1340743160056204
+BERT SCORE 0.810992956161499
+
+generated -> What specific task or action would you like to perform on the music platform (e.g., playing a song, creating a playlist, etc.)?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 1.526608193588886
+BERT SCORE 0.8388096690177917
+
+generated -> Which music platform are you referring to?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 2.4159653599212296
+BERT SCORE 0.8259127140045166
+
+generated -> Are you looking to perform an action related to playback, managing playlists, or something else?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 2.8265205879007453
+BERT SCORE 0.8409355878829956
+
+generated -> Can you provide more details on what you would like to do on the music platform? For example, do you want to search for music, manage your library, or something else?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 1.2193311110766474
+BERT SCORE 0.8373987674713135
+
+generated -> Could you specify a particular feature or function you want to use on the music platform? For instance, do you want to play a song, find a genre, or follow an artist?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 1.184949136625139
+BERT SCORE 0.833196222782135
+
+generated -> Would you like to perform a specific action such as searching for a song, creating a playlist, or following an artist on the music platform?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 1.5880117714047368
+BERT SCORE 0.8326489329338074
+
+generated -> To assist you better, can you please clarify what specific task you'd like to perform on the music platform?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 2.159701133933343
+BERT SCORE 0.8338402509689331
+
+generated -> What music platform are you using (e.g., Spotify, Apple Music, etc.)?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 2.159701133933343
+BERT SCORE 0.8331474661827087
+
+generated -> Could you provide more details on your desired interaction with the music platform? For example, are you interested in playing a song, creating a playlist, or exploring new music?
+best_match -> <mem>  </mem> What tag should be used to filter playlists?
+user response -> Not specified
+BLEU_SCORE 1.0885011049519644
+BERT SCORE 0.8328948020935059
+
+identity -> identity_75
+generated -> What is the gift card number?
+best_match -> <mem>  </mem> What is the gift card number?
+user response -> 87654321
+BLEU_SCORE 36.78794411714425
+BERT SCORE 0.8911944031715393
+
+generated -> <mem> Gift Card Number: 87654321 </mem> What is the PIN associated with the gift card?
+best_match -> <mem> Gift Card Number: 87654321 </mem>  What is the pin number for the gift card?
+user response -> 9753
+BLEU_SCORE 77.393215404741
+BERT SCORE 0.9768748879432678
+
+generated -> <mem> PIN: 9753 </mem><Finish>
+best_match -> <mem> Pin Number: 9753 </mem>  <Finish>
+user response -> 9753
+BLEU_SCORE 70.4805090506219
+BERT SCORE 0.9497874975204468
+
+identity -> identity_81
+generated -> What color would you like for the queen-sized bed sheets?
+best_match -> <mem> Bed Sheet Size: Queen-sized </mem> What is the minimum star rating required for the bed sheets?
+user response -> Not specified
+BLEU_SCORE 5.6314757327712694
+BERT SCORE 0.890191376209259
+
+generated -> How many sets of queen-sized bed sheets would you like to add to the shopping cart?
+best_match -> <mem> Bed Sheet Size: Queen-sized </mem> What is the minimum star rating required for the bed sheets?
+user response -> Not specified
+BLEU_SCORE 3.6034484354731875
+BERT SCORE 0.8778995871543884
+
+generated -> Do you have a preferred thread count for the queen-sized bed sheets?
+best_match -> <mem> Bed Sheet Size: Queen-sized </mem> What is the minimum star rating required for the bed sheets?
+user response -> Not specified
+BLEU_SCORE 6.2037751487495045
+BERT SCORE 0.8873408436775208
+
+generated -> Would you like to add any specific brand of queen-sized bed sheets to the shopping cart?
+best_match -> <mem> Bed Sheet Size: Queen-sized </mem> What is the minimum star rating required for the bed sheets?
+user response -> Not specified
+BLEU_SCORE 3.6034484354731875
+BERT SCORE 0.8698923587799072
+
+generated -> <mem> Item: Queen-sized bed sheets </mem><Finish>
+best_match -> <mem> Minimum Star Rating: 4-star </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 44.09928765478173
+BERT SCORE 0.9164876937866211
+
+identity -> identity_88
+generated -> Which author are you interested in?
+best_match -> <mem>  </mem> Which author's books are you looking for?
+user response -> Stephen King
+BLEU_SCORE 4.981224652850502
+BERT SCORE 0.8645645380020142
+
+generated -> <mem> Author: Stephen King </mem> What language are you interested in?
+best_match -> <mem> Author: Stephen King </mem>  In which language should the books be?
+user response -> Not specified
+BLEU_SCORE 56.52080307919821
+BERT SCORE 0.9356111884117126
+
+generated -> Would you like to browse books in English or another language?
+best_match -> <mem> Author: Stephen King </mem>  In which language should the books be?
+user response -> Not specified
+BLEU_SCORE 2.4870972210467115
+BERT SCORE 0.8383373618125916
+
+generated -> Which languages would you prefer to browse books in?
+best_match -> <mem> Author: Stephen King </mem>  In which language should the books be?
+user response -> German
+BLEU_SCORE 2.028802809405136
+BERT SCORE 0.8567500710487366
+
+generated -> <mem> Language: German </mem><Finish>
+best_match -> <mem> Language: German </mem>  <Finish>
+user response -> German
+BLEU_SCORE 100.00000000000004
+BERT SCORE 0.9644573330879211
+
+identity -> identity_89
+generated -> Which NBA teams' game are you interested in?
+best_match -> <mem>  </mem> Which NBA team's games are you interested in?
+user response -> Miami Heat
+BLEU_SCORE 23.584397171061767
+BERT SCORE 0.8884611129760742
+
+generated -> <mem> Team: Miami Heat </mem> What date are you looking to attend the game?
+best_match -> <mem> Team Name: Miami Heat </mem>  What date are you looking to attend the game?
+user response -> Sunday, April 16
+BLEU_SCORE 87.47394842931365
+BERT SCORE 0.9834763407707214
+
+generated -> <mem> Date: Sunday, April 16 </mem> How many tickets do you need?
+best_match -> <mem> Game Date: Sunday, April 16 </mem>  What type and how many tickets do you need?
+user response -> 5 level 320 tickets
+BLEU_SCORE 62.51281872331409
+BERT SCORE 0.9636645913124084
+
+generated -> <mem> Tickets: 5 level 320 </mem> What is your preferred payment method?
+best_match -> <mem> Game Date: Sunday, April 16 </mem>  What type and how many tickets do you need?
+user response -> Not specified
+BLEU_SCORE 20.600299538363608
+BERT SCORE 0.8968619704246521
+
+generated -> <mem> Payment Method: Not specified </mem><Finish>
+best_match -> <mem> Ticket Type and Quantity: 5 level 320 tickets </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 38.594519944265
+BERT SCORE 0.9073909521102905
+
+identity -> identity_92
+generated -> In which city are you looking for monthly parking?
+best_match -> <mem> Start Date: April 12 </mem>  Where do you need the parking?
+user response -> Not specified
+BLEU_SCORE 3.7760275051848216
+BERT SCORE 0.8493419289588928
+
+generated -> Is there a specific neighborhood or area you are interested in?
+best_match -> <mem> Start Date: April 12 </mem>  Where do you need the parking?
+user response -> Not specified
+BLEU_SCORE 2.247346032110286
+BERT SCORE 0.8314356803894043
+
+generated -> What is your budget for monthly parking?
+best_match -> <mem> Start Date: April 12 </mem>  Where do you need the parking?
+user response -> Not specified
+BLEU_SCORE 2.7925616469262944
+BERT SCORE 0.845085620880127
+
+generated -> What type of vehicle will you be parking?
+best_match -> <mem> Start Date: April 12 </mem>  Where do you need the parking?
+user response -> Not specified
+BLEU_SCORE 3.4738650706548713
+BERT SCORE 0.8423406481742859
+
+generated -> What duration are you looking to secure monthly parking for?
+best_match -> <mem>  </mem> What date should the parking start?
+user response -> Not specified
+BLEU_SCORE 3.755001157177446
+BERT SCORE 0.82293701171875
+
+generated -> Do you have any specific requirements or preferences (e.g., covered parking, security, accessibility)?
+best_match -> <mem> Start Date: April 12 </mem>  Where do you need the parking?
+user response -> Not specified
+BLEU_SCORE 2.2731543567022867
+BERT SCORE 0.8203190565109253
+
+generated -> Are there any other details or criteria important for your monthly parking search?
+best_match -> <mem> Start Date: April 12 </mem>  Where do you need the parking?
+user response -> Not specified
+BLEU_SCORE 2.3629035975324633
+BERT SCORE 0.824002742767334
+
+generated -> <Finish>
+best_match -> <mem> Location: Near Florida Keys </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.838777482509613
+
+identity -> identity_99
+generated -> What type of job are you looking for?
+best_match -> <mem>  </mem> What type of job are you looking for?
+user response -> Full-time job
+BLEU_SCORE 45.94258240359268
+BERT SCORE 0.8947009444236755
+
+generated -> <memo> Job Type: Full-time </mem> In which field or industry are you interested in applying?
+best_match -> <mem> Job Type: Full-time </mem>  In which industry are you looking to work?
+user response -> Sales
+BLEU_SCORE 54.38653754915954
+BERT SCORE 0.9561576843261719
+
+generated -> <memo> Industry: Sales </mem> In which location are you seeking a job?
+best_match -> <mem> Industry: Sales </mem>  Which location are you considering for your job search?
+user response -> Springfield
+BLEU_SCORE 44.269364799439046
+BERT SCORE 0.9561626315116882
+
+generated -> <memo> Location: Springfield </mem> Do you have a preferred company you want to apply to?
+best_match -> <mem> Industry: Sales </mem>  Which location are you considering for your job search?
+user response -> Not specified
+BLEU_SCORE 13.24317283199537
+BERT SCORE 0.9129758477210999
+
+generated -> <memo> Preferred Company: Not specified </mem> What is your highest level of education?
+best_match -> <mem> Job Type: Full-time </mem>  In which industry are you looking to work?
+user response -> Not specified
+BLEU_SCORE 14.253911354181854
+BERT SCORE 0.8920672535896301
+
+generated -> <memo> Education: Not specified </mem> Do you have an updated resume ready for application?
+best_match -> <mem> Location: Springfield </mem>  Should I look for the most recent job listing?
+user response -> Not specified
+BLEU_SCORE 13.924499401499876
+BERT SCORE 0.8971213698387146
+
+generated -> <Finish>
+best_match -> <mem> Job Recency: Most recent </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8439183831214905
+
+identity -> identity_105
+generated -> What is your current location or ZIP code?
+best_match -> <mem> Distance Limit: 50 miles </mem>  What is the starting zip code for the search?
+user response -> 21122
+BLEU_SCORE 2.674747576790541
+BERT SCORE 0.8500701785087585
+
+generated -> <mem> ZIP Code: 21122 </mem><Finish>
+best_match -> <mem> Starting Zip Code: 21122 </mem>  <Finish>
+user response -> 21122
+BLEU_SCORE 72.85959997974687
+BERT SCORE 0.9530917406082153
+
+identity -> identity_109
+generated -> Which player statistics are you looking for?
+best_match -> <mem>  </mem> Which player's statistics are you looking for?
+user response -> Cristiano Ronaldo
+BLEU_SCORE 29.476596093379342
+BERT SCORE 0.8963392376899719
+
+generated -> <mem> Player: Cristiano Ronaldo </mem> Which specific soccer tournaments would you like to retrieve statistics for?
+best_match -> <mem> Team: Portugal </mem>  For which tournament do you need the statistics?
+user response -> World Cups
+BLEU_SCORE 16.692486522015717
+BERT SCORE 0.9295123219490051
+
+generated -> <mem> Tournaments: World Cups </mem><Finish>
+best_match -> <mem> Tournament: World Cups </mem>  <Finish>
+user response -> World Cups
+BLEU_SCORE 78.25422900366432
+BERT SCORE 0.9570125937461853
+
+identity -> identity_111
+generated -> What is your budget for the gaming PC build?
+best_match -> <mem> GPU Model: RTX 6950XT </mem>  What is the budget range for the gaming PC?
+user response -> $2000-$2500
+BLEU_SCORE 10.11076417836026
+BERT SCORE 0.8819250464439392
+
+generated -> <mem> Budget: $2000-$2500 </mem> Do you have a preferred processor brand, Intel or AMD?
+best_match -> <mem>  </mem> What CPU model is required for the gaming PC?
+user response -> Not specified
+BLEU_SCORE 13.52328506650155
+BERT SCORE 0.8962407112121582
+
+generated -> What is the primary purpose of the gaming PC? (e.g., high-end gaming, streaming, video editing, etc.)
+best_match -> <mem> GPU Model: RTX 6950XT </mem>  What is the budget range for the gaming PC?
+user response -> Not specified
+BLEU_SCORE 12.56536863387715
+BERT SCORE 0.8444690704345703
+
+generated -> Do you have a preference for the graphics card brand, NVIDIA or AMD?
+best_match -> <mem> CPU Model: Ryzen 9 </mem>  What GPU model is needed?
+user response -> Not specified
+BLEU_SCORE 2.1515930702228068
+BERT SCORE 0.8318506479263306
+
+generated -> What size of case do you prefer for your gaming PC? (e.g., full tower, mid tower, mini tower)
+best_match -> <mem> GPU Model: RTX 6950XT </mem>  What is the budget range for the gaming PC?
+user response -> Not specified
+BLEU_SCORE 5.869760893038728
+BERT SCORE 0.8360816836357117
+
+generated -> What is the desired storage capacity for your gaming PC? (e.g., 1TB, 2TB, etc.)
+best_match -> <mem> GPU Model: RTX 6950XT </mem>  What is the budget range for the gaming PC?
+user response -> Not specified
+BLEU_SCORE 10.236329204211275
+BERT SCORE 0.8493421077728271
+
+generated -> Do you have any specific requirements or preferences for the cooling system? (e.g., air cooling, liquid cooling)
+best_match -> <mem>  </mem> What CPU model is required for the gaming PC?
+user response -> Not specified
+BLEU_SCORE 3.333744983027298
+BERT SCORE 0.8407893180847168
+
+generated -> Are there any specific features or components you definitely want to include in your gaming PC build? (e.g., type of RAM, specific motherboard features, RGB lighting)
+best_match -> <mem>  </mem> What CPU model is required for the gaming PC?
+user response -> Not specified
+BLEU_SCORE 2.3372496156461082
+BERT SCORE 0.8457606434822083
+
+generated -> <Finish>
+best_match -> <mem> Budget Range: $2000-$2500 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8486804366111755
+
+identity -> identity_118
+generated -> What criteria would you like to use for sorting the cars (e.g., price, mileage, year)?
+best_match -> <mem> Latest Model Year: 2014 </mem>  How should the cars be sorted?
+user response -> By lowest price
+BLEU_SCORE 3.482270899863668
+BERT SCORE 0.8425852656364441
+
+generated -> <mem> Sort Criteria: lowest price </mem> What is your maximum budget for the used cars?
+best_match -> <mem>  </mem> Which car brand are you interested in?
+user response -> Not specified
+BLEU_SCORE 16.169214353455807
+BERT SCORE 0.9035311341285706
+
+generated -> <mem> Maximum Budget: Not specified </mem> Are you looking for a specific make or model?
+best_match -> <mem> Car Brand: Audi </mem>  What is the latest model year you are interested in?
+user response -> Not specified
+BLEU_SCORE 17.509131039045975
+BERT SCORE 0.9006064534187317
+
+generated -> <mem> Make/Model: Not specified </mem> Is there a particular location or radius you prefer for the search?
+best_match -> <mem>  </mem> Which car brand are you interested in?
+user response -> Not specified
+BLEU_SCORE 13.927409128834833
+BERT SCORE 0.889373779296875
+
+generated -> <mem> Location/Radius: Not specified </mem> Are there any specific features you are looking for in the used cars?
+best_match -> <mem>  </mem> Which car brand are you interested in?
+user response -> Not specified
+BLEU_SCORE 14.06853564987433
+BERT SCORE 0.9002996683120728
+
+generated -> <mem> Specific Features: Not specified </mem><Finish>
+best_match -> <mem> Sorting Preference: Lowest price </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 50.389204852596336
+BERT SCORE 0.9147216081619263
+
+identity -> identity_122
+generated -> For which date and time are you looking to book the restaurant?
+best_match -> <mem> Number of Guests: 2 </mem>  What date do you want to book the reservation for?
+user response -> Not specified
+BLEU_SCORE 6.336301197103195
+BERT SCORE 0.8660105466842651
+
+generated -> How many people will be attending?
+best_match -> <mem> Cuisine Type: Spanish </mem>  How many guests will be dining?
+user response -> Not specified
+BLEU_SCORE 4.080326580401402
+BERT SCORE 0.87041836977005
+
+generated -> Which restaurant are you looking to check availability for?
+best_match -> <mem> Location: Buchanan, MI </mem>  What type of cuisine are you interested in?
+user response -> Not specified
+BLEU_SCORE 3.0915498429631416
+BERT SCORE 0.8527278304100037
+
+generated -> What is your preferred location or cuisine type for the restaurant?
+best_match -> <mem> Location: Buchanan, MI </mem>  What type of cuisine are you interested in?
+user response -> Spanish
+BLEU_SCORE 2.2622731066261244
+BERT SCORE 0.8529784679412842
+
+generated -> <mem> Preferred Cuisine: Spanish </mem> For which date and time are you looking to book the restaurant?
+best_match -> <mem> Number of Guests: 2 </mem>  What date do you want to book the reservation for?
+user response -> Not specified
+BLEU_SCORE 19.80050438955544
+BERT SCORE 0.9260978698730469
+
+generated -> How many people will be attending?
+best_match -> <mem> Cuisine Type: Spanish </mem>  How many guests will be dining?
+user response -> Not specified
+BLEU_SCORE 4.080326580401402
+BERT SCORE 0.87041836977005
+
+generated -> Can you provide a contact number for the reservation?
+best_match -> <mem>  </mem> What is the location for the reservation?
+user response -> Buchanan, MI
+BLEU_SCORE 15.933013912707292
+BERT SCORE 0.8515501618385315
+
+generated -> In which city or location would you like to find a Spanish restaurant?
+best_match -> <mem> Location: Buchanan, MI </mem>  What type of cuisine are you interested in?
+user response -> Not specified
+BLEU_SCORE 2.04834890794109
+BERT SCORE 0.8400998711585999
+
+generated -> For which date and time are you looking to book the restaurant?
+best_match -> <mem> Number of Guests: 2 </mem>  What date do you want to book the reservation for?
+user response -> Not specified
+BLEU_SCORE 6.336301197103195
+BERT SCORE 0.8660105466842651
+
+generated -> How many people will be attending?
+best_match -> <mem> Cuisine Type: Spanish </mem>  How many guests will be dining?
+user response -> Not specified
+BLEU_SCORE 4.080326580401402
+BERT SCORE 0.87041836977005
+
+identity -> identity_126
+generated -> Where will you be traveling from?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 1.8155431088372649
+BERT SCORE 0.8405526280403137
+
+generated -> Where will you be traveling to?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 1.8155431088372649
+BERT SCORE 0.8414644598960876
+
+generated -> What are your travel dates?
+best_match -> <mem> Departure City: Las Vegas </mem>  Are the travel dates flexible?
+user response -> Not specified
+BLEU_SCORE 2.4313261880301806
+BERT SCORE 0.8582820296287537
+
+generated -> Could you please provide the departure location?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 4.496618206730097
+BERT SCORE 0.8534201979637146
+
+generated -> Could you please specify your destination?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 1.8155431088372649
+BERT SCORE 0.8384740352630615
+
+generated -> What is your preferred travel date range?
+best_match -> <mem> Departure City: Las Vegas </mem>  Are the travel dates flexible?
+user response -> Not specified
+BLEU_SCORE 1.881555714180042
+BERT SCORE 0.8546634912490845
+
+generated -> Can you specify any preferences or requirements for the roundtrip travel options?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 9.809884033350569
+BERT SCORE 0.8524357080459595
+
+generated -> Please provide your departure city?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Las Vegas
+BLEU_SCORE 3.3931890374521183
+BERT SCORE 0.8678672313690186
+
+generated -> <mem> Departure City: Las Vegas </mem> What is your destination city?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 35.412968165085715
+BERT SCORE 0.9173790216445923
+
+generated -> Could you please specify your destination city?
+best_match -> <mem>  </mem> What is the departure city for the roundtrip?
+user response -> Not specified
+BLEU_SCORE 2.4159653599212296
+BERT SCORE 0.851351797580719
+
+identity -> identity_135
+generated -> What are the pickup and drop-off dates for the rental car?
+best_match -> <mem> Pickup Location: SFO </mem>  What is the pickup date?
+user response -> April 20, 2023
+BLEU_SCORE 5.309851272691557
+BERT SCORE 0.8538070917129517
+
+generated -> What is the drop-off date for the rental car?
+best_match -> <mem> Pickup Location: SFO </mem>  What is the pickup date?
+user response -> Not specified
+BLEU_SCORE 8.813100642503027
+BERT SCORE 0.8603107333183289
+
+generated -> Where do you need the rental car?
+best_match -> <mem>  </mem> Where should the car be picked up?
+user response -> Not specified
+BLEU_SCORE 3.255629778647324
+BERT SCORE 0.8508079648017883
+
+generated -> What is the pickup location for the rental car?
+best_match -> <mem>  </mem> Where should the car be picked up?
+user response -> SFO
+BLEU_SCORE 3.3495035708457803
+BERT SCORE 0.8608408570289612
+
+generated -> <mem> Pickup Location: SFO </mem> What time do you want to pick up the rental car?
+best_match -> <mem>  </mem> Where should the car be picked up?
+user response -> Not specified
+BLEU_SCORE 16.692486522015717
+BERT SCORE 0.9187222123146057
+
+generated -> When is the drop-off date for the rental car?
+best_match -> <mem> Pickup Location: SFO </mem>  What is the pickup date?
+user response -> Not specified
+BLEU_SCORE 4.955970694341068
+BERT SCORE 0.8591403961181641
+
+generated -> <mem> Pickup Date: April 20, 2023 </mem><Finish>
+best_match -> <mem> Return Date: April 27, 2023 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 64.22727797927409
+BERT SCORE 0.9560564160346985
+
+identity -> identity_136
+generated -> What is the email address to send the e-receipt to?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 8.101165100790302
+BERT SCORE 0.8814501762390137
+
+generated -> What is the order or transaction number for the e-receipt?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 20.704734310042088
+BERT SCORE 0.8961371779441833
+
+generated -> <mem> Order Number: X123456989 </mem> What is the email address to send the e-receipt to?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 36.227557436010244
+BERT SCORE 0.9213698506355286
+
+generated -> It seems like the provided input is the order number again. Could you please provide the email address to send the e-receipt to?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 4.7146273684904685
+BERT SCORE 0.8606066107749939
+
+generated -> I apologize for the confusion. What is the email address to send the e-receipt to?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 10.488050179346128
+BERT SCORE 0.8743966221809387
+
+generated -> <Name: an invalid email address 'X123456989' was provided, requiring further user input to correct>
+best_match -> <mem>  </mem> What is the last name on the e-receipt?
+user response -> Not specified
+BLEU_SCORE 2.5540496664715904
+BERT SCORE 0.8068735003471375
+
+generated -> What is the order or transaction number for the e-receipt?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 20.704734310042088
+BERT SCORE 0.8961371779441833
+
+generated -> <mem> Order Number: X123456989 </mem> What is the email address to send the e-receipt to?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> X123456989
+BLEU_SCORE 36.227557436010244
+BERT SCORE 0.9213698506355286
+
+generated -> It seems like the email address is not provided. Could you please specify the email address to send the e-receipt to?
+best_match -> <mem> Last Name: Smith </mem>  What is the confirmation number for the e-receipt?
+user response -> Not specified
+BLEU_SCORE 4.141141330484801
+BERT SCORE 0.843803882598877
+
+generated -> <mem> Email Address: Not specified </mem><Finish>
+best_match -> <mem> Confirmation Number: X123456989 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 50.389204852596336
+BERT SCORE 0.894237220287323
+
+identity -> identity_144
+generated -> Which bus company or transit authority are you inquiring about?
+best_match -> <mem> Type of Lost Item: (User's response) </mem>  Do you know which bus line or company it was?
+user response -> (User would provide the bus line or company if known)
+BLEU_SCORE 1.308624803512253
+BERT SCORE 0.852060079574585
+
+generated -> <mem>Bus Company: [User's response]</mem> What was the date and time when you lost the item?
+best_match -> <mem>  </mem> What type of item did you lose?
+user response -> Not specified
+BLEU_SCORE 19.58598294695434
+BERT SCORE 0.901266872882843
+
+generated -> Can you provide a description of the lost item?
+best_match -> <mem>  </mem> What type of item did you lose?
+user response -> Not specified
+BLEU_SCORE 3.59927582376646
+BERT SCORE 0.8600142598152161
+
+generated -> Can you provide a contact method, such as a phone number or email address, for follow-up?
+best_match -> <mem> Type of Lost Item: (User's response) </mem>  Do you know which bus line or company it was?
+user response -> Not specified
+BLEU_SCORE 1.7487419695819
+BERT SCORE 0.8218448162078857
+
+generated -> Do you have any identifying details about your journey, like the bus route number or the starting and ending points?
+best_match -> <mem> Type of Lost Item: (User's response) </mem>  Do you know which bus line or company it was?
+user response -> Not specified
+BLEU_SCORE 3.460671050352873
+BERT SCORE 0.8342867493629456
+
+generated -> <Finish>
+best_match -> <mem> Bus Line/Company: (User's response) </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8425736427307129
+
+identity -> identity_146
+generated -> Which amusement park are you visiting?
+best_match -> <mem>  </mem> What is the name of the amusement park?
+user response -> Six Flags Great America
+BLEU_SCORE 4.0184574659734285
+BERT SCORE 0.8604355454444885
+
+generated -> <mem> Amusement Park: Six Flags Great America </mem> Are you looking for a specific type of thrill ride (e.g., roller coasters, drop towers, spinning rides)?
+best_match -> <mem>  </mem> What is the name of the amusement park?
+user response -> Not specified
+BLEU_SCORE 8.85739397358418
+BERT SCORE 0.8850584030151367
+
+generated -> <mem> Specific Type: Not specified </mem><Finish>
+best_match -> <mem> Location: Chicago, IL </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 50.389204852596336
+BERT SCORE 0.9166883230209351
+
+identity -> identity_151
+generated -> What is your booking reference number?
+best_match -> <mem>  </mem> What is the confirmation number for the check-in?
+user response -> Not specified
+BLEU_SCORE 4.318113565246872
+BERT SCORE 0.8781661987304688
+
+generated -> What is your full name?
+best_match -> <mem> Confirmation Number: 10987654 </mem>  What is the last name on the reservation?
+user response -> Not specified
+BLEU_SCORE 1.8720312094894254
+BERT SCORE 0.8372378349304199
+
+generated -> Which airline are you flying with?
+best_match -> <mem> Confirmation Number: 10987654 </mem>  What is the last name on the reservation?
+user response -> Not specified
+BLEU_SCORE 1.0252700948467086
+BERT SCORE 0.825122058391571
+
+generated -> What is your departure city?
+best_match -> <mem> Confirmation Number: 10987654 </mem>  What is the last name on the reservation?
+user response -> Not specified
+BLEU_SCORE 1.7421213399416402
+BERT SCORE 0.8376110196113586
+
+generated -> What is your destination city?
+best_match -> <mem> Confirmation Number: 10987654 </mem>  What is the last name on the reservation?
+user response -> Not specified
+BLEU_SCORE 1.7421213399416402
+BERT SCORE 0.8332147002220154
+
+generated -> What is your flight number?
+best_match -> <mem>  </mem> What is the confirmation number for the check-in?
+user response -> Not specified
+BLEU_SCORE 3.6462189126393114
+BERT SCORE 0.8760546445846558
+
+generated -> What is your departure date and time?
+best_match -> <mem>  </mem> What is the confirmation number for the check-in?
+user response -> Not specified
+BLEU_SCORE 4.496618206730097
+BERT SCORE 0.8523538112640381
+
+generated -> Do you have your passport or identification number ready?
+best_match -> <mem>  </mem> What is the confirmation number for the check-in?
+user response -> Not specified
+BLEU_SCORE 2.7385973411104616
+BERT SCORE 0.8424393534660339
+
+generated -> It seems that you have not provided any specific details required for checking in for a flight. Could you please specify any of the following: booking reference number, full name, airline, departure city, destination city, flight number, or departure date and time?
+best_match -> <mem>  </mem> What is the confirmation number for the check-in?
+user response -> Not specified
+BLEU_SCORE 1.0103588033775688
+BERT SCORE 0.8424785733222961
+
+generated -> I am unable to complete the check-in process without any specific details. Please provide at least one piece of information required for check-in. For example, your booking reference number or full name.
+best_match -> <mem>  </mem> What is the confirmation number for the check-in?
+user response -> Not specified
+BLEU_SCORE 2.4386622221532948
+BERT SCORE 0.8442220091819763
+
+identity -> identity_154
+generated -> For which team are you looking to find the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 11.154876603882443
+BERT SCORE 0.881105899810791
+
+generated -> <mem> Team: New York Yankees </mem> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 15.980518115118317
+BERT SCORE 0.9156651496887207
+
+generated -> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 6.299392144493405
+BERT SCORE 0.8632290959358215
+
+generated -> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 6.299392144493405
+BERT SCORE 0.8632290959358215
+
+generated -> <mem> Team: New York Yankees </mem> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 15.980518115118317
+BERT SCORE 0.9156651496887207
+
+generated -> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 6.299392144493405
+BERT SCORE 0.8632290959358215
+
+generated -> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 6.299392144493405
+BERT SCORE 0.8632290959358215
+
+generated -> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 6.299392144493405
+BERT SCORE 0.8632290959358215
+
+generated -> <mem> Team: New York Yankees </mem> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 15.980518115118317
+BERT SCORE 0.9156651496887207
+
+generated -> For which season or date range are you seeking the game schedule?
+best_match -> <mem>  </mem> Which team's schedule are you looking for?
+user response -> New York Yankees
+BLEU_SCORE 6.299392144493405
+BERT SCORE 0.8632290959358215
+
+identity -> identity_162
+generated -> What location are you interested in for hot deals?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 8.346311569168009
+BERT SCORE 0.8632975220680237
+
+generated -> Can you please specify your location of interest for browsing hot deals?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 5.001230153993728
+BERT SCORE 0.8482658863067627
+
+generated -> Could you provide a nearby city or region you're interested in for browsing hot deals?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 5.427658774617041
+BERT SCORE 0.8482674956321716
+
+generated -> Please provide a location or specific criteria to help narrow down the hot deals you're looking for.
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 4.753622060013117
+BERT SCORE 0.8432739973068237
+
+generated -> Without a location, it’s difficult to find tailored hot deals. Would you like to browse deals for a popular destination or nationwide?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 3.5823421191287177
+BERT SCORE 0.8382652401924133
+
+generated -> I need a specific location to find relevant hot deals for you. Could you please provide a location?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 4.814971807094068
+BERT SCORE 0.8489884734153748
+
+generated -> Without specifying a location, the search for hot deals may be too broad. Can you select a category or type of deal you're interested in instead?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 5.442133807846854
+BERT SCORE 0.8438109755516052
+
+generated -> To better assist you, I need more specific information. Could you please choose a category of hot deals, such as travel, electronics, or dining?
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 2.952787808378777
+BERT SCORE 0.835740327835083
+
+generated -> I'm unable to proceed without more details. Please specify either a location, category, or type of hot deal you are interested in.
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 1.7179060012299232
+BERT SCORE 0.830285370349884
+
+generated -> Unfortunately, I cannot proceed without further details. Please provide a location, category, or any specific preference to help me tailor the search for hot deals.
+best_match -> <mem>  </mem> What zip code should I look for hot deals in?
+user response -> Not specified
+BLEU_SCORE 4.965977366141172
+BERT SCORE 0.8340895771980286
+
+identity -> identity_165
+generated -> What is your flight number?
+best_match -> <mem> Airline: Qatar Airways </mem>  What is the flight number?
+user response -> D145
+BLEU_SCORE 6.074116824213336
+BERT SCORE 0.8768444061279297
+
+generated -> <mem> Flight Number: D145 </mem> Which airline is operating this flight?
+best_match -> <mem>  </mem> What is the airline for the flight?
+user response -> Qatar Airways
+BLEU_SCORE 22.786788980326644
+BERT SCORE 0.9164074659347534
+
+generated -> <mem> Airline: Qatar Airways </mem> What is the departure date for this flight?
+best_match -> <mem> Flight Number: D145 </mem>  What is the date of the flight?
+user response -> April 18th
+BLEU_SCORE 40.1577332834242
+BERT SCORE 0.9376763701438904
+
+generated -> <mem> Departure Date: April 18th </mem> From which airport is the flight departing?
+best_match -> <mem>  </mem> What is the airline for the flight?
+user response -> Not specified
+BLEU_SCORE 21.111871760808985
+BERT SCORE 0.9069796204566956
+
+generated -> <mem> Departure Airport: Not specified </mem> To which airport is the flight arriving?
+best_match -> <mem>  </mem> What is the airline for the flight?
+user response -> Not specified
+BLEU_SCORE 21.111871760808985
+BERT SCORE 0.9123585820198059
+
+generated -> <mem> Arrival Airport: Not specified </mem><Finish>
+best_match -> <mem> Flight Date: April 18th </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 50.389204852596336
+BERT SCORE 0.9123873710632324
+
+identity -> identity_186
+generated -> What rating are you looking for?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 13.892958602871047
+BERT SCORE 0.8817452192306519
+
+generated -> What type of coffee maker are you interested in?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 4.96274655104206
+BERT SCORE 0.8730181455612183
+
+generated -> What price range are you considering for the coffee maker?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 5.220532511085333
+BERT SCORE 0.8744162321090698
+
+generated -> What brand of coffee maker are you interested in?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 4.96274655104206
+BERT SCORE 0.8723083138465881
+
+generated -> Could you specify any features you are looking for in a coffee maker?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 9.818135975194956
+BERT SCORE 0.8760558366775513
+
+generated -> Would you like recommendations for both manual and automatic coffee makers?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 8.68742663416854
+BERT SCORE 0.8418025374412537
+
+generated -> Please specify if there is any additional requirement you have in mind for the coffee maker.
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 3.049483026556587
+BERT SCORE 0.8551019430160522
+
+generated -> To assist you better, could you please specify at least one criteria for the coffee makers you want to browse?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 4.34373789135831
+BERT SCORE 0.8392165303230286
+
+generated -> Without any specific criteria, it becomes challenging to narrow down the options. Could you at least specify an intended use for the coffee maker, like home or office?
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 1.6404472625060698
+BERT SCORE 0.8375197052955627
+
+generated -> Unfortunately, I can't proceed without at least one specific criterion. Please specify any requirement or preference, such as brand, type, feature, or rating.
+best_match -> <mem>  </mem> What star rating are you looking for in coffee makers?
+user response -> Not specified
+BLEU_SCORE 1.2414943415352928
+BERT SCORE 0.8210479021072388
+
+identity -> identity_196
+generated -> What is the address of the person you are trying to locate?
+best_match -> <mem>  </mem> What is the complete address to search for?
+user response -> Nice st - 1234, Good, FL
+BLEU_SCORE 10.856421294065939
+BERT SCORE 0.8586956262588501
+
+generated -> <mem> Address: Nice st - 1234, Good, FL </mem> What is the name of the person you are trying to locate?
+best_match -> <mem>  </mem> What is the complete address to search for?
+user response -> Not specified
+BLEU_SCORE 24.32822124251244
+BERT SCORE 0.8839203715324402
+
+generated -> <mem> Name: Not specified </mem><Finish>
+best_match -> <mem> Address: Nice st - 1234, Good, FL </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 35.47202175617096
+BERT SCORE 0.8832013607025146
+
+identity -> identity_204
+generated -> What genre or type of playlist are you looking for?
+best_match -> <mem>  </mem> What is the name of the playlist you are looking for?
+user response -> Pop Workout mix
+BLEU_SCORE 8.614710135569352
+BERT SCORE 0.8582813143730164
+
+generated -> <mem>Playlist Type: Pop Workout mix</mem> Which music platform do you prefer to search on?
+best_match -> <mem> Playlist Name: Pop Workout mix </mem>  Which tag should be used to filter the search?
+user response -> Not specified
+BLEU_SCORE 47.79289657345159
+BERT SCORE 0.9295812249183655
+
+generated -> <mem>Platform: Not specified</mem> Any particular artist or song to include in the playlist?
+best_match -> <mem>  </mem> What is the name of the playlist you are looking for?
+user response -> Pop Workout mix
+BLEU_SCORE 17.894177180728462
+BERT SCORE 0.8882527351379395
+
+generated -> <mem>Artist or Song: Not specified</mem> Any additional criteria for the playlist duration?
+best_match -> <mem>  </mem> What is the name of the playlist you are looking for?
+user response -> Not specified
+BLEU_SCORE 19.268479640608692
+BERT SCORE 0.8841356635093689
+
+generated -> <mem>Duration: Not specified</mem><Finish>
+best_match -> <mem> Filter Tag: #Dance & edm </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 43.94900482337444
+BERT SCORE 0.894390344619751
+
+identity -> identity_208
+generated -> Where are you flying from?
+best_match -> <mem> Number of Adults: Three </mem>  Where are you flying from?
+user response -> New York
+BLEU_SCORE 13.533528323661276
+BERT SCORE 0.8792099356651306
+
+generated -> <mem> Departure City: New York </mem> Where are you flying to?
+best_match -> <mem> Departure City: New York </mem>  Where are you flying to?
+user response -> New Orleans
+BLEU_SCORE 100.00000000000004
+BERT SCORE 0.985936164855957
+
+generated -> <mem> Destination City: New Orleans </mem> What is your travel date?
+best_match -> <mem> Arrival City: New Orleans </mem>  What is the departure date?
+user response -> Not specified
+BLEU_SCORE 62.685933350049744
+BERT SCORE 0.9600414037704468
+
+generated -> Are you looking for a one-way or round-trip flight?
+best_match -> <mem> Departure City: New York </mem>  Where are you flying to?
+user response -> Not specified
+BLEU_SCORE 2.242173863464727
+BERT SCORE 0.8349825739860535
+
+generated -> Do you have a preferred airline?
+best_match -> <mem> Departure City: New York </mem>  Where are you flying to?
+user response -> Not specified
+BLEU_SCORE 1.6224821466016939
+BERT SCORE 0.829092800617218
+
+generated -> Any preferences for departure time (morning, afternoon, evening)?
+best_match -> <mem> Arrival City: New Orleans </mem>  What is the departure date?
+user response -> Not specified
+BLEU_SCORE 2.5006150769968634
+BERT SCORE 0.8434074521064758
+
+generated -> Would you like to include any additional services like extra legroom or checked baggage?
+best_match -> <mem> Departure City: New York </mem>  Where are you flying to?
+user response -> Not specified
+BLEU_SCORE 2.8316557261689024
+BERT SCORE 0.8171138763427734
+
+generated -> <Finish>
+best_match -> <mem> Return Date: April 16 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8386629819869995
+
+identity -> identity_210
+generated -> Which park are you looking for deals for?
+best_match -> <mem>  </mem> Which park are you interested in finding deals for?
+user response -> Great Escape Park
+BLEU_SCORE 17.74648468360651
+BERT SCORE 0.8989303708076477
+
+generated -> <mem>Park Name: Great Escape Park</mem> What kind of deals are you looking for?
+best_match -> <mem>  </mem> Which park are you interested in finding deals for?
+user response -> Not specified
+BLEU_SCORE 19.46452196207349
+BERT SCORE 0.9074641466140747
+
+generated -> <mem>Deal Type: Not specified</mem> What is your preferred visit date?
+best_match -> <mem>  </mem> Which park are you interested in finding deals for?
+user response -> Not specified
+BLEU_SCORE 18.951629567590746
+BERT SCORE 0.8839223384857178
+
+generated -> <mem>Visit Date: Not specified</mem> Are there any specific requirements or preferences?
+best_match -> <mem>  </mem> Which park are you interested in finding deals for?
+user response -> Not specified
+BLEU_SCORE 17.92334464048543
+BERT SCORE 0.8780293464660645
+
+generated -> <mem>Requirements or Preferences: Not specified</mem><Finish>
+best_match -> <mem> Park Name: Great Escape Park </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 46.892438882117254
+BERT SCORE 0.9036921858787537
+
+identity -> identity_211
+generated -> What location will you pick up the rental car?
+best_match -> <mem>  </mem> Where do you need the rental car?
+user response -> Detroit, MI
+BLEU_SCORE 16.847111051295393
+BERT SCORE 0.8654413819313049
+
+generated -> <mem> Pickup Location: Detroit, MI </mem> What type of car are you looking to rent?
+best_match -> <mem>  </mem> Where do you need the rental car?
+user response -> Not specified
+BLEU_SCORE 16.299446731288935
+BERT SCORE 0.9167435169219971
+
+generated -> <mem> Car Type: Not specified </mem> What are the pickup and drop-off dates?
+best_match -> <mem> Pick-up Date and Time: April 2 at 11AM </mem>  What is the drop-off date and time?
+user response -> April 3 at 11AM
+BLEU_SCORE 22.159552982643614
+BERT SCORE 0.9257642030715942
+
+generated -> <mem> Pickup Date and Time: April 3 at 11AM </mem> What is the drop-off date and time?
+best_match -> <mem> Pick-up Date and Time: April 2 at 11AM </mem>  What is the drop-off date and time?
+user response -> April 3 at 11AM
+BLEU_SCORE 76.41254083103469
+BERT SCORE 0.9869379997253418
+
+generated -> <mem> Drop-off Date and Time: April 3 at 11AM </mem> Will you need any additional services such as GPS, child seat, or insurance?
+best_match -> <mem>  </mem> Where do you need the rental car?
+user response -> Not specified
+BLEU_SCORE 12.01739662820842
+BERT SCORE 0.8867722749710083
+
+generated -> <mem> Additional Services: Not specified </mem><Finish>
+best_match -> <mem> Preferred Rental Companies: Enterprise, Avis </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 44.09928765478173
+BERT SCORE 0.9083917140960693
+
+identity -> identity_212
+generated -> What city do you need to rent the car in?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Small air-conditioned car
+BLEU_SCORE 7.066271462409684
+BERT SCORE 0.8738323450088501
+
+generated -> What city do you need to rent the car in?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Small air-conditioned car
+BLEU_SCORE 7.066271462409684
+BERT SCORE 0.8738323450088501
+
+generated -> I understand you need a small air-conditioned car. What city will you be renting the car in?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.8629993657668873
+BERT SCORE 0.8654314279556274
+
+generated -> What is the rental period you need the car for?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Not specified
+BLEU_SCORE 3.071855691538747
+BERT SCORE 0.8565174341201782
+
+generated -> What is your preferred rental company, if any?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.4779853471705344
+BERT SCORE 0.8369524478912354
+
+generated -> Can you provide your contact details for the rental booking?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.583112439191653
+BERT SCORE 0.8321278095245361
+
+generated -> Will you need any additional services or features with the car rental?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Not specified
+BLEU_SCORE 2.988662868962178
+BERT SCORE 0.8460017442703247
+
+generated -> Please provide the pick-up and drop-off dates and times for the car rental.
+best_match -> <mem> Rental Location: Liverpool Airport car rental center </mem>  When would you like to pick up the car?
+user response -> Not specified
+BLEU_SCORE 3.407003717264705
+BERT SCORE 0.8561860918998718
+
+generated -> Are there any specific requirements or preferences you have for the rental car?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Small air-conditioned car
+BLEU_SCORE 3.0165524927300758
+BERT SCORE 0.8485492467880249
+
+generated -> <mem>Car Type: Small air-conditioned</mem> What is your estimated budget for the car rental?
+best_match -> <mem>  </mem> What type of car do you want to rent?
+user response -> Small air-conditioned car
+BLEU_SCORE 22.866722231574908
+BERT SCORE 0.8994141817092896
+
+identity -> identity_218
+generated -> What genre of DVDs are you looking for?
+best_match -> <mem>  </mem> What type of DVDs are you looking for?
+user response -> Electronic music DVDs
+BLEU_SCORE 34.48559825502726
+BERT SCORE 0.8911439776420593
+
+generated -> <mem> Genre: Electronic Music </mem> Are you looking for any specific artists or bands?
+best_match -> <mem>  </mem> What type of DVDs are you looking for?
+user response -> Not specified
+BLEU_SCORE 21.518838690610018
+BERT SCORE 0.8907690644264221
+
+generated -> <mem> Specific Artists or Bands: Not specified </mem> How many DVDs are you looking for?
+best_match -> <mem>  </mem> What type of DVDs are you looking for?
+user response -> Electronic music DVDs
+BLEU_SCORE 37.946257796638555
+BERT SCORE 0.9167518019676208
+
+generated -> How many electronic music DVDs are you looking for?
+best_match -> <mem>  </mem> What type of DVDs are you looking for?
+user response -> Electronic music DVDs
+BLEU_SCORE 28.372088243992376
+BERT SCORE 0.873641312122345
+
+generated -> What is your preferred format (e.g., Blu-ray, DVD, etc.)?
+best_match -> <mem> DVD Type: Electronic music </mem>  What condition should the DVDs be in?
+user response -> Not specified
+BLEU_SCORE 2.5277199920920967
+BERT SCORE 0.8310776948928833
+
+generated -> <mem> Preferred Format: Not specified </mem> Any particular region code preference for the DVDs?
+best_match -> <mem> DVD Type: Electronic music </mem>  What condition should the DVDs be in?
+user response -> Not specified
+BLEU_SCORE 19.268479640608692
+BERT SCORE 0.9017075896263123
+
+generated -> <mem> Region Code: Not specified </mem> <Finish>
+best_match -> <mem> DVD Condition: Very good </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 50.389204852596336
+BERT SCORE 0.929161787033081
+
+identity -> identity_226
+generated -> What is your destination?
+best_match -> <mem>  </mem> Type of trip?
+user response -> Not specified
+BLEU_SCORE 3.2174093287959424
+BERT SCORE 0.8083294034004211
+
+generated -> When is your check-in date?
+best_match -> <mem> Location: Chicago </mem>  During which season are you planning to stay?
+user response -> Not specified
+BLEU_SCORE 0.9298395269585749
+BERT SCORE 0.8455298542976379
+
+generated -> How many nights will you be staying?
+best_match -> <mem> Location: Chicago </mem>  During which season are you planning to stay?
+user response -> Not specified
+BLEU_SCORE 1.6604670898042333
+BERT SCORE 0.867581844329834
+
+generated -> How many guests will be staying?
+best_match -> <mem> Location: Chicago </mem>  During which season are you planning to stay?
+user response -> Not specified
+BLEU_SCORE 1.18271569172795
+BERT SCORE 0.8548784852027893
+
+generated -> What is your budget per night?
+best_match -> <mem> Season: Summer </mem>  Are you looking for the cheapest options?
+user response -> Not specified
+BLEU_SCORE 1.3643394208905164
+BERT SCORE 0.8326490521430969
+
+generated -> Could you please specify any particular amenities or features you prefer in a luxury hotel?
+best_match -> <mem> Trip Type: Luxury trip </mem>  Location for the hotel?
+user response -> Not specified
+BLEU_SCORE 4.594845781962073
+BERT SCORE 0.8297263979911804
+
+generated -> I need more details to help find the cheapest luxury hotel options. Could you please provide your destination?
+best_match -> <mem> Trip Type: Luxury trip </mem>  Location for the hotel?
+user response -> Not specified
+BLEU_SCORE 2.5197593442434796
+BERT SCORE 0.8407341241836548
+
+generated -> <Finish>
+best_match -> <mem> Cost Preference: Cheapest options </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 0.0
+BERT SCORE 0.8445693254470825
+
+identity -> identity_228
+generated -> Where are you going?
+best_match -> <mem> Departure City: Belo Horizonte </mem>  What is the destination city?
+user response -> Not specified
+BLEU_SCORE 0.7934033722384815
+BERT SCORE 0.825722336769104
+
+generated -> What is your departure city?
+best_match -> <mem> Number of Adults: 2 </mem>  What is the departure city?
+user response -> Belo Horizonte
+BLEU_SCORE 5.141628886547205
+BERT SCORE 0.8691390752792358
+
+generated -> <mem> Departure City: Belo Horizonte </mem> What is your destination city?
+best_match -> <mem> Departure City: Belo Horizonte </mem>  What is the destination city?
+user response -> Buenos Aires
+BLEU_SCORE 83.94327083733333
+BERT SCORE 0.978412926197052
+
+generated -> <mem> Destination City: Buenos Aires </mem> What is your departure date?
+best_match -> <mem> Destination City: Buenos Aires </mem>  What is the date of travel?
+user response -> Not specified
+BLEU_SCORE 73.96881790087367
+BERT SCORE 0.9717358946800232
+
+generated -> When would you like to travel?
+best_match -> <mem> Destination City: Buenos Aires </mem>  What is the date of travel?
+user response -> April 24
+BLEU_SCORE 2.3654313834559
+BERT SCORE 0.8258543014526367
+
+generated -> <mem> Departure Date: April 24 </mem> What is your return date?
+best_match -> <mem> Destination City: Buenos Aires </mem>  What is the date of travel?
+user response -> Not specified
+BLEU_SCORE 34.23591961656696
+BERT SCORE 0.9335960745811462
+
+generated -> When would you like to return?
+best_match -> <mem> Destination City: Buenos Aires </mem>  What is the date of travel?
+user response -> Not specified
+BLEU_SCORE 1.18271569172795
+BERT SCORE 0.8277351260185242
+
+generated -> Are you looking for a one-way flight?
+best_match -> <mem> Departure City: Belo Horizonte </mem>  What is the destination city?
+user response -> Not specified
+BLEU_SCORE 1.5821934551541403
+BERT SCORE 0.8238890767097473
+
+generated -> Should I book a one-way ticket or a round-trip ticket?
+best_match -> <mem>  </mem> How many adults are traveling?
+user response -> Not specified
+BLEU_SCORE 3.124719790499494
+BERT SCORE 0.8311542868614197
+
+generated -> How many passengers will be traveling?
+best_match -> <mem>  </mem> How many adults are traveling?
+user response -> Not specified
+BLEU_SCORE 7.8827502217067185
+BERT SCORE 0.8606518507003784
+
+identity -> identity_233
+generated -> Which city are you looking for attractions in?
+best_match -> <mem>  </mem> What type of attractions are you interested in?
+user response -> Food and drink
+BLEU_SCORE 6.550847048803501
+BERT SCORE 0.8652631044387817
+
+generated -> Can you specify the date and time you’re interested in?
+best_match -> <mem> Location: Ireland </mem>  What are the start and end dates for the tickets?
+user response -> Not specified
+BLEU_SCORE 1.9871967097264318
+BERT SCORE 0.8417503237724304
+
+generated -> How many tickets do you need?
+best_match -> <mem> Location: Ireland </mem>  What are the start and end dates for the tickets?
+user response -> Not specified
+BLEU_SCORE 1.0569482404431718
+BERT SCORE 0.862500011920929
+
+generated -> Are there any specific types of food and drink attractions you are interested in?
+best_match -> <mem>  </mem> What type of attractions are you interested in?
+user response -> Food and drink
+BLEU_SCORE 11.310598110843994
+BERT SCORE 0.8700073957443237
+
+generated -> Would you prefer tickets for a specific price range?
+best_match -> <mem> Location: Ireland </mem>  What are the start and end dates for the tickets?
+user response -> Not specified
+BLEU_SCORE 1.8382465348186563
+BERT SCORE 0.8364855647087097
+
+generated -> Any preference for the type of cuisine or beverages?
+best_match -> <mem>  </mem> What type of attractions are you interested in?
+user response -> Not specified
+BLEU_SCORE 5.097103985522972
+BERT SCORE 0.8427186608314514
+
+generated -> Are there any specific dietary restrictions or allergies to consider?
+best_match -> <mem>  </mem> What type of attractions are you interested in?
+user response -> Not specified
+BLEU_SCORE 2.3788503848266394
+BERT SCORE 0.8248963952064514
+
+generated -> <mem> Preferences: General food and drink attractions, unspecified date/time, number of tickets, price range, cuisine type, and dietary restrictions </mem> <Finish>
+best_match -> <mem> Date Range: April 11 to April 12 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 19.659959912682915
+BERT SCORE 0.877578616142273
+
+identity -> identity_237
+generated -> Which store are you looking for?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> New York
+BLEU_SCORE 2.75631563063758
+BERT SCORE 0.8510580658912659
+
+generated -> <mem> Store Location: New York </mem> What is the name of the store?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> New York
+BLEU_SCORE 21.111871760808985
+BERT SCORE 0.932604968547821
+
+generated -> Could you please provide the name of the store?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> New York
+BLEU_SCORE 5.633171091207466
+BERT SCORE 0.8485391139984131
+
+generated -> To clarify, are you looking for a specific store in New York or just any store in New York?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> Not specified
+BLEU_SCORE 2.3901021968803136
+BERT SCORE 0.839430034160614
+
+generated -> What type of store are you looking for?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> New York
+BLEU_SCORE 2.910967817713898
+BERT SCORE 0.8442947864532471
+
+generated -> Are you looking for store timings specifically in New York City?
+best_match -> <mem> Postal Code: 10007 </mem>  Do you need to know the store timings?
+user response -> Yes
+BLEU_SCORE 4.135316329164881
+BERT SCORE 0.8451293110847473
+
+generated -> <mem> City: New York </mem> What type of store are you looking for?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> New York
+BLEU_SCORE 18.45895819969781
+BERT SCORE 0.9134407639503479
+
+generated -> To confirm, are you looking for general opening hours of stores in New York City?
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> Not specified
+BLEU_SCORE 2.719665272174911
+BERT SCORE 0.8416126370429993
+
+generated -> Please provide the type of store you're interested in (e.g., grocery, clothing, electronics).
+best_match -> <mem>  </mem> Which city is the store located in?
+user response -> Not specified
+BLEU_SCORE 2.2731543567022867
+BERT SCORE 0.8303018808364868
+
+generated -> <mem> Store Type: Not specified </mem> <Finish>
+best_match -> <mem> Need Store Timings: Yes </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 51.497322032579355
+BERT SCORE 0.9361519813537598
+
+identity -> identity_240
+generated -> For which route are you looking to see the ferry schedule?
+best_match -> <mem>  </mem> Which ferry route's schedule do you need?
+user response -> East Boston Ferry
+BLEU_SCORE 3.7298577910273503
+BERT SCORE 0.8690898418426514
+
+generated -> <mem> Route: East Boston Ferry </mem> For which date would you like to see the ferry schedule?
+best_match -> <mem>  </mem> Which ferry route's schedule do you need?
+user response -> East Boston Ferry
+BLEU_SCORE 15.948715931428461
+BERT SCORE 0.9232432246208191
+
+generated -> Can you please specify the date for which you need the ferry schedule?
+best_match -> <mem>  </mem> Which ferry route's schedule do you need?
+user response -> East Boston Ferry
+BLEU_SCORE 6.649479326478728
+BERT SCORE 0.8694791197776794
+
+generated -> Is there a specific time or time range you are interested in for the East Boston Ferry schedule?
+best_match -> <mem>  </mem> Which ferry route's schedule do you need?
+user response -> Not specified
+BLEU_SCORE 2.6643211213888947
+BERT SCORE 0.8464697003364563
+
+generated -> <mem> Time Range: Not specified </mem><Finish>
+best_match -> <mem> Stops: Lewis Wharf and Long Wharf (North) </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 36.10544299180199
+BERT SCORE 0.8931785821914673
+
+identity -> identity_250
+generated -> Which brand's products do you want to display?
+best_match -> <mem>  </mem> Which brand's products do you want to see?
+user response -> Calvin Klein
+BLEU_SCORE 34.48559825502726
+BERT SCORE 0.8912913203239441
+
+generated -> <mem> Brand: Calvin Klein </mem> What specific type of products are you looking to display from Calvin Klein?
+best_match -> <mem>  </mem> Which brand's products do you want to see?
+user response -> Calvin Klein
+BLEU_SCORE 15.268470848781108
+BERT SCORE 0.9049890637397766
+
+generated -> Yes, I understand it's Calvin Klein. Could you specify the type of products you are looking for, like clothing, accessories, or fragrance?
+best_match -> <mem>  </mem> Which brand's products do you want to see?
+user response -> Not specified
+BLEU_SCORE 1.7574239156849023
+BERT SCORE 0.8373859524726868
+
+generated -> <mem> Product Type: Not specified </mem><Finish>
+best_match -> <mem> Product Category: Menswear </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 58.282339541526554
+BERT SCORE 0.920384407043457
+
+identity -> identity_251
+generated -> Which destination are you interested in for the adventure cruise?
+best_match -> <mem>  </mem> What is the destination for the cruise?
+user response -> Alaska
+BLEU_SCORE 7.791497608591349
+BERT SCORE 0.8641611337661743
+
+generated -> <mem> Destination: Alaska </mem> When would you like to go on this adventure cruise?
+best_match -> <mem>  </mem> What is the destination for the cruise?
+user response -> Not specified
+BLEU_SCORE 18.325671805686518
+BERT SCORE 0.9253958463668823
+
+generated -> <mem> Date: Not specified </mem> How many people will be joining you on this adventure cruise?
+best_match -> <mem> Cruise Destination: Alaska </mem>  What is your budget for the cruise?
+user response -> Not specified
+BLEU_SCORE 17.059573701616795
+BERT SCORE 0.9199720025062561
+
+generated -> <mem> Number of People: Not specified </mem> Do you have a budget in mind for the adventure cruise?
+best_match -> <mem> Cruise Destination: Alaska </mem>  What is your budget for the cruise?
+user response -> Under $999
+BLEU_SCORE 17.3167034608353
+BERT SCORE 0.9340425729751587
+
+generated -> <mem> Budget: Under $999 </mem> Any specific activities or experiences you are looking for on the adventure cruise?
+best_match -> <mem>  </mem> What is the destination for the cruise?
+user response -> Not specified
+BLEU_SCORE 15.326859947928295
+BERT SCORE 0.9056221842765808
+
+generated -> <mem> Activities/Experiences: Not specified </mem><Finish>
+best_match -> <mem> Cruise Budget: Under $999 </mem>  <Finish>
+user response -> Not specified
+BLEU_SCORE 46.892438882117254
+BERT SCORE 0.9089668393135071
+
+Average BLEU Score with false positive: 18.370165584782907
+Average BLEU Score without false positive: 22.13464293279342
+Average BERT Score with false positive: 0.8775425236584646
+Average BERT Score without false positive: 0.799708946700607
+Turn counts: {0: [3, 8, 4, 10, 10, 10, 6, 8, 7, 10, 3, 4, 10, 9, 10, 3, 5, 5, 5, 8, 7, 2, 3, 9, 6, 10, 10, 7, 10, 6, 3, 10, 10, 10, 6, 10, 3, 5, 8, 5, 6, 10, 7, 8, 10, 8, 10, 5, 4, 6]}
+
+Average Turns: 7.04

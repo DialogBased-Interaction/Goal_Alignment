@@ -37,6 +37,6 @@ def convert_txt_to_json_array(file_path, output_path):
         json.dump(json_array, json_file, indent=4)
 
 # Example usage
-file_path = '../Results/GPT/filtered_cross_domain_cot.txt'
-output_path = 'output.json'
+file_path = '../Results/Alignment/GEMINI/filtered_cross_website_react.txt'
+output_path = 'filtered_cross_website_react.json'
 convert_txt_to_json_array(file_path, output_path)

@@ -1,0 +1,908 @@
+----------------------- TYPE PART SCORES -----------------
+
+identity_10
+{'Number of Tickets', 'Additional Experiences'}
+{'Ticket Type', 'Number of Tickets', 'Destination'}
+True Positives: 1
+False Positives: 1
+False Negatives: 2
+Precision: 0.5
+Recall: 0.3333333333333333
+
+identity_14
+set()
+{'Place/Product Name'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_17
+{'Location', 'Review Filter'}
+{'Review Type', 'Location'}
+True Positives: 1
+False Positives: 1
+False Negatives: 1
+Precision: 0.5
+Recall: 0.5
+
+identity_19
+{'Information Preference'}
+{'Interested Rules', 'Cancellation Policy Details'}
+True Positives: 0
+False Positives: 1
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_28
+set()
+{'Song Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_33
+set()
+{'Event Date', 'Event Name', 'Number of Tickets', 'Event Location'}
+True Positives: 0
+False Positives: 0
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_34
+set()
+{'Gift Card Amount', 'Gift Card Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_35
+set()
+{'City'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_43
+set()
+{'Rating Standard', 'Food Type', 'Location'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_44
+{'Sport'}
+{'Event Date', 'Event Name', 'Ticket Type', 'Event Location'}
+True Positives: 0
+False Positives: 1
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_46
+{'Item Name'}
+{'Item', 'Size'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_49
+set()
+{'Egift Card Value', 'Egift Card Message', 'Egift Card Recipient'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_50
+{'City'}
+{'Location'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_55
+set()
+{'Specific Data', 'Time Frame'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_68
+{'Product Name'}
+{'Free Delivery Requirement', 'Product Name'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_74
+{'Car Model 1', 'Car Model 2'}
+{'Car Models', 'Manufacturing Year', 'Focus'}
+True Positives: 2
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.6666666666666666
+
+identity_75
+set()
+{'Player Name', 'Statistic Sought'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_77
+set()
+{'Zip Code', 'Vehicle Model', 'Maximum Distance'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_78
+set()
+{'Sorting Preference', 'Car Model'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_86
+set()
+{'Property Type', 'Rental Location'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_90
+{'Product Type'}
+{'Capacity Range', 'Product Type'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_91
+{'Shoe Type'}
+{'Gender', 'Brand', 'Return Policy', 'Type', 'Size'}
+True Positives: 0
+False Positives: 1
+False Negatives: 5
+Precision: 0.0
+Recall: 0.0
+
+identity_93
+{'Product Type'}
+{'Sale Status', 'Product Material', 'Product Category'}
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_94
+{'Item', 'Quantity'}
+{'Item Name'}
+True Positives: 1
+False Positives: 1
+False Negatives: 0
+Precision: 0.5
+Recall: 1.0
+
+identity_98
+{'Product Type'}
+{'Brand', 'Sorting Criteria', 'Product Type'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_99
+{'Pet Type'}
+{'Website', 'Pet Food Type', 'Sorting Preference'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_100
+{'Product Name'}
+{'Product'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_107
+set()
+{'Minimum Price', 'Product Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_111
+{'Location', 'Date', 'Permit Type'}
+{'Group Size', 'Location', 'Date'}
+True Positives: 2
+False Positives: 1
+False Negatives: 1
+Precision: 0.6666666666666666
+Recall: 0.6666666666666666
+
+identity_115
+set()
+{'Dietary Options', 'Trip List Name', 'Restaurant Location'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_117
+{'Store', 'Brand and Model'}
+{'Storage Capacity', 'Phone Color', 'Seller', 'Phone Model'}
+True Positives: 0
+False Positives: 2
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_119
+set()
+{'Color/Finish', 'Price Range', 'Product Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_124
+{'Order Number'}
+{'Email Address', 'Order Number'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_126
+{'Location', 'Cuisine'}
+{'Specific Area', 'City', 'Cuisine Type'}
+True Positives: 1
+False Positives: 1
+False Negatives: 2
+Precision: 0.5
+Recall: 0.3333333333333333
+
+identity_129
+{'Car Make'}
+{'Zip Code', 'Car Brand', 'Search Radius', 'Minimum Rating'}
+True Positives: 0
+False Positives: 1
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_130
+set()
+{'Car Type', 'Base Zip Code', 'Search Radius', 'Maximum Price'}
+True Positives: 0
+False Positives: 0
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_132
+{'Hotel Name'}
+{'Hotel Name'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_135
+{'TV Brand', 'TV Size'}
+{'TV Brand', 'TV Condition', 'TV Resolution'}
+True Positives: 2
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.6666666666666666
+
+identity_140
+{'Restaurant Feature'}
+{'Feature', 'Location'}
+True Positives: 0
+False Positives: 1
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_142
+set()
+{'Name for Registry Search'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_144
+set()
+{'Team Name', 'Pass Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_145
+set()
+{'Product Name'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_146
+{'Running Shoe Type'}
+{'Shoe Type', 'Shoe Size'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_147
+set()
+{'Maximum Screen Size', 'Minimum Screen Size', 'Display Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_149
+{'City'}
+{'Booking Deadline', 'View Prices with Fees', 'Number of Tickets', 'Event Location', 'Seating Preference'}
+True Positives: 0
+False Positives: 1
+False Negatives: 5
+Precision: 0.0
+Recall: 0.0
+
+identity_159
+{'Park Specified', 'Date Specified', 'Permit Type Specified'}
+{'National Park'}
+True Positives: 0
+False Positives: 3
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_170
+{'Country'}
+{'Country'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_174
+{'Vehicle Type'}
+{'Vehicle Year', 'Vehicle Make', 'Vehicle Model'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_175
+{'Car Make'}
+{'Car Make', 'Car Model'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_176
+{'Car Model 1', 'Car Model 2'}
+{'Second Car Model', 'First Car Model'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+----------------------- VALUE PART SCORES -----------------
+
+identity_10
+{'None', '2'}
+{'2', 'Cheapest available', 'Eiffel Tower in Paris'}
+True Positives: 1
+False Positives: 1
+False Negatives: 2
+Precision: 0.5
+Recall: 0.3333333333333333
+
+identity_14
+set()
+{'Alpine Ridge'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_17
+{'5 star reviews', 'Broken Cove'}
+{'Brooken Cove', '5 star reviews'}
+True Positives: 1
+False Positives: 1
+False Negatives: 1
+Precision: 0.5
+Recall: 0.5
+
+identity_19
+{'Both park rules and cancellation policies'}
+{'Full cancellation policy details', 'General rules'}
+True Positives: 0
+False Positives: 1
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_28
+set()
+{'Australian food songs'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_33
+set()
+{'Austin, Texas', 'NOFX show', '1', 'April 23'}
+True Positives: 0
+False Positives: 0
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_34
+set()
+{'(Variable based on user response)'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_35
+set()
+{'Boston'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_43
+set()
+{'San Francisco', 'High', 'Kosher'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_44
+{'Basketball, Teams'}
+{'Los Angeles Lakers vs Memphis Grizzlies game', 'Los Angeles', 'April 22nd', 'Floor tickets'}
+True Positives: 0
+False Positives: 1
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_46
+{"Men's slim jeans"}
+{"Men's slim jeans", '26*29'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_49
+set()
+{'Myself', '$100', 'Happy Birthday'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_50
+{'Las Vegas'}
+{'Las Vegas'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_55
+set()
+{'Top 100 hashtags', 'Last 30 days'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_68
+{'Granitestone Sandwich Maker'}
+{'Granitestone Sandwich Maker', 'Yes'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_74
+{'Audi A7', 'Audi A6'}
+{'Differences only', '2023', 'Audi A7, Audi A6'}
+True Positives: 2
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.6666666666666666
+
+identity_75
+set()
+{'Average assists per game in the current season', 'Chris Paul'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_77
+set()
+{'Dodge Ram 1500', '50 miles', '21122'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_78
+set()
+{'Best deal', 'Audi 100'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_86
+set()
+{'Villa', 'Egypt'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_90
+{'Electric coffee grinders'}
+{'4 - 6.4 oz', 'Electric coffee grinders'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_91
+{'Cross training shoes'}
+{'Nike', 'Free return', 'Women', 'Cross training shoes', '6'}
+True Positives: 1
+False Positives: 0
+False Negatives: 4
+Precision: 1.0
+Recall: 0.2
+
+identity_93
+{'Kitchen products'}
+{'Aluminum', 'On sale', 'Kitchen products'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_94
+{'$50 Uber gift card', '1'}
+{'$50 Uber gift card'}
+True Positives: 1
+False Positives: 1
+False Negatives: 0
+Precision: 0.5
+Recall: 1.0
+
+identity_98
+{'Wireless earbuds'}
+{'Review Score', 'Samsung', 'Wireless earbuds'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_99
+{'Cat'}
+{'Price, least to most expensive', 'Cat food', 'Chewy.com'}
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_100
+{'Samsung Galaxy S22'}
+{'Samsung Galaxy S22'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_107
+set()
+{"Women's Nike jerseys", '$60'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_111
+{'Brooks Camp, Katmai National Park', 'May 22', 'Unspecified'}
+{'Brooks Camp, Katmai National Park', '4', 'May 22'}
+True Positives: 2
+False Positives: 1
+False Negatives: 1
+Precision: 0.6666666666666666
+Recall: 0.6666666666666666
+
+identity_115
+set()
+{'Johannesburg', 'My trips', 'Vegan options'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_117
+{'Google Pixel 7', 'Google'}
+{'Google', 'Google Pixel 7', 'Snow', '128gb'}
+True Positives: 2
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.5
+
+identity_119
+set()
+{'$25-60', 'Drip coffee makers', 'Black finish'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_124
+{'12345'}
+{'12345', '12345@gmail.com'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_126
+{'Italian', 'New York City'}
+{'Italian', 'New York City', 'near Central Park'}
+True Positives: 2
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.6666666666666666
+
+identity_129
+{'Cadillac'}
+{'4 star', '60606', '20 miles', 'Cadillac'}
+True Positives: 1
+False Positives: 0
+False Negatives: 3
+Precision: 1.0
+Recall: 0.25
+
+identity_130
+set()
+{'Electric', '$50,000', '50 miles', '10001'}
+True Positives: 0
+False Positives: 0
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_132
+{'Hotel Xcaret Mexico'}
+{'Hotel Xcaret Mexico'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_135
+{'Samsung'}
+{'Samsung', '8K', 'Open box'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_140
+{'Outdoor seating'}
+{'Big Sur, CA', 'Outdoor seating'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_142
+set()
+{'JANE DOE'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_144
+set()
+{'Boston Celtics', 'League pass'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_145
+set()
+{'Pokemon Go - Elite Trainer Box'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_146
+{"Men's running shoes"}
+{"Men's running shoes", 'Size 11'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_147
+set()
+{'55 inches', '65 inches', 'LED'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_149
+{'Brisbane, Australia'}
+{'Yes', '4', 'Upper', 'Before 30 March', 'Brisbane, Australia'}
+True Positives: 1
+False Positives: 0
+False Negatives: 4
+Precision: 1.0
+Recall: 0.2
+
+identity_159
+{'False'}
+{'Bryce Canyon National Park'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_170
+{'Brazil'}
+{'Brazil'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_174
+{'Audi'}
+{'Audi', '2022', 'e-tron'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_175
+{'Alfa Romeo'}
+{'Alfa Romeo', '4C'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_176
+{'ILX 2022'}
+{'Acura CL 2003', 'ILX 2022'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+Type Precision: 0.33333333333333326
+Type Recall: 0.22333333333333333
+Value Precision: 0.4833333333333333
+Value Recall: 0.2863333333333333

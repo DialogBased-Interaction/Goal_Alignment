@@ -1,9 +1,9 @@
 import json
 import re
-import spacy
+from sentence_transformers import SentenceTransformer, util
 
-# Load a pre-trained spaCy language model
-nlp = spacy.load("en_core_web_md")
+# Load the pre-trained model
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def extract_mem_parts(conversations):
     mem_parts = []
@@ -108,18 +108,22 @@ def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.8):
         print(mem1, file=f)
         print(mem2, file=f)
 
-        best_match = {}
-        for m1 in mem1:
-            best_match[m1] = None
-            pred=nlp(m1)
-            for m2 in mem2:
-                similarity = pred.similarity(nlp(m2))
+        mem1=list(mem1)
+        mem2=list(mem2)
+
+        # Compute embeddings for both model output and ground truth
+        model_embeddings = model.encode(mem1)
+        truth_embeddings = model.encode(mem2)
+
+        true_positives = 0
+        # Compute cosine similarity between each prediction and ground truth
+        for i, pred_emb in enumerate(model_embeddings):
+            for truth_emb in truth_embeddings:
+                similarity = util.cos_sim(pred_emb, truth_emb).item()
                 if similarity >= threshold:
-                    best_match[m1] = m2
+                    true_positives += 1
                     break
-        
-        # Calculate true positives, false positives, and false negatives
-        true_positives = sum(1 for m1 in mem1 if best_match[m1] is not None)
+                    
         false_positives = len(mem1) - true_positives
         false_negatives = len(mem2) - true_positives
 
@@ -177,18 +181,23 @@ def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.8):
         print(mem1, file=f)
         print(mem2, file=f)
 
-        best_match = {}
-        for m1 in mem1:
-            best_match[m1] = None
-            pred = nlp(m1)
-            for m2 in mem2:
-                similarity = pred.similarity(nlp(m2))
+        mem1=list(mem1)
+        mem2=list(mem2)
+
+        # Compute embeddings for both model output and ground truth
+        model_embeddings = model.encode(mem1)
+        truth_embeddings = model.encode(mem2)
+
+        true_positives = 0
+        # Compute cosine similarity between each prediction and ground truth
+        for i, pred_emb in enumerate(model_embeddings):
+            for truth_emb in truth_embeddings:
+                similarity = util.cos_sim(pred_emb, truth_emb).item()
                 if similarity >= threshold:
-                    best_match[m1] = m2
+                    true_positives += 1
                     break
+
         
-        # Calculate true positives, false positives, and false negatives
-        true_positives = sum(1 for m1 in mem1 if best_match[m1] is not None)
         false_positives = len(mem1) - true_positives
         false_negatives = len(mem2) - true_positives
 

@@ -1,10 +1,10 @@
 ----------------------- TYPE PART SCORES -----------------
 
 identity_13
-{'Date', 'Location'}
+set()
 {'Forecast Location', 'Forecast Duration'}
 True Positives: 0
-False Positives: 2
+False Positives: 0
 False Negatives: 2
 Precision: 0.0
 Recall: 0.0
@@ -19,25 +19,25 @@ Precision: 1.0
 Recall: 1.0
 
 identity_35
+{'subreddit'}
 {'Subreddit Name'}
-{'Subreddit Name'}
-True Positives: 1
-False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_46
+set()
 {'Location'}
-{'Location'}
-True Positives: 1
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_67
-{'Location Name'}
+{'Location Type'}
 {'Location to Add'}
 True Positives: 0
 False Positives: 1
@@ -55,26 +55,26 @@ Precision: 0.0
 Recall: 0.0
 
 identity_125
-{'Duration', 'Location'}
-{'Duration', 'Location'}
-True Positives: 2
+set()
+{'Location', 'Duration'}
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
 
 identity_129
+{'Location'}
 {'Area'}
-{'Area'}
-True Positives: 1
-False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_153
 set()
-{'City', 'State'}
+{'State', 'City'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
@@ -82,26 +82,26 @@ Precision: 0.0
 Recall: 0.0
 
 identity_158
-{'Tracking Number'}
+set()
 {'Shipment Number'}
 True Positives: 0
-False Positives: 1
+False Positives: 0
 False Negatives: 1
 Precision: 0.0
 Recall: 0.0
 
 identity_159
-{'Weight', 'Destination', 'Origin'}
-{'Package Weight', 'Destination', 'Origin'}
+{'Package Weight', 'Destination'}
+{'Origin', 'Package Weight', 'Destination'}
 True Positives: 2
-False Positives: 1
+False Positives: 0
 False Negatives: 1
-Precision: 0.6666666666666666
+Precision: 1.0
 Recall: 0.6666666666666666
 
 identity_161
-{'Location'}
-{'Price Limit', 'Minimum Bedrooms', 'Location'}
+{'Bedrooms'}
+{'Price Limit', 'Location', 'Minimum Bedrooms'}
 True Positives: 1
 False Positives: 0
 False Negatives: 2
@@ -110,7 +110,7 @@ Recall: 0.3333333333333333
 
 identity_174
 set()
-{'Destination Zip Code', 'Shipping Date', 'Origin Zip Code'}
+{'Origin Zip Code', 'Shipping Date', 'Destination Zip Code'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -118,7 +118,7 @@ Precision: 0.0
 Recall: 0.0
 
 identity_205
-{'Information Focus', 'Audience'}
+{'Specific Type', 'Information Type'}
 {'Information Request'}
 True Positives: 0
 False Positives: 2
@@ -127,26 +127,26 @@ Precision: 0.0
 Recall: 0.0
 
 identity_239
-{'Drug Names'}
 {'Drugs'}
+{'Drugs'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_257
+{'Program Name'}
+{'Program', 'University'}
 True Positives: 0
 False Positives: 1
-False Negatives: 1
+False Negatives: 2
 Precision: 0.0
 Recall: 0.0
 
-identity_257
-{'Admission Type', 'University Name'}
-{'Program', 'University'}
-True Positives: 1
-False Positives: 1
-False Negatives: 1
-Precision: 0.5
-Recall: 0.5
-
 identity_274
 set()
-{'Sorting Order', 'Zip Code', 'Maximum Price'}
+{'Zip Code', 'Sorting Order', 'Maximum Price'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -154,17 +154,17 @@ Precision: 0.0
 Recall: 0.0
 
 identity_336
-{'Job Title'}
-{'Job Title', 'Job Location State', 'Specific Companies', 'Job Location City'}
-True Positives: 1
-False Positives: 0
-False Negatives: 3
-Precision: 1.0
-Recall: 0.25
+{'Location', 'Job Type'}
+{'Specific Companies', 'Job Location State', 'Job Location City', 'Job Title'}
+True Positives: 0
+False Positives: 2
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
 
 identity_375
-{'Type of Doctor'}
-{'Specialist Type', 'Location'}
+{'Doctor Specialty'}
+{'Location', 'Specialist Type'}
 True Positives: 0
 False Positives: 1
 False Negatives: 2
@@ -182,7 +182,7 @@ Recall: 0.0
 
 identity_404
 set()
-{'Mortgage Type', 'Down Payment', 'Home Purchase Price', 'Property Zip Code'}
+{'Home Purchase Price', 'Down Payment', 'Mortgage Type', 'Property Zip Code'}
 True Positives: 0
 False Positives: 0
 False Negatives: 4
@@ -190,35 +190,35 @@ Precision: 0.0
 Recall: 0.0
 
 identity_433
-set()
 {'Country'}
+{'Country'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_434
+{'Filing Status', 'Tax Year'}
+{'Over State Pension Age', 'Pays Scottish Income Tax', 'Weekly Income'}
+True Positives: 0
+False Positives: 2
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_440
+set()
+{'Stock Name'}
 True Positives: 0
 False Positives: 0
 False Negatives: 1
 Precision: 0.0
 Recall: 0.0
 
-identity_434
-{'Total Annual Income'}
-{'Over State Pension Age', 'Pays Scottish Income Tax', 'Weekly Income'}
-True Positives: 0
-False Positives: 1
-False Negatives: 3
-Precision: 0.0
-Recall: 0.0
-
-identity_440
-{'Time Period', 'Stock Name'}
-{'Stock Name'}
-True Positives: 1
-False Positives: 1
-False Negatives: 0
-Precision: 0.5
-Recall: 1.0
-
 identity_477
 set()
-{'Section Name', 'Action'}
+{'Action', 'Section Name'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
@@ -235,17 +235,17 @@ Precision: 0.0
 Recall: 0.0
 
 identity_492
-{'ZIP Code'}
+set()
 {'Store Name', 'Postal Code'}
 True Positives: 0
-False Positives: 1
+False Positives: 0
 False Negatives: 2
 Precision: 0.0
 Recall: 0.0
 
 identity_497
 set()
-{'Job Nature', 'Department', 'Job Location'}
+{'Department', 'Job Nature', 'Job Location'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -272,7 +272,7 @@ Recall: 0.0
 
 identity_569
 set()
-{'Career Type', 'Target Group', 'Location'}
+{'Location', 'Target Group', 'Career Type'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -281,7 +281,7 @@ Recall: 0.0
 
 identity_580
 set()
-{'Job Category', 'Notification Types'}
+{'Notification Types', 'Job Category'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
@@ -289,22 +289,22 @@ Precision: 0.0
 Recall: 0.0
 
 identity_604
+set()
 {'Location'}
-{'Location'}
-True Positives: 1
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_654
-{'Job Type', 'Location'}
-{'Job Title', 'Location'}
-True Positives: 1
+{'Job Type'}
+{'Location', 'Job Title'}
+True Positives: 0
 False Positives: 1
-False Negatives: 1
-Precision: 0.5
-Recall: 0.5
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
 
 identity_667
 set()
@@ -325,22 +325,22 @@ Precision: 0.0
 Recall: 0.0
 
 identity_692
-{'Challenge Name', 'Start Date'}
+{'Challenge Name'}
 {'Challenge Name'}
 True Positives: 1
-False Positives: 1
+False Positives: 0
 False Negatives: 0
-Precision: 0.5
+Precision: 1.0
 Recall: 1.0
 
 identity_710
-set()
+{'Job Type'}
 {'Job Type', 'Number of Jobs to Save'}
-True Positives: 0
+True Positives: 1
 False Positives: 0
-False Negatives: 2
-Precision: 0.0
-Recall: 0.0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
 
 identity_712
 set()
@@ -352,40 +352,40 @@ Precision: 0.0
 Recall: 0.0
 
 identity_756
-{'Symptoms of Fever', 'Causes of Fever'}
-{'Symptoms of Fever', 'Causes of Fever'}
-True Positives: 2
-False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
-
-identity_806
 set()
-{'Specific Interests in IBD Treatment', 'Treatment Types'}
+{'Causes of Fever', 'Symptoms of Fever'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
 Precision: 0.0
 Recall: 0.0
 
-identity_826
-set()
-{'Benefit for Disabled', 'Eligibility', "Carer's Credit"}
+identity_806
+{'Information Type'}
+{'Specific Interests in IBD Treatment', 'Treatment Types'}
 True Positives: 0
-False Positives: 0
-False Negatives: 3
+False Positives: 1
+False Negatives: 2
 Precision: 0.0
 Recall: 0.0
 
+identity_826
+{'User Need', 'Location', 'User Request', "Carer's Credit Eligibility Detail"}
+{'Eligibility', "Carer's Credit", 'Benefit for Disabled'}
+True Positives: 1
+False Positives: 3
+False Negatives: 2
+Precision: 0.25
+Recall: 0.3333333333333333
+
 identity_828
-set()
+{'Employment Status'}
 {'Residency Status', "Applicant's Age", 'Employment Status'}
-True Positives: 0
+True Positives: 1
 False Positives: 0
-False Negatives: 3
-Precision: 0.0
-Recall: 0.0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
 
 identity_853
 set()
@@ -397,12 +397,12 @@ Precision: 0.0
 Recall: 0.0
 
 identity_857
-{'Email Address', 'Diet Plan Type'}
-{'Health Considerations', 'Email Address', 'Diet Type'}
+{'Diet Plan Type'}
+{'Email Address', 'Diet Type', 'Health Considerations'}
 True Positives: 1
-False Positives: 1
+False Positives: 0
 False Negatives: 2
-Precision: 0.5
+Precision: 1.0
 Recall: 0.3333333333333333
 
 identity_858
@@ -415,7 +415,7 @@ Precision: 1.0
 Recall: 1.0
 
 identity_865
-{'Search Criteria'}
+{'Preferences'}
 {'Requirements/Preferences'}
 True Positives: 0
 False Positives: 1
@@ -425,21 +425,21 @@ Recall: 0.0
 
 identity_883
 {'Email Address', 'Job Type'}
-{'Job Type', 'Alert Email Address'}
-True Positives: 1
-False Positives: 1
-False Negatives: 1
-Precision: 0.5
-Recall: 0.5
+{'Alert Email Address', 'Job Type'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
 
 identity_886
-{'Cryptocurrency'}
+{'Timeframe', 'Cryptocurrency', 'Data Type'}
 {'Time Period', 'Cryptocurrency Name'}
-True Positives: 0
-False Positives: 1
-False Negatives: 2
-Precision: 0.0
-Recall: 0.0
+True Positives: 1
+False Positives: 2
+False Negatives: 1
+Precision: 0.3333333333333333
+Recall: 0.5
 
 identity_900
 set()
@@ -453,13 +453,13 @@ Recall: 0.0
 ----------------------- VALUE PART SCORES -----------------
 
 identity_13
-{'Next 24 hours', 'Seattle, WA'}
-{'24 hours', 'Seattle, WA'}
-True Positives: 1
-False Positives: 1
-False Negatives: 1
-Precision: 0.5
-Recall: 0.5
+set()
+{'Seattle, WA', '24 hours'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
 
 identity_34
 {"Mc Donald's"}
@@ -480,22 +480,22 @@ Precision: 1.0
 Recall: 1.0
 
 identity_46
+set()
 {'Florida city'}
-{'Florida city'}
-True Positives: 1
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_67
+{'Unspecified'}
 {'Miami, FL'}
-{'Miami, FL'}
-True Positives: 1
-False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_77
 set()
@@ -507,16 +507,16 @@ Precision: 0.0
 Recall: 0.0
 
 identity_125
-{'7 days', 'Vancouver, British Columbia'}
-{'Seven days', 'Vancouver, British Columbia'}
-True Positives: 2
+set()
+{'Vancouver, British Columbia', 'Seven days'}
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
 
 identity_129
-{'Vancouver'}
+{'Vancouver Area'}
 {'Vancouver Area'}
 True Positives: 1
 False Positives: 0
@@ -534,17 +534,17 @@ Precision: 0.0
 Recall: 0.0
 
 identity_158
+set()
 {'3023858502'}
-{'3023858502'}
-True Positives: 1
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_159
-{'Texas', '4 pounds'}
-{'Texas', '4 pounds', 'New York'}
+{'4 pounds', 'Texas'}
+{'4 pounds', 'New York', 'Texas'}
 True Positives: 2
 False Positives: 0
 False Negatives: 1
@@ -552,17 +552,17 @@ Precision: 1.0
 Recall: 0.6666666666666666
 
 identity_161
-{'San Diego, CA'}
+{'At least 3 bedrooms'}
 {'Under 1 million dollars', '3', 'San Diego, CA'}
-True Positives: 1
-False Positives: 0
-False Negatives: 2
-Precision: 1.0
-Recall: 0.3333333333333333
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
 
 identity_174
 set()
-{'10001', '10023', 'April 10'}
+{'10023', 'April 10', '10001'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -570,7 +570,7 @@ Precision: 0.0
 Recall: 0.0
 
 identity_205
-{'General public', 'General overview'}
+{'General', 'False'}
 {'General information about Hypersomnia'}
 True Positives: 0
 False Positives: 2
@@ -579,7 +579,7 @@ Precision: 0.0
 Recall: 0.0
 
 identity_239
-{'Ibuprofen, Aspirin'}
+{'Ibuprofen and aspirin'}
 {'Ibuprofen and aspirin'}
 True Positives: 1
 False Positives: 0
@@ -588,17 +588,17 @@ Precision: 1.0
 Recall: 1.0
 
 identity_257
-{'General', 'University of London'}
+{'Bsc Computer Science'}
 {'Bsc Computer Science', 'University of London'}
 True Positives: 1
-False Positives: 1
+False Positives: 0
 False Negatives: 1
-Precision: 0.5
+Precision: 1.0
 Recall: 0.5
 
 identity_274
 set()
-{'10017', 'Lowest price first', '$300,000'}
+{'10017', '$300,000', 'Lowest price first'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -606,13 +606,13 @@ Precision: 0.0
 Recall: 0.0
 
 identity_336
-{'Truck driver'}
-{'New York', 'None', 'Truck driver', 'Rochester'}
-True Positives: 1
+{'Truck driver', 'Rochester'}
+{'Truck driver', 'None', 'Rochester', 'New York'}
+True Positives: 2
 False Positives: 0
-False Negatives: 3
+False Negatives: 2
 Precision: 1.0
-Recall: 0.25
+Recall: 0.5
 
 identity_375
 {'Stomach Pain'}
@@ -634,7 +634,7 @@ Recall: 0.0
 
 identity_404
 set()
-{'$500k', '$100k', '85747', '30 year fixed rate'}
+{'$500k', '30 year fixed rate', '$100k', '85747'}
 True Positives: 0
 False Positives: 0
 False Negatives: 4
@@ -642,35 +642,35 @@ Precision: 0.0
 Recall: 0.0
 
 identity_433
-set()
+{'General Information'}
 {"(Variable to be determined based on user's response)"}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_434
+{'Single', '2023'}
+{'�1,000', 'Yes', 'No'}
+True Positives: 0
+False Positives: 2
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_440
+set()
+{'Apple'}
 True Positives: 0
 False Positives: 0
 False Negatives: 1
 Precision: 0.0
 Recall: 0.0
 
-identity_434
-{'£1,000'}
-{'Yes', 'No', '�1,000'}
-True Positives: 0
-False Positives: 1
-False Negatives: 3
-Precision: 0.0
-Recall: 0.0
-
-identity_440
-{'Apple', 'Past month'}
-{'Apple'}
-True Positives: 1
-False Positives: 1
-False Negatives: 0
-Precision: 0.5
-Recall: 1.0
-
 identity_477
 set()
-{'Open section', 'Create a new message'}
+{'Create a new message', 'Open section'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
@@ -687,17 +687,17 @@ Precision: 0.0
 Recall: 0.0
 
 identity_492
-{'49103'}
-{'Dollar General', '49103'}
-True Positives: 1
+set()
+{'49103', 'Dollar General'}
+True Positives: 0
 False Positives: 0
-False Negatives: 1
-Precision: 1.0
-Recall: 0.5
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
 
 identity_497
 set()
-{'Thumbtack engineering', 'United States', 'Virtual'}
+{'Thumbtack engineering', 'Virtual', 'United States'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -715,7 +715,7 @@ Recall: 0.0
 
 identity_555
 set()
-{'r/answers', 'Frequent'}
+{'Frequent', 'r/answers'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
@@ -724,7 +724,7 @@ Recall: 0.0
 
 identity_569
 set()
-{'New York', 'Legal career openings', 'Summer volunteer law students'}
+{'Legal career openings', 'New York', 'Summer volunteer law students'}
 True Positives: 0
 False Positives: 0
 False Negatives: 3
@@ -733,7 +733,7 @@ Recall: 0.0
 
 identity_580
 set()
-{'Email and other notifications', 'Sales positions'}
+{'Sales positions', 'Email and other notifications'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
@@ -741,22 +741,22 @@ Precision: 0.0
 Recall: 0.0
 
 identity_604
+set()
 {'Boston'}
-{'Boston'}
-True Positives: 1
+True Positives: 0
 False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
 
 identity_654
+{'Grocery store cashier'}
 {'Grocery store cashier', 'Florida'}
-{'Grocery store cashier', 'Florida'}
-True Positives: 2
+True Positives: 1
 False Positives: 0
-False Negatives: 0
+False Negatives: 1
 Precision: 1.0
-Recall: 1.0
+Recall: 0.5
 
 identity_667
 set()
@@ -777,19 +777,19 @@ Precision: 0.0
 Recall: 0.0
 
 identity_692
-{'As soon as possible', 'Mindful Eating Challenge'}
+{'Mindful Eating Challenge'}
 {'Mindful Eating Challenge'}
 True Positives: 1
-False Positives: 1
+False Positives: 0
 False Negatives: 0
-Precision: 0.5
+Precision: 1.0
 Recall: 1.0
 
 identity_710
-set()
+{'Data Entry'}
 {'Two', 'Data Entry or similar jobs'}
 True Positives: 0
-False Positives: 0
+False Positives: 1
 False Negatives: 2
 Precision: 0.0
 Recall: 0.0
@@ -804,37 +804,37 @@ Precision: 0.0
 Recall: 0.0
 
 identity_756
-{'Infections (like the flu, common cold, or bacterial infections), inflammation, heat exhaustion, side effect of medication', 'Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering'}
-{'Infections (flu, common cold, bacterial infections), inflammation, heat exhaustion, medication side effects', 'Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering'}
-True Positives: 2
-False Positives: 0
-False Negatives: 0
-Precision: 1.0
-Recall: 1.0
-
-identity_806
 set()
-{'Medical treatments, lifestyle changes, etc.', 'Specific medication, dietary recommendations, etc.'}
+{'Infections (flu, common cold, bacterial infections), inflammation, heat exhaustion, medication side effects', 'Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering'}
 True Positives: 0
 False Positives: 0
 False Negatives: 2
 Precision: 0.0
 Recall: 0.0
 
-identity_826
-set()
-{'Caring for someone at least 20 hours a week, unpaid', 'A benefit for unpaid carers', 'Enhances future pension for carers of disabled individuals'}
-True Positives: 0
+identity_806
+{'Specific medication, dietary recommendations, etc.'}
+{'Specific medication, dietary recommendations, etc.', 'Medical treatments, lifestyle changes, etc.'}
+True Positives: 1
 False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_826
+{'Not specified, Country', 'Care provided for at least 20 hours per week without pay.', "General information about Carer's Credit implied.", "General information about Carer's Credit, specifically for those who care for someone else unpaid.", "Information about Carer's Credit, specifically for those who care for someone else unpaid."}
+{'A benefit for unpaid carers', 'Enhances future pension for carers of disabled individuals', 'Caring for someone at least 20 hours a week, unpaid'}
+True Positives: 0
+False Positives: 5
 False Negatives: 3
 Precision: 0.0
 Recall: 0.0
 
 identity_828
-set()
-{'Unemployed/Part-time', 'Resident', 'Age'}
+{'Unemployed, working less than 16 hours a week, or unable to work full-time'}
+{'Unemployed/Part-time', 'Age', 'Resident'}
 True Positives: 0
-False Positives: 0
+False Positives: 1
 False Negatives: 3
 Precision: 0.0
 Recall: 0.0
@@ -849,16 +849,16 @@ Precision: 0.0
 Recall: 0.0
 
 identity_857
-{'buckeye.foodbar@gym', 'Easy-to-follow evidence-based nutritious vegetarian diet'}
-{'buckeye.foodbar@gym', 'Diabetic and heart patient', 'Easy-to-follow evidence-based nutritious vegetarian diet'}
-True Positives: 2
+{'Easy-to-follow evidence-based nutritious vegetarian diet'}
+{'Diabetic and heart patient', 'Easy-to-follow evidence-based nutritious vegetarian diet', 'buckeye.foodbar@gym'}
+True Positives: 1
 False Positives: 0
-False Negatives: 1
+False Negatives: 2
 Precision: 1.0
-Recall: 0.6666666666666666
+Recall: 0.3333333333333333
 
 identity_858
-{'Acid Reflux'}
+{'Acid reflux'}
 {'Acid reflux'}
 True Positives: 1
 False Positives: 0
@@ -867,7 +867,7 @@ Precision: 1.0
 Recall: 1.0
 
 identity_865
-{'No specific requirements or preferences'}
+{'None'}
 {'None mentioned'}
 True Positives: 0
 False Positives: 1
@@ -876,8 +876,8 @@ Precision: 0.0
 Recall: 0.0
 
 identity_883
-{'Fulfillment Center Warehouse', 'abc@abc.com'}
-{'Fulfillment Center Warehouse', 'abc@abc.com'}
+{'abc@abc.com', 'Fulfillment Center Warehouse'}
+{'abc@abc.com', 'Fulfillment Center Warehouse'}
 True Positives: 2
 False Positives: 0
 False Negatives: 0
@@ -885,12 +885,12 @@ Precision: 1.0
 Recall: 1.0
 
 identity_886
-{'Litecoin'}
-{'90 days', 'Litecoin'}
+{'General Overview', 'All available', 'Litecoin'}
+{'Litecoin', '90 days'}
 True Positives: 1
-False Positives: 0
+False Positives: 2
 False Negatives: 1
-Precision: 1.0
+Precision: 0.3333333333333333
 Recall: 0.5
 
 identity_900
@@ -902,7 +902,7 @@ False Negatives: 3
 Precision: 0.0
 Recall: 0.0
 
-Type Precision: 0.2733333333333334
-Type Recall: 0.26166666666666666
-Value Precision: 0.44
-Value Recall: 0.38833333333333336
+Type Precision: 0.2316666666666667
+Type Recall: 0.18
+Value Precision: 0.2866666666666667
+Value Recall: 0.22

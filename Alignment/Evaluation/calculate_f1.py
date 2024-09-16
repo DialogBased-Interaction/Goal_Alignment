@@ -1,11 +1,10 @@
 import json
 import re
-from fuzzywuzzy import fuzz
 import sys
-import spacy
+from sentence_transformers import SentenceTransformer, util
 
-# Load a pre-trained spaCy language model
-nlp = spacy.load("en_core_web_md")
+# Load the pre-trained model
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def extract_mem_parts(segments):
     mem_parts = []
@@ -31,9 +30,6 @@ def extract_mem_from_json(file_path):
     
     return all_mem_parts
 
-# Example usage
-file_path1 = 'output.json'
-mem_parts1 = extract_mem_from_json(file_path1)
 
 print("HOLLAAAAAAAAAA\n\n\n")
 
@@ -62,12 +58,10 @@ def extract_mem_from_json_2(file_path):
     
     return all_mem_parts
 
-# Example usage
-file_path2 = '../Data/filtered_cross_domain.json'
-mem_parts2 = extract_mem_from_json_2(file_path2)
+
 
 # calcuating f1 score for memory part1 with memory part2
-def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.8):
+def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.75):
     # iterate over the list of lists and calculate the f1 score for each list
     print(len(mem_parts1) == len(mem_parts2))
     type_f1_scores = []
@@ -109,18 +103,23 @@ def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.8):
         print(mem1, file=f)
         print(mem2, file=f)
 
-        best_match = {}
-        for m1 in mem1:
-            best_match[m1] = None
-            pred = nlp(m1)
-            for m2 in mem2:
-                similarity = pred.similarity(nlp(m2))
+
+        mem1=list(mem1)
+        mem2=list(mem2)
+
+        # Compute embeddings for both model output and ground truth
+        model_embeddings = model.encode(mem1)
+        truth_embeddings = model.encode(mem2)
+
+        true_positives = 0
+        # Compute cosine similarity between each prediction and ground truth
+        for i, pred_emb in enumerate(model_embeddings):
+            for truth_emb in truth_embeddings:
+                similarity = util.cos_sim(pred_emb, truth_emb).item()
                 if similarity >= threshold:
-                    best_match[m1] = m2
+                    true_positives += 1
                     break
         
-        # Calculate true positives, false positives, and false negatives
-        true_positives = sum(1 for m1 in mem1 if best_match[m1] is not None)
         false_positives = len(mem1) - true_positives
         false_negatives = len(mem2) - true_positives
 
@@ -178,18 +177,24 @@ def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.8):
         print(mem1, file=f)
         print(mem2, file=f)
 
-        best_match = {}
-        for m1 in mem1:
-            best_match[m1] = None
-            pred = nlp(m1)
-            for m2 in mem2:
-                similarity = pred.similarity(nlp(m2))
+        mem1=list(mem1)
+        mem2=list(mem2)
+
+        # Compute embeddings for both model output and ground truth
+        model_embeddings = model.encode(mem1)
+        truth_embeddings = model.encode(mem2)
+
+        true_positives = 0
+        # Compute cosine similarity between each prediction and ground truth
+        for i, pred_emb in enumerate(model_embeddings):
+            for truth_emb in truth_embeddings:
+                similarity = util.cos_sim(pred_emb, truth_emb).item()
                 if similarity >= threshold:
-                    best_match[m1] = m2
+                    true_positives += 1
                     break
         
         # Calculate true positives, false positives, and false negatives
-        true_positives = sum(1 for m1 in mem1 if best_match[m1] is not None)
+      
         false_positives = len(mem1) - true_positives
         false_negatives = len(mem2) - true_positives
 
@@ -216,12 +221,19 @@ def calculate_f1(mem_parts1, mem_parts2, f, threshold=0.8):
 
         print(f"Precision: {precision}", file=f)
         print(f"Recall: {recall}\n", file=f)
-        
-        
     
     return type_precision_scores, type_recall_scores, type_f1_scores, value_precision_scores, value_recall_scores, value_f1_scores
 
-with open('output_domain_gpt.txt', 'w') as f:
+# Example usage
+file_path1 = 'filtered_cross_website_react.json'
+mem_parts1 = extract_mem_from_json(file_path1)
+
+# Example usage
+file_path2 = '../Data/filtered_cross_website.json'
+mem_parts2 = extract_mem_from_json_2(file_path2)
+
+
+with open('../Results/Extraction/GEMINI/filtered_cross_website_react.txt', 'w') as f:
     type_precision_scores, type_recall_scores, type_f1_scores, value_precision_scores, value_recall_scores, value_f1_scores = calculate_f1(mem_parts1, mem_parts2, f)
     # calculating the average f1 score
     type_precision = sum(type_precision_scores) / len(type_precision_scores)

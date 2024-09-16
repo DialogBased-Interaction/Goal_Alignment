@@ -1,0 +1,908 @@
+----------------------- TYPE PART SCORES -----------------
+
+identity_13
+{'Time Frame', 'Location'}
+{'Forecast Duration', 'Forecast Location'}
+True Positives: 1
+False Positives: 1
+False Negatives: 1
+Precision: 0.5
+Recall: 0.5
+
+identity_34
+{'Restaurant Type'}
+{'Restaurant Name'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_35
+{'Subreddit Name'}
+{'Subreddit Name'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_46
+{'Location'}
+{'Location'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_67
+{'Location Name'}
+{'Location to Add'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_77
+{'Comment Requirement', 'Task', 'Person of Interest'}
+{'Mentioned Person'}
+True Positives: 0
+False Positives: 3
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_125
+{'Location', 'Duration'}
+{'Location', 'Duration'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_129
+set()
+{'Area'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_153
+set()
+{'State', 'City'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_158
+set()
+{'Shipment Number'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_159
+{'Package Weight'}
+{'Origin', 'Package Weight', 'Destination'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_161
+{'Minimum Bedrooms', 'Minimum Square Footage', 'Price Range'}
+{'Location', 'Minimum Bedrooms', 'Price Limit'}
+True Positives: 1
+False Positives: 2
+False Negatives: 2
+Precision: 0.3333333333333333
+Recall: 0.3333333333333333
+
+identity_174
+{'Zip Code'}
+{'Shipping Date', 'Destination Zip Code', 'Origin Zip Code'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_205
+{'Condition'}
+{'Information Request'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_239
+{'Medication'}
+{'Drugs'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_257
+{'University Name', 'Program Name'}
+{'University', 'Program'}
+True Positives: 0
+False Positives: 2
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_274
+{'Area Zip Code', 'Sorting Order'}
+{'Zip Code', 'Maximum Price', 'Sorting Order'}
+True Positives: 2
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.6666666666666666
+
+identity_336
+set()
+{'Job Location State', 'Specific Companies', 'Job Location City', 'Job Title'}
+True Positives: 0
+False Positives: 0
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_375
+{'Doctor Type', 'Doctor Location'}
+{'Specialist Type', 'Location'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_402
+set()
+{'Zip Code'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_404
+{'Mortgage Type', 'Down Payment', 'Interest Rate', 'Loan Amount'}
+{'Home Purchase Price', 'Mortgage Type', 'Down Payment', 'Property Zip Code'}
+True Positives: 2
+False Positives: 2
+False Negatives: 2
+Precision: 0.5
+Recall: 0.5
+
+identity_433
+set()
+{'Country'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_434
+set()
+{'Weekly Income', 'Pays Scottish Income Tax', 'Over State Pension Age'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_440
+{'Stock Symbol'}
+{'Stock Name'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_477
+set()
+{'Section Name', 'Action'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_478
+{'Action'}
+{'Search Scope'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_492
+set()
+{'Postal Code', 'Store Name'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_497
+set()
+{'Job Location', 'Department', 'Job Nature'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_546
+set()
+{'Online Service'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_555
+{'Notification Type'}
+{'Community Name', 'Notification Frequency'}
+True Positives: 0
+False Positives: 1
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_569
+{'Job Type'}
+{'Target Group', 'Career Type', 'Location'}
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_580
+{'Location', 'Job Type'}
+{'Notification Types', 'Job Category'}
+True Positives: 1
+False Positives: 1
+False Negatives: 1
+Precision: 0.5
+Recall: 0.5
+
+identity_604
+{'Location'}
+{'Location'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_654
+{'Job Location'}
+{'Location', 'Job Title'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_667
+{'Academic Term'}
+{'Academic Term'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_673
+{'School Type'}
+{'Schools'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_692
+{'Challenge Type'}
+{'Challenge Name'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_710
+{'Number of Job Listings to Save'}
+{'Number of Jobs to Save', 'Job Type'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_712
+set()
+{'Newsletter Name'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_756
+{'Symptoms of Fever', 'Common Causes of Fever'}
+{'Symptoms of Fever', 'Causes of Fever'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_806
+set()
+{'Treatment Types', 'Specific Interests in IBD Treatment'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_826
+{"Carer's Credit Amount", 'Purpose', 'Benefit Type', 'Target Group', 'Eligibility Requirement'}
+{"Carer's Credit", 'Benefit for Disabled', 'Eligibility'}
+True Positives: 2
+False Positives: 3
+False Negatives: 1
+Precision: 0.4
+Recall: 0.6666666666666666
+
+identity_828
+set()
+{"Applicant's Age", 'Employment Status', 'Residency Status'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_853
+set()
+{'Court Type'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_857
+{'Diet Plan Action'}
+{'Health Considerations', 'Email Address', 'Diet Type'}
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_858
+{'Medical Condition'}
+{'Medical Condition'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_865
+{'Service Type', 'Availability Date', 'Additional Service Options'}
+{'Requirements/Preferences'}
+True Positives: 0
+False Positives: 3
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_883
+{'Email for Alert'}
+{'Job Type', 'Alert Email Address'}
+True Positives: 0
+False Positives: 1
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_886
+{'Cryptocurrency'}
+{'Cryptocurrency Name', 'Time Period'}
+True Positives: 0
+False Positives: 1
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_900
+set()
+{'Time Frame', 'Post Flair', 'Community Name'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+----------------------- VALUE PART SCORES -----------------
+
+identity_13
+{'Seattle, WA', 'Next 24 hours'}
+{'Seattle, WA', '24 hours'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_34
+{"Mc Donald's"}
+{"Mc Donald's"}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_35
+{'r/politics'}
+{'r/politics'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_46
+{'Florida city'}
+{'Florida city'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_67
+{'Miami, FL'}
+{'Miami, FL'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_77
+{'[Comment Requirement]', "[Person's Name]", '[Main Task to be performed]'}
+{'Donald Trump'}
+True Positives: 0
+False Positives: 3
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_125
+{'Seven days', 'Vancouver, British Columbia'}
+{'Seven days', 'Vancouver, British Columbia'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_129
+set()
+{'Vancouver Area'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_153
+set()
+{'Florida', 'Miami'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_158
+set()
+{'3023858502'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_159
+{'1.5 lbs'}
+{'New York', '4 pounds', 'Texas'}
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_161
+{'At least 3 bedrooms', 'Under 1 million dollars'}
+{'3', 'San Diego, CA', 'Under 1 million dollars'}
+True Positives: 1
+False Positives: 1
+False Negatives: 2
+Precision: 0.5
+Recall: 0.3333333333333333
+
+identity_174
+{'10023'}
+{'10001', '10023', 'April 10'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_205
+{'Hypersomnia'}
+{'General information about Hypersomnia'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_239
+{'Adderall, Prilosec'}
+{'Ibuprofen and aspirin'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_257
+{'University of London'}
+{'Bsc Computer Science', 'University of London'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_274
+{'10017', 'Lowest price first'}
+{'$300,000', '10017', 'Lowest price first'}
+True Positives: 2
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.6666666666666666
+
+identity_336
+set()
+{'Rochester', 'None', 'New York', 'Truck driver'}
+True Positives: 0
+False Positives: 0
+False Negatives: 4
+Precision: 0.0
+Recall: 0.0
+
+identity_375
+{'San Antonio', 'Stomach Pain specialist'}
+{'San Antonio', 'Stomach Pain'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_402
+set()
+{'90210'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_404
+{'$300,000', 'Conventional', '3.375%', '$100,000'}
+{'30 year fixed rate', '$100k', '$500k', '85747'}
+True Positives: 2
+False Positives: 2
+False Negatives: 2
+Precision: 0.5
+Recall: 0.5
+
+identity_433
+set()
+{"(Variable to be determined based on user's response)"}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_434
+set()
+{'�1,000', 'Yes', 'No'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_440
+{'Apple'}
+{'Apple'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_477
+set()
+{'Create a new message', 'Open section'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_478
+{'Clear recent search topics'}
+{'All recent searched topics'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_492
+set()
+{'Dollar General', '49103'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_497
+set()
+{'United States', 'Thumbtack engineering', 'Virtual'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_546
+set()
+{'Renew Vehicle Registration online service'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_555
+{'Frequent'}
+{'Frequent', 'r/answers'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_569
+{'Legal careers'}
+{'Summer volunteer law students', 'Legal career openings', 'New York'}
+True Positives: 1
+False Positives: 0
+False Negatives: 2
+Precision: 1.0
+Recall: 0.3333333333333333
+
+identity_580
+{'Sales positions', 'USA'}
+{'Sales positions', 'Email and other notifications'}
+True Positives: 1
+False Positives: 1
+False Negatives: 1
+Precision: 0.5
+Recall: 0.5
+
+identity_604
+{'Boston'}
+{'Boston'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_654
+{'Florida'}
+{'Grocery store cashier', 'Florida'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_667
+{'Fall 2024'}
+{'Fall 2024'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_673
+{'Not specified'}
+{'public health, public policy'}
+True Positives: 0
+False Positives: 1
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_692
+{'Mindful Eating Challenge'}
+{'Mindful Eating Challenge'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_710
+{'Two'}
+{'Two', 'Data Entry or similar jobs'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_712
+set()
+{'LinkedIn Learning newsletter'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_756
+{'Infections, inflammation, heat exhaustion, side effect of medication', 'Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering'}
+{'Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering', 'Infections (flu, common cold, bacterial infections), inflammation, heat exhaustion, medication side effects'}
+True Positives: 2
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_806
+set()
+{'Specific medication, dietary recommendations, etc.', 'Medical treatments, lifestyle changes, etc.'}
+True Positives: 0
+False Positives: 0
+False Negatives: 2
+Precision: 0.0
+Recall: 0.0
+
+identity_826
+{'Benefit for unpaid carers.', "Disabled individuals' carers.", 'Care for at least 20 hours a week, not paid for care.', "Carer's Credit", 'Up to £27.35 per week.'}
+{'Caring for someone at least 20 hours a week, unpaid', 'Enhances future pension for carers of disabled individuals', 'A benefit for unpaid carers'}
+True Positives: 1
+False Positives: 4
+False Negatives: 2
+Precision: 0.2
+Recall: 0.3333333333333333
+
+identity_828
+set()
+{'Resident', 'Unemployed/Part-time', 'Age'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_853
+set()
+{'Local court'}
+True Positives: 0
+False Positives: 0
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_857
+{'Subscribe'}
+{'buckeye.foodbar@gym', 'Easy-to-follow evidence-based nutritious vegetarian diet', 'Diabetic and heart patient'}
+True Positives: 0
+False Positives: 1
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+identity_858
+{'Acid reflux'}
+{'Acid reflux'}
+True Positives: 1
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+
+identity_865
+{'No specific requirements or preferences mentioned.', 'Babysitter service'}
+{'None mentioned'}
+True Positives: 0
+False Positives: 2
+False Negatives: 1
+Precision: 0.0
+Recall: 0.0
+
+identity_883
+{'abc@abc.com'}
+{'Fulfillment Center Warehouse', 'abc@abc.com'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_886
+{'Litecoin'}
+{'Litecoin', '90 days'}
+True Positives: 1
+False Positives: 0
+False Negatives: 1
+Precision: 1.0
+Recall: 0.5
+
+identity_900
+set()
+{'This month', 'AskReddit', 'Breaking News'}
+True Positives: 0
+False Positives: 0
+False Negatives: 3
+Precision: 0.0
+Recall: 0.0
+
+Type Precision: 0.30466666666666664
+Type Recall: 0.25666666666666665
+Value Precision: 0.494
+Value Recall: 0.4

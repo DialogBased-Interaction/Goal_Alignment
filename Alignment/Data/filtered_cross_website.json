@@ -1,0 +1,1688 @@
+[
+    {
+        "confirmed_task": "Book cheapest available tickets of Eiffel tower in Paris for 2 adults.",
+        "annotation_id": "7efa64af-f578-4896-ab4f-d7424f78e080",
+        "id": "identity_10",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Book tickets for Eiffel Tower"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the destination of the tickets?"
+            },
+            {
+                "from": "human",
+                "value": "Eiffel Tower in Paris"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Destination: Eiffel Tower in Paris </mem>  How many tickets are needed?"
+            },
+            {
+                "from": "human",
+                "value": "2"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Tickets: 2 </mem>  What type of tickets do you want to book?"
+            },
+            {
+                "from": "human",
+                "value": "Cheapest available"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Ticket Type: Cheapest available </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Open the most helpful 5 star reviews of Alpine Ridge.",
+        "annotation_id": "e677b812-78b3-4687-9e2e-149a323a425e",
+        "id": "identity_14",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Open helpful 5-star reviews"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the name of the place or product to check reviews for?"
+            },
+            {
+                "from": "human",
+                "value": "Alpine Ridge"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Place/Product Name: Alpine Ridge </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Browse Brooken Cove 5 star reviews.",
+        "annotation_id": "fafc3874-1f8f-4ba9-bd0a-a3ba542f0e95",
+        "id": "identity_17",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Browse specific reviews for a location"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What location are you interested in?"
+            },
+            {
+                "from": "human",
+                "value": "Brooken Cove"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: Brooken Cove </mem>  What type of reviews are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "5 star reviews"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Review Type: 5 star reviews </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Show me the rules and cancellation for Alley Spring.",
+        "annotation_id": "fd600e18-8b5c-4b17-8dde-42332315be41",
+        "id": "identity_19",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Provide information on rules and cancellation policies for Alley Spring"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What specific rules are you interested in for Alley Spring?"
+            },
+            {
+                "from": "human",
+                "value": "General rules"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Interested Rules: General rules </mem>  What details do you need about the cancellation policy for Alley Spring?"
+            },
+            {
+                "from": "human",
+                "value": "Full cancellation policy details"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Cancellation Policy Details: Full cancellation policy details </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Browse the best Australian food songs.",
+        "annotation_id": "eaa378ef-394c-46a3-b153-960b099f9f91",
+        "id": "identity_28",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search for songs related to a specific theme"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of songs are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Australian food songs"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Song Type: Australian food songs </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find a NOFX ticket for a show in Austin, Texas on April 23 for 1 person.",
+        "annotation_id": "6f79871b-a798-4439-8415-34379a131074",
+        "id": "identity_33",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a ticket for an event"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the name of the event?"
+            },
+            {
+                "from": "human",
+                "value": "NOFX show"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Name: NOFX show </mem>  Where is the event located?"
+            },
+            {
+                "from": "human",
+                "value": "Austin, Texas"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Location: Austin, Texas </mem>  On what date is the event?"
+            },
+            {
+                "from": "human",
+                "value": "April 23"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Date: April 23 </mem>  How many tickets are needed?"
+            },
+            {
+                "from": "human",
+                "value": "1"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Tickets: 1 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Start the process to purchase a gift card.",
+        "annotation_id": "77ed39d9-b40a-40e8-a3bc-db05cbdb607d",
+        "id": "identity_34",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Start the process to purchase a gift card"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of gift card would you like to purchase?"
+            },
+            {
+                "from": "human",
+                "value": "(Awaiting user response)"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Gift Card Type: (Variable based on user response) </mem>  What amount should the gift card be?"
+            },
+            {
+                "from": "human",
+                "value": "(Awaiting user response)"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Gift Card Amount: (Variable based on user response) </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find NHL events occurring in Boston.",
+        "annotation_id": "7a9212a8-30ba-4dfe-bdef-89349e006cc1",
+        "id": "identity_35",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find NHL events in a specified location"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What city should I look for NHL events?"
+            },
+            {
+                "from": "human",
+                "value": "Boston"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> City: Boston </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find a restaurant in San Francisco which serves Kosher food and high rating.",
+        "annotation_id": "2c09555a-4f9f-457d-b15b-0e8078ec4338",
+        "id": "identity_43",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a restaurant in a specific location with particular food preferences and quality standards."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which city should the restaurant be located in?"
+            },
+            {
+                "from": "human",
+                "value": "San Francisco"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: San Francisco </mem>  What type of food should the restaurant serve?"
+            },
+            {
+                "from": "human",
+                "value": "Kosher food"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Food Type: Kosher </mem>  What is considered a high rating?"
+            },
+            {
+                "from": "human",
+                "value": "High rating"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Rating Standard: High </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Browse floor tickets to the Los Angeles Lakers vs Memphis Grizzlies game on April 22nd.",
+        "annotation_id": "abf2e88a-ffe6-495c-b3cc-1cd237792175",
+        "id": "identity_44",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Browse tickets for a sports event"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What event are you looking for tickets for?"
+            },
+            {
+                "from": "human",
+                "value": "Los Angeles Lakers vs Memphis Grizzlies game"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Name: Los Angeles Lakers vs Memphis Grizzlies game </mem>  Date of the event?"
+            },
+            {
+                "from": "human",
+                "value": "April 22nd"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Date: April 22nd </mem>  Location of the event?"
+            },
+            {
+                "from": "human",
+                "value": "Los Angeles"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Location: Los Angeles </mem>  Type of tickets you are interested in?"
+            },
+            {
+                "from": "human",
+                "value": "Floor tickets"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Ticket Type: Floor tickets </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Add to my bag one men's slim jeans of size 26*29",
+        "annotation_id": "b83d8b14-a069-4aab-8a82-89250cafa347",
+        "id": "identity_46",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add an item to a shopping bag"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What item should be added to the bag?"
+            },
+            {
+                "from": "human",
+                "value": "Men's slim jeans"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item: Men's slim jeans </mem>  What size is needed?"
+            },
+            {
+                "from": "human",
+                "value": "26*29"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Size: 26*29 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find $100 egift card which has Happy Birthday on it for myself and add to cart.",
+        "annotation_id": "18c81087-23fc-4154-8f69-31d1ed10efa4",
+        "id": "identity_49",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and add an egift card to the cart"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the value of the egift card you are looking for?"
+            },
+            {
+                "from": "human",
+                "value": "$100"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Egift Card Value: $100 </mem>  What message should be on the egift card?"
+            },
+            {
+                "from": "human",
+                "value": "Happy Birthday"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Egift Card Message: Happy Birthday </mem>  Who is the egift card for?"
+            },
+            {
+                "from": "human",
+                "value": "Myself"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Egift Card Recipient: Myself </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Show theatre events for Las Vegas and select one.",
+        "annotation_id": "1da50745-6c23-4fad-a7e7-2e43b4993137",
+        "id": "identity_50",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and select theatre events"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What city are we looking at for theatre events?"
+            },
+            {
+                "from": "human",
+                "value": "Las Vegas"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: Las Vegas </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Search the list of top 100 hashtags in the last 30 days.",
+        "annotation_id": "a4dedb12-f5cf-4297-b558-f535be5945a0",
+        "id": "identity_55",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search for top hashtags"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the time frame for the hashtag search?"
+            },
+            {
+                "from": "human",
+                "value": "Last 30 days"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Time Frame: Last 30 days </mem>  What specific data are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Top 100 hashtags"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Specific Data: Top 100 hashtags </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Compare prices and find cheapest total price for Granitestone Sandwich Maker from stores which offer free delivery",
+        "annotation_id": "5b0eace3-c385-4f9e-8ce8-cdd9e58f1ea7",
+        "id": "identity_68",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Compare prices for a specific product and find the cheapest option with free delivery"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What product are we comparing prices for?"
+            },
+            {
+                "from": "human",
+                "value": "Granitestone Sandwich Maker"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Name: Granitestone Sandwich Maker </mem>  Should the store offer free delivery?"
+            },
+            {
+                "from": "human",
+                "value": "Yes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Free Delivery Requirement: Yes </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Compare Audi A7 with Audi A6 both made in 2023 and hide similarities.",
+        "annotation_id": "d1fdd62a-e113-4e2a-8593-2bf56f863a6b",
+        "id": "identity_74",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Compare two car models, highlighting differences"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which car models are you comparing?"
+            },
+            {
+                "from": "human",
+                "value": "Audi A7 and Audi A6"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Models: Audi A7, Audi A6 </mem>  What is the manufacturing year for the cars?"
+            },
+            {
+                "from": "human",
+                "value": "2023"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Manufacturing Year: 2023 </mem>  Should I only highlight the differences?"
+            },
+            {
+                "from": "human",
+                "value": "Yes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Focus: Differences only </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find out how many assists Chris Paul has been averaging in the current season.",
+        "annotation_id": "0c381f1c-d56d-40fc-b841-6a81e23da8a3",
+        "id": "identity_75",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Gather sports statistics"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which player's statistics are needed?"
+            },
+            {
+                "from": "human",
+                "value": "Chris Paul"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Player Name: Chris Paul </mem>  What specific statistic are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Average assists per game in the current season"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Statistic Sought: Average assists per game in the current season </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find me the cheapest Dodge Ram 1500 within 50 miles of 21122",
+        "annotation_id": "021e02c5-95fb-4dc3-987c-a74b1b64e299",
+        "id": "identity_77",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find the cheapest vehicle within a specified distance"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What vehicle model are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Dodge Ram 1500"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Model: Dodge Ram 1500 </mem>  What is the maximum distance for the search?"
+            },
+            {
+                "from": "human",
+                "value": "50 miles"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Maximum Distance: 50 miles </mem>  What zip code should the search be centered around?"
+            },
+            {
+                "from": "human",
+                "value": "21122"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Zip Code: 21122 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find used audi 100 sorted by best deal.",
+        "annotation_id": "094a877b-27a6-408f-9dad-7e9d8ed07278",
+        "id": "identity_78",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search and sort used cars"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What car model are you looking to find?"
+            },
+            {
+                "from": "human",
+                "value": "Audi 100"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Model: Audi 100 </mem>  How should the results be sorted?"
+            },
+            {
+                "from": "human",
+                "value": "By best deal"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sorting Preference: Best deal </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find a Villa in Egypt for vacation rental",
+        "annotation_id": "cb304f60-487c-4799-b06e-5759c5843643",
+        "id": "identity_86",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a vacation rental in Egypt."
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Rental Location: Egypt </mem> What type of property are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Villa"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Property Type: Villa </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find electric coffee grinders and filter the results to show only those with a capacity of 4 - 6.4 oz",
+        "annotation_id": "d57b93a0-c0bc-47e7-9c45-4ff93958fd68",
+        "id": "identity_90",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and filter products based on specific criteria"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of product are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Electric coffee grinders"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Type: Electric coffee grinders </mem>  What is the desired capacity range in ounces?"
+            },
+            {
+                "from": "human",
+                "value": "4 - 6.4 oz"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Capacity Range: 4 - 6.4 oz </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Identify Nike Air Women's size 6 cross training shoes that offer free return.",
+        "annotation_id": "ebfe31b3-54d8-44ee-b22e-f6554bd74222",
+        "id": "identity_91",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find specific shoes with particular features"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What brand of shoes are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Nike"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Brand: Nike </mem>  What type of shoes are you interested in?"
+            },
+            {
+                "from": "human",
+                "value": "Cross training shoes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Type: Cross training shoes </mem>  What size do you need?"
+            },
+            {
+                "from": "human",
+                "value": "Size 6"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Size: 6 </mem>  Who are the shoes for?"
+            },
+            {
+                "from": "human",
+                "value": "Women"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Gender: Women </mem>  What is your requirement regarding the return policy?"
+            },
+            {
+                "from": "human",
+                "value": "Free return"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Return Policy: Free return </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Show me the list of kitchen products made of aluminum on sale.",
+        "annotation_id": "4e1e4c8a-fc1f-43e2-ac6a-a63e6b121c40",
+        "id": "identity_93",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Display a list of products"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What material are you interested in for the products?"
+            },
+            {
+                "from": "human",
+                "value": "Aluminum"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Material: Aluminum </mem>  What category of products are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Kitchen products"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Category: Kitchen products </mem>  Are you looking for products on sale?"
+            },
+            {
+                "from": "human",
+                "value": "Yes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sale Status: On sale </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Add a $50 Uber gift card to the cart",
+        "annotation_id": "47efde90-81c4-4845-ab07-1eb8e7a9d11a",
+        "id": "identity_94",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Add item to shopping cart"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What item should be added to the cart?"
+            },
+            {
+                "from": "human",
+                "value": "$50 Uber gift card"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Item Name: $50 Uber gift card </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find wireless earbuds by Samsung and sort the results by Review Score.",
+        "annotation_id": "8a1cda91-fc7a-419e-bbc1-9c7363ea15c7",
+        "id": "identity_98",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and sort a product"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of product are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Wireless earbuds"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Type: Wireless earbuds </mem>  Which brand's product do you need?"
+            },
+            {
+                "from": "human",
+                "value": "Samsung"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Brand: Samsung </mem>  How should the results be sorted?"
+            },
+            {
+                "from": "human",
+                "value": "Review Score"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sorting Criteria: Review Score </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find pet food for cats and sort the results by price, least to most expensive and from Chewy.com",
+        "annotation_id": "8f309c5d-58b3-4830-ab4c-44805db26c4a",
+        "id": "identity_99",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and sort pet food"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of pet food are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Cat food"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Pet Food Type: Cat food </mem>  How should the results be sorted?"
+            },
+            {
+                "from": "human",
+                "value": "By price, from least to most expensive"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Sorting Preference: Price, least to most expensive </mem>  Which website should be used to find the pet food?"
+            },
+            {
+                "from": "human",
+                "value": "Chewy.com"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Website: Chewy.com </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Compare prices for a Samsung Galaxy S22",
+        "annotation_id": "99205f1e-ec10-4780-9931-8a90fedad4a9",
+        "id": "identity_100",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Compare prices for a product"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What product are we comparing prices for?"
+            },
+            {
+                "from": "human",
+                "value": "Samsung Galaxy S22"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product: Samsung Galaxy S22 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Browse the list of women's Nike jerseys over $60.",
+        "annotation_id": "802babc8-fd6c-4e8b-bab2-0bdc0a03d129",
+        "id": "identity_107",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Browse a product list"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of product are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Women's Nike jerseys"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Type: Women's Nike jerseys </mem>  What is the minimum price range?"
+            },
+            {
+                "from": "human",
+                "value": "Over $60"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Minimum Price: $60 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Check permit availability for a group of 4 in Brooks Camp, Katmai National Park on May 22",
+        "annotation_id": "a3cacfe8-f5b1-4d27-aa33-fea00be07f37",
+        "id": "identity_111",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Check permit availability"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What location are you checking permits for?"
+            },
+            {
+                "from": "human",
+                "value": "Brooks Camp, Katmai National Park"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: Brooks Camp, Katmai National Park </mem>  What date do you need the permit for?"
+            },
+            {
+                "from": "human",
+                "value": "May 22"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Date: May 22 </mem>  How many people is the permit for?"
+            },
+            {
+                "from": "human",
+                "value": "4"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Group Size: 4 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Save to my trips a restaurants in Johannesburg with vegan options.",
+        "annotation_id": "be3b849b-8a4f-42ea-be6b-31a586883552",
+        "id": "identity_115",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Save a restaurant to my trips"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Trip List Name: My trips </mem> Which city is the restaurant located in?"
+            },
+            {
+                "from": "human",
+                "value": "Johannesburg"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Restaurant Location: Johannesburg </mem>  What dietary options should the restaurant have?"
+            },
+            {
+                "from": "human",
+                "value": "Vegan options"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Dietary Options: Vegan options </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find the cheapest snow colored Google Pixel 7 with 128gb storage that can be bought on google",
+        "annotation_id": "275a7416-179a-4a72-8e2b-779a48a2b33f",
+        "id": "identity_117",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find and purchase a smartphone"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What model of smartphone are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Google Pixel 7"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Phone Model: Google Pixel 7 </mem>  What color do you want the phone in?"
+            },
+            {
+                "from": "human",
+                "value": "Snow"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Phone Color: Snow </mem>  What storage capacity are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "128gb"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Storage Capacity: 128gb </mem>  Where do you want to buy the phone from?"
+            },
+            {
+                "from": "human",
+                "value": "Google"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Seller: Google </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Create a list of drip coffee makers that are on sale and within $25-60 and have a black finish.",
+        "annotation_id": "470ee759-6323-4803-9c60-018c49c13c4e",
+        "id": "identity_119",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Create a list of specific products"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of product are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Drip coffee makers"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Type: Drip coffee makers </mem>  What is your budget range for the coffee maker?"
+            },
+            {
+                "from": "human",
+                "value": "$25-60"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Price Range: $25-60 </mem>  What color or finish do you prefer for the coffee maker?"
+            },
+            {
+                "from": "human",
+                "value": "Black finish"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Color/Finish: Black finish </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Check the details of order 12345 with email 12345@gmail.com",
+        "annotation_id": "24e104ae-aa71-40b2-8048-b69027f9652b",
+        "id": "identity_124",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Check order details"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the order number?"
+            },
+            {
+                "from": "human",
+                "value": "12345"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Order Number: 12345 </mem>  Which email address is associated with the order?"
+            },
+            {
+                "from": "human",
+                "value": "12345@gmail.com"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Email Address: 12345@gmail.com </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find Italian restaurants in New York City near Central Park.",
+        "annotation_id": "250ec75c-48af-449c-aa56-882ff62988b3",
+        "id": "identity_126",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find specific type of restaurants in a designated location"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of cuisine are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Italian"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Cuisine Type: Italian </mem>  In which city are you looking for restaurants?"
+            },
+            {
+                "from": "human",
+                "value": "New York City"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> City: New York City </mem>  Any specific area in the city you prefer?"
+            },
+            {
+                "from": "human",
+                "value": "near Central Park"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Specific Area: near Central Park </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find a highest rated dealer for Cadillac with rating above 4 star within 20 miles of zip 60606.",
+        "annotation_id": "0bea65aa-45a4-472c-9a4a-e900e8a9b43d",
+        "id": "identity_129",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a highly rated car dealer"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which car brand are you interested in?"
+            },
+            {
+                "from": "human",
+                "value": "Cadillac"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Brand: Cadillac </mem>  What is the minimum star rating for the dealer?"
+            },
+            {
+                "from": "human",
+                "value": "4 star"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Minimum Rating: 4 star </mem>  What is the zip code for the dealer search area?"
+            },
+            {
+                "from": "human",
+                "value": "60606"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Zip Code: 60606 </mem>  How far from the zip code should the search extend?"
+            },
+            {
+                "from": "human",
+                "value": "20 miles"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Search Radius: 20 miles </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find electric cars with a maximum price of $50,000 within 50 miles of 10001.",
+        "annotation_id": "1039245f-0ca1-464b-b55a-2ac30f769929",
+        "id": "identity_130",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find electric cars within specific criteria"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Type: Electric </mem> What is the maximum price for the car?"
+            },
+            {
+                "from": "human",
+                "value": "$50,000"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Maximum Price: $50,000 </mem>  How far should the search radius extend?"
+            },
+            {
+                "from": "human",
+                "value": "50 miles"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Search Radius: 50 miles </mem>  What is the zip code to base the search from?"
+            },
+            {
+                "from": "human",
+                "value": "10001"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Base Zip Code: 10001 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Open the page to create a review for Hotel Xcaret Mexico.",
+        "annotation_id": "4a023ef6-99d8-41b3-a0c1-2337f17eef1e",
+        "id": "identity_132",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Open a review creation page for a specific hotel"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which hotel would you like to review?"
+            },
+            {
+                "from": "human",
+                "value": "Hotel Xcaret Mexico"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Hotel Name: Hotel Xcaret Mexico </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Browse 8K Samsung TVs that are open box.",
+        "annotation_id": "d7f01fd5-afd7-407d-8d62-e0b201b8c197",
+        "id": "identity_135",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Browse specific TVs"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What brand of TV are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Samsung"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> TV Brand: Samsung </mem>  What resolution are you interested in?"
+            },
+            {
+                "from": "human",
+                "value": "8K"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> TV Resolution: 8K </mem>  What condition should the TV be in?"
+            },
+            {
+                "from": "human",
+                "value": "Open box"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> TV Condition: Open box </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find a list of restaurants in Big Sur, CA with outdoor seating",
+        "annotation_id": "da77f831-4173-4342-b784-75989c50046d",
+        "id": "identity_140",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find restaurants with specific features"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What location are you interested in for restaurants?"
+            },
+            {
+                "from": "human",
+                "value": "Big Sur, CA"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Location: Big Sur, CA </mem>  What specific feature are you looking for in the restaurants?"
+            },
+            {
+                "from": "human",
+                "value": "Outdoor seating"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Feature: Outdoor seating </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "find marriage registry with name JANE DOE",
+        "annotation_id": "f75f526f-dff7-4164-bb90-e9a84327bb2e",
+        "id": "identity_142",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find a marriage registry"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the name to search in the marriage registry?"
+            },
+            {
+                "from": "human",
+                "value": "JANE DOE"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Name for Registry Search: JANE DOE </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Open the league pass schedule for the Boston Celtics.",
+        "annotation_id": "d457bbda-b234-4829-bf41-45ba8a8111f5",
+        "id": "identity_144",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Open sports team schedule"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of pass do you need the schedule for?"
+            },
+            {
+                "from": "human",
+                "value": "League pass"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Pass Type: League pass </mem>  Which team's schedule should be opened?"
+            },
+            {
+                "from": "human",
+                "value": "Boston Celtics"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Team Name: Boston Celtics </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Look for price comparisons of Pokemon Go - Elite Trainer Box",
+        "annotation_id": "51c2f319-65b5-4115-948c-453ac3e28382",
+        "id": "identity_145",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find price comparisons for a product"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the name of the product to compare prices for?"
+            },
+            {
+                "from": "human",
+                "value": "Pokemon Go - Elite Trainer Box"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Product Name: Pokemon Go - Elite Trainer Box </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Search for running shoes for men and filter the results to show only those that are available in size 11.",
+        "annotation_id": "09ef065e-4b1a-431e-84f2-bd7768c0d004",
+        "id": "identity_146",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search and filter running shoes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What type of running shoes are you looking for?"
+            },
+            {
+                "from": "human",
+                "value": "Men's running shoes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Shoe Type: Men's running shoes </mem>  What shoe size do you need?"
+            },
+            {
+                "from": "human",
+                "value": "Size 11"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Shoe Size: Size 11 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Search for smart TVs with a screen size of 55 to 65 inches and filter the results to show only those that have a LED display.",
+        "annotation_id": "1f91de2a-5508-43e5-bced-ef6812f84614",
+        "id": "identity_147",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Search for smart TVs with specific features"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the minimum screen size you are looking for?"
+            },
+            {
+                "from": "human",
+                "value": "55 inches"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Minimum Screen Size: 55 inches </mem>  What is the maximum screen size you are looking for?"
+            },
+            {
+                "from": "human",
+                "value": "65 inches"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Maximum Screen Size: 65 inches </mem>  What type of display should the TV have?"
+            },
+            {
+                "from": "human",
+                "value": "LED"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Display Type: LED </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Book 4 tickets in upper  for any Kevin Hart show in Brisbane, Australia, before 30 March, view tickes prices with estimated fees.",
+        "annotation_id": "dd3ef13f-89f8-45a5-a007-aeea30acfe7b",
+        "id": "identity_149",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Book tickets for a show"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> How many tickets do you need?"
+            },
+            {
+                "from": "human",
+                "value": "4"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Number of Tickets: 4 </mem>  What is your seating preference?"
+            },
+            {
+                "from": "human",
+                "value": "Upper"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Seating Preference: Upper </mem>  Which city is the show located in?"
+            },
+            {
+                "from": "human",
+                "value": "Brisbane, Australia"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Event Location: Brisbane, Australia </mem>  What is the latest date to book the tickets by?"
+            },
+            {
+                "from": "human",
+                "value": "Before 30 March"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Booking Deadline: Before 30 March </mem>  Do you want to see the ticket prices with estimated fees?"
+            },
+            {
+                "from": "human",
+                "value": "Yes"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> View Prices with Fees: Yes </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Check permit availability for Bryce Canyon National Park.",
+        "annotation_id": "79f72a57-2967-44b5-b0cd-2501ef64769b",
+        "id": "identity_159",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Check permit availability for a national park"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which national park's permit availability do you want to check?"
+            },
+            {
+                "from": "human",
+                "value": "Bryce Canyon National Park"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> National Park: Bryce Canyon National Park </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Show me the tik tok series playlist from brazil",
+        "annotation_id": "375bd12d-d44b-4453-b6e3-c0f1889ceb82",
+        "id": "identity_170",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Retrieve TikTok series playlist from a specific country"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> Which country's TikTok series playlist do you want to see?"
+            },
+            {
+                "from": "human",
+                "value": "Brazil"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Country: Brazil </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find service and repair for a 2022 Audi e-tron.",
+        "annotation_id": "4f703fa8-7af1-463b-a21b-a7a106cef80e",
+        "id": "identity_174",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find service and repair for a vehicle"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the make of the vehicle?"
+            },
+            {
+                "from": "human",
+                "value": "Audi"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Make: Audi </mem>  What model of the vehicle needs servicing?"
+            },
+            {
+                "from": "human",
+                "value": "e-tron"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Model: e-tron </mem>  What is the year of the vehicle?"
+            },
+            {
+                "from": "human",
+                "value": "2022"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Vehicle Year: 2022 </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Find recalls for the Alfa romeo 4C",
+        "annotation_id": "8404eae6-c5b7-45cf-ae00-57d241225f78",
+        "id": "identity_175",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Find car recalls"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the make of the car?"
+            },
+            {
+                "from": "human",
+                "value": "Alfa Romeo"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Make: Alfa Romeo </mem>  What is the model of the car?"
+            },
+            {
+                "from": "human",
+                "value": "4C"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Car Model: 4C </mem>  <Finish>"
+            }
+        ]
+    },
+    {
+        "confirmed_task": "Compare the Acura CL 2003 with the ILX 2022.",
+        "annotation_id": "8bc9b2da-7c0e-4a61-b2ae-d0898fe9717a",
+        "id": "identity_176",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Compare two car models"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem>  </mem> What is the first car model to compare?"
+            },
+            {
+                "from": "human",
+                "value": "Acura CL 2003"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> First Car Model: Acura CL 2003 </mem>  What is the second car model to compare?"
+            },
+            {
+                "from": "human",
+                "value": "ILX 2022"
+            },
+            {
+                "from": "gpt",
+                "value": "<mem> Second Car Model: ILX 2022 </mem>  <Finish>"
+            }
+        ]
+    }
+]

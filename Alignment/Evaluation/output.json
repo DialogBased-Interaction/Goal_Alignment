@@ -1,0 +1,1084 @@
+[
+    {
+        "identity": "identity_13",
+        "generated": [
+            "What location are you interested in?",
+            "What location do you want to get the hourly weather forecast for?",
+            "<mem>Location: Seattle, WA</mem> What date do you need the hourly weather forecast for?",
+            "<mem>Date: Next 24 hours</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Location for the weather forecast?",
+            "<mem>  </mem> Location for the weather forecast?",
+            "<mem> Forecast Location: Seattle, WA </mem>  Duration for the weather forecast?",
+            "<mem> Forecast Duration: 24 hours </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_34",
+        "generated": [
+            "What is the name of the restaurant you want reviews for?",
+            "Do you want reviews from a specific location or branch?",
+            "<mem>Restaurant Name: Mc Donald's</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which restaurant's reviews would you like to see?",
+            "<mem>  </mem> Which restaurant's reviews would you like to see?",
+            "<mem> Restaurant Name: Mc Donald's </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_35",
+        "generated": [
+            "What is the name of the subreddit you want to join?",
+            "<mem>Subreddit Name: r/politics</mem> What username should be used to join the subreddit?",
+            "What is your username?",
+            "Do you want to use an existing Reddit account or create a new one?",
+            "Which email address should be linked to the Reddit account?",
+            "Do you prefer to join the subreddit anonymously?",
+            "I need to know if there is any specific way you would like to provide your username or email address. Could you please clarify?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem>  </mem> Which subreddit would you like to join?",
+            "<mem> Subreddit Name: r/politics </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_46",
+        "generated": [
+            "What is the location for which you need the monthly weather forecast?",
+            "<mem>Location: Florida city</mem> For which month do you need the weather forecast?",
+            "Which month are you interested in for the weather forecast?",
+            "<mem>Month: Not specified</mem> Since the specific month is not provided, is there any particular format you would prefer for the weather forecast (e.g., temperature ranges, precipitation, etc.)?",
+            "<mem>Format: Not specified</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem> Location: Florida city </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_67",
+        "generated": [
+            "What is the name of the location you want to add?",
+            "Could you provide the address or coordinates of the location?",
+            "<mem>Location Name: Miami, FL</mem> <mem>Address: Not specified</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What location should be added?",
+            "<mem>  </mem> What location should be added?",
+            "<mem> Location to Add: Miami, FL </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_77",
+        "generated": [
+            "Who is the person you want to search comments for?",
+            "Can you please specify the name of the person you want to search comments for?",
+            "Can you please provide the name of the person you are interested in?",
+            "Please specify the name of the person you want to find top comments mentioning.",
+            "Without the name of the person, I'm unable to proceed with the search. Can you please provide the name?",
+            "Can you tell me the name of the person you're looking for in top comments?",
+            "It seems we need the name of the person to continue. Could you please provide the name of the person we are searching for in the comments?",
+            "Without the name, I am unable to proceed. Please provide the name of the person you want to search top comments for.",
+            "Without the name of the person, I cannot proceed with searching for the top comments. Could you please specify the person you are interested in?",
+            "It seems we're in a loop. Could you please provide the name of the person we need to find comments for?"
+        ],
+        "best_match": [
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?",
+            "<mem>  </mem> Whose mentions are you looking for in the comments?"
+        ]
+    },
+    {
+        "identity": "identity_125",
+        "generated": [
+            "What is the location you would like to find the sun hours for?",
+            "<mem>Location: Vancouver, British Columbia</mem>",
+            "Can you provide the start date for the week you are interested in?",
+            "Could you please specify the start date for the week you want to find the sun hours for?",
+            "Starting from which date would you like to know the sun hours for the next seven days?",
+            "Could you please provide a specific start date?",
+            "For which specific date would you like to start calculating the sun hours for the next seven days?",
+            "It seems we need a specific start date to proceed. Could you please provide a specific start date to calculate the sun hours for the next seven days?",
+            "<mem>Duration: 7 days </mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which location's sun hours are you looking for?",
+            "<mem>  </mem> Which location's sun hours are you looking for?",
+            "<mem> Location: Vancouver, British Columbia </mem>  For how many days do you need the sun hours information?",
+            "<mem> Location: Vancouver, British Columbia </mem>  For how many days do you need the sun hours information?",
+            "<mem> Location: Vancouver, British Columbia </mem>  For how many days do you need the sun hours information?",
+            "<mem> Location: Vancouver, British Columbia </mem>  For how many days do you need the sun hours information?",
+            "<mem> Location: Vancouver, British Columbia </mem>  For how many days do you need the sun hours information?",
+            "<mem> Location: Vancouver, British Columbia </mem>  For how many days do you need the sun hours information?",
+            "<mem> Duration: Seven days </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_129",
+        "generated": [
+            "Which highway's conditions are you interested in?",
+            "<mem>Area: Vancouver</mem>",
+            "<mem>Highway: Not specified</mem>",
+            "Please specify the date and time for the highway conditions in the Vancouver area.",
+            "<mem>Date and Time: Not specified</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which area's highway conditions do you want to check?",
+            "<mem>  </mem> Which area's highway conditions do you want to check?",
+            "<mem>  </mem> Which area's highway conditions do you want to check?",
+            "<mem>  </mem> Which area's highway conditions do you want to check?",
+            "<mem> Area: Vancouver Area </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_153",
+        "generated": [
+            "What is your current ZIP code or location?",
+            "Could you please provide your current ZIP code or city? It will help us locate the nearest UPS drop-off point.",
+            "Can you please provide the name of your city or ZIP code?",
+            "Without the location information, it's challenging to find the nearest UPS drop-off point. Could you please specify your city or ZIP code?",
+            "Could you please give me the ZIP code or the name of the city where you would like to find a UPS drop-off point?",
+            "It looks like you're not providing a location. To proceed, could you please supply either the name of your city or your ZIP code? This information is crucial to locate the nearest UPS drop-off point.",
+            "I'm unable to proceed without a location. Could you please provide your current ZIP code or city for locating the nearest UPS drop-off point?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem> City: Miami </mem>  In which state is this city located?",
+            "<mem>  </mem> Which city should I look for the drop-off point in?",
+            "<mem> City: Miami </mem>  In which state is this city located?",
+            "<mem>  </mem> Which city should I look for the drop-off point in?",
+            "<mem>  </mem> Which city should I look for the drop-off point in?",
+            "<mem>  </mem> Which city should I look for the drop-off point in?",
+            "<mem>  </mem> Which city should I look for the drop-off point in?",
+            "<mem> State: Florida </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_158",
+        "generated": [
+            "What is the tracking number for the shipment?",
+            "<mem>Tracking Number: 3023858502</mem> Which carrier is handling the shipment (e.g., FedEx, UPS, USPS)?",
+            "<mem>Carrier: Not specified</mem> What is the expected delivery date?",
+            "<mem>Expected Delivery Date: Not specified</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What is the shipment number?",
+            "<mem>  </mem> What is the shipment number?",
+            "<mem>  </mem> What is the shipment number?",
+            "<mem> Shipment Number: 3023858502 </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_159",
+        "generated": [
+            "What are the dimensions of the package (length, width, height)?",
+            "What is the weight of the package?",
+            "<mem>Weight: 4 pounds</mem>",
+            "What is the destination address for the shipment?",
+            "<mem>Destination: Texas</mem>",
+            "What is the origin address from where the package will be shipped?",
+            "<mem>Origin: Texas</mem>",
+            "What is the service type (e.g., Standard, Express) you would like to use for shipping?",
+            "What are the dimensions of the package (length, width, height)?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What is the weight of the package?",
+            "<mem>  </mem> What is the weight of the package?",
+            "<mem> Destination: New York </mem>  <Finish>",
+            "<mem> Package Weight: 4 pounds </mem>  Where is the package being shipped from?",
+            "<mem> Destination: New York </mem>  <Finish>",
+            "<mem> Package Weight: 4 pounds </mem>  Where is the package being shipped from?",
+            "<mem> Destination: New York </mem>  <Finish>",
+            "<mem> Package Weight: 4 pounds </mem>  Where is the package being shipped from?",
+            "<mem>  </mem> What is the weight of the package?",
+            "<mem> Destination: New York </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_161",
+        "generated": [
+            "What is the preferred location you are looking to buy a home in?",
+            "<mem>Location: San Diego, CA</mem> What type of home are you looking for (e.g., apartment, house, condo)?",
+            "What type of home are you looking for (e.g., apartment, house, condo)?",
+            "<mem>Location: San Diego, CA</mem> What type of home are you looking for (e.g., apartment, house, condo)?",
+            "To clarify, are you looking for a specific type of home such as an apartment, house, or condo?",
+            "<mem>Home Type: Not specified</mem> What is your budget range for buying a home?",
+            "<mem>Budget Range: Not specified</mem> Are there any specific features or amenities you are looking for in a home (e.g., number of bedrooms, bathrooms, garage)?",
+            "<mem>Features: Not specified</mem><Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What location are we looking in for homes?",
+            "<mem>  </mem> What location are we looking in for homes?",
+            "<mem>  </mem> What location are we looking in for homes?",
+            "<mem>  </mem> What location are we looking in for homes?",
+            "<mem>  </mem> What location are we looking in for homes?",
+            "<mem> Location: San Diego, CA </mem>  What's the maximum price for the homes?",
+            "<mem>  </mem> What location are we looking in for homes?",
+            "<mem> Minimum Bedrooms: 3 </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_174",
+        "generated": [
+            "Where is the package being shipped from?",
+            "Where is the package being shipped to?",
+            "Where is the package being shipped to?",
+            "Where is the package being shipped to?",
+            "What is the weight of the package?",
+            "What are the dimensions of the package (length, width, height)?",
+            "What is the shipping method (e.g., standard, express)?",
+            "What is the declared value of the package?",
+            "What is the shipping origin?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem> Destination Zip Code: 10023 </mem>  When will the package be shipped?",
+            "<mem>  </mem> What is the origin zip code?",
+            "<mem> Shipping Date: April 10 </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_205",
+        "generated": [
+            "Are you looking for symptoms, causes, treatment options, or general information?",
+            "Are you looking for symptoms, causes, treatment options, or general information about Hypersomnia?",
+            "Do you need information on specific aspects such as definition, diagnosis, or management, or a general overview?",
+            "Would you like a brief or detailed overview of Hypersomnia?",
+            "Alright, to provide general information on Hypersomnia, could you specify the audience (e.g., medical professionals, general public, students)?",
+            "<mem>Audience: General public</mem>",
+            "Do you require this information to focus on any specific subtopics such as symptoms, causes, or treatment options, or should it cover all aspects briefly?",
+            "<mem>Information Focus: General overview</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem>  </mem> What specific information or aspects about Hypersomnia are you looking for?",
+            "<mem> Information Request: General information about Hypersomnia </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_239",
+        "generated": [
+            "What are the names of the drugs you want to check for interactions?",
+            "<mem>Drug Names: Ibuprofen, Aspirin</mem>",
+            "<mem>Drug Names: Ibuprofen, Aspirin</mem>",
+            "<mem>Relevant Conditions or Medications: Not specified</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which drugs are you interested in for interaction information?",
+            "<mem>  </mem> Which drugs are you interested in for interaction information?",
+            "<mem>  </mem> Which drugs are you interested in for interaction information?",
+            "<mem> Drugs: Ibuprofen and aspirin </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_257",
+        "generated": [
+            "What is the name of the university you are interested in?",
+            "Can you please provide the name of the university you're interested in?",
+            "Do you have a specific program or major in mind for which you want to check the admission requirements?",
+            "<mem> University Name: University of London </mem>",
+            "Do you want to check the general admission requirements or for a specific program?",
+            "<mem>Admission Type: General</mem><Finish>"
+        ],
+        "best_match": [
+            "<mem> Program: Bsc Computer Science </mem>  Which university's requirements do you want to check?",
+            "<mem> Program: Bsc Computer Science </mem>  Which university's requirements do you want to check?",
+            "<mem> Program: Bsc Computer Science </mem>  Which university's requirements do you want to check?",
+            "<mem>  </mem> What program are you interested in?",
+            "<mem> Program: Bsc Computer Science </mem>  Which university's requirements do you want to check?",
+            "<mem> University: University of London </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_274",
+        "generated": [
+            "Which area are you interested in?",
+            "Can you please specify the area in which you would like to see properties?\ufffd",
+            "Can you provide the preferred location or neighborhood for displaying the properties?",
+            "Expecting a specific location for the property display is crucial. Can you mention a general area or any specific place you're looking into?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What is the zip code for the property search?",
+            "<mem>  </mem> What is the zip code for the property search?",
+            "<mem> Maximum Price: $300,000 </mem>  How should the properties be sorted?",
+            "<mem>  </mem> What is the zip code for the property search?",
+            "<mem> Sorting Order: Lowest price first </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_336",
+        "generated": [
+            "What type of job are you seeking?",
+            "Which city or area are you looking to work in?",
+            "<mem>Job Title: Truck driver</mem>",
+            "<mem>Working Schedule: Not specified</mem>",
+            "<mem>Expected Salary: Not specified</mem>",
+            "<mem>Education Level: Not specified</mem>",
+            "<mem>CDL: Not specified</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What job are you looking for?",
+            "<mem> Job Title: Truck driver </mem>  In which city are you looking for a job?",
+            "<mem>  </mem> What job are you looking for?",
+            "<mem>  </mem> What job are you looking for?",
+            "<mem>  </mem> What job are you looking for?",
+            "<mem> Job Location City: Rochester </mem>  In which state are you looking for a job?",
+            "<mem> Specific Companies: None </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_375",
+        "generated": [
+            "What type of doctor are you looking for?",
+            "What is your location or the city where you are looking for a doctor?",
+            "<mem>Type of Doctor: Stomach Pain</mem>",
+            "<mem>Preferences: Not specified</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What type of doctor are you looking for?",
+            "<mem> Specialist Type: Stomach Pain </mem>  In which city should the doctor be located?",
+            "<mem>  </mem> What type of doctor are you looking for?",
+            "<mem> Location: San Antonio </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_402",
+        "generated": [
+            "What location do you need the hourly weather forecast for?",
+            "What location do you need the hourly weather forecast for?",
+            "Can you specify the location for the weather forecast?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What is the zip code for the forecast?",
+            "<mem>  </mem> What is the zip code for the forecast?",
+            "<mem>  </mem> What is the zip code for the forecast?",
+            "<mem> Zip Code: 90210 </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_404",
+        "generated": [
+            "What is the loan amount?",
+            "What is the loan amount?",
+            "What is the loan amount for the mortgage?",
+            "What is the loan amount?",
+            "What is the loan amount for the mortgage?",
+            "What is the loan amount for the mortgage?",
+            "What is the loan amount for the mortgage?",
+            "What is the loan amount?",
+            "What is the loan amount for the mortgage?",
+            "What is the loan amount for the mortgage?"
+        ],
+        "best_match": [
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?",
+            "<mem>  </mem> What type of mortgage is it?"
+        ]
+    },
+    {
+        "identity": "identity_433",
+        "generated": [
+            "Which country are you a citizen of?",
+            "Which country are you a citizen of?",
+            "For which country are you seeking voting information for citizens living abroad?",
+            "Which country's voting information are you seeking for citizens living abroad?",
+            "Which country are you currently living in?",
+            "Which specific details about voting for citizens living abroad are you interested in?",
+            "Which country are you a citizen of?",
+            "Which country are you a citizen of?",
+            "To better assist you, could you provide the country of your citizenship?",
+            "For which country do you need information on voting for citizens living abroad?"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?",
+            "<mem>  </mem> Which country's voting information is needed?"
+        ]
+    },
+    {
+        "identity": "identity_434",
+        "generated": [
+            "What is your total annual income?",
+            "<mem>Total Annual Income: \u00a31,000</mem> What is your tax filing status (e.g., single, married, head of household)?",
+            "<mem>Tax Filing Status: Not specified</mem> What is your country of residence?",
+            "<mem>Country of Residence: Not specified</mem> Do you have any eligible deductions or exemptions?",
+            "<mem>Eligible Deductions or Exemptions: Not specified</mem><Finish>"
+        ],
+        "best_match": [
+            "<mem> Pays Scottish Income Tax: No </mem>  What is the weekly income amount?",
+            "<mem> Over State Pension Age: Yes </mem>  Does the individual pay Scottish Income Tax rates?",
+            "<mem> Over State Pension Age: Yes </mem>  Does the individual pay Scottish Income Tax rates?",
+            "<mem> Over State Pension Age: Yes </mem>  Does the individual pay Scottish Income Tax rates?",
+            "<mem> Weekly Income: \ufffd1,000 </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_440",
+        "generated": [
+            "What is the stock name you are interested in?",
+            "Which stock would you like to look up the visitors' trend for?",
+            "<mem>Stock Name: Apple</mem>",
+            "Which time period would you like to look up the visitors' trend for Apple stock?",
+            "Would you prefer a daily, weekly, or monthly trend analysis?",
+            "Let's start with a common time frame. How about the past month? Would that work for you?",
+            "<mem>Time Period: Past month</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which stock should I look up the visitors trend for?",
+            "<mem>  </mem> Which stock should I look up the visitors trend for?",
+            "<mem>  </mem> Which stock should I look up the visitors trend for?",
+            "<mem>  </mem> Which stock should I look up the visitors trend for?",
+            "<mem>  </mem> Which stock should I look up the visitors trend for?",
+            "<mem>  </mem> Which stock should I look up the visitors trend for?",
+            "<mem> Stock Name: Apple </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_477",
+        "generated": [
+            "What is the subject of the message?",
+            "What is the body content of the message?",
+            "Who is the recipient of the message?",
+            "Who is the recipient of the message?",
+            "What is the subject of the message?",
+            "What is the subject of the message you want to create?",
+            "What content do you want in the body of the message?",
+            "Who is the recipient of the message?",
+            "<mem>Subject: Not specified</mem>"
+        ],
+        "best_match": [
+            "<mem> Section Name: Create a new message </mem> What action needs to be performed?",
+            "<mem> Action: Open section </mem>  <Finish>",
+            "<mem> Section Name: Create a new message </mem> What action needs to be performed?",
+            "<mem> Section Name: Create a new message </mem> What action needs to be performed?",
+            "<mem> Section Name: Create a new message </mem> What action needs to be performed?",
+            "<mem> Section Name: Create a new message </mem> What action needs to be performed?",
+            "<mem> Action: Open section </mem>  <Finish>",
+            "<mem> Section Name: Create a new message </mem> What action needs to be performed?",
+            "<mem> Action: Open section </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_478",
+        "generated": [
+            "Which platform or device do you want to clear the recent search topics from?",
+            "Can you specify the platform or device from which you want to clear the recent search topics?",
+            "What specific time range do you want to clear the recent search topics for? For example, last hour, last day, or all time?",
+            "Do you have a specific search engine or application in mind? For example, Google, YouTube, or a web browser like Chrome or Safari?",
+            "Are there any specific reasons or goals you are trying to achieve by clearing the recent search topics? For example, improving privacy or decluttering search history?",
+            "<mem>Clear all recent search topics</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem>  Should all types of searches be cleared or specific ones?",
+            "<mem>  </mem>  Should all types of searches be cleared or specific ones?",
+            "<mem>  </mem>  Should all types of searches be cleared or specific ones?",
+            "<mem>  </mem>  Should all types of searches be cleared or specific ones?",
+            "<mem>  </mem>  Should all types of searches be cleared or specific ones?",
+            "<mem> Search Scope: All recent searched topics </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_492",
+        "generated": [
+            "What is the address or location for which you want to find the latest FedEx drop-off time?",
+            "Can you please provide the specific address or location where you need to find the latest FedEx drop-off time?",
+            "Can you please provide the city and state for the location?",
+            "Can you please provide the ZIP code for the location?",
+            "<mem>ZIP Code: 49103</mem>",
+            "Do you have a preferred time frame or specific date to check for the latest FedEx drop-off time?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which store are you looking to drop off at?",
+            "<mem>  </mem> Which store are you looking to drop off at?",
+            "<mem> Store Name: Dollar General </mem>  What is the postal code of the location?",
+            "<mem> Store Name: Dollar General </mem>  What is the postal code of the location?",
+            "<mem> Store Name: Dollar General </mem>  What is the postal code of the location?",
+            "<mem>  </mem> Which store are you looking to drop off at?",
+            "<mem> Postal Code: 49103 </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_497",
+        "generated": [
+            "What job title are you interested in?",
+            "What job title or field are you interested in?",
+            "Where are you looking for job openings?",
+            "What location or region are you interested in for job openings?",
+            "Can you provide any specific requirements or preferences for the job you are seeking?",
+            "Are you open to remote job opportunities, or are you only interested in on-site positions?",
+            "Can you provide the job title, location, or any specific requirement you are looking for?",
+            "To help you more effectively, I need some criteria. Could you please specify at least one requirement for the job search, such as job title, location, industry, or working conditions?",
+            "<mem> Job Title: Not specified </mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which department are the job openings for?",
+            "<mem>  </mem> Which department are the job openings for?",
+            "<mem>  </mem> Which department are the job openings for?",
+            "<mem>  </mem> Which department are the job openings for?",
+            "<mem>  </mem> Which department are the job openings for?",
+            "<mem> Department: Thumbtack engineering </mem>  Are the job openings virtual or in-person?",
+            "<mem> Job Nature: Virtual </mem>  Where should the jobs be based?",
+            "<mem> Job Nature: Virtual </mem>  Where should the jobs be based?",
+            "<mem> Job Location: United States </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_546",
+        "generated": [
+            "What is the make and model of your vehicle?",
+            "What is the vehicle's make and model?",
+            "What is your vehicle's license plate number?",
+            "What is the Vehicle Identification Number (VIN)?",
+            "Which state is your vehicle registered in?",
+            "What is the owner\u2019s name of the vehicle?",
+            "What is the current registration expiration date?",
+            "What is the vehicle identification number (VIN)?",
+            "What is the email address to send the registration renewal confirmation to?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem>  </mem> Which online service should be used for renewing vehicle registration?",
+            "<mem> Online Service: Renew Vehicle Registration online service </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_555",
+        "generated": [
+            "What is the name of the online community you want to join?",
+            "What is the name of the online community you want to join?",
+            "Can you please specify the online community you want to join or do you want me to choose one for you?",
+            "For which type of online community are you looking to join (e.g., tech, fitness, gaming, etc.)?",
+            "Please provide the name of the online community you are interested in joining.",
+            "What type of notifications do you prefer to receive (e.g., all activities, mentions only, direct messages)?",
+            "To better assist you with joining an online community and setting notification preferences, could you please specify:",
+            "Without specific information, it is challenging to proceed. Could you provide more details or would you like me to select an example online community for this exercise?",
+            "What type of notifications do you prefer to receive (e.g., all activities, mentions only, direct messages)?",
+            "To set up your preferences accurately, could you please specify your preferred notification type?"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which community should be joined?",
+            "<mem>  </mem> Which community should be joined?",
+            "<mem>  </mem> Which community should be joined?",
+            "<mem>  </mem> Which community should be joined?",
+            "<mem>  </mem> Which community should be joined?",
+            "<mem> Community Name: r/answers </mem>  How frequent should the notifications be set?",
+            "<mem>  </mem> Which community should be joined?",
+            "<mem>  </mem> Which community should be joined?",
+            "<mem> Community Name: r/answers </mem>  How frequent should the notifications be set?",
+            "<mem> Community Name: r/answers </mem>  How frequent should the notifications be set?"
+        ]
+    },
+    {
+        "identity": "identity_569",
+        "generated": [
+            "What location are you looking for career openings in?",
+            "What type of legal career are you interested in? (e.g., paralegal, attorney, legal assistant)",
+            "Do you have a preference for working in a particular law field? (e.g., corporate law, criminal law, family law)",
+            "Would you like to specify a location for the job search, or should I look for openings nationwide?",
+            "What is your level of experience in the legal field? For example, entry-level, mid-level, or senior-level?",
+            "Would you prefer full-time, part-time, or remote work?",
+            "Are there any specific companies or law firms you are interested in working for?",
+            "<mem>Location: Not specified</mem>"
+        ],
+        "best_match": [
+            "<mem> Target Group: Summer volunteer law students </mem>  In which location should these openings be?",
+            "<mem> Career Type: Legal career openings </mem> Who are the openings for?",
+            "<mem> Career Type: Legal career openings </mem> Who are the openings for?",
+            "<mem> Target Group: Summer volunteer law students </mem>  In which location should these openings be?",
+            "<mem> Career Type: Legal career openings </mem> Who are the openings for?",
+            "<mem> Location: New York </mem>  <Finish>",
+            "<mem> Career Type: Legal career openings </mem> Who are the openings for?",
+            "<mem> Location: New York </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_580",
+        "generated": [
+            "What type of job are you looking for?",
+            "What type of job would you like to receive alerts for?",
+            "<memb>Job Type: Sales positions</mem>",
+            "In which location would you like to receive job alerts for sales positions?",
+            "Do you have a preferred location or should the job alerts cover all available locations?",
+            "<memb>Location: Not specified</mem>",
+            "Could you please provide the email address where you'd like to receive the job alerts for sales positions?",
+            "<memb>Email Address: Not specified</mem>",
+            "How often would you like to receive job alerts (daily, weekly, or monthly)?",
+            "<memb>Frequency: Not specified</mem>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?",
+            "<mem>  </mem> What type of job should the alerts be for?"
+        ]
+    },
+    {
+        "identity": "identity_604",
+        "generated": [
+            "What location would you like the weather forecast for?",
+            "<mem>Location: Boston</mem>",
+            "Which date and time do you need the hourly weather forecast for?",
+            "What date and time would you like the hourly weather forecast for in Boston?",
+            "Would you like the weather forecast for today or for a specific future date?",
+            "Do you prefer morning, afternoon, or evening for the hourly weather forecast?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem> Location: Boston </mem>  <Finish>",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem>  </mem> Which city's weather forecast do you need?",
+            "<mem> Location: Boston </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_654",
+        "generated": [
+            "What type of job are you interested in?",
+            "In which location are you looking for a grocery store cashier job?",
+            "<mem> Job Type: Grocery store cashier </mem> <mem> Location: Florida </mem>",
+            "<mem> Schedule: Not specified </mem>",
+            "<mem> Start Date: Not specified </mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What job title are you looking for?",
+            "<mem> Job Title: Grocery store cashier </mem>  In which location are you looking for this job?",
+            "<mem>  </mem> What job title are you looking for?",
+            "<mem> Job Title: Grocery store cashier </mem>  In which location are you looking for this job?",
+            "<mem> Location: Florida </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_667",
+        "generated": [
+            "Which academic term are you looking for?",
+            "Which academic institution are you referring to?",
+            "Can you specify the academic term you're interested in (e.g., Fall 2023, Spring 2024)?",
+            "Which academic institution are you referring to?",
+            "Could you provide more details on the academic term, such as the year and semester (e.g., Fall 2023, Spring 2024)?",
+            "Could you specify the country and state or region of the academic institution you're interested in?",
+            "What information do you have about the academic term you're referring to? (e.g., specific courses, program, or major)",
+            "Could you specify whether you are looking for undergraduate or graduate registration deadlines?",
+            "Which academic institution are you referring to?",
+            "Please specify the country and state or region of the academic institution you're interested in for the Fall 2024 registration deadlines."
+        ],
+        "best_match": [
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?",
+            "<mem>  </mem> Which academic term's registration deadlines are you looking for?"
+        ]
+    },
+    {
+        "identity": "identity_673",
+        "generated": [
+            "Which university or college are you inquiring about?",
+            "Are you looking for information about majors and degrees at any specific university or are you open to multiple options?",
+            "Are you interested in a particular field of study or discipline for the undergraduate majors and degrees?",
+            "Are you looking for general information about undergraduate majors, such as types, prerequisites, or career prospects?",
+            "Would you prefer information about the most popular undergraduate majors and degrees, or a comprehensive list of all possible options?",
+            "To better assist you, can you specify whether you are looking for information about undergraduate majors and degrees in a particular country or region?",
+            "Are you seeking online or in-person undergraduate programs?",
+            "Would you like information about undergraduate programs from public universities, private universities, or both?",
+            "Are you looking for undergraduate programs with specific accreditation or recognition?",
+            "Should I gather general information about undergraduate majors and degrees?"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?",
+            "<mem>  </mem> Which schools do you want to find information for?"
+        ]
+    },
+    {
+        "identity": "identity_692",
+        "generated": [
+            "What is the name of the challenge you want to join?",
+            "<mem>Challenge Name: Mindful Eating Challenge</mem> What email address should be used to join the challenge?",
+            "Could you please provide your email address to join the Mindful Eating Challenge?",
+            "Alright, let's proceed without the email address for now. When does the Mindful Eating Challenge start?",
+            "Do you have a specific date or duration for the Mindful Eating Challenge?",
+            "<mem>Start Date: As soon as possible</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What is the name of the challenge to join?",
+            "<mem>  </mem> What is the name of the challenge to join?",
+            "<mem>  </mem> What is the name of the challenge to join?",
+            "<mem>  </mem> What is the name of the challenge to join?",
+            "<mem>  </mem> What is the name of the challenge to join?",
+            "<mem> Challenge Name: Mindful Eating Challenge </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_710",
+        "generated": [
+            "What job title or position are you searching for?",
+            "In which location or city are you seeking these job listings?",
+            "Would you like to search for remote jobs or jobs in a specific location?",
+            "Do you have any specific industries or sectors in mind for the Data Entry or similar jobs?",
+            "What is your preferred type of employment for these job listings? (e.g., full-time, part-time, contract)",
+            "Is there a preferred salary range or hourly rate you are looking for in these job listings?",
+            "Are there any specific qualifications or skills you would like to focus on for the Data Entry or similar jobs?",
+            "Would you like to receive job listings from a specific job search platform or website?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem> Number of Jobs to Save: Two </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_712",
+        "generated": [
+            "What is the LinkedIn Learning newsletter name to subscribe to?",
+            "Which specific LinkedIn Learning newsletter would you like to subscribe to?",
+            "What email address should be used?",
+            "Could you please provide more details about the LinkedIn Learning newsletter you would like to subscribe to and the email address to use?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem> Newsletter Name: LinkedIn Learning newsletter </mem> <Finish>",
+            "<mem> Newsletter Name: LinkedIn Learning newsletter </mem> <Finish>",
+            "<mem> Newsletter Name: LinkedIn Learning newsletter </mem> <Finish>",
+            "<mem> Newsletter Name: LinkedIn Learning newsletter </mem> <Finish>",
+            "<mem> Newsletter Name: LinkedIn Learning newsletter </mem> <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_756",
+        "generated": [
+            "Would you like to know about the symptoms of fever or the causes of fever?",
+            "<mem> Symptoms of Fever: Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering </mem> What are the common causes of fever?",
+            "<mem> Causes of Fever: Infections (like the flu, common cold, or bacterial infections), inflammation, heat exhaustion, side effect of medication </mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What are the common symptoms of fever?",
+            "<mem> Symptoms of Fever: Elevated body temperature, sweating, headache, muscle aches, dehydration, shivering </mem>  What are the typical causes of fever?",
+            "<mem> Causes of Fever: Infections (flu, common cold, bacterial infections), inflammation, heat exhaustion, medication side effects </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_806",
+        "generated": [
+            "Are you asking about treatments for Crohn's disease or ulcerative colitis?",
+            "Are you interested in treatments for Crohn's disease, ulcerative colitis, or both?",
+            "What specific information do you need regarding medical treatments for IBD (inflammatory bowel disease)?",
+            "Which specific medication or class of medications are you interested in for IBD treatment?",
+            "Are you looking for information on specific medications, classes of drugs, or both?",
+            "Would you like information on specific medications, classes of drugs, or both?",
+            "Are you looking for information on medical treatments, lifestyle changes, or both for IBD?",
+            "Are you interested in knowing about specific medications or the general classes of drugs used for IBD treatment?",
+            "Could you specify which form of IBD treatment you would like to know about first\u2014specific medications or dietary recommendations?",
+            "To provide detailed information, could you specify if you are seeking details on medications, dietary recommendations, or other lifestyle changes as the first focus area?"
+        ],
+        "best_match": [
+            "<mem>  </mem> What type of treatments are you interested in for IBD?",
+            "<mem>  </mem> What type of treatments are you interested in for IBD?",
+            "<mem> Treatment Types: Medical treatments, lifestyle changes, etc. </mem>  Any specific aspect of IBD treatment you are interested in?",
+            "<mem>  </mem> What type of treatments are you interested in for IBD?",
+            "<mem>  </mem> What type of treatments are you interested in for IBD?",
+            "<mem>  </mem> What type of treatments are you interested in for IBD?",
+            "<mem> Treatment Types: Medical treatments, lifestyle changes, etc. </mem>  Any specific aspect of IBD treatment you are interested in?",
+            "<mem> Treatment Types: Medical treatments, lifestyle changes, etc. </mem>  Any specific aspect of IBD treatment you are interested in?",
+            "<mem>  </mem> What type of treatments are you interested in for IBD?",
+            "<mem> Treatment Types: Medical treatments, lifestyle changes, etc. </mem>  Any specific aspect of IBD treatment you are interested in?"
+        ]
+    },
+    {
+        "identity": "identity_826",
+        "generated": [
+            "Are you currently caring for someone for at least 20 hours a week?",
+            "Are you caring for someone for at least 20 hours a week?",
+            "Are you currently receiving or eligible for any other benefits?",
+            "Are you caring for a family member or someone else?",
+            "Could you please confirm if the person you are caring for has a qualifying disability benefit?",
+            "What is your age?",
+            "Please confirm if you live in the UK?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem> Carer's Credit: A benefit for unpaid carers </mem>  Who is eligible for Carer's Credit?",
+            "<mem> Carer's Credit: A benefit for unpaid carers </mem>  Who is eligible for Carer's Credit?",
+            "<mem> Carer's Credit: A benefit for unpaid carers </mem>  Who is eligible for Carer's Credit?",
+            "<mem> Carer's Credit: A benefit for unpaid carers </mem>  Who is eligible for Carer's Credit?",
+            "<mem> Eligibility: Caring for someone at least 20 hours a week, unpaid </mem>  How does Carer's Credit benefit disabled people?",
+            "<mem> Carer's Credit: A benefit for unpaid carers </mem>  Who is eligible for Carer's Credit?",
+            "<mem> Carer's Credit: A benefit for unpaid carers </mem>  Who is eligible for Carer's Credit?",
+            "<mem> Benefit for Disabled: Enhances future pension for carers of disabled individuals </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_828",
+        "generated": [
+            "What is your age?",
+            "What is your age?",
+            "What is your age?",
+            "How old are you?",
+            "How old are you?",
+            "How old are you?",
+            "How old are you?",
+            "How old are you?",
+            "How old are you?",
+            "What is your age?"
+        ],
+        "best_match": [
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?",
+            "<mem> Residency Status: Resident </mem>  How old are you?"
+        ]
+    },
+    {
+        "identity": "identity_853",
+        "generated": [
+            "What is your location?",
+            "Can you please specify your location or the area for which you want to find a local court?",
+            "It is essential to have a location to find a local court. Can you please provide a city or postal code?",
+            "Unfortunately, I cannot find a local court without knowing a location. Please provide at least a city or postal code.",
+            "It seems like we cannot proceed without a specified location. If you could provide a city, state, or postal code, I can assist you further.",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem> Court Type: Local court </mem> <Finish>",
+            "<mem> Court Type: Local court </mem> <Finish>",
+            "<mem> Court Type: Local court </mem> <Finish>",
+            "<mem> Court Type: Local court </mem> <Finish>",
+            "<mem> Court Type: Local court </mem> <Finish>",
+            "<mem> Court Type: Local court </mem> <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_857",
+        "generated": [
+            "What is the name of the diet plan you want to subscribe to?",
+            "<mem>Email Address: buckeye.foodbar@gym</mem>",
+            "What is the name of the diet plan you want to subscribe to?",
+            "It seems there might be a misunderstanding. What is the name of the diet plan you want to subscribe to?",
+            "Could you please provide the name of the diet plan?",
+            "Let\u2019s clarify the process. It looks like \u201cbuckeye.foodbar@gym\u201d has been repeated. Can you confirm the name of the diet plan you wish to subscribe to?",
+            "Can you provide your email address for subscribing to the diet plan?",
+            "<mem>Email Address: buckeye.foodbar@gym</mem>",
+            "<mem>Diet Plan Type: Easy-to-follow evidence-based nutritious vegetarian diet</mem>"
+        ],
+        "best_match": [
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem> Health Considerations: Diabetic and heart patient </mem>  What email should we use to send you the diet plan?",
+            "<mem>  </mem> What type of diet are you looking for?",
+            "<mem> Email Address: buckeye.foodbar@gym </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_858",
+        "generated": [
+            "What is the medical condition you are inquiring about?",
+            "What medical condition are you asking about?",
+            "Can you specify the medical condition you're interested in?",
+            "Is there a specific set of symptoms you are experiencing or looking for?",
+            "<mem> Medical Condition: Acid Reflux </mem>",
+            "Are there any specific symptoms you are experiencing or referring to for acid reflux?",
+            "Would you like to know the general symptoms of acid reflux?",
+            "<Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem>  </mem> What is the medical condition to find symptoms for?",
+            "<mem> Medical Condition: Acid reflux </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_865",
+        "generated": [
+            "Where do you need the babysitter service?",
+            "What is your location or city where you need the babysitter service?",
+            "What is the age of the child or children who need babysitting?",
+            "What is the preferred date and time for the babysitting service?",
+            "How many children will need babysitting?",
+            "Are there any specific qualifications or certifications required for the babysitter (e.g., CPR certified)?",
+            "Do you have a preferred budget or hourly rate for the babysitting service?",
+            "What is your contact information for arranging the babysitting service?",
+            "Let's review:",
+            "<mem>Search Criteria: No specific requirements or preferences</mem><Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem>  </mem> What specific requirements or preferences do you have for the babysitter service?",
+            "<mem> Requirements/Preferences: None mentioned </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_883",
+        "generated": [
+            "What type of job are you searching for?",
+            "<mem>Job Type: Fulfillment Center Warehouse</mem> I also need to know the location of the job you're searching for.",
+            "<mem>Location: Not specified</mem> I need your email address to set up job alert notifications.",
+            "<mem>Email Address: abc@abc.com</mem> <Finish>"
+        ],
+        "best_match": [
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem>  </mem> What type of job are you looking for?",
+            "<mem> Job Type: Fulfillment Center Warehouse </mem>  What email should be used for job alerts?",
+            "<mem> Alert Email Address: abc@abc.com </mem>  <Finish>"
+        ]
+    },
+    {
+        "identity": "identity_886",
+        "generated": [
+            "Which cryptocurrency are you interested in?",
+            "Which cryptocurrency do you want to view historical data for?",
+            "<mem>Cryptocurrency: Litecoin</mem>",
+            "What start date do you want for the historical data?",
+            "For the historical data, please specify the start date.",
+            "Would you prefer to set a default start date for historical data collection? If yes, what is the default date?",
+            "To proceed with viewing historical data, we need a start date. What date should we start from?",
+            "For simplicity, let's consider the start date as the earliest available data.",
+            "For the historical data, what is the end date?",
+            "For the historical data, should we use today's date as the end date?"
+        ],
+        "best_match": [
+            "<mem>  </mem> Which cryptocurrency's historical data do you want to view?",
+            "<mem>  </mem> Which cryptocurrency's historical data do you want to view?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?",
+            "<mem> Cryptocurrency Name: Litecoin </mem>  How many days of historical data do you need?"
+        ]
+    },
+    {
+        "identity": "identity_900",
+        "generated": [
+            "What is the name of the subreddit where you want to filter posts?",
+            "Which subreddit would you like to filter posts in?",
+            "What criteria would you like to use to filter the posts (e.g., keywords, time frame, user, etc.)?",
+            "What keyword or topic are you interested in filtering posts by?",
+            "To better understand your needs, could you please clarify what specific criteria you want to apply for filtering posts? (e.g., specific users, time frames, keywords, etc.)",
+            "Could you please specify the subreddit community you are aiming to filter posts in?",
+            "In which subreddit are you looking to filter posts?",
+            "What is the name of the subreddit where you want to filter posts?",
+            "Can you please provide the subreddit name?",
+            "Let's focus on the specific criteria for filtering posts instead. What keyword or topic are you interested in filtering posts by?"
+        ],
+        "best_match": [
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?",
+            "<mem>  </mem> Which Reddit community should be accessed?",
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?",
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?",
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?",
+            "<mem>  </mem> Which Reddit community should be accessed?",
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?",
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?",
+            "<mem>  </mem> Which Reddit community should be accessed?",
+            "<mem> Community Name: AskReddit </mem>  What time frame should the posts be filtered by?"
+        ]
+    }
+]
